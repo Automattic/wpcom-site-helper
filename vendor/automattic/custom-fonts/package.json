@@ -1,0 +1,58 @@
+{
+  "name": "jetpack-custom-fonts",
+  "version": "2.1.1",
+  "description": "Custom fonts plugin for WordPress",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Automattic/custom-fonts"
+  },
+  "author": "Automattic",
+  "license": "GPL-2.0",
+  "scripts": {
+    "postinstall": "npm run install:composer",
+    "install:composer": "composer install",
+    "build": "npm run autoprefixer && npm run build:dev",
+    "dist": "npm run autoprefixer && npm run build:dist",
+    "test": "npm run test:js && npm run test:php",
+    "watch": "npm run build && npm run watch:js",
+    "watch:js": "onchange 'src/**/*' -- npm run build",
+    "test:js": "mocha tests/js",
+    "test:php": "./vendor/bin/phpunit --bootstrap tests/php/bootstrap.php tests/php",
+    "autoprefixer": "postcss src/css/fonts-customizer.css --output css/fonts-customizer.css -u autoprefixer --no-map",
+    "build:dev": "npm run build:dev:admin && npm run build:dev:preview",
+    "build:dev:admin": "browserify src/js/index.js --outfile js/jetpack-fonts.js --debug",
+    "build:dev:preview": "browserify src/js/helpers/live-update.js --outfile js/jetpack-fonts-preview.js --debug",
+    "build:dist": "npm run build:dist:admin && npm run build:dist:preview && npm run uglify-js",
+    "build:dist:admin": "browserify src/js/index.js --outfile js/jetpack-fonts.js",
+    "build:dist:preview": "browserify src/js/helpers/live-update.js --outfile js/jetpack-fonts-preview.js",
+    "uglify-js": "npm run uglify-js:admin && npm run uglify-js:preview",
+    "uglify-js:admin": "uglifyjs js/jetpack-fonts.js -c -m --output js/jetpack-fonts.js",
+    "uglify-js:preview": "uglifyjs js/jetpack-fonts-preview.js -c -m --output js/jetpack-fonts-preview.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Automattic/custom-fonts/issues"
+  },
+  "homepage": "https://github.com/Automattic/custom-fonts",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "backbone": "~1.1.2",
+    "chai": "^2.3.0",
+    "eslint": "^8.21.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^20.0.0",
+    "mocha": "^10.0.0",
+    "mockery": "^1.7.0",
+    "onchange": "^7.1.0",
+    "sinon": "^1.17.7",
+    "sinon-chai": "^2.14.0",
+    "underscore": "^1.13.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.8",
+    "browserify": "^14.5.0",
+    "debug": "^4.3.4",
+    "fvd": "^1.0.0",
+    "postcss-cli": "^10.0.0",
+    "uglify-js": "^3.16.3"
+  }
+}
