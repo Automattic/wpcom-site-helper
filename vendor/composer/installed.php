@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'automattic/jetpack-wpcomsh',
+        'name' => 'automattic/wpcomsh',
         'pretty_version' => 'dev-trunk',
         'version' => 'dev-trunk',
         'reference' => null,
@@ -253,15 +253,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'automattic/jetpack-wpcomsh' => array(
-            'pretty_version' => 'dev-trunk',
-            'version' => 'dev-trunk',
-            'reference' => null,
-            'type' => 'wordpress-plugin',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.13.0',
             'version' => '0.13.0.0',
@@ -286,6 +277,15 @@
             'reference' => '100cf99a31094475e0159c3769df9a878a4cb0f1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/wc-calypso-bridge',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'automattic/wpcomsh' => array(
+            'pretty_version' => 'dev-trunk',
+            'version' => 'dev-trunk',
+            'reference' => null,
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
