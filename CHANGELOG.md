@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.22.15-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Removed
+- Removed obsolete scripts and makefile targets.
+
 ## 3.22.14 - 2024-06-14
 ### Changed
 - Changed the composer package slug to wpcomsh. [#37861]

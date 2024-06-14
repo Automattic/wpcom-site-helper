@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_14
+class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_15_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/..' . '/automattic/jetpack-assets/actions.php',
@@ -378,9 +378,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_14
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_14::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_14::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_14::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_15_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_15_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_22_15_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }
