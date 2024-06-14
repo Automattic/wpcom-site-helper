@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Changed the composer package slug to wpcomsh.
 
+### Removed
+- General: removing action status icons.
+
 ## 3.22.13 - 2024-06-13
 ### Removed
 - Untangling: Remove temporary code that hides Hosting menu options. [#37848]
