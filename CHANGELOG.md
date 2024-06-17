@@ -1,18 +1,15 @@
 # Changelog
 
-## 3.22.15-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.22.15 - 2024-06-17
 ### Added
-- Added a prefix for wpcomsh weekly shipping.
+- Added a prefix for wpcomsh weekly shipping. [#37857]
 
 ### Changed
-- WooCommerce Calypso Brdige version update to 2.5.2
+- WooCommerce Calypso Brdige version update to 2.5.2 [#37883]
 
 ### Removed
-- Disable WP.com custom editor navigation bar.
-- Removed obsolete scripts and makefile targets.
+- Disable WP.com custom editor navigation bar. [#37893]
+- Removed obsolete scripts and makefile targets. [#37880]
 
 ## 3.22.14 - 2024-06-14
 ### Changed
