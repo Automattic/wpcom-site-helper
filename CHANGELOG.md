@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- WooCommerce Calypso Brdige version update to 2.5.2
+
 ### Removed
 - Removed obsolete scripts and makefile targets.
 
