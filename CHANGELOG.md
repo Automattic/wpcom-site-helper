@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added a prefix for wpcomsh weekly shipping.
+
 ### Changed
 - WooCommerce Calypso Brdige version update to 2.5.2
 
