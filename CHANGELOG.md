@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - WooCommerce Calypso Brdige version update to 2.5.2
 
 ### Removed
+- Disable WP.com custom editor navigation bar.
 - Removed obsolete scripts and makefile targets.
 
 ## 3.22.14 - 2024-06-14
