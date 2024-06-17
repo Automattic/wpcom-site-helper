@@ -1,11 +1,8 @@
 # Changelog
 
-## 3.22.16-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.22.16 - 2024-06-17
 ### Changed
-- Fixed readme, added accurate links.
+- Fixed readme, added accurate links. [#37901]
 
 ## 3.22.15 - 2024-06-17
 ### Added
