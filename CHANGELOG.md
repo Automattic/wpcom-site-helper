@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Wpcomsh: Update plugin dependencies
+
 ### Changed
 - Bump lock files.
 - Site Visibility: Update link copy
