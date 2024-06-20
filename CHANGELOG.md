@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- New wpcomsh CLI command to fix PHP 7.4 plugin
 - Wpcomsh: Update plugin dependencies
 
 ### Changed
