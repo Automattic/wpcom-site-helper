@@ -1,16 +1,13 @@
 # Changelog
 
-## 3.23.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.23.0 - 2024-06-21
 ### Added
-- New wpcomsh CLI command to fix PHP 7.4 plugin
-- Wpcomsh: Update plugin dependencies
+- New wpcomsh CLI command to fix PHP 7.4 plugin [#37966]
+- Wpcomsh: Update plugin dependencies [#37812]
 
 ### Changed
-- Bump lock files.
-- Site Visibility: Update link copy
+- Bump lock files. [#37870]
+- Site Visibility: Update link copy [#37909]
 
 ## 3.22.16 - 2024-06-17
 ### Changed
