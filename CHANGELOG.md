@@ -1,8 +1,11 @@
 # Changelog
 
-## 3.23.1-alpha - unreleased
+## 3.24.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- wpcomsh: Add WP-CLI commands with hooks for WoA post-transfer/reset/clone functionality
 
 ## 3.23.0 - 2024-06-21
 ### Added
