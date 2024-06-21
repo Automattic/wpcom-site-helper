@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.23.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 3.23.0 - 2024-06-21
 ### Added
 - New wpcomsh CLI command to fix PHP 7.4 plugin [#37966]
