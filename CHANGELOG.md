@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added featrue flag checks for the Threads Social Connection.
 - wpcomsh: Add WP-CLI commands with hooks for WoA post-transfer/reset/clone functionality
 
 ## 3.23.0 - 2024-06-21
