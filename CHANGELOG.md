@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.25.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 3.25.1 - 2024-06-25
 ### Changed
 - Hide login banner for agency-managed sites. [#38021]
