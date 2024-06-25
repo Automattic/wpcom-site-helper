@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Hide login banner for agency-managed sites.
+
 ### Removed
 - Plugin hotfixes: Remove a hotfix for an issue fixed in Gutenberg 15.3.0.
 
