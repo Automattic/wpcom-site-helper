@@ -1,10 +1,11 @@
 # Changelog
 
-## 3.24.1-alpha - unreleased
+## 3.25.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added a command to disable fatal error emails.
 - Add `atomic_managed_plugin_row_auto_update_label` filter to translate the managed plugin auto update label
 
 ## 3.24.0 - 2024-06-24
