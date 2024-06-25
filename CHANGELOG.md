@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add `atomic_managed_plugin_row_auto_update_label` filter to translate the managed plugin auto update label
+
 ## 3.24.0 - 2024-06-24
 ### Added
 - Added featrue flag checks for the Threads Social Connection. [#38001]
