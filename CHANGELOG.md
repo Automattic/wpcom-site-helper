@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.25.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Removed
+- Plugin hotfixes: Remove a hotfix for an issue fixed in Gutenberg 15.3.0.
+
+### Fixed
+- Custom Colors: Remove a use of `extract()`.
+- Switch from Jetpack-the-plugin's `Jetpack_WPCOM_Block_Editor` class to jetpack-mu-wpcom's namespaced version.
+
 ## 3.25.0 - 2024-06-25
 ### Added
 - Added a command to disable fatal error emails. [#38010]
