@@ -3,7 +3,8 @@
 Plugin Name: Custom Fonts
 Plugin URI: https://automattic.com/
 Description: Easily preview and add fonts to your WordPress site
-Version: 2.1.0
+Version: 3.0.1
+License: GPL2+
 Author: Matt Wiebe
 Author URI: https://automattic.com/
 */
@@ -77,7 +78,7 @@ class Jetpack_Fonts {
 	 * Retrieve the single instance of this class, creating if
 	 * not previously instantiated.
 	 *
-	 * @return object Jetpack_Fonts instance
+	 * @return self Jetpack_Fonts instance
 	 */
 	public static function get_instance() {
 		if ( ! self::$instance ) {
@@ -117,10 +118,10 @@ class Jetpack_Fonts {
 		 */
 		$api_url = apply_filters( 'custom_fonts_google_fonts_api_url', 'https://fonts.googleapis.com/css' );
 
-		wp_register_script( 'webfonts', plugins_url( 'js/webfont.js', __FILE__ ), array(), '20221206', true );
+		wp_register_script( 'webfonts', plugins_url( 'js/webfont.js', __FILE__ ), array(), '20240626', true );
 		wp_localize_script( 'webfonts', 'WebFontConfig', array( 'api_url' => $api_url ) );
 
-		wp_enqueue_script( 'jetpack-fonts-preview', plugins_url( 'js/jetpack-fonts-preview.js', __FILE__ ), array( 'backbone', 'webfonts' ), '20221208', true );
+		wp_enqueue_script( 'jetpack-fonts-preview', plugins_url( 'js/jetpack-fonts-preview.js', __FILE__ ), array( 'backbone', 'webfonts' ), '20240626', true );
 		wp_localize_script( 'jetpack-fonts-preview', '_JetpackFonts', array(
 			'types' => $this->get_generator()->get_rule_types(),
 			'annotations' => $this->get_generator()->get_rules(),
@@ -279,7 +280,7 @@ class Jetpack_Fonts {
 
 		$webfont_options = $this->get_webfont_options();
 
-		if ( count( $webfont_options ) > 0 ) {
+		if ( count( (array) $webfont_options ) > 0 ) {
 			$this->output_webfont_loader( $webfont_options );
 		}
 
@@ -296,7 +297,7 @@ class Jetpack_Fonts {
 		$config = $this->get_webfont_options();
 		$config['api_url'] = apply_filters( 'custom_fonts_google_fonts_api_url', 'https://fonts.googleapis.com/css' );
 
-		wp_register_script( 'webfonts', plugins_url( 'js/webfont.js', __FILE__ ), array(), '20221206', true );
+		wp_register_script( 'webfonts', plugins_url( 'js/webfont.js', __FILE__ ), array(), '20240626', true );
 		wp_localize_script( 'webfonts', 'WebFontConfig', $config );
 
 		wp_enqueue_script( 'webfonts' );
