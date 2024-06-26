@@ -1,14 +1,11 @@
 # Changelog
 
-## 3.26.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 3.26.1 - 2024-06-26
 ### Added
-- Site Migrations: Add tracks events for AIOWPM events.
+- Site Migrations: Add tracks events for AIOWPM events. [#37902]
 
 ### Changed
-- Updated custom-fonts to v3.0.4.
+- Updated custom-fonts to v3.0.4. [#38071]
 
 ## 3.26.0 - 2024-06-26
 ### Added
