@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.26.0-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added polyfill for get_magic_quotes_gpc
+
 ## 3.25.2 - 2024-06-26
 ### Changed
 - Internal updates.
