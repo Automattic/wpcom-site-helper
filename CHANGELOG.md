@@ -1,5 +1,12 @@
 # Changelog
 
+## 3.26.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Site Migrations: Add tracks events for AIOWPM events.
+
 ## 3.26.0 - 2024-06-26
 ### Added
 - Added polyfill for get_magic_quotes_gpc [#38039]
