@@ -81,7 +81,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
-                "reference": "e5541a6cd897021e6330c2a59215bfaf51316432"
+                "reference": "8be9e8eed72c49f529a90726732c6ae81f1bb8b4"
             },
             "require": {
                 "php": ">=7.0"
@@ -134,7 +134,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "9491ceec2865110e4ab7688f6a730c3cb59e8461"
+                "reference": "dffaa5bfeeb3866332f2d29c6bae39578863765c"
             },
             "require": {
                 "php": ">=7.0"
@@ -199,7 +199,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "4ddf56eccf36fa07b5a69dad6aec32f1e2a1c5ab"
+                "reference": "16a66f88e5a2885e997a8b5af254bfc1333077ee"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.3",
@@ -268,7 +268,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blaze",
-                "reference": "4ffc3fa6adcecec21de902a37362067283352027"
+                "reference": "aa0f8a165a2edabd6d2587f6204e5f801ef1a126"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -349,7 +349,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blocks",
-                "reference": "804ad3a090abd02b3eafc8758179e2d747dacc87"
+                "reference": "d5fba26e8eee974ce4c3f22118e6555efb099c73"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.3",
@@ -411,7 +411,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-calypsoify",
-                "reference": "70af79c5d52f7c9ca1cb3610e7208f0118370185"
+                "reference": "5bef3820fdc42ce52b9c2aea0b0097be3cc895b0"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -476,7 +476,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-classic-theme-helper",
-                "reference": "2ee11257abc65ad169d8d3627ee1ad12f0e7d559"
+                "reference": "72f2bcc01b5ba3279e398335a01748240dcfc8d5"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -547,7 +547,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-compat",
-                "reference": "7fc2ceb312630ce61bc7e80245ce3b2e397266ba"
+                "reference": "1f5c7377bd1217bc6d78dd023e1ca193330b3bcb"
             },
             "require": {
                 "php": ">=7.0"
@@ -587,7 +587,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-config",
-                "reference": "33ed82748f9c75f1028bae823af91ddc424fc437"
+                "reference": "d484b8990ed2717b90e916cf2220b97e03c12e01"
             },
             "require": {
                 "php": ">=7.0"
@@ -662,7 +662,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
-                "reference": "4552e552f0bf59bae94ef12a24bcd4ae92cf9c77"
+                "reference": "a6236bc5616764fcd1763ed397200357cb624f69"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^2.0.1",
@@ -749,7 +749,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "81fc56d1d7248e17ef0e9722728bafa44dd1e63a"
+                "reference": "332b946e46a4e9b137b2499f1c7da413d3ceccc0"
             },
             "require": {
                 "php": ">=7.0"
@@ -803,7 +803,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-device-detection",
-                "reference": "957aece949479eae9d262d62bb495d2a6b05a384"
+                "reference": "a7f99f3688d9f0897d5b24a39fe4882ed0d76969"
             },
             "require": {
                 "php": ">=7.0"
@@ -856,7 +856,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-ip",
-                "reference": "9b354ccb27aa8eac1619f28a3d0864cafd7e50ca"
+                "reference": "ca4fbc4db597924f8775e8396d7fb83ca83c343a"
             },
             "require": {
                 "php": ">=7.0"
@@ -914,7 +914,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-jitm",
-                "reference": "96ac12131a19c4f0e5a90010569021af672f462c"
+                "reference": "d60659e7b3c7b2cd4bb6b1686143c2ede108e980"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^2.0.1",
@@ -989,7 +989,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-logo",
-                "reference": "512cc8d52a1c5752289aa6b89632dd5ce589b734"
+                "reference": "b7d0e082a5ec3ff71c0733381c0722fe9a351322"
             },
             "require": {
                 "php": ">=7.0"
@@ -1042,7 +1042,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-masterbar",
-                "reference": "6cfe92794d0fab9188f34fef94657a0eedc77992"
+                "reference": "3d840f18c31b51853444e18739d8219ccdc66adc"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -1119,12 +1119,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "5.40.0",
-            "version_normalized": "5.40.0.0",
+            "version": "5.41.0-alpha.1719495625",
+            "version_normalized": "5.41.0.0-alpha1719495625",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "6f95e421126c56676c451923a48499ae59bdd38a"
+                "reference": "b715c083a3e4e5dbd3cf3b86233650f7884bd5dc"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -1138,7 +1138,8 @@
                 "automattic/jetpack-stats-admin": "^0.20.0",
                 "automattic/jetpack-status": "^3.3.2",
                 "automattic/scheduled-updates": "^0.13.0",
-                "php": ">=7.0"
+                "php": ">=7.0",
+                "scssphp/scssphp": "1.12.0"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^4.2.5",
@@ -1156,7 +1157,7 @@
                 },
                 "autotagger": true,
                 "branch-alias": {
-                    "dev-trunk": "5.40.x-dev"
+                    "dev-trunk": "5.41.x-dev"
                 },
                 "textdomain": "jetpack-mu-wpcom",
                 "version-constants": {
@@ -1205,7 +1206,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-password-checker",
-                "reference": "1b9922c66d99b2a6678753a416d0271b8874ecb8"
+                "reference": "c17d13b79d520238b60e595a3e5f6b5dace7568d"
             },
             "require": {
                 "php": ">=7.0"
@@ -1266,7 +1267,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
-                "reference": "b5df0e734496ecc3e20423375e292b86476f21df"
+                "reference": "98c87b86fa750b77b308202fb381fe19ae4a2d73"
             },
             "require": {
                 "automattic/jetpack-connection": "^2.11.0",
@@ -1334,7 +1335,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-post-list",
-                "reference": "9926196bafcfe53d1b06dc2437bf7db35fb42d38"
+                "reference": "4ed0a1609a0a06f4404f243eb9540604362467e2"
             },
             "require": {
                 "automattic/jetpack-assets": "^2.1.12",
@@ -1399,7 +1400,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
-                "reference": "b9e83d2881c84565d47dadb85d5504a963399d53"
+                "reference": "2719b6e134d9006de7d5f5739d39d7c125b9960d"
             },
             "require": {
                 "automattic/jetpack-status": "^3.3.2",
@@ -1454,7 +1455,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
-                "reference": "8d29f86cf8a2dbcef84f4a886d63c2622b1e6c7f"
+                "reference": "00b23a48952da226fe8a95a288d4296f0750fabb"
             },
             "require": {
                 "php": ">=7.0"
@@ -1508,7 +1509,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats",
-                "reference": "ef7f752871cf0b6054e448e4b06504274170a81c"
+                "reference": "26326fc4af6eddbb2ff430d461ae0ae52ce0fe36"
             },
             "require": {
                 "automattic/jetpack-connection": "^2.11.0",
@@ -1575,7 +1576,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats-admin",
-                "reference": "7df2ff57cb1dc27bd029227d0e9ebf901bdf3d7a"
+                "reference": "5ddce4a2a08e2b1305ebedfced5426c90349bff1"
             },
             "require": {
                 "automattic/jetpack-connection": "^2.11.0",
@@ -1648,7 +1649,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "a4633d404870e4dee4eadb9fec2c063cdd653e56"
+                "reference": "b7a04f9d974ff9811204894d6d4348ea1d218758"
             },
             "require": {
                 "automattic/jetpack-constants": "^2.0.3",
@@ -1712,7 +1713,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-sync",
-                "reference": "d769400fc839cfad749be138b575958b7aecc4c7"
+                "reference": "4e52dac39ca8d949e36edc0587c6e54d277cce50"
             },
             "require": {
                 "automattic/jetpack-connection": "^2.11.0",
@@ -1790,7 +1791,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "aec6193e54d6036f4448135ee71d6ef212fc201b"
+                "reference": "3a0d020f65f9593c8564eb5eb5bdc467346927e1"
             },
             "require": {
                 "automattic/jetpack-connection": "^2.11.0",
@@ -2086,6 +2087,89 @@
                 }
             ],
             "install-path": "./installers"
+        },
+        {
+            "name": "scssphp/scssphp",
+            "version": "v1.12.0",
+            "version_normalized": "1.12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scssphp/scssphp.git",
+                "reference": "a6b20c170ddb95f116b3d148a466a7bed1e85c35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scssphp/scssphp/zipball/a6b20c170ddb95f116b3d148a466a7bed1e85c35",
+                "reference": "a6b20c170ddb95f116b3d148a466a7bed1e85c35",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.3 || ^9.4",
+                "sass/sass-spec": "*",
+                "squizlabs/php_codesniffer": "~3.5",
+                "symfony/phpunit-bridge": "^5.1",
+                "thoughtbot/bourbon": "^7.0",
+                "twbs/bootstrap": "~5.0",
+                "twbs/bootstrap4": "4.6.1",
+                "zurb/foundation": "~6.7.0"
+            },
+            "suggest": {
+                "ext-iconv": "Can be used as fallback when ext-mbstring is not available",
+                "ext-mbstring": "For best performance, mbstring should be installed as it is faster than ext-iconv"
+            },
+            "time": "2023-11-14T14:56:09+00:00",
+            "bin": [
+                "bin/pscss"
+            ],
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "forward-command": false,
+                    "bin-links": false
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ScssPhp\\ScssPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthon Pang",
+                    "email": "apang@softwaredevelopment.ca",
+                    "homepage": "https://github.com/robocoder"
+                },
+                {
+                    "name": "Cédric Morin",
+                    "email": "cedric@yterium.com",
+                    "homepage": "https://github.com/Cerdic"
+                }
+            ],
+            "description": "scssphp is a compiler for SCSS written in PHP.",
+            "homepage": "http://scssphp.github.io/scssphp/",
+            "keywords": [
+                "css",
+                "less",
+                "sass",
+                "scss",
+                "stylesheet"
+            ],
+            "support": {
+                "issues": "https://github.com/scssphp/scssphp/issues",
+                "source": "https://github.com/scssphp/scssphp/tree/v1.12.0"
+            },
+            "install-path": "../scssphp/scssphp"
         },
         {
             "name": "tubalmartin/cssmin",
