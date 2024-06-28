@@ -1,8 +1,11 @@
 # Changelog
 
-## 3.26.2-alpha - unreleased
+## 3.27.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added plugin dance command
 
 ## 3.26.1 - 2024-06-26
 ### Added
