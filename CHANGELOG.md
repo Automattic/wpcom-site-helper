@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Wpcomsh: fixed fatal errors in case of null body class values.
+
 ## 3.27.0 - 2024-06-28
 ### Added
 - Added plugin dance command [#38108]
