@@ -1,8 +1,8 @@
 # Changelog
 
-## 3.27.2-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
+## 3.27.2 - 2024-07-01
+### Changed
+- Internal updates.
 
 ## 3.27.1 - 2024-06-28
 ### Fixed
