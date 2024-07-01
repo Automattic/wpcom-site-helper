@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.27.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 3.27.1 - 2024-06-28
 ### Fixed
 - Wpcomsh: fixed fatal errors in case of null body class values. [#38114]
