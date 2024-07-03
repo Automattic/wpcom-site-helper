@@ -42,6 +42,19 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_28_0_alpha
     );
 
     public static $classMap = array (
+        'A8C\\FSE\\Help_Center' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Forum' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Odie' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Search' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Ticket' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php',
+        'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
         'Aboutme_Widget' => __DIR__ . '/../..' . '/widgets/class-aboutme-widget.php',
         'Atomic_Record_Jetpack_Token_Errors' => __DIR__ . '/../..' . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php',
         'Automattic\\Jetpack\\A8c_Mc_Stats' => __DIR__ . '/..' . '/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
