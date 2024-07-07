@@ -10,6 +10,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Use wp-cli `success` function for messages
 
+### Fixed
+- Fix generate POT script to follow symlinks in vendor/* and update language files.
+
 ## 3.27.2 - 2024-07-01
 ### Changed
 - Internal updates.
