@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Add post transfer woo express deactivate plugins, post process cache flush, and post clone set staging environment
 
 ### Changed
+- Updated package dependencies.
 - Use wp-cli `success` function for messages
 
 ### Fixed
