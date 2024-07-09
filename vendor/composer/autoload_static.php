@@ -461,6 +461,8 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_28_0_alpha
         'WPCom_Themes_Service' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-service.php',
         'WP_Customize_Footercredit_Select' => __DIR__ . '/../..' . '/footer-credit/footer-credit/customizer.php',
         'WP_Privacy_Participating_Plugins' => __DIR__ . '/../..' . '/privacy/class-wp-privacy-participating-plugins.php',
+        'WP_REST_WPCOM_Block_Editor_Whats_New_Dot_Controller' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-dot-controller.php',
+        'WP_REST_WPCOM_Block_Editor_Whats_New_List_Controller' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-list-controller.php',
         'Widget_Authors_Grid' => __DIR__ . '/../..' . '/widgets/class-widget-authors-grid.php',
         'Widget_Top_Clicks' => __DIR__ . '/../..' . '/widgets/class-widget-top-clicks.php',
         'Wpcom_Block_Patterns_From_Api' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php',

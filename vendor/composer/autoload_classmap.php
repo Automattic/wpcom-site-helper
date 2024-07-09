@@ -425,6 +425,8 @@ return array(
     'WPCom_Themes_Service' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-service.php',
     'WP_Customize_Footercredit_Select' => $baseDir . '/footer-credit/footer-credit/customizer.php',
     'WP_Privacy_Participating_Plugins' => $baseDir . '/privacy/class-wp-privacy-participating-plugins.php',
+    'WP_REST_WPCOM_Block_Editor_Whats_New_Dot_Controller' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-dot-controller.php',
+    'WP_REST_WPCOM_Block_Editor_Whats_New_List_Controller' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-list-controller.php',
     'Widget_Authors_Grid' => $baseDir . '/widgets/class-widget-authors-grid.php',
     'Widget_Top_Clicks' => $baseDir . '/widgets/class-widget-top-clicks.php',
     'Wpcom_Block_Patterns_From_Api' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php',
