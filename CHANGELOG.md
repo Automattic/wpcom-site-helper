@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added a check to hide the plugins banner for non-wpcom connected users.
+- WOA Post Transfer: Ensure that HPOS is enabled for WooCommerce sites.
 
 ## 3.27.3 - 2024-07-08
 ### Added
