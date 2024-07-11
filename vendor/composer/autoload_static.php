@@ -43,6 +43,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ3_28_0_alpha
 
     public static $classMap = array (
         'A8C\\FSE\\Help_Center' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
+        'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
         'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
         'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
         'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php',

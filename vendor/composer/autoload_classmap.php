@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'A8C\\FSE\\Help_Center' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
+    'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
     'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
     'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
     'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php',
