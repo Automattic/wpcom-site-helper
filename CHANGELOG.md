@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.28.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 3.28.0 - 2024-07-15
 ### Added
 - Added a check to hide the plugins banner for non-wpcom connected users. [#38241]
