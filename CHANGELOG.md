@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Removed
+- Removed code that disables Jetpack staging mode for WordPress.com staging sites.
+
 ### Fixed
 - Removed access to WPCom Themes to WP_CLI
 
