@@ -1,15 +1,12 @@
 # Changelog
 
-## 4.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 4.0.0 - 2024-07-18
 ### Removed
-- General: update WordPress version requirements to WordPress 6.5.
-- Removed code that disables Jetpack staging mode for WordPress.com staging sites.
+- General: update WordPress version requirements to WordPress 6.5. [#38382]
+- Removed code that disables Jetpack staging mode for WordPress.com staging sites. [#38355]
 
 ### Fixed
-- Removed access to WPCom Themes to WP_CLI
+- Removed access to WPCom Themes to WP_CLI [#38351]
 
 ## 3.28.0 - 2024-07-15
 ### Added
