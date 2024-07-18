@@ -7,6 +7,10 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
 
+### Removed
+- Remove checks for Jetpack versions over a year old.
+- Remove code for compatibility with WordPress before 6.5.
+
 ## 4.0.0 - 2024-07-18
 ### Removed
 - General: update WordPress version requirements to WordPress 6.5. [#38382]
