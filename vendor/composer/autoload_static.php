@@ -360,6 +360,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ4_0_0_alpha
         'Composer\\Installers\\ZikulaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php',
         'Core_Bg_Override' => __DIR__ . '/../..' . '/custom-colors/core-bg-override.php',
         'Gifting_Banner' => __DIR__ . '/../..' . '/frontend-notices/gifting-banner/gifting-banner.php',
+        'Global_Styles_Status_Rest_API' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
         'Gravatar_Widget' => __DIR__ . '/../..' . '/widgets/class-gravatar-widget.php',
         'Imports\\Backup_Import_Action' => __DIR__ . '/../..' . '/imports/class-backup-import-action.php',
         'Imports\\Backup_Import_Manager' => __DIR__ . '/../..' . '/imports/class-backup-import-manager.php',

@@ -324,6 +324,7 @@ return array(
     'Composer\\Installers\\ZikulaInstaller' => $vendorDir . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php',
     'Core_Bg_Override' => $baseDir . '/custom-colors/core-bg-override.php',
     'Gifting_Banner' => $baseDir . '/frontend-notices/gifting-banner/gifting-banner.php',
+    'Global_Styles_Status_Rest_API' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php',
     'Gravatar_Widget' => $baseDir . '/widgets/class-gravatar-widget.php',
     'Imports\\Backup_Import_Action' => $baseDir . '/imports/class-backup-import-action.php',
     'Imports\\Backup_Import_Manager' => $baseDir . '/imports/class-backup-import-manager.php',
