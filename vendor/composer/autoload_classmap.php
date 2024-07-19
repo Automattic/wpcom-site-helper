@@ -99,6 +99,7 @@ return array(
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles_Fonts_Message_Control' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles-fonts-message-control.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\JSON_Endpoint' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-json-endpoint.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
     'Automattic\\Jetpack\\Masterbar\\Admin_Color_Schemes' => $vendorDir . '/automattic/jetpack-masterbar/src/admin-color-schemes/class-admin-color-schemes.php',
     'Automattic\\Jetpack\\Masterbar\\Admin_Menu' => $vendorDir . '/automattic/jetpack-masterbar/src/admin-menu/class-admin-menu.php',
