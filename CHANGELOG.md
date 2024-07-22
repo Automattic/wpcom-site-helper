@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added new feature for social editor preview
 - Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
+- i18n: Update language files
 
 ### Removed
 - Remove checks for Jetpack versions over a year old.
