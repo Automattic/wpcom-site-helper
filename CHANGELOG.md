@@ -1,26 +1,21 @@
 # Changelog
 
-## 5.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.0.0 - 2024-07-23
 ### Added
-- Added new feature for social editor preview
-- Adds checks to remove wpcom items and links in wp-admin for users who are not connected to wpcom.
-- i18n: Update language files
+- Added new feature for social editor preview. [#38425]
+- Added checks to remove WP.com items and links in WP Admin for users who are not connected to WP.com. [#38401]
+- i18n: Updated language files. [#38447]
 
 ### Changed
-- Improve plugin-dance command.
-- WooCommerce Calypso Brdige version update to 2.5.4
+- Improve plugin-dance command. [#38423]
+- Updated package dependencies. [#38464]
+- Updated WooCommerce Calypso Brdige version to 2.5.4. [#38451]
 
 ### Removed
-- Footer credit: Remove customizer option for block themes
-- Footer credit: Render default credit on block themes
-- Remove checks for Jetpack versions over a year old.
-- Remove code for compatibility with WordPress before 6.5.
-
-### Fixed
-- Updated package dependencies.
+- Footer credit: Removed customizer option for block themes. [#38473]
+- Footer credit: Render default credit on block themes. [#38458]
+- Removed checks for Jetpack versions over a year old. [#38386]
+- Removed code for compatibility with WordPress before 6.5. [#38386]
 
 ## 4.0.0 - 2024-07-18
 ### Removed
