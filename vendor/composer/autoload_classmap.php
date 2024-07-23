@@ -418,7 +418,6 @@ return array(
     'WPCOMSH_Blog_Token_Resilience' => $baseDir . '/jetpack-token-resilience/class-wpcomsh-blog-token-resilience.php',
     'WPCOMSH_MailPoet_Subscribers_Stats_Report' => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
     'WPCOMSH_Require_Connection_Owner' => $baseDir . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
-    'WPCOM_Block_Theme_Footer_Credits' => $baseDir . '/block-theme-footer-credits/class-wpcom-block-theme-footer-credits.php',
     'WPCOM_Category_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-category-cloud-widget.php',
     'WPCOM_Features' => $baseDir . '/wpcom-features/class-wpcom-features.php',
     'WPCOM_Freshly_Pressed_Widget' => $baseDir . '/widgets/class-wpcom-freshly-pressed-widget.php',

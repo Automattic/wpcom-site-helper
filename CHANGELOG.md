@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.1.0-alpha - unreleased
+## 5.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - WooCommerce Calypso Brdige version update to 2.5.4
 
 ### Removed
+- Footer credit: Render default credit on block themes
 - Remove checks for Jetpack versions over a year old.
 - Remove code for compatibility with WordPress before 6.5.
 
