@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - i18n: Update language files
 
 ### Changed
+- Improve plugin-dance command.
 - WooCommerce Calypso Brdige version update to 2.5.4
 
 ### Removed
