@@ -19,6 +19,9 @@ This is an alpha version! The changes listed here are not final.
 - Remove checks for Jetpack versions over a year old.
 - Remove code for compatibility with WordPress before 6.5.
 
+### Fixed
+- Updated package dependencies.
+
 ## 4.0.0 - 2024-07-18
 ### Removed
 - General: update WordPress version requirements to WordPress 6.5. [#38382]
