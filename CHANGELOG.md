@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- WooCommerce Calypso Bridge version update to 2.5.5
+
 ## 5.0.0 - 2024-07-23
 ### Added
 - Added new feature for social editor preview. [#38425]
