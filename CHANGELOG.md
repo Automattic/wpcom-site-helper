@@ -1,11 +1,8 @@
 # Changelog
 
-## 5.0.3-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.0.3 - 2024-07-26
 ### Removed
-- Footer credit: Remove customizer option for block themes
+- Footer credit: Remove customizer option for block themes [#38559]
 
 ## 5.0.2 - 2024-07-26
 ### Fixed
