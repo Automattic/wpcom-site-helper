@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.0.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Fix the "The parent theme is missing" issue
+
 ## 5.0.1 - 2024-07-25
 ### Changed
 - WooCommerce Calypso Bridge version update to 2.5.5 [#38469]
