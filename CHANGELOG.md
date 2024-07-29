@@ -1,8 +1,11 @@
 # Changelog
 
-## 5.0.4-alpha - unreleased
+## 5.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Hide the plugin banner on non-wpcom-connected users or agency-managed users
 
 ## 5.0.3 - 2024-07-26
 ### Removed
