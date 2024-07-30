@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Fixup versions
+
 ### Removed
 - Remove the old plugin banner code
 
