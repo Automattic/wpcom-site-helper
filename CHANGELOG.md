@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Hide the plugin banner on non-wpcom-connected users or agency-managed users
 
+### Removed
+- Remove the old plugin banner code
+
 ## 5.0.3 - 2024-07-26
 ### Removed
 - Footer credit: Remove customizer option for block themes [#38559]
