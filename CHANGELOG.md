@@ -1,11 +1,8 @@
 # Changelog
 
-## 5.1.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.1.1 - 2024-07-30
 ### Removed
-- Remove the old plugin banner code
+- Remove the old plugin banner code [#38605]
 
 ## 5.1.0 - 2024-07-29
 ### Changed

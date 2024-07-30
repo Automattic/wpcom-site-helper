@@ -15,9 +15,7 @@ test( 'Simple: author_must_fill_name_and_email', async ( { page } ) => {
 			.frameLocator( '#cmp-app-container iframe' )
 			.getByRole( 'button', { name: 'I Agree!' } )
 			.click();
-	} catch ( e ) {
-		// It's ok if it wasn't there to be dismissed.
-	}
+	} catch ( e ) {}
 
 	// Reply button should be disabled before log in.
 	await expect( page.locator( '#comment-submit' ) ).toBeDisabled();

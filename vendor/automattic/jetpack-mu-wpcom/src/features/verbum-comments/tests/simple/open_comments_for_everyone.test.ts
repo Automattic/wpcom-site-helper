@@ -12,9 +12,7 @@ test( 'Simple: open_comments_for_everyone - Anonymous', async ( { page } ) => {
 			.frameLocator( '#cmp-app-container iframe' )
 			.getByRole( 'button', { name: 'I Agree!' } )
 			.click();
-	} catch ( e ) {
-		// It's ok if it wasn't there to be dismissed.
-	}
+	} catch ( e ) {}
 
 	const existingAnonComments = await page.getByText( 'Anonymous' ).count();
 	await page.goto( sites.simple.open_comments_for_everyone + '#respond' );
