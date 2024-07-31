@@ -1,11 +1,12 @@
 # Changelog
 
-## 5.1.2-alpha - unreleased
+## 5.1.3-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
+## 5.1.2 - 2024-07-30
 ### Changed
-- Fixup versions
+- Fixup versions [#38612]
 
 ## 5.1.1 - 2024-07-30
 ### Removed
