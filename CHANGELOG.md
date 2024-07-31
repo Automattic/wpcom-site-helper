@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- My Jetpack: modify Jetpack AI product class and interstitial links
+
 ## 5.1.2 - 2024-07-30
 ### Changed
 - Fixup versions [#38612]
