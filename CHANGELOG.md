@@ -1,10 +1,11 @@
 # Changelog
 
-## 5.1.3-alpha - unreleased
+## 5.2.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Add target_blog_id prop to AIOWP tracks events
 - My Jetpack: modify Jetpack AI product class and interstitial links
 
 ## 5.1.2 - 2024-07-30
