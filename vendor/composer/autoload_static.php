@@ -140,6 +140,8 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_2_0_alpha
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WP_REST_Sideload_Image_Controller' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/starter-page-templates/class-wp-rest-sideload-image-controller.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template_Inserter' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template-inserter.php',
         'Automattic\\Jetpack\\Masterbar\\Admin_Color_Schemes' => __DIR__ . '/..' . '/automattic/jetpack-masterbar/src/admin-color-schemes/class-admin-color-schemes.php',
         'Automattic\\Jetpack\\Masterbar\\Admin_Menu' => __DIR__ . '/..' . '/automattic/jetpack-masterbar/src/admin-menu/class-admin-menu.php',
         'Automattic\\Jetpack\\Masterbar\\Atomic_Additional_CSS_Manager' => __DIR__ . '/..' . '/automattic/jetpack-masterbar/src/nudges/additional-css/class-atomic-additional-css-manager.php',
