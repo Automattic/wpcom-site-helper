@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 5.2.1 - 2024-08-05
 ### Changed
 - Internal updates.
