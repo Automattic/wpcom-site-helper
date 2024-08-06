@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Plan name change: Add translations
+- Update translation files
 
 ### Fixed
 - Update wpcomsh POT file
