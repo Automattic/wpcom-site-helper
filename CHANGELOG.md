@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Plan name change: Add translations
 
+### Fixed
+- Update wpcomsh POT file
+
 ## 5.2.1 - 2024-08-05
 ### Changed
 - Internal updates.
