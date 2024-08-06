@@ -1,8 +1,11 @@
 # Changelog
 
-## 5.2.2-alpha - unreleased
+## 5.3.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Plan name change: Add translations
 
 ## 5.2.1 - 2024-08-05
 ### Changed
