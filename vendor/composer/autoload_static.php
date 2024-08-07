@@ -182,6 +182,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_0_alpha
         'Automattic\\Jetpack\\Scheduled_Updates_Admin' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
         'Automattic\\Jetpack\\Scheduled_Updates_Logs' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
+        'Automattic\\Jetpack\\Script_Data' => __DIR__ . '/..' . '/automattic/jetpack-assets/src/class-script-data.php',
         'Automattic\\Jetpack\\Stats\\Main' => __DIR__ . '/..' . '/automattic/jetpack-stats/src/class-main.php',
         'Automattic\\Jetpack\\Stats\\Options' => __DIR__ . '/..' . '/automattic/jetpack-stats/src/class-options.php',
         'Automattic\\Jetpack\\Stats\\Package_Version' => __DIR__ . '/..' . '/automattic/jetpack-stats/src/class-package-version.php',

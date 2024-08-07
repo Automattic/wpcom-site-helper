@@ -146,6 +146,7 @@ return array(
     'Automattic\\Jetpack\\Scheduled_Updates_Admin' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-admin.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Logs' => $vendorDir . '/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
+    'Automattic\\Jetpack\\Script_Data' => $vendorDir . '/automattic/jetpack-assets/src/class-script-data.php',
     'Automattic\\Jetpack\\Stats\\Main' => $vendorDir . '/automattic/jetpack-stats/src/class-main.php',
     'Automattic\\Jetpack\\Stats\\Options' => $vendorDir . '/automattic/jetpack-stats/src/class-options.php',
     'Automattic\\Jetpack\\Stats\\Package_Version' => $vendorDir . '/automattic/jetpack-stats/src/class-package-version.php',
