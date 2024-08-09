@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.3.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added safeguards against erroneous WordPress hook invocations.
+
 ## 5.3.0 - 2024-08-08
 ### Changed
 - Plan name change: Add translations [#38726]
