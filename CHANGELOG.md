@@ -1,11 +1,8 @@
 # Changelog
 
-## 5.3.1-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.3.1 - 2024-08-09
 ### Added
-- Added safeguards against erroneous WordPress hook invocations.
+- Added safeguards against erroneous WordPress hook invocations. [#37859]
 
 ## 5.3.0 - 2024-08-08
 ### Changed
