@@ -433,6 +433,7 @@ return array(
     'WPCOMSH_MailPoet_Subscribers_Stats_Report' => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
     'WPCOMSH_Require_Connection_Owner' => $baseDir . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
     'WPCOM_Category_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-category-cloud-widget.php',
+    'WPCOM_Enqueue_Dynamic_Script' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',
     'WPCOM_Features' => $baseDir . '/wpcom-features/class-wpcom-features.php',
     'WPCOM_Freshly_Pressed_Widget' => $baseDir . '/widgets/class-wpcom-freshly-pressed-widget.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',

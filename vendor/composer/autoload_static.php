@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2
+class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_3_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/..' . '/automattic/jetpack-assets/actions.php',
@@ -469,6 +469,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2
         'WPCOMSH_MailPoet_Subscribers_Stats_Report' => __DIR__ . '/../..' . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
         'WPCOMSH_Require_Connection_Owner' => __DIR__ . '/../..' . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
         'WPCOM_Category_Cloud_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-category-cloud-widget.php',
+        'WPCOM_Enqueue_Dynamic_Script' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',
         'WPCOM_Features' => __DIR__ . '/../..' . '/wpcom-features/class-wpcom-features.php',
         'WPCOM_Freshly_Pressed_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-freshly-pressed-widget.php',
         'WPCOM_REST_API_V2_Endpoint_Launchpad' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
@@ -516,9 +517,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_3_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_3_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_3_3_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }
