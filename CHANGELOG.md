@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 5.4.0 - 2024-08-13
 ### Changed
 - rum data: include WooCommerce active status [#38846]
