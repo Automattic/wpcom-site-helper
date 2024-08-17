@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Incompatible Plugins: Added one-click-ssl
+
 ### Changed
 - Updated package dependencies.
 
