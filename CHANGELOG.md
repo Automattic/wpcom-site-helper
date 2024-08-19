@@ -10,6 +10,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- Lossless image optimization for images (should improve performance with no visible changes).
+
 ## 5.4.0 - 2024-08-13
 ### Changed
 - rum data: include WooCommerce active status [#38846]
