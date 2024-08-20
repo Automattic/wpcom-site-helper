@@ -1,6 +1,6 @@
 # Changelog
 
-## 5.4.1-alpha - unreleased
+## 5.5.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Incompatible Plugins: Added one-click-ssl
 
 ### Changed
+- Site Level User Profile: expose all relevant fields on profile.php
 - Updated package dependencies.
 
 ### Fixed
