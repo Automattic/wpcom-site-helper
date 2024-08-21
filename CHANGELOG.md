@@ -4,16 +4,21 @@
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Incompatible Plugins: Added one-click-ssl
-
 ### Changed
 - Site Level User Profile: expose all relevant fields on profile.php
-- Updated package dependencies.
 
 ### Fixed
-- Lossless image optimization for images (should improve performance with no visible changes).
 - Revert recent SVG image optimizations.
+
+## 5.4.1 - 2024-08-19
+### Added
+- Incompatible Plugins: Added one-click-ssl [#38918]
+
+### Changed
+- Updated package dependencies. [#38822]
+
+### Fixed
+- Lossless image optimization for images (should improve performance with no visible changes). [#38750]
 
 ## 5.4.0 - 2024-08-13
 ### Changed
