@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.5.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated package dependencies.
+
 ## 5.5.0 - 2024-08-21
 ### Changed
 - Site Level User Profile: expose all relevant fields on profile.php [#38949]
