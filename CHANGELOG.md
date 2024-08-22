@@ -1,10 +1,11 @@
 # Changelog
 
-## 5.5.1-alpha - unreleased
+## 5.6.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- SSO: Automatic logic for Calypso users of classic sites
 - Updated package dependencies.
 
 ## 5.5.0 - 2024-08-21
