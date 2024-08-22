@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Added social share status feature
+
 ### Changed
 - SSO: Automatic logic for Calypso users of classic sites
 - Updated package dependencies.
