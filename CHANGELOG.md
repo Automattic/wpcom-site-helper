@@ -1,15 +1,12 @@
 # Changelog
 
-## 5.6.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.6.0 - 2024-08-23
 ### Added
-- Added social share status feature
+- Added social share status feature [#39023]
 
 ### Changed
-- SSO: Automatic logic for Calypso users of classic sites
-- Updated package dependencies.
+- SSO: Automatic logic for Calypso users of classic sites [#38996]
+- Updated package dependencies. [#39004]
 
 ## 5.5.0 - 2024-08-21
 ### Changed
