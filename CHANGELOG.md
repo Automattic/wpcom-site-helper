@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.6.2-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added a switch that will enable rolling trunk releases.
+
 ## 5.6.1 - 2024-08-26
 ### Changed
 - Internal updates.
