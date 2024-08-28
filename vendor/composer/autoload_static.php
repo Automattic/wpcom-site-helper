@@ -390,6 +390,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_6_2_alpha
         'Imports\\Utils\\LoggerInterface' => __DIR__ . '/../..' . '/imports/utils/logger/class-logger-interface.php',
         'Imports\\Utils\\Logger\\FileLogger' => __DIR__ . '/../..' . '/imports/utils/logger/class-filelogger.php',
         'Jetpack_Custom_CSS_Enhancements' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
+        'Jetpack_Customize_Control_Title' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php',
         'Jetpack_Data' => __DIR__ . '/../..' . '/feature-plugins/class-jetpack-data.php',
         'Jetpack_IXR_Client' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
         'Jetpack_IXR_ClientMulticall' => __DIR__ . '/..' . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',

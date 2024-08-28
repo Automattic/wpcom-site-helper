@@ -354,6 +354,7 @@ return array(
     'Imports\\Utils\\LoggerInterface' => $baseDir . '/imports/utils/logger/class-logger-interface.php',
     'Imports\\Utils\\Logger\\FileLogger' => $baseDir . '/imports/utils/logger/class-filelogger.php',
     'Jetpack_Custom_CSS_Enhancements' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php',
+    'Jetpack_Customize_Control_Title' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php',
     'Jetpack_Data' => $baseDir . '/feature-plugins/class-jetpack-data.php',
     'Jetpack_IXR_Client' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
     'Jetpack_IXR_ClientMulticall' => $vendorDir . '/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
