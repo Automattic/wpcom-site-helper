@@ -36,6 +36,7 @@ return array(
     'Automattic\\Jetpack\\Blocks' => $vendorDir . '/automattic/jetpack-blocks/src/class-blocks.php',
     'Automattic\\Jetpack\\Calypsoify\\Jetpack_Calypsoify' => $vendorDir . '/automattic/jetpack-calypsoify/src/class-jetpack-calypsoify.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-featured-content.php',
+    'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Portfolio' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-portfolio.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-main.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
     'Automattic\\Jetpack\\Config' => $vendorDir . '/automattic/jetpack-config/src/class-config.php',

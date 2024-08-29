@@ -72,6 +72,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_6_2_alpha
         'Automattic\\Jetpack\\Blocks' => __DIR__ . '/..' . '/automattic/jetpack-blocks/src/class-blocks.php',
         'Automattic\\Jetpack\\Calypsoify\\Jetpack_Calypsoify' => __DIR__ . '/..' . '/automattic/jetpack-calypsoify/src/class-jetpack-calypsoify.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/class-featured-content.php',
+        'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Portfolio' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-portfolio.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/class-main.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
         'Automattic\\Jetpack\\Config' => __DIR__ . '/..' . '/automattic/jetpack-config/src/class-config.php',
