@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.7.0-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- WPCOM Marketplace: Added software manager to install marketplace products.
+
 ## 5.6.2 - 2024-08-30
 ### Added
 - Added a switch that will enable rolling trunk releases. [#38994]
