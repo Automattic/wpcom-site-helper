@@ -1,11 +1,8 @@
 # Changelog
 
-## 5.6.2-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.6.2 - 2024-08-30
 ### Added
-- Added a switch that will enable rolling trunk releases.
+- Added a switch that will enable rolling trunk releases. [#38994]
 
 ## 5.6.1 - 2024-08-26
 ### Changed
