@@ -1,11 +1,8 @@
 # Changelog
 
-## 5.7.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.7.0 - 2024-09-02
 ### Added
-- WPCOM Marketplace: Added software manager to install marketplace products.
+- WPCOM Marketplace: Added software manager to install marketplace products. [#38705]
 
 ## 5.6.2 - 2024-08-30
 ### Added

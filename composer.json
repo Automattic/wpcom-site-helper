@@ -13,7 +13,7 @@
 		"wordpress/classic-editor-plugin": "1.5",
 		"automattic/jetpack-config": "^2.0.4",
 		"automattic/jetpack-post-list": "^0.6.3",
-		"automattic/jetpack-mu-wpcom": "^5.61.0-alpha",
+		"automattic/jetpack-mu-wpcom": "^5.61.0",
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
@@ -120,7 +120,7 @@
 			"composer/installers": true,
 			"roots/wordpress-core-installer": true
 		},
-		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_7_0_alpha"
+		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_7_0"
 	},
 	"extra": {
 		"mirror-repo": "Automattic/wpcom-site-helper",
