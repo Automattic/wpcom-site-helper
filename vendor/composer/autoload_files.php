@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     '3773ef3f09c37da5478d578e32b03a4b' => $vendorDir . '/automattic/jetpack-assets/actions.php',
+    '7372b7fb88a9723cf5b76d456eb0b738' => $vendorDir . '/automattic/jetpack-connection/actions.php',
     '700e9f220ab8246703a73d0e5d5d9192' => $vendorDir . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php',
 );
