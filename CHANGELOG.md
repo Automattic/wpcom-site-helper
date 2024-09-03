@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.8.0-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Enable Users -> Profile (profile.php) on all sites
+
 ## 5.7.0 - 2024-09-02
 ### Added
 - WPCOM Marketplace: Added software manager to install marketplace products. [#38705]
