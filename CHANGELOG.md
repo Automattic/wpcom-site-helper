@@ -8,6 +8,9 @@ This is an alpha version! The changes listed here are not final.
 - Enable Users -> Profile (profile.php) on all sites
 - SSO: Show wp-admin login form if site has local users
 
+### Fixed
+- Checks an array key before attempting to read it.
+
 ## 5.7.0 - 2024-09-02
 ### Added
 - WPCOM Marketplace: Added software manager to install marketplace products. [#38705]
