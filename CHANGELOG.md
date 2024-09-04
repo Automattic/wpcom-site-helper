@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Enable Users -> Profile (profile.php) on all sites
+- SSO: Show wp-admin login form if site has local users
 
 ## 5.7.0 - 2024-09-02
 ### Added
