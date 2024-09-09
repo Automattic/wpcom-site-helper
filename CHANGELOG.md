@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Enable Users -> Profile (profile.php) on all sites
 - SSO: Show wp-admin login form if site has local users
+- Updated package dependencies.
 
 ### Fixed
 - Checks an array key before attempting to read it.
