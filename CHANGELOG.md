@@ -1,17 +1,14 @@
 # Changelog
 
-## 5.8.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 5.8.0 - 2024-09-10
 ### Changed
-- Enable Users -> Profile (profile.php) on all sites
-- SSO: Show wp-admin login form if site has local users
-- Updated package dependencies.
-- Update wc-calypso-bridge dependency to 2.6.0
+- Enable Users -> Profile (profile.php) on all sites [#39181]
+- SSO: Show wp-admin login form if site has local users [#39139]
+- Updated package dependencies. [#39288]
+- Update wc-calypso-bridge dependency to 2.6.0 [#39313]
 
 ### Fixed
-- Checks an array key before attempting to read it.
+- Checks an array key before attempting to read it. [#39240]
 
 ## 5.7.0 - 2024-09-02
 ### Added
