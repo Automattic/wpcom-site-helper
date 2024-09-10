@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable Users -> Profile (profile.php) on all sites
 - SSO: Show wp-admin login form if site has local users
 - Updated package dependencies.
+- Update wc-calypso-bridge dependency to 2.6.0
 
 ### Fixed
 - Checks an array key before attempting to read it.
