@@ -1,11 +1,14 @@
 # Changelog
 
-## 5.8.1-alpha - unreleased
+## 5.9.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - WPCOMSH: change call to so it doesn't trigger if not necessary
+
+### Removed
+- Wpcomsh: Remove actions and filters related to the Masterbar module
 
 ### Fixed
 - Color Scheme: Avoid wpcom user data overriding the admin color after flushing cache
