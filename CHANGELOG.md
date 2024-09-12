@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - WPCOMSH: change call to so it doesn't trigger if not necessary
 
+### Fixed
+- Color Scheme: Avoid wpcom user data overriding the admin color after flushing cache
+
 ## 5.8.0 - 2024-09-10
 ### Changed
 - Enable Users -> Profile (profile.php) on all sites [#39181]
