@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Color Scheme: Avoid wpcom user data overriding the admin color after flushing cache
+- WPCOM Features: Add INSTALL_THEMES feature to Jetpack sites so that they are not erroneously seeing the "upgrade" badge when looking at dotorg themes in the wordpress.com showcase
 
 ## 5.8.0 - 2024-09-10
 ### Changed
