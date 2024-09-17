@@ -479,6 +479,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ5_9_0_alpha
         'WPCOM_REST_API_V2_Endpoint_Launchpad' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
         'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
         'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
+        'WPCOM_REST_API_V2_Endpoint_Site_Migration_WPCOM_Migration_Key' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-wpcom-migration-key.php',
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules.php',
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Active' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-active.php',
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Capabilities' => __DIR__ . '/..' . '/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-capabilities.php',
