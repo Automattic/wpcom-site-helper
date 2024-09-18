@@ -1,8 +1,11 @@
 # Changelog
 
-## 5.9.1-alpha - unreleased
+## 5.10.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url.
 
 ### Fixed
 - Portfolios: Ensure these are enabled and working properly on themes that support portfolios
