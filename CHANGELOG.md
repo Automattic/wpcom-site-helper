@@ -1,5 +1,12 @@
 # Changelog
 
+## 5.9.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Portfolios: Ensure these are enabled and working properly on themes that support portfolios
+
 ## 5.9.0 - 2024-09-18
 ### Changed
 - WPCOMSH: change call to so it doesn't trigger if not necessary [#39336]
