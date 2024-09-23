@@ -1,21 +1,21 @@
 # Changelog
 
-## 5.10.0-alpha - unreleased
+## 5.10.1-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
-
-### Added
-- Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url.
 
 ### Changed
 - Introduced ESLint base config and fixed errors.
 
+## 5.10.0 - 2024-09-23
+### Added
+- Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url. [#39310]
+
 ### Removed
-- Connection: Removed deprecated method features_available
-- Connection: Removed features_enabled deprecated method
+- Connection: Removed deprecated method features_available. [#39442] [#39475]
 
 ### Fixed
-- Portfolios: Ensure these are enabled and working properly on themes that support portfolios
+- Portfolios: Ensure these are enabled and working properly on themes that support portfolios. [#39431]
 
 ## 5.9.0 - 2024-09-18
 ### Changed
