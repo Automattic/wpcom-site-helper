@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url.
 
+### Changed
+- Introduced ESLint base config and fixed errors.
+
 ### Removed
 - Connection: Removed deprecated method features_available
 - Connection: Removed features_enabled deprecated method
