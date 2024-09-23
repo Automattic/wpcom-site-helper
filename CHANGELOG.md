@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url.
 
+### Removed
+- Connection: Removed deprecated method features_available
+
 ### Fixed
 - Portfolios: Ensure these are enabled and working properly on themes that support portfolios
 
