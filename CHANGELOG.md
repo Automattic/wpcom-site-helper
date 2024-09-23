@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Connection: Removed deprecated method features_available
+- Connection: Removed features_enabled deprecated method
 
 ### Fixed
 - Portfolios: Ensure these are enabled and working properly on themes that support portfolios
