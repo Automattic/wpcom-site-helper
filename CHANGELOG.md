@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Added wp-downgrade to the incompatible list
 - Introduced ESLint base config and fixed errors.
 
 ## 5.10.0 - 2024-09-23
