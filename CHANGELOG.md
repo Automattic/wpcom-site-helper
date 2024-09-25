@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Added wp-downgrade to the incompatible list
+- Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
 - Introduced ESLint base config and fixed errors.
 
 ## 5.10.0 - 2024-09-23
