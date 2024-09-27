@@ -6,7 +6,7 @@ defined( 'ABSPATH' ) || exit;
  * Class WC_Calypso_Bridge_Coming_Soon
  *
  * @since   2.6.0
- * @version 2.6.0
+ * @version 2.7.1
  *
  * Handle Coming Soon mode.
  */
@@ -40,10 +40,11 @@ class WC_Calypso_Bridge_Coming_Soon {
 		add_filter( 'pre_option_woocommerce_coming_soon', array( $this, 'override_option_woocommerce_coming_soon' ) );
 		add_filter( 'pre_update_option_woocommerce_coming_soon', array( $this, 'override_update_woocommerce_coming_soon' ), 10, 2 );
 		// Admin bar menu is not only shown in the admin area but also in the front end when the admin user is logged in.
-		add_action( 'admin_bar_menu', array( $this, 'possibly_remove_site_visibility_badge' ), 32 );
+		add_action( 'admin_bar_menu', array( $this, 'remove_site_visibility_badge' ), 32 );
 
 		if ( is_admin() ) {
-			add_filter( 'plugins_loaded', array( $this, 'maybe_add_admin_notice_pre_launch' ) );
+			add_filter( 'plugins_loaded', array( $this, 'maybe_add_admin_notice' ) );
+			add_filter( 'woocommerce_get_settings_site-visibility', array( $this, 'possibly_hide_site_visibility_form' ) );
 		}
 	}
 
@@ -144,12 +145,22 @@ class WC_Calypso_Bridge_Coming_Soon {
 	}
 
 	/**
-	 * Conditionally add a notice when site is unlaunched.
+	 * Conditionally add a notice for free trial sites or when site is unlaunched.
 	 *
 	 * @return void
 	 */
-	public function maybe_add_admin_notice_pre_launch() {
-		if ( ! $this->is_feature_enabled() || ! $this->is_private_site_available() ) {
+	public function maybe_add_admin_notice() {
+		if ( ! $this->is_feature_enabled() ) {
+			return;
+		}
+
+		if ( wc_calypso_bridge_is_trial_plan() ) {
+			$upgrade_url = sprintf( 'https://wordpress.com/plans/%s', WC_Calypso_Bridge_Instance()->get_site_slug() );
+			$this->add_admin_notice( sprintf( __( 'You’re currently using a free trial! To get access to the full range of features, please <a href="%s">upgrade to a paid plan</a>.', 'wc-calypso-bridge' ), esc_url( $upgrade_url ) ), 'info' );
+			return;
+		}
+
+		if ( ! $this->is_private_site_available() ) {
 			return;
 		}
 
@@ -197,11 +208,23 @@ class WC_Calypso_Bridge_Coming_Soon {
 	 * @param WP_Admin_Bar $wp_admin_bar The admin bar instance.
 	 * @return void
 	 */
-	public function possibly_remove_site_visibility_badge( $wp_admin_bar  ) {
-		// TODO: Remove feature check once the site visibility badge is behind feature flag in core.
-		if ( wc_calypso_bridge_is_trial_plan() || ! $this->is_feature_enabled() ) {
+	public function remove_site_visibility_badge( $wp_admin_bar ) {
+		if ( $wp_admin_bar ) {
 			$wp_admin_bar->remove_node( 'woocommerce-site-visibility-badge' );
 		}
+	}
+
+	/**
+	 * Possibly hide the site visibility form in the Site Visibility settings for free trial sites.
+	 *
+	 * @param array $settings The settings.
+	 * @return array
+	 */
+	public function possibly_hide_site_visibility_form( $settings ) {
+		if ( wc_calypso_bridge_is_trial_plan() ) {
+			return array();
+		}
+		return $settings;
 	}
 
 	/**
