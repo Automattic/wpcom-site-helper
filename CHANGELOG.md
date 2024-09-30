@@ -10,6 +10,9 @@ This is an alpha version! The changes listed here are not final.
 - Introduced ESLint base config and fixed errors.
 - Update wc-calypso-bridge dependency to 2.7.1
 
+### Fixed
+- Move `load_muplugin_textdomain` call to `after_setup_theme` hook.
+
 ## 5.10.0 - 2024-09-23
 ### Added
 - Performance Profiler: Ensure the associated url created when the performance report is generated is accessible for each page or as part of site settings for the home/main url. [#39310]
