@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Update Jetpack Scan link
 - Update wc-calypso-bridge dependency to 2.7.1
+- Update wc-calypso-bridge dependency to 2.8.0
 
 ### Fixed
 - Move `load_muplugin_textdomain` call to `after_setup_theme` hook.

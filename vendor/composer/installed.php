@@ -299,9 +299,9 @@
             'dev_requirement' => false,
         ),
         'automattic/wc-calypso-bridge' => array(
-            'pretty_version' => 'v2.7.1',
-            'version' => '2.7.1.0',
-            'reference' => 'b9e010c652befc8546cf20c7dabff9f600a5311a',
+            'pretty_version' => 'v2.8.0',
+            'version' => '2.8.0.0',
+            'reference' => 'b16e4ae0c18f8d78a965f95e77780d56938b2f80',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/wc-calypso-bridge',
             'aliases' => array(),
@@ -316,21 +316,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'composer/installers' => array(
-            'pretty_version' => 'v1.12.0',
-            'version' => '1.12.0.0',
-            'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
-            'type' => 'composer-plugin',
-            'install_path' => __DIR__ . '/./installers',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'roundcube/plugin-installer' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
-        ),
         'scssphp/scssphp' => array(
             'pretty_version' => 'v1.12.0',
             'version' => '1.12.0.0',
@@ -339,12 +324,6 @@
             'install_path' => __DIR__ . '/../scssphp/scssphp',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'shama/baton' => array(
-            'dev_requirement' => false,
-            'replaced' => array(
-                0 => '*',
-            ),
         ),
         'tubalmartin/cssmin' => array(
             'pretty_version' => 'v4.1.1',
