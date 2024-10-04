@@ -13,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Update wc-calypso-bridge dependency to 2.7.1
 - Update wc-calypso-bridge dependency to 2.8.0
 
+### Removed
+- test remove redirection
+
 ### Fixed
 - Move `load_muplugin_textdomain` call to `after_setup_theme` hook.
 
