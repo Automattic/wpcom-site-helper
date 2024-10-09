@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Move `load_muplugin_textdomain` call to `after_setup_theme` hook.
+- Stats: Fix top post card on the Insight page
 
 ## 5.10.0 - 2024-09-23
 ### Added
