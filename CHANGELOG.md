@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Added wp-downgrade to the incompatible list
 - Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
 - Introduced ESLint base config and fixed errors.
+- Only include `wp-polyfill` as a script dependency when needed.
 - Updated package dependencies.
 - Update Jetpack Scan link
 - Update wc-calypso-bridge dependency to 2.7.1
