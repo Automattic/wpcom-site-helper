@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- WordPress.com plan features: Added studio-sync feature
+
 ### Changed
 - Added wp-downgrade to the incompatible list
 - Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
