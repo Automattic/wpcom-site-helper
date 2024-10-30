@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Jetpack Scan link
 - Update wc-calypso-bridge dependency to 2.7.1
 - Update wc-calypso-bridge dependency to 2.8.0
+- Update wc-calypso-bridge dependency to 2.8.1
 
 ### Removed
 - test remove redirection
