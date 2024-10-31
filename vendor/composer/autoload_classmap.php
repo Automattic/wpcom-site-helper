@@ -17,6 +17,7 @@ return array(
     'A8C\\FSE\\WP_REST_Help_Center_Search' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php',
     'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php',
     'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php',
+    'A8C\\FSE\\WP_REST_Help_Center_Support_Interactions' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-interactions.php',
     'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php',
     'A8C\\FSE\\WP_REST_Help_Center_Ticket' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php',
     'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
