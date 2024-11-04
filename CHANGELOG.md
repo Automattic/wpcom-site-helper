@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Enable test coverage.
+- WordPress.com plan features: Added cornerstone 10 pages feature
 - WordPress.com plan features: Added studio-sync feature
 
 ### Changed
