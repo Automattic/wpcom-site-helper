@@ -12,12 +12,12 @@
 		"automattic/wc-calypso-bridge": "2.8.1",
 		"wordpress/classic-editor-plugin": "1.5",
 		"automattic/jetpack-config": "^2.0.4",
-		"automattic/jetpack-post-list": "^0.6.5-alpha",
+		"automattic/jetpack-post-list": "^0.6.5",
 		"automattic/jetpack-mu-wpcom": "^5.66.0-alpha",
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.2.8-alpha",
+		"automattic/jetpack-changelogger": "^4.2.8",
 		"automattic/wordbless": "0.4.2",
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
 		"yoast/phpunit-polyfills": "^1.1.1",
