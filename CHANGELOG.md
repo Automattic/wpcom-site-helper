@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - test remove redirection
 
 ### Fixed
+- Fix function that add links to URLs in the page when having HTML attributes with "<" in the value
 - Move `load_muplugin_textdomain` call to `after_setup_theme` hook.
 - Stats: Fix top post card on the Insight page
 - wpcom-block-editor: Support getting the canvas mode from the query string after GB 19.6
