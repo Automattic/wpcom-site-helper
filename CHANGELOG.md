@@ -1,6 +1,6 @@
 # Changelog
 
-## 5.10.1-alpha - unreleased
+## 6.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Update wc-calypso-bridge dependency to 2.8.1
 
 ### Removed
+- General: Update minimum WordPress version to 6.6.
 - test remove redirection
 
 ### Fixed
