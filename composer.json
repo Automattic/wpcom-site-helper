@@ -11,13 +11,13 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "2.8.1",
 		"wordpress/classic-editor-plugin": "1.5",
-		"automattic/jetpack-config": "^2.0.4",
-		"automattic/jetpack-post-list": "^0.6.5",
-		"automattic/jetpack-mu-wpcom": "^5.66.1-alpha",
+		"automattic/jetpack-config": "^3.0.0-alpha",
+		"automattic/jetpack-post-list": "^0.7.0-alpha",
+		"automattic/jetpack-mu-wpcom": "^6.0.0-alpha",
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.2.8",
+		"automattic/jetpack-changelogger": "^5.0.0-alpha",
 		"automattic/wordbless": "0.4.2",
 		"dealerdirect/phpcodesniffer-composer-installer": "^1.0",
 		"yoast/phpunit-polyfills": "^1.1.1",
