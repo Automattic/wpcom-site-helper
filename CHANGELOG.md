@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - General: indicate compatibility with the upcoming version of WordPress - 6.7.
 - Introduced ESLint base config and fixed errors.
 - Only include `wp-polyfill` as a script dependency when needed.
+- Remove unused dev dependencies.
 - Updated feature check
 - Updated package dependencies.
 - Update Jetpack Scan link
