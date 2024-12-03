@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Added wp-downgrade to the incompatible list
 - Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
 - General: indicate compatibility with the upcoming version of WordPress - 6.7.
+- Incompatible Plugins: whitelist duplicator pro.
 - Introduced ESLint base config and fixed errors.
 - Only include `wp-polyfill` as a script dependency when needed.
 - Remove unused dev dependencies.
