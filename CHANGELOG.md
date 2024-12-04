@@ -1,39 +1,36 @@
 # Changelog
 
-## 6.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 6.0.0 - 2024-12-04
 ### Added
-- Add Growth to features in wpcomsh package
-- Enable test coverage.
-- WordPress.com plan features: Added cornerstone 10 pages feature
-- WordPress.com plan features: Added studio-sync feature
+- Add Growth to features in wpcomsh package. [#40187]
+- Enable test coverage. [#39961]
+- WordPress.com plan features: Added cornerstone 10 pages feature. [#40023]
+- WordPress.com plan features: Added studio-sync feature. [#39843]
 
 ### Changed
-- Added wp-downgrade to the incompatible list
-- Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA
-- General: indicate compatibility with the upcoming version of WordPress - 6.7.
-- Incompatible Plugins: whitelist duplicator pro.
-- Introduced ESLint base config and fixed errors.
-- Only include `wp-polyfill` as a script dependency when needed.
-- Remove unused dev dependencies.
-- Updated feature check
-- Updated package dependencies.
-- Update Jetpack Scan link
-- Update wc-calypso-bridge dependency to 2.7.1
-- Update wc-calypso-bridge dependency to 2.8.0
-- Update wc-calypso-bridge dependency to 2.8.1
+- Added wp-downgrade to the incompatible list. [#39264]
+- Admin dashboard: Disable portfolio toggle if theme supports portfolio and site is WoA. [#39508]
+- General: indicate compatibility with the upcoming version of WordPress - 6.7. [#39786]
+- Incompatible Plugins: whitelist duplicator pro. [#39775]
+- Introduced ESLint base config and fixed errors. [#39275]
+- Only include `wp-polyfill` as a script dependency when needed. [#39629]
+- Remove unused dev dependencies. [#40297]
+- Updated feature check. [#40120]
+- Updated package dependencies. [#39594] [#39653] [#40116] [#40261]
+- Update Jetpack Scan link. [#39619]
+- Update wc-calypso-bridge dependency to 2.7.1 [#39557]
+- Update wc-calypso-bridge dependency to 2.8.0 [#39613]
+- Update wc-calypso-bridge dependency to 2.8.1 [#39950]
 
 ### Removed
-- General: Update minimum WordPress version to 6.6.
-- test remove redirection
+- General: Update minimum WordPress version to 6.6. [#40146]
+- Test remove redirection. [#39615]
 
 ### Fixed
-- Fix function that add links to URLs in the page when having HTML attributes with "<" in the value
-- Move `load_muplugin_textdomain` call to `after_setup_theme` hook.
-- Stats: Fix top post card on the Insight page
-- wpcom-block-editor: Support getting the canvas mode from the query string after GB 19.6
+- Fix function that add links to URLs in the page when having HTML attributes with "<" in the value. [#39931]
+- Move `load_muplugin_textdomain` call to `after_setup_theme` hook. [#39586]
+- Stats: Fix top post card on the Insight page. [#39691]
+- wpcom-block-editor: Support getting the canvas mode from the query string after GB 19.6. [#40045]
 
 ## 5.10.0 - 2024-09-23
 ### Added
