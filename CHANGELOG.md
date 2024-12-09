@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 6.0.0 - 2024-12-04
 ### Added
 - Add Growth to features in wpcomsh package. [#40187]
