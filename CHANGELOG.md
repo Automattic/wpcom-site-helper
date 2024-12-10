@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Updated package dependencies.
+
 ## 6.0.0 - 2024-12-04
 ### Added
 - Add Growth to features in wpcomsh package. [#40187]
