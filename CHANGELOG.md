@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Updated package dependencies.
 
+### Fixed
+- wpcomsh/private-site: Use `allowed_options` filter instead of deprecated `whitelist_options` one and use proper function for adding the callback ( `add_filter` instead of `add_action` )
+
 ## 6.0.0 - 2024-12-04
 ### Added
 - Add Growth to features in wpcomsh package. [#40187]
