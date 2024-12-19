@@ -71,7 +71,6 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ6_0_1_alpha
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Textarea_Control' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-textarea-control.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Title_Control' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-title-control.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/class-main.php',
-        'Automattic\\Jetpack\\Classic_Theme_Helper\\Nova_Restaurant' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-nova-restaurant.php',
         'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => __DIR__ . '/..' . '/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
         'Automattic\\Jetpack\\Config' => __DIR__ . '/..' . '/automattic/jetpack-config/src/class-config.php',
         'Automattic\\Jetpack\\Connection\\Authorize_Json_Api' => __DIR__ . '/..' . '/automattic/jetpack-connection/src/class-authorize-json-api.php',
