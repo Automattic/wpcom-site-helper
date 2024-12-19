@@ -42,6 +42,7 @@ return array(
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Textarea_Control' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-textarea-control.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Title_Control' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-title-control.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-main.php',
+    'Automattic\\Jetpack\\Classic_Theme_Helper\\Nova_Restaurant' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-nova-restaurant.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => $vendorDir . '/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
     'Automattic\\Jetpack\\Config' => $vendorDir . '/automattic/jetpack-config/src/class-config.php',
     'Automattic\\Jetpack\\Connection\\Authorize_Json_Api' => $vendorDir . '/automattic/jetpack-connection/src/class-authorize-json-api.php',
