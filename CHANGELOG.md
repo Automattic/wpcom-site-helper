@@ -1,10 +1,11 @@
 # Changelog
 
-## 6.0.1-alpha - unreleased
+## 6.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Newspack Blocks: Updated to version 4.5.2.
 - Updated package dependencies.
 
 ### Fixed
