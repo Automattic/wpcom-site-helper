@@ -2236,16 +2236,16 @@
         },
         {
             "name": "wordpress/classic-editor-plugin",
-            "version": "1.5",
-            "version_normalized": "1.5.0.0",
+            "version": "1.6.7",
+            "version_normalized": "1.6.7.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/classic-editor/",
-                "reference": "tags/1.5/"
+                "reference": "tags/1.6.7/"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.7.zip"
             },
             "type": "library",
             "installation-source": "dist",

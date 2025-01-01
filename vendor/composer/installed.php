@@ -335,9 +335,9 @@
             'dev_requirement' => false,
         ),
         'wordpress/classic-editor-plugin' => array(
-            'pretty_version' => '1.5',
-            'version' => '1.5.0.0',
-            'reference' => 'tags/1.5/',
+            'pretty_version' => '1.6.7',
+            'version' => '1.6.7.0',
+            'reference' => 'tags/1.6.7/',
             'type' => 'library',
             'install_path' => __DIR__ . '/../wordpress/classic-editor-plugin',
             'aliases' => array(),
