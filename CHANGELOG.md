@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- WOA: add WordAds post transfer action
+
 ### Changed
 - Add Complete to AI features and sync other changes on wpcom features
 - Newspack Blocks: Updated to version 4.5.2.
