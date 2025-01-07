@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add Complete to AI features and sync other changes on wpcom features
 - Newspack Blocks: Updated to version 4.5.2.
+- Update AIOWP tracks events
 - Updated package dependencies.
 
 ### Fixed
