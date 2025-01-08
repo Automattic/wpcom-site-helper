@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Newspack Blocks: Updated to version 4.5.2.
 - Update AIOWP tracks events
 - Updated package dependencies.
+- woa: Enable wordads module via WP_CLI post transfer
 
 ### Fixed
 - Fixe the color palette now showing up.
