@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixe the color palette now showing up.
+- Global Styles: Stop showing the limited global styles notice in distraction free mode.
 - Gutenberg 19.9: don't show launch banner when the site is previewed in Appearance -> Design
 - Purge the cache when the site visibility changes on Atomic sites
 - wpcomsh/private-site: Use `allowed_options` filter instead of deprecated `whitelist_options` one and use proper function for adding the callback ( `add_filter` instead of `add_action` )
