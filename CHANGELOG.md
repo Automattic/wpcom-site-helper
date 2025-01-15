@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Complete to AI features and sync other changes on wpcom features
 - Newspack Blocks: Updated to version 4.5.2.
 - Update AIOWP tracks events
+- update composer.lock file
 - Updated package dependencies.
 - woa: Enable wordads module via WP_CLI post transfer
 
