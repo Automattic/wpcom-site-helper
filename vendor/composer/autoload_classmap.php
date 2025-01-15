@@ -69,6 +69,7 @@ return array(
     'Automattic\\Jetpack\\Connection\\Server_Sandbox' => $vendorDir . '/automattic/jetpack-connection/src/class-server-sandbox.php',
     'Automattic\\Jetpack\\Connection\\Tokens' => $vendorDir . '/automattic/jetpack-connection/src/class-tokens.php',
     'Automattic\\Jetpack\\Connection\\Tokens_Locks' => $vendorDir . '/automattic/jetpack-connection/src/class-tokens-locks.php',
+    'Automattic\\Jetpack\\Connection\\Traits\\WPCOM_REST_API_Proxy_Request' => $vendorDir . '/automattic/jetpack-connection/src/traits/trait-wpcom-rest-api-proxy-request.php',
     'Automattic\\Jetpack\\Connection\\Urls' => $vendorDir . '/automattic/jetpack-connection/src/class-urls.php',
     'Automattic\\Jetpack\\Connection\\Utils' => $vendorDir . '/automattic/jetpack-connection/src/class-utils.php',
     'Automattic\\Jetpack\\Connection\\Webhooks' => $vendorDir . '/automattic/jetpack-connection/src/class-webhooks.php',
