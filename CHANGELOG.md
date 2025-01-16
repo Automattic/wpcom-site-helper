@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - woa: Enable wordads module via WP_CLI post transfer
 
 ### Fixed
+- Fixes an issue where setting color identity on the customizer breaks block editor UI elements.
 - Fixe the color palette now showing up.
 - Global Styles: Stop showing the limited global styles notice in distraction free mode.
 - Gutenberg 19.9: don't show launch banner when the site is previewed in Appearance -> Design
