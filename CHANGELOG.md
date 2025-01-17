@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - woa: Enable wordads module via WP_CLI post transfer
 
+### Removed
+- Remove the launch bar from the frontend of Atomic sites
+
 ### Fixed
 - Fixes an issue where setting color identity on the customizer breaks block editor UI elements.
 - Fixe the color palette now showing up.
