@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add Complete to AI features and sync other changes on wpcom features
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
+- Code: Use function-style exit() and die() with a default status code of 0.
 - Newspack Blocks: Updated to version 4.5.2.
 - Update AIOWP tracks events
 - update composer.lock file
