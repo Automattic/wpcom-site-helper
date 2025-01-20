@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the launch bar from the frontend of Atomic sites
 
 ### Fixed
+- Fix: Remove customiser color styles from the editor.
 - Fixes an issue where setting color identity on the customizer breaks block editor UI elements.
 - Fixe the color palette now showing up.
 - Global Styles: Stop showing the limited global styles notice in distraction free mode.
