@@ -43,6 +43,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ6_1_0_alpha
         'A8C\\FSE\\WP_REST_Help_Center_Forum' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php',
         'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php',
         'A8C\\FSE\\WP_REST_Help_Center_Odie' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Persisted_Open_State' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-persisted-open-state.php',
         'A8C\\FSE\\WP_REST_Help_Center_Search' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php',
         'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php',
         'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => __DIR__ . '/..' . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php',

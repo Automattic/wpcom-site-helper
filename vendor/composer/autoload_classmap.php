@@ -14,6 +14,7 @@ return array(
     'A8C\\FSE\\WP_REST_Help_Center_Forum' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php',
     'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php',
     'A8C\\FSE\\WP_REST_Help_Center_Odie' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php',
+    'A8C\\FSE\\WP_REST_Help_Center_Persisted_Open_State' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-persisted-open-state.php',
     'A8C\\FSE\\WP_REST_Help_Center_Search' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php',
     'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php',
     'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => $vendorDir . '/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php',
