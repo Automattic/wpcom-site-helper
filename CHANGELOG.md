@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Update AIOWP tracks events
 - update composer.lock file
 - Updated package dependencies.
+- Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 - woa: Enable wordads module via WP_CLI post transfer
 
 ### Removed
