@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add site launch button to the admin bar.
 - Import Media: Introduce the Import Media page
 - WOA: add WordAds post transfer action
 
