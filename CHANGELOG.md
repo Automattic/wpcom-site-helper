@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add site launch button to the admin bar.
+- Dashboard: add launchpad
 - Dashboard: add site preview and links
 - Import Media: Introduce the Import Media page
 - Social | Enable Social Post UI for WPCOM
