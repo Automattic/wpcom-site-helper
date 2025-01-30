@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Newspack Blocks: Updated to version 4.5.2.
 - Social | Enable connections management for WPCOM sites
+- Social | Use feature flag for social admin page
 - Update AIOWP tracks events
 - update composer.lock file
 - Updated package dependencies.
