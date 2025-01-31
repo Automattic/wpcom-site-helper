@@ -13,7 +13,7 @@
 		"wordpress/classic-editor-plugin": "1.6.7",
 		"automattic/jetpack-composer-plugin": "^4.0.0",
 		"automattic/jetpack-config": "^3.0.0",
-		"automattic/jetpack-post-list": "^0.7.3",
+		"automattic/jetpack-post-list": "^0.7.4-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.2.0-alpha",
 		"tubalmartin/cssmin": "^4.1"
 	},
