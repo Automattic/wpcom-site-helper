@@ -308,9 +308,9 @@
             'dev_requirement' => false,
         ),
         'automattic/wc-calypso-bridge' => array(
-            'pretty_version' => 'v2.8.1',
-            'version' => '2.8.1.0',
-            'reference' => '32ecd472f1f4e8b6ea9ee817167255ccb4974811',
+            'pretty_version' => 'v2.8.2',
+            'version' => '2.8.2.0',
+            'reference' => '7592a687a9a36afa49cd25557fac8f6a6d4e899c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/wc-calypso-bridge',
             'aliases' => array(),
