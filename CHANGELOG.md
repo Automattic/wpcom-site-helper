@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: added Daily Writing Prompt widget
 - Dashboard: add launchpad
 - Dashboard: add site preview and links
+- External Media: Add external media modal on the Media Import page
 - Import Media: Introduce the Import Media page
 - Post List: Add a Copy Link Quick Action
 - Social | Enable Social Post UI for WPCOM
