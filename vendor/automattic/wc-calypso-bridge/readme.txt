@@ -22,10 +22,13 @@ This section describes how to install the plugin and get it working.
 
 == Changelog ==
 
+= Unreleased =
+
+= 2.8.3 =
+* Fix specific width to apply only on folded navigation bar #1535
+
 = 2.8.2 =
 * Fix header width bug with RTL languages #1533
-
-= Unreleased =
 
 = 2.8.1 =
 * Add optional check and fix button deprecated parameters #1527
