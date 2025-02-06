@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove the launch bar from the frontend of Atomic sites
+- Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
 - Fix: Remove customiser color styles from the editor.
