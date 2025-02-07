@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
 - Code: Use function-style exit() and die() with a default status code of 0.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
+- Media Library: don't show storage info on Atomic upload.php's uploader
 - Newspack Blocks: Updated to version 4.5.2.
 - Social | Enable connections management for WPCOM sites
 - Social | Use feature flag for social admin page
