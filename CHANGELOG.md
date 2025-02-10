@@ -37,7 +37,6 @@ This is an alpha version! The changes listed here are not final.
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
-- Fix: Jetpack show excerpt on Content options does not includes theme filters.
 - Fix: Remove customiser color styles from the editor.
 - Fix: Undefined array key warnings on any customizer theme with colors.
 - Fixed a database password escaping issue when installing tests.
