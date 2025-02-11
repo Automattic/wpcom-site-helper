@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: add site preview and links
 - External Media: Add external media modal on the Media Import page
 - Import Media: Introduce the Import Media page
+- Media Library: Support Upload from URL on media-new page
 - Post List: Add a Copy Link Quick Action
 - Social | Enable Social Post UI for WPCOM
 - WOA: add WordAds post transfer action
