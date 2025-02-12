@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Page & Post: Fix the layout on mobile when details are open
 - Purge the cache when the site visibility changes on Atomic sites
 - Testimonials: fix a shortcode related bug which ccurs if the column attribute is added and set to 0
+- Verbum: fix broken block editor
 - wpcomsh/private-site: Use `allowed_options` filter instead of deprecated `whitelist_options` one and use proper function for adding the callback ( `add_filter` instead of `add_action` )
 
 ## 6.0.0 - 2024-12-04
