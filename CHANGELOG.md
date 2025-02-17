@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Newspack Blocks: Updated to version 4.5.2.
 - Social | Enable connections management for WPCOM sites
 - Social | Enable media sharing for WPCOM Business plan
+- Social | Enable Social admin page for all WPCOM sites
 - Social | Use feature flag for social admin page
 - Update AIOWP tracks events
 - update composer.lock file
