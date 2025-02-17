@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added newsletter widget.
 - Add site launch button to the admin bar.
 - Dashboard: added Daily Writing Prompt widget
 - Dashboard: add launchpad
