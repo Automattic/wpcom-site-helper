@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixe the color palette now showing up.
 - Global Styles: Stop showing the limited global styles notice in distraction free mode.
 - Gutenberg 19.9: don't show launch banner when the site is previewed in Appearance -> Design
+- i18n: fix missing script translations
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - Page & Post: Fix the layout on mobile when details are open
