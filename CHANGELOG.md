@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Added newsletter widget.
 - Add site launch button to the admin bar.
 - Dashboard: added Daily Writing Prompt widget
+- Dashboard: add general tasks widget
 - Dashboard: add launchpad
 - Dashboard: add site preview and links
 - External Media: Add external media modal on the Media Import page
