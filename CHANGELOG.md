@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Media Library: Support Upload from URL on media-new page
 - Post List: Add a Copy Link Quick Action
 - Social | Enable Social Post UI for WPCOM
+- Theme tools: Load theme compat functionality relevant to features in Classic Theme Helper package, from this package.
 - Untangle Calypso Media Page: Enable the feature
 - WOA: add WordAds post transfer action
 
