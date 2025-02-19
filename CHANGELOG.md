@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - i18n: fix missing script translations
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
+- MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
 - Page & Post: Fix the layout on mobile when details are open
 - Purge the cache when the site visibility changes on Atomic sites
 - Testimonials: fix a shortcode related bug which ccurs if the column attribute is added and set to 0
