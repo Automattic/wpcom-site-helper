@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Theme tools: Load theme compat functionality relevant to features in Classic Theme Helper package, from this package.
 - Untangle Calypso Media Page: Enable the feature
 - WOA: add WordAds post transfer action
+- WPCOM Site Helper CLI: add processing for woocommerce_helper_data
 
 ### Changed
 - Add Complete to AI features and sync other changes on wpcom features
