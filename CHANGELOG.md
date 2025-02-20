@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Connection: Display connection status on Users page independent of the SSO module.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
+- Hide verify email launchpad task for "existing users"
 - Media Library: don't show storage info on Atomic upload.php's uploader
 - Newspack Blocks: Updated to version 4.5.2.
 - Social | Enable connections management for WPCOM sites
