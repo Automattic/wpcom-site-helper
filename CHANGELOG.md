@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Update AIOWP tracks events
 - update composer.lock file
 - Updated package dependencies.
+- Update minimum PHP version to 8.1
 - Update Site Settings Link's Copy
 - Update wc-calypso-bridge dependency to 2.8.2
 - Update wc-calypso-bridge dependency to 2.8.3
