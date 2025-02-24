@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added newsletter widget.
 - Add site launch button to the admin bar.
+- Business sites are now added on Instant Search
 - Connection: Disconnecting a connection owner account will disconnect all other users first.
 - Dashboard: added Daily Writing Prompt widget
 - Dashboard: add general tasks widget
