@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add Complete to AI features and sync other changes on wpcom features
 - Admin Bar: Point the Edit Site menu item to /site-editor.php
+- Admin Color Schemes: Update color schemes to match Calypso
 - Bilmur RUM library now reports the site's timezone
 - Code: Use function-style exit() and die() with a default status code of 0.
 - Connection: Display connection status on Users page independent of the SSO module.
