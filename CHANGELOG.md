@@ -65,6 +65,7 @@ This is an alpha version! The changes listed here are not final.
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
+- MU WPCOM: Make email and password available on the profile.php on the default view
 - Page & Post: Fix the layout on mobile when details are open
 - Purge the cache when the site visibility changes on Atomic sites
 - Testimonials: fix a shortcode related bug which ccurs if the column attribute is added and set to 0
