@@ -35,7 +35,6 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
 - Hide verify email launchpad task for "existing users"
 - Media Library: don't show storage info on Atomic upload.php's uploader
-- MU WPCOM: Prevent site owner from editing user's account-level fields
 - Newspack Blocks: Updated to version 4.5.2.
 - Social | Enable connections management for WPCOM sites
 - Social | Enable media sharing for WPCOM Business plan
