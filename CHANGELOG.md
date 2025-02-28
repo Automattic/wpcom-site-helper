@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added a temporary version of Instant Search which excludes business/commerce sites for performance reasons. As soon as the index rebuild is done and we have jetpack-search-30 ready, we can remove this Instant Search version.
 - Added newsletter widget.
 - Add site launch button to the admin bar.
 - Business sites are now added on Instant Search
