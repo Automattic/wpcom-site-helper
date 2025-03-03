@@ -11,7 +11,7 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "2.8.3",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-composer-plugin": "^4.0.1",
+		"automattic/jetpack-composer-plugin": "^4.0.2-alpha",
 		"automattic/jetpack-config": "^3.0.1",
 		"automattic/jetpack-post-list": "^0.8.4-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.2.0-alpha",
