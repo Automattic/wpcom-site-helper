@@ -58,27 +58,27 @@ return array(
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
-      'ver' => '0.4.3',
+      'ver' => '0.4.4-alpha1741025906',
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',
-      'ver' => '0.8.4-alpha1741019398',
+      'ver' => '0.8.4-alpha1741025906',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
-      'ver' => '0.14.1-alpha1739809311',
+      'ver' => '0.14.1-alpha1741025906',
     ),
     'jetpack-stats' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
-      'ver' => '0.15.3-alpha1741014187',
+      'ver' => '0.15.3-alpha1741025906',
     ),
     'jetpack-stats-admin' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats-admin',
-      'ver' => '0.24.2',
+      'ver' => '0.24.3-alpha1741025906',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
-      'ver' => '4.8.2',
+      'ver' => '4.8.3-alpha1741025906',
     ),
   ),
 );
