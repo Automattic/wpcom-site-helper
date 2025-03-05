@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: add launchpad
 - Dashboard: add site preview and links
 - External Media: Add external media modal on the Media Import page
+- Hotfix: Add filter to hide the Elementor Beta/Dev install banner
 - Import Media: Introduce the Import Media page
 - Launchpad: Add create-course-goal intent task list
 - Media Library: Support Upload from URL on media-new page
