@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop using the custom welcome tour when the user creates a post for the first time, showing the core welcome guide instead
 
 ### Fixed
+- Add business sites back to Classic Search, essentially reverting an old change. This is because until we actually support business sites on Instant Search, we need to keep supporting Classic Search.
 - Avoid opening Fiverr link when hitting Enter
 - Fix: do not set default values for autoincrement columns
 - Fix: Remove customiser color styles from the editor.
