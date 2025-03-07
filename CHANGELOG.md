@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Import Media: Introduce the Import Media page
 - Launchpad: Add create-course-goal intent task list
 - Media Library: Support Upload from URL on media-new page
+- Newsletter Dashboard Widget: remove feature flag and enable widget
 - Post List: Add a Copy Link Quick Action
 - Social | Enable Social Post UI for WPCOM
 - Theme tools: Load theme compat functionality relevant to features in Classic Theme Helper package, from this package.
