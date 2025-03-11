@@ -398,6 +398,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ6_1_0_alpha
         'WPCom_Themes_Service' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-service.php',
         'WP_Customize_Footercredit_Select' => __DIR__ . '/../..' . '/footer-credit/footer-credit/customizer.php',
         'WP_Privacy_Participating_Plugins' => __DIR__ . '/../..' . '/privacy/class-wp-privacy-participating-plugins.php',
+        'WP_REST_Comment_Like' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
         'WP_REST_Newspack_Articles_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
         'WP_REST_WPCOM_Block_Editor_Whats_New_Dot_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-dot-controller.php',
         'WP_REST_WPCOM_Block_Editor_Whats_New_List_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-list-controller.php',

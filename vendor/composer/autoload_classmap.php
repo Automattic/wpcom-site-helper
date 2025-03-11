@@ -369,6 +369,7 @@ return array(
     'WPCom_Themes_Service' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-service.php',
     'WP_Customize_Footercredit_Select' => $baseDir . '/footer-credit/footer-credit/customizer.php',
     'WP_Privacy_Participating_Plugins' => $baseDir . '/privacy/class-wp-privacy-participating-plugins.php',
+    'WP_REST_Comment_Like' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
     'WP_REST_Newspack_Articles_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
     'WP_REST_WPCOM_Block_Editor_Whats_New_Dot_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-dot-controller.php',
     'WP_REST_WPCOM_Block_Editor_Whats_New_List_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-whats-new/class-wp-rest-wpcom-block-editor-whats-new-list-controller.php',
