@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Site Settings Link's Copy
 - Update wc-calypso-bridge dependency to 2.8.2
 - Update wc-calypso-bridge dependency to 2.8.3
+- Use a new endpoint to get the list of themes from WordPress.com
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 - woa: Enable wordads module via WP_CLI post transfer
 
