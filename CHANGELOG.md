@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Social | Enable media sharing for WPCOM Business plan
 - Social | Enable Social admin page for all WPCOM sites
 - Social | Use feature flag for social admin page
+- Theme Switch: Don't change homepage when switching theme
 - Update AIOWP tracks events
 - update composer.lock file
 - Updated package dependencies.
