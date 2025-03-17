@@ -334,8 +334,6 @@ return array(
     'ScssPhp\\ScssPhp\\ValueConverter' => $vendorDir . '/scssphp/scssphp/src/ValueConverter.php',
     'ScssPhp\\ScssPhp\\Version' => $vendorDir . '/scssphp/scssphp/src/Version.php',
     'ScssPhp\\ScssPhp\\Warn' => $vendorDir . '/scssphp/scssphp/src/Warn.php',
-    'Template_First_Themes' => $baseDir . '/feature-plugins/class-template-first-themes.php',
-    'Theme_Homepage_Switcher' => $baseDir . '/feature-plugins/class-theme-homepage-switcher.php',
     'Tlkio_Widget' => $baseDir . '/widgets/tlkio/class-tlkio-widget.php',
     'Verbum_Asset_Loader' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-asset-loader.php',
     'Verbum_Block_Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',

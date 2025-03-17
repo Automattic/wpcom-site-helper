@@ -363,8 +363,6 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ6_1_0_alpha
         'ScssPhp\\ScssPhp\\ValueConverter' => __DIR__ . '/..' . '/scssphp/scssphp/src/ValueConverter.php',
         'ScssPhp\\ScssPhp\\Version' => __DIR__ . '/..' . '/scssphp/scssphp/src/Version.php',
         'ScssPhp\\ScssPhp\\Warn' => __DIR__ . '/..' . '/scssphp/scssphp/src/Warn.php',
-        'Template_First_Themes' => __DIR__ . '/../..' . '/feature-plugins/class-template-first-themes.php',
-        'Theme_Homepage_Switcher' => __DIR__ . '/../..' . '/feature-plugins/class-theme-homepage-switcher.php',
         'Tlkio_Widget' => __DIR__ . '/../..' . '/widgets/tlkio/class-tlkio-widget.php',
         'Verbum_Asset_Loader' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-asset-loader.php',
         'Verbum_Block_Utils' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
