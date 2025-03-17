@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Added a temporary version of Instant Search which excludes business/commerce sites for performance reasons. As soon as the index rebuild is done and we have jetpack-search-30 ready, we can remove this Instant Search version.
 - Added newsletter widget.
 - Add site launch button to the admin bar.
+- Add subscribers in wp-admin boostrap page.
 - Business sites are now added on Instant Search
 - Comments admin: Now uses Verbum on comments containing block mark-up (simple sites only)
 - Connection: Disconnecting a connection owner account will disconnect all other users first.
