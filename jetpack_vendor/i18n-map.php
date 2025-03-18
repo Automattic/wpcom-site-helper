@@ -10,11 +10,11 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.0.13-alpha1742313077',
+      'ver' => '4.0.13',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
-      'ver' => '0.25.16-alpha1742232184',
+      'ver' => '0.25.16',
     ),
     'jetpack-calypsoify' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-calypsoify',
@@ -22,7 +22,7 @@ return array(
     ),
     'jetpack-classic-theme-helper' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-classic-theme-helper',
-      'ver' => '0.11.4-alpha1742232184',
+      'ver' => '0.11.4',
     ),
     'jetpack-compat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-compat',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.7.6-alpha1742244490',
+      'ver' => '6.7.6',
     ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
@@ -46,11 +46,11 @@ return array(
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
-      'ver' => '4.2.5-alpha1742313077',
+      'ver' => '4.2.5',
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.14.1-alpha1742244490',
+      'ver' => '0.14.1',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
@@ -62,7 +62,7 @@ return array(
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',
-      'ver' => '0.8.9-alpha1742313077',
+      'ver' => '0.8.9',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
@@ -70,15 +70,15 @@ return array(
     ),
     'jetpack-stats' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
-      'ver' => '0.15.7-alpha1742244490',
+      'ver' => '0.15.7',
     ),
     'jetpack-stats-admin' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats-admin',
-      'ver' => '0.24.4',
+      'ver' => '0.24.5',
     ),
     'jetpack-subscribers-dashboard' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-subscribers-dashboard',
-      'ver' => '0.1.1-alpha1742232184',
+      'ver' => '0.1.1',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
