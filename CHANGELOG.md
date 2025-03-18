@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Add business sites back to Classic Search, essentially reverting an old change. This is because until we actually support business sites on Instant Search, we need to keep supporting Classic Search.
 - Avoid opening Fiverr link when hitting Enter
 - Fix: do not set default values for autoincrement columns
+- Fix: missing SQLite default driver index sizes
 - Fix: Remove customiser color styles from the editor.
 - Fix: Undefined array key warnings on any customizer theme with colors.
 - Fixed a database password escaping issue when installing tests.
