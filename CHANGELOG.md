@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Hotfix: Add filter to hide the Elementor Beta/Dev install banner
 - Import Media: Introduce the Import Media page
 - Launchpad: Add create-course-goal intent task list
+- Managed Plugins: maintain list of atomic managed plugins
 - Media Library: Support Upload from URL on media-new page
 - Newsletter Dashboard Widget: remove feature flag and enable widget
 - Post List: Add a Copy Link Quick Action
