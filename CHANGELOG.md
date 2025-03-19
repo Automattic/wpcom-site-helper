@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - Added newsletter widget.
 - Add site launch button to the admin bar.
 - Add subscribers in wp-admin boostrap page.
+- Add wpcomsh_at_managed_plugins option to allowed list for sync
 - Business sites are now added on Instant Search
 - Comments admin: Now uses Verbum on comments containing block mark-up (simple sites only)
 - Connection: Disconnecting a connection owner account will disconnect all other users first.
