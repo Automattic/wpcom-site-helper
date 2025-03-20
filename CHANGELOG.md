@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
 - Hide verify email launchpad task for "existing users"
 - i18n: use translations from WP_LANG_DIR
+- Just renamed a feature so that it makes more sense now that the requirements have shifted and jetpack-search-29 no longer makes sense.
 - Legacy Music Player Widget: add hook to bump stats on view
 - Legacy Music Player Widget: hide from the block-based widget editor
 - Media Library: don't show storage info on Atomic upload.php's uploader
