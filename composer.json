@@ -11,16 +11,16 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "2.9.1",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-composer-plugin": "^4.0.4-alpha",
+		"automattic/jetpack-composer-plugin": "^4.0.4",
 		"automattic/jetpack-config": "^3.0.1",
-		"automattic/jetpack-post-list": "^0.8.10-alpha",
+		"automattic/jetpack-post-list": "^0.8.10",
 		"automattic/jetpack-mu-wpcom": "^6.2.0-alpha",
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.2-alpha",
+		"automattic/jetpack-changelogger": "^6.0.2",
 		"yoast/phpunit-polyfills": "^3.0.0",
-		"automattic/phpunit-select-config": "^1.0.1-alpha"
+		"automattic/phpunit-select-config": "^1.0.1"
 	},
 	"autoload": {
 		"classmap": [
