@@ -91,6 +91,7 @@ This is an alpha version! The changes listed here are not final.
 - Global Styles: Stop showing the limited global styles notice in distraction free mode.
 - Gutenberg 19.9: don't show launch banner when the site is previewed in Appearance -> Design
 - i18n: download updated translations for wpcomsh
+- i18n: load javascript translations from WP_LANG_DIR
 - i18n: load jetpack-mu-wpcom translations from WP_LANG_DIR/mu-plugins
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
