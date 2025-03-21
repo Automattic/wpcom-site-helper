@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Legacy Music Player Widget: add hook to bump stats on view
 - Legacy Music Player Widget: hide from the block-based widget editor
 - Media Library: don't show storage info on Atomic upload.php's uploader
+- Move logo-tool to be within jetpack-mu-wpcom
 - MU WPCOM: Prevent site owner from editing user's account-level fields
 - Newspack Blocks: Updated to version 4.5.2.
 - Site Visibility: Port the site visibility settings from Calypso to WP Admin
