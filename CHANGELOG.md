@@ -76,6 +76,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Add business sites back to Classic Search, essentially reverting an old change. This is because until we actually support business sites on Instant Search, we need to keep supporting Classic Search.
+- Admin Color Scheme: Fix the color of the Aquatic color scheme
 - Avoid opening Fiverr link when hitting Enter
 - Fix: do not set default values for autoincrement columns
 - Fix: missing SQLite default driver index sizes
