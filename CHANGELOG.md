@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - Media Library: don't show storage info on Atomic upload.php's uploader
 - MU WPCOM: Prevent site owner from editing user's account-level fields
 - Newspack Blocks: Updated to version 4.5.2.
+- Site Visibility: Port the site visibility settings from Calypso to WP Admin
 - Social | Enable connections management for WPCOM sites
 - Social | Enable media sharing for WPCOM Business plan
 - Social | Enable Social admin page for all WPCOM sites
