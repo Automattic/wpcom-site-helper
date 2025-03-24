@@ -52,6 +52,7 @@ This is an alpha version! The changes listed here are not final.
 - Social | Enable connections management for WPCOM sites
 - Social | Enable media sharing for WPCOM Business plan
 - Social | Enable Social admin page for all WPCOM sites
+- Social | Enable Social Image Generator for WPCOM sites
 - Social | Use feature flag for social admin page
 - SSO: Use same login page after logging out as when already logged out
 - Theme: Clean up files that were used during the theme switch and theme preview
