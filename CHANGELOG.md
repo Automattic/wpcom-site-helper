@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Color Schemes: Update color schemes to match Calypso
 - Bilmur RUM library now reports the site's timezone
 - Code: Use function-style exit() and die() with a default status code of 0.
+- Connection: Allow pre-selected login providers
 - Connection: Display connection status on Users page independent of the SSO module.
 - External Media: Move the GooglePhotosMedia, OpenverseMedia, PexelsMedia to @automattic/jetpack-shared-extension-utils
 - Hide verify email launchpad task for "existing users"
