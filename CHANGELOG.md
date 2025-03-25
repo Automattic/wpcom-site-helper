@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - Theme Switch: Don't change homepage when switching theme
 - Update AIOWP tracks events
 - update composer.lock file
+- Update deployment section with automatic releases & deploys
 - Updated package dependencies.
 - Update minimum PHP version to 8.1
 - Update package dependencies.
