@@ -2138,17 +2138,17 @@
         },
         {
             "name": "automattic/wc-calypso-bridge",
-            "version": "v2.9.1",
-            "version_normalized": "2.9.1.0",
+            "version": "v2.9.2",
+            "version_normalized": "2.9.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/wc-calypso-bridge.git",
-                "reference": "5e218260e09efaee778cbaeaa894084b8f8770b9"
+                "reference": "e740874c1149a1307a1da2ec73f2ffde6a260540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/wc-calypso-bridge/zipball/5e218260e09efaee778cbaeaa894084b8f8770b9",
-                "reference": "5e218260e09efaee778cbaeaa894084b8f8770b9",
+                "url": "https://api.github.com/repos/Automattic/wc-calypso-bridge/zipball/e740874c1149a1307a1da2ec73f2ffde6a260540",
+                "reference": "e740874c1149a1307a1da2ec73f2ffde6a260540",
                 "shasum": ""
             },
             "require-dev": {
@@ -2163,7 +2163,7 @@
                 "wp-coding-standards/wpcs": "1.1.0",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "time": "2025-03-20T10:13:16+00:00",
+            "time": "2025-03-26T12:26:04+00:00",
             "type": "library",
             "extra": {
                 "scripts-description": {
