@@ -107,6 +107,7 @@ This is an alpha version! The changes listed here are not final.
 - Playground: SQL Importer: Correctly handle `DB_HOST` containing a port.
 - Purge the cache when the site visibility changes on Atomic sites
 - Site Badge: Update styles of the Coming Soon badge
+- Site Visibility: Prevent accidental changes to blog_public on the Settings > Reading page
 - Testimonials: fix a shortcode related bug which ccurs if the column attribute is added and set to 0
 - Verbum: fix broken block editor
 - wpcomsh/private-site: Use `allowed_options` filter instead of deprecated `whitelist_options` one and use proper function for adding the callback ( `add_filter` instead of `add_action` )
