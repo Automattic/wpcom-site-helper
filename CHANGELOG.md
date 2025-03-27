@@ -79,6 +79,9 @@ This is an alpha version! The changes listed here are not final.
 - Use `Automattic/jetpack-composer-plugin` so jetpack-library packages will be installed in a place where `wp i18n` will see them.
 - woa: Enable wordads module via WP_CLI post transfer
 
+### Deprecated
+- Removed an extra instant search feature which included the business/commerce sites and we won't be using it for now.
+
 ### Removed
 - Removed the `Personalize Link in Bio` launchpad task, since the link in bio related flow is now deprecated
 - Remove the launch bar from the frontend of Atomic sites
