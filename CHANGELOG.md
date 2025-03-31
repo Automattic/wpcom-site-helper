@@ -108,6 +108,7 @@ This is an alpha version! The changes listed here are not final.
 - Media Library: Fix Upload from URL don't show in the editor and the color of link
 - MU WPCOM: Don't load ETK on agency sites on all pages
 - MU WPCOM: Filter out the full-site-editing plugin from the active_plugins list if the plugin file doesn't exist
+- MU WPCOM: Keep the launch site button always in blueberry (modern scheme) like in wp-admin
 - MU WPCOM: Make email and password available on the profile.php on the default view
 - MU WPCOM: Port the fix of the modern color scheme from WP 6.8
 - Page & Post: Fix the layout on mobile when details are open
