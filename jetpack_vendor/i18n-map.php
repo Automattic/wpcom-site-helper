@@ -10,11 +10,11 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.0.15-alpha1742998768',
+      'ver' => '4.0.15',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
-      'ver' => '0.25.18-alpha1743000169',
+      'ver' => '0.25.18',
     ),
     'jetpack-calypsoify' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-calypsoify',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.10.0-alpha1743414617',
+      'ver' => '6.10.0',
     ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
@@ -42,15 +42,15 @@ return array(
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
-      'ver' => '0.4.7-alpha1742998768',
+      'ver' => '0.4.7',
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
-      'ver' => '4.2.9-alpha1742998768',
+      'ver' => '4.2.9',
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.14.3-alpha1742998768',
+      'ver' => '0.14.3',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
@@ -70,19 +70,19 @@ return array(
     ),
     'jetpack-stats' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
-      'ver' => '0.15.9-alpha1743433444',
+      'ver' => '0.15.9',
     ),
     'jetpack-stats-admin' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats-admin',
-      'ver' => '0.25.0-alpha1743433444',
+      'ver' => '0.25.0',
     ),
     'jetpack-subscribers-dashboard' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-subscribers-dashboard',
-      'ver' => '0.1.3-alpha1742998768',
+      'ver' => '0.1.3',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
-      'ver' => '4.10.0-alpha1743426038',
+      'ver' => '4.10.0',
     ),
   ),
 );
