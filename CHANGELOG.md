@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - External Media: Add external media modal on the Media Import page
 - Hotfix: Add filter to hide the Elementor Beta/Dev install banner
 - Import Media: Introduce the Import Media page
+- Incompatible Plugins: added object-cache-pro and variation of wp-simple-firewall
 - Launchpad: Add create-course-goal intent task list
 - Managed Plugins: maintain list of atomic managed plugins
 - Media Library: Support Upload from URL on media-new page
