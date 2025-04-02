@@ -64,6 +64,8 @@ This is an alpha version! The changes listed here are not final.
 - SSO: Use same login page after logging out as when already logged out
 - Theme: Clean up files that were used during the theme switch and theme preview
 - Theme Switch: Don't change homepage when switching theme
+- Typekit Custom Fonts: add license
+- Typekit Custom Fonts: avoid deprecation notices in PHP 8.2
 - Update AIOWP tracks events
 - update composer.lock file
 - Update deployment section with automatic releases & deploys
