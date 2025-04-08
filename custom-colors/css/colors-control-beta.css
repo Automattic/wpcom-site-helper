@@ -718,16 +718,16 @@ input#iris {
 
 .background-options p.radios label {
 	margin-left: 2px;
-	color: black;
+	color: #000;
 	float: right;
 	padding: 2px 4px 2px 4px;
 	display: inline-block;
-	background: grey;
+	background: #808080;
 }
 
 .background-options p.radios input:checked + label {
 	font-weight: 700;
-	background: white;
+	background: #fff;
 }
 
 .background-options p.bottom {
