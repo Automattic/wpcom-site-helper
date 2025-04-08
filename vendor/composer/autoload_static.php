@@ -298,7 +298,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ6_2_0_alpha
         'Jetpack_Data' => __DIR__ . '/../..' . '/feature-plugins/class-jetpack-data.php',
         'Jetpack_IXR_Client' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-client.php',
         'Jetpack_IXR_ClientMulticall' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php',
-        'Jetpack_I_Voted_Widget' => __DIR__ . '/../..' . '/widgets/class-jetpack-i-voted-widget.php',
+        'Jetpack_I_Voted_Widget' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-widgets/class-jetpack-i-voted-widget.php',
         'Jetpack_Options' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-options.php',
         'Jetpack_Posts_I_Like_Widget' => __DIR__ . '/../..' . '/widgets/class-jetpack-posts-i-like-widget.php',
         'Jetpack_Signature' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-signature.php',
