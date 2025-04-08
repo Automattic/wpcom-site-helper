@@ -1,5 +1,12 @@
 # Changelog
 
+## 6.2.0-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
+
 ## 6.1.0 - 2025-04-07
 ### Added
 - Add `AI_SEO_ENHANCER` feature for Business plans and above and JP Complete plans. [#42731]
