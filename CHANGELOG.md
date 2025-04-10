@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Social: Enable share status for all sites
 
 ### Changed
+- Plugin management: enable bulk plugin deactivation
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
 ### Deprecated
