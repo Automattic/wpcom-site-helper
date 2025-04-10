@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
+- Linting: Clean up various Styleline violations.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
 
 ## 6.1.0 - 2025-04-07
