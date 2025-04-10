@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 
+### Deprecated
+- Remove `default_rendering_mode` hotfix since there's no need for it anymore.
+
 ### Removed
 - Color Scheme: Clean up *-rgb css variables
 
