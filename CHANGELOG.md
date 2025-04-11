@@ -4,9 +4,6 @@
 
 This is an alpha version! The changes listed here are not final.
 
-### Added
-- Social: Enable share status for all sites
-
 ### Changed
 - Admin Menu: Update the icon of WooCommerce for the woo installation
 - Plugin management: enable bulk plugin deactivation
