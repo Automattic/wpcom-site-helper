@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Update the icon of WooCommerce for the woo installation
 - Plugin management: enable bulk plugin deactivation
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
+- Updated wpcomsh's wc-calypso-bridge dependency to the latest version.
 
 ### Deprecated
 - Remove `default_rendering_mode` hotfix since there's no need for it anymore.
