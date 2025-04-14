@@ -4,6 +4,9 @@
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Social: Enable share status for all sites
+
 ### Changed
 - Admin Menu: Update the icon of WooCommerce for the woo installation
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
