@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Color Scheme: Clean up *-rgb css variables
 - Remove links to deprecated calypso views on the launchpad tasks
+- Social: Remove unused feature flags
 
 ### Fixed
 - Code: Update stylesheets to use hex instead of named colors.
