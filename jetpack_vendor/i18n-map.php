@@ -50,11 +50,11 @@ return array(
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.16.1',
+      'ver' => '0.17.0-alpha1745313064',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.4.0-alpha1745237157',
+      'ver' => '6.4.0-alpha1745313064',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
