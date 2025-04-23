@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Update stylesheets to use WordPress font styles.
 - Ensure we'll always enable jetpack modules after an atomic transfer
 - Linting: Clean up various Stylelint violations.
+- Linting: Fix more Stylelint violations.
 - Linting: Use double colon notation for pseudo-element selectors.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
 
