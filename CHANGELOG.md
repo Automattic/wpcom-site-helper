@@ -1,6 +1,6 @@
 # Changelog
 
-## 6.2.0-alpha - unreleased
+## 7.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Color Scheme: Clean up *-rgb css variables
+- General: Update minimum WordPress version to 6.7.
 - Remove links to deprecated calypso views on the launchpad tasks
 - Social: Remove unused feature flags
 
