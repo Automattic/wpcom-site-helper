@@ -79,12 +79,12 @@
         },
         {
             "name": "automattic/jetpack-a8c-mc-stats",
-            "version": "3.0.4",
-            "version_normalized": "3.0.4.0",
+            "version": "3.0.5-alpha.1745512883",
+            "version_normalized": "3.0.5.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
-                "reference": "775122b1c2ee0cbfaa87bb14dadfa9ef1bc54360"
+                "reference": "d13c89f9ef0a4b7a4508d8ea657250c04431594a"
             },
             "require": {
                 "php": ">=7.2"
@@ -92,7 +92,7 @@
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -136,22 +136,22 @@
         },
         {
             "name": "automattic/jetpack-admin-ui",
-            "version": "0.5.8-alpha.1745352378",
-            "version_normalized": "0.5.8.0-alpha1745352378",
+            "version": "0.5.8-alpha.1745512883",
+            "version_normalized": "0.5.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "908bef342fd942f0bfe983c104a929f9fab02f1a"
+                "reference": "7166ccc9e1781e6994e0faa74c2e45749923da3a"
             },
             "require": {
                 "php": ">=7.2"
             },
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
-                "automattic/jetpack-logo": "^3.0.4",
+                "automattic/jetpack-logo": "^3.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -199,12 +199,12 @@
         },
         {
             "name": "automattic/jetpack-assets",
-            "version": "4.0.19-alpha.1745352378",
-            "version_normalized": "4.0.19.0-alpha1745352378",
+            "version": "4.0.19-alpha.1745512883",
+            "version_normalized": "4.0.19.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "3b4b96aedcee0e11b53d35cc2bee744d001c8121"
+                "reference": "26599efeb1327890900c561d8e8fc82fb3a5beae"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8-alpha",
@@ -215,7 +215,7 @@
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
                 "wikimedia/testing-access-wrapper": "^1.0 || ^2.0 || ^3.0",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -272,12 +272,12 @@
         },
         {
             "name": "automattic/jetpack-blaze",
-            "version": "0.25.22-alpha.1745436992",
-            "version_normalized": "0.25.22.0-alpha1745436992",
+            "version": "0.25.22-alpha.1745512883",
+            "version_normalized": "0.25.22.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blaze",
-                "reference": "1082d864a35ac0db6c121bf9a31ee50504a5b465"
+                "reference": "e51c1dd83fda1b4e031bdeb9d20638c32d73704a"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -293,7 +293,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -351,12 +351,12 @@
         },
         {
             "name": "automattic/jetpack-blocks",
-            "version": "3.0.11-alpha.1745352378",
-            "version_normalized": "3.0.11.0-alpha1745352378",
+            "version": "3.0.11-alpha.1745512883",
+            "version_normalized": "3.0.11.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blocks",
-                "reference": "2abd8a3ed76a33e81c1e086a85af83e9f196cc14"
+                "reference": "a12ee5689f68c6af3b02eeb6852edeab0e2b4065"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8-alpha",
@@ -367,7 +367,7 @@
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -411,12 +411,12 @@
         },
         {
             "name": "automattic/jetpack-calypsoify",
-            "version": "0.2.4-alpha.1744266415",
-            "version_normalized": "0.2.4.0-alpha1744266415",
+            "version": "0.2.4-alpha.1745512883",
+            "version_normalized": "0.2.4.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-calypsoify",
-                "reference": "522c6615568c3b045099e16e50d61bebd4fe7768"
+                "reference": "075bbec30502630cb3588526b683339d3ab21efc"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -426,7 +426,7 @@
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -480,12 +480,12 @@
         },
         {
             "name": "automattic/jetpack-classic-theme-helper",
-            "version": "0.12.0-alpha.1745512000",
-            "version_normalized": "0.12.0.0-alpha1745512000",
+            "version": "0.12.0-alpha.1745512883",
+            "version_normalized": "0.12.0.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-classic-theme-helper",
-                "reference": "cc9a4477d1f313b5fe7aff5c815119233585bb66"
+                "reference": "543b3091a79626baf195df7f0dc664cef062963b"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -494,7 +494,7 @@
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -553,7 +553,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-compat",
-                "reference": "720b5445f47503988d0c22bce2633dbd0433b3fa"
+                "reference": "fe6c8fee203220af55dcb54c90eace3ee5cade4d"
             },
             "require": {
                 "php": ">=7.2"
@@ -588,12 +588,12 @@
         },
         {
             "name": "automattic/jetpack-composer-plugin",
-            "version": "4.0.4",
-            "version_normalized": "4.0.4.0",
+            "version": "4.0.5-alpha.1745512883",
+            "version_normalized": "4.0.5.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
-                "reference": "53a89483308acd31e5f552c1c1b5276a41c67af3"
+                "reference": "cc953f4229d2dc3a5ea1ad167211c2c911825ff6"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
@@ -603,7 +603,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "composer/composer": "^2.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -657,7 +657,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-config",
-                "reference": "93c2dfe630db81f5342f8cb288771245d8dc3c8f"
+                "reference": "c47fe83970a2b78f63375e6310f00d6ec7a09180"
             },
             "require": {
                 "php": ">=7.2"
@@ -729,15 +729,15 @@
         },
         {
             "name": "automattic/jetpack-connection",
-            "version": "6.11.1-alpha.1745436992",
-            "version_normalized": "6.11.1.0-alpha1745436992",
+            "version": "6.11.1-alpha.1745512883",
+            "version_normalized": "6.11.1.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
-                "reference": "ec275ea9c343a6f87bb93e3118e1509017f3ca2c"
+                "reference": "e209e491faaebdfb7a5f2219291c3f0640171d7e"
             },
             "require": {
-                "automattic/jetpack-a8c-mc-stats": "^3.0.4",
+                "automattic/jetpack-a8c-mc-stats": "^3.0.5-alpha",
                 "automattic/jetpack-admin-ui": "^0.5.8-alpha",
                 "automattic/jetpack-assets": "^4.0.19-alpha",
                 "automattic/jetpack-constants": "^3.0.8-alpha",
@@ -751,7 +751,7 @@
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -817,12 +817,12 @@
         },
         {
             "name": "automattic/jetpack-constants",
-            "version": "3.0.8-alpha.1745352378",
-            "version_normalized": "3.0.8.0-alpha1745352378",
+            "version": "3.0.8-alpha.1745512883",
+            "version_normalized": "3.0.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "874849ef1925e50fdc33b0236d05c2f30aabc488"
+                "reference": "ecd66d5fc204cc52610e5a6d8ef6cf10e4f0d7b6"
             },
             "require": {
                 "php": ">=7.2"
@@ -831,7 +831,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -875,12 +875,12 @@
         },
         {
             "name": "automattic/jetpack-device-detection",
-            "version": "3.0.6-alpha.1745352378",
-            "version_normalized": "3.0.6.0-alpha1745352378",
+            "version": "3.0.6-alpha.1745512883",
+            "version_normalized": "3.0.6.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-device-detection",
-                "reference": "7c4481626e8975aee7d32de021d76e7ca7e4e75f"
+                "reference": "9badccf8565737ce47fffa3ba2a95fd47e829e82"
             },
             "require": {
                 "php": ">=7.2"
@@ -888,7 +888,7 @@
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -932,12 +932,12 @@
         },
         {
             "name": "automattic/jetpack-google-analytics",
-            "version": "0.3.2-alpha.1745352378",
-            "version_normalized": "0.3.2.0-alpha1745352378",
+            "version": "0.3.2-alpha.1745512883",
+            "version_normalized": "0.3.2.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-google-analytics",
-                "reference": "773c6c1657c37f94899239f7b8e34f8768764bb1"
+                "reference": "faa53b5654f1d2ed60c5711b4103973989651108"
             },
             "require": {
                 "automattic/jetpack-status": "^5.1.4-alpha",
@@ -947,7 +947,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1001,12 +1001,12 @@
         },
         {
             "name": "automattic/jetpack-ip",
-            "version": "0.4.9-alpha.1745352378",
-            "version_normalized": "0.4.9.0-alpha1745352378",
+            "version": "0.4.9-alpha.1745512883",
+            "version_normalized": "0.4.9.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-ip",
-                "reference": "3dae3d10df26649ce28c4d8ae3e8d83623ad8df2"
+                "reference": "0a26cab0a1d0b7413badf75641ee699214243d35"
             },
             "require": {
                 "php": ">=7.2"
@@ -1015,7 +1015,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1063,19 +1063,19 @@
         },
         {
             "name": "automattic/jetpack-jitm",
-            "version": "4.2.14-alpha.1745436992",
-            "version_normalized": "4.2.14.0-alpha1745436992",
+            "version": "4.2.14-alpha.1745512883",
+            "version_normalized": "4.2.14.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-jitm",
-                "reference": "092524ade9a3d0fcb9672bcc3e69d6a4bc4acbad"
+                "reference": "46ee176f7deb712d532fe1e8e844d6619014eb7d"
             },
             "require": {
-                "automattic/jetpack-a8c-mc-stats": "^3.0.4",
+                "automattic/jetpack-a8c-mc-stats": "^3.0.5-alpha",
                 "automattic/jetpack-assets": "^4.0.19-alpha",
                 "automattic/jetpack-connection": "^6.11.1-alpha",
                 "automattic/jetpack-device-detection": "^3.0.6-alpha",
-                "automattic/jetpack-logo": "^3.0.4",
+                "automattic/jetpack-logo": "^3.0.5-alpha",
                 "automattic/jetpack-redirect": "^3.0.7-alpha",
                 "automattic/jetpack-status": "^5.1.4-alpha",
                 "php": ">=7.2"
@@ -1084,7 +1084,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1142,12 +1142,12 @@
         },
         {
             "name": "automattic/jetpack-logo",
-            "version": "3.0.4",
-            "version_normalized": "3.0.4.0",
+            "version": "3.0.5-alpha.1745512883",
+            "version_normalized": "3.0.5.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-logo",
-                "reference": "81332b94d8a306f2426108812394ecdd2970cbc8"
+                "reference": "2d61106b14c7fed4b15858ea1052ce0a50bc50b9"
             },
             "require": {
                 "php": ">=7.2"
@@ -1155,7 +1155,7 @@
             "require-dev": {
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1199,12 +1199,12 @@
         },
         {
             "name": "automattic/jetpack-masterbar",
-            "version": "0.17.0-alpha.1745512000",
-            "version_normalized": "0.17.0.0-alpha1745512000",
+            "version": "0.17.0-alpha.1745512883",
+            "version_normalized": "0.17.0.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-masterbar",
-                "reference": "c277a5f0afb8a95b878bc3f627c3a26cff75c3c3"
+                "reference": "646f7c3d56e8ff45791f970876ecaf2acbb8ddd2"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -1213,7 +1213,7 @@
                 "automattic/jetpack-connection": "^6.11.1-alpha",
                 "automattic/jetpack-device-detection": "^3.0.6-alpha",
                 "automattic/jetpack-jitm": "^4.2.14-alpha",
-                "automattic/jetpack-logo": "^3.0.4",
+                "automattic/jetpack-logo": "^3.0.5-alpha",
                 "automattic/jetpack-plans": "^0.7.1-alpha",
                 "automattic/jetpack-status": "^5.1.4-alpha",
                 "automattic/jetpack-subscribers-dashboard": "^0.1.8-alpha",
@@ -1225,7 +1225,7 @@
                 "automattic/patchwork-redefine-exit": "^2.0.8-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1285,12 +1285,12 @@
         },
         {
             "name": "automattic/jetpack-mu-wpcom",
-            "version": "6.4.0-alpha.1745512000",
-            "version_normalized": "6.4.0.0-alpha1745512000",
+            "version": "6.4.0-alpha.1745512883",
+            "version_normalized": "6.4.0.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "b1b97d045bc9e2240e1261d9d4405db382e5d885"
+                "reference": "c38fc7a0cd078cd1f820b4a8adba1e0e0fe5497c"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -1314,7 +1314,7 @@
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1372,12 +1372,12 @@
         },
         {
             "name": "automattic/jetpack-password-checker",
-            "version": "0.4.8-alpha.1745352378",
-            "version_normalized": "0.4.8.0-alpha1745352378",
+            "version": "0.4.8-alpha.1745512883",
+            "version_normalized": "0.4.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-password-checker",
-                "reference": "d4ebf6af172616646e0fb30cb2eb796114933f83"
+                "reference": "c5a137c5f1f68b8d8a2b85169f7a8d130554a0bd"
             },
             "require": {
                 "php": ">=7.2"
@@ -1386,7 +1386,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1431,12 +1431,12 @@
         },
         {
             "name": "automattic/jetpack-plans",
-            "version": "0.7.1-alpha.1745352378",
-            "version_normalized": "0.7.1.0-alpha1745352378",
+            "version": "0.7.1-alpha.1745512883",
+            "version_normalized": "0.7.1.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
-                "reference": "de5a61b7070a76f3ae26a8978ba0d2d07c13fe6b"
+                "reference": "69a1b83586ca48e9c51a676563d241b483b9047a"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.11.1-alpha",
@@ -1447,7 +1447,7 @@
                 "automattic/jetpack-status": "^5.1.4-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1497,12 +1497,12 @@
         },
         {
             "name": "automattic/jetpack-post-list",
-            "version": "0.8.13-alpha.1745352378",
-            "version_normalized": "0.8.13.0-alpha1745352378",
+            "version": "0.8.13-alpha.1745512883",
+            "version_normalized": "0.8.13.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-post-list",
-                "reference": "539b511b796776b523a24f5598f2c83bc11a7789"
+                "reference": "569e225ba408e8341c28f8999fe1a3b69186aa99"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.0.19-alpha",
@@ -1512,7 +1512,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1566,12 +1566,12 @@
         },
         {
             "name": "automattic/jetpack-redirect",
-            "version": "3.0.7-alpha.1745352378",
-            "version_normalized": "3.0.7.0-alpha1745352378",
+            "version": "3.0.7-alpha.1745512883",
+            "version_normalized": "3.0.7.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
-                "reference": "0d4031ab281e31ecc68572f0fca4237db990bb1d"
+                "reference": "42623cc27d5532268e71dce170c7dbceccc50358"
             },
             "require": {
                 "automattic/jetpack-status": "^5.1.4-alpha",
@@ -1581,7 +1581,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1625,12 +1625,12 @@
         },
         {
             "name": "automattic/jetpack-roles",
-            "version": "3.0.8-alpha.1745501011",
-            "version_normalized": "3.0.8.0-alpha1745501011",
+            "version": "3.0.8-alpha.1745512883",
+            "version_normalized": "3.0.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
-                "reference": "3290f905b35f768fa360d952e1e71faee7c4a0af"
+                "reference": "3723c5ab3a0aad5f8b03742880b6305efbbdc573"
             },
             "require": {
                 "php": ">=7.2"
@@ -1639,7 +1639,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1683,12 +1683,12 @@
         },
         {
             "name": "automattic/jetpack-stats",
-            "version": "0.16.2-alpha.1745352378",
-            "version_normalized": "0.16.2.0-alpha1745352378",
+            "version": "0.16.2-alpha.1745512883",
+            "version_normalized": "0.16.2.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats",
-                "reference": "9a4db7fe45a2b40aacbb28fb121e87ed9fb1579f"
+                "reference": "43cb050aac3cfca82c2b11722421ea7b81821257"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.11.1-alpha",
@@ -1700,7 +1700,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1753,12 +1753,12 @@
         },
         {
             "name": "automattic/jetpack-stats-admin",
-            "version": "0.25.3-alpha.1745499513",
-            "version_normalized": "0.25.3.0-alpha1745499513",
+            "version": "0.25.3-alpha.1745512883",
+            "version_normalized": "0.25.3.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats-admin",
-                "reference": "792cb83d33fed896b4cc4c5187a089faee3b78c9"
+                "reference": "757b20c3011d3fd918c5cb2c44f496d80b7d01fe"
             },
             "require": {
                 "automattic/jetpack-blaze": "^0.25.22-alpha",
@@ -1774,7 +1774,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1825,12 +1825,12 @@
         },
         {
             "name": "automattic/jetpack-status",
-            "version": "5.1.4-alpha.1745352378",
-            "version_normalized": "5.1.4.0-alpha1745352378",
+            "version": "5.1.4-alpha.1745512883",
+            "version_normalized": "5.1.4.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "640e8f36b8497cd3977217d975cfeb59ddc3fd7f"
+                "reference": "a79a94c60f5d7f6b560ea5371a4807921c89284c"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.8-alpha",
@@ -1843,7 +1843,7 @@
                 "automattic/jetpack-plans": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "brain/monkey": "^2.6.2",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1893,12 +1893,12 @@
         },
         {
             "name": "automattic/jetpack-subscribers-dashboard",
-            "version": "0.1.8-alpha.1745478261",
-            "version_normalized": "0.1.8.0-alpha1745478261",
+            "version": "0.1.8-alpha.1745512883",
+            "version_normalized": "0.1.8.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-subscribers-dashboard",
-                "reference": "669090e3119ee0a6499517cf8e19c7cf8068585b"
+                "reference": "cfe2ab3409e5a83fc12f1d0a0059cd0a5f42df08"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.11.1-alpha",
@@ -1913,7 +1913,7 @@
                 "automattic/jetpack-changelogger": "^6.0.5-alpha",
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -1975,12 +1975,12 @@
         },
         {
             "name": "automattic/jetpack-sync",
-            "version": "4.11.1-alpha.1745486636",
-            "version_normalized": "4.11.1.0-alpha1745486636",
+            "version": "4.11.1-alpha.1745512883",
+            "version_normalized": "4.11.1.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-sync",
-                "reference": "871c0cf2f3f5a6f9ac0512067302201d7d2350c4"
+                "reference": "7306de6b31338af12204f2be970b700b2dce235a"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.11.1-alpha",
@@ -1997,7 +1997,7 @@
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/jetpack-waf": "^0.24.3-alpha",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -2051,12 +2051,12 @@
         },
         {
             "name": "automattic/scheduled-updates",
-            "version": "0.14.2-alpha.1745352378",
-            "version_normalized": "0.14.2.0-alpha1745352378",
+            "version": "0.14.2-alpha.1745512883",
+            "version_normalized": "0.14.2.0-alpha1745512883",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "418327860accb0d1cce8f8da9ba7b32c92d1ccee"
+                "reference": "53ad799b245e80f915d2a415fd8532caecf31893"
             },
             "require": {
                 "automattic/jetpack-connection": "^6.11.1-alpha",
@@ -2071,7 +2071,7 @@
                 "automattic/jetpack-test-environment": "@dev",
                 "automattic/phpunit-select-config": "^1.0.3-alpha",
                 "php-mock/php-mock-phpunit": "^2.10",
-                "yoast/phpunit-polyfills": "^3.0.0"
+                "yoast/phpunit-polyfills": "^4.0.0"
             },
             "suggest": {
                 "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."

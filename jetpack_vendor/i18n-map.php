@@ -6,23 +6,23 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.5.8-alpha1745352378',
+      'ver' => '0.5.8-alpha1745512883',
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.0.19-alpha1745352378',
+      'ver' => '4.0.19-alpha1745512883',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
-      'ver' => '0.25.22-alpha1745436992',
+      'ver' => '0.25.22-alpha1745512883',
     ),
     'jetpack-calypsoify' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-calypsoify',
-      'ver' => '0.2.4-alpha1744266415',
+      'ver' => '0.2.4-alpha1745512883',
     ),
     'jetpack-classic-theme-helper' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-classic-theme-helper',
-      'ver' => '0.12.0-alpha1745512000',
+      'ver' => '0.12.0-alpha1745512883',
     ),
     'jetpack-compat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-compat',
@@ -34,55 +34,55 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.11.1-alpha1745436992',
+      'ver' => '6.11.1-alpha1745512883',
     ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
-      'ver' => '0.3.2-alpha1745352378',
+      'ver' => '0.3.2-alpha1745512883',
     ),
     'jetpack-ip' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-ip',
-      'ver' => '0.4.9-alpha1745352378',
+      'ver' => '0.4.9-alpha1745512883',
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
-      'ver' => '4.2.14-alpha1745436992',
+      'ver' => '4.2.14-alpha1745512883',
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.17.0-alpha1745512000',
+      'ver' => '0.17.0-alpha1745512883',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.4.0-alpha1745512000',
+      'ver' => '6.4.0-alpha1745512883',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
-      'ver' => '0.4.8-alpha1745352378',
+      'ver' => '0.4.8-alpha1745512883',
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',
-      'ver' => '0.8.13-alpha1745352378',
+      'ver' => '0.8.13-alpha1745512883',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
-      'ver' => '0.14.2-alpha1745352378',
+      'ver' => '0.14.2-alpha1745512883',
     ),
     'jetpack-stats' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
-      'ver' => '0.16.2-alpha1745352378',
+      'ver' => '0.16.2-alpha1745512883',
     ),
     'jetpack-stats-admin' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats-admin',
-      'ver' => '0.25.3-alpha1745499513',
+      'ver' => '0.25.3-alpha1745512883',
     ),
     'jetpack-subscribers-dashboard' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-subscribers-dashboard',
-      'ver' => '0.1.8-alpha1745478261',
+      'ver' => '0.1.8-alpha1745512883',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
-      'ver' => '4.11.1-alpha1745486636',
+      'ver' => '4.11.1-alpha1745512883',
     ),
   ),
 );
