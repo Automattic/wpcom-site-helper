@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Menu: Update the icon of WooCommerce for the woo installation
 - Compatibility: Use new `set_transient` hook in place of `setted_transient` hook deprecated in WordPress 6.8.
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
+- jetpack-assets now requires jetpack-status so updating composer lock files.
 - Plugin management: enable bulk plugin deactivation
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Updated wpcomsh's wc-calypso-bridge dependency to the latest version.
