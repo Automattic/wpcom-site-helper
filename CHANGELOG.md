@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added ability to test with other Jetpack monorepo plugins active
 - Add hook to signal a migration has ended using AIOWP
 - Featured Content: Add messaging to clarify that the tag name is case sensitive.
 - Managed Plugin: populate managed plugin list option on plugin install or update
