@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
 - jetpack-assets now requires jetpack-status so updating composer lock files.
 - Plugin management: enable bulk plugin deactivation
+- remove wp-staging from incompatible plugins list
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Updated wpcomsh's wc-calypso-bridge dependency to the latest version.
 
