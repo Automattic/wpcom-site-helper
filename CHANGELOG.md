@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin Menu: Update the icon of WooCommerce for the woo installation
+- Bumped wc-calypso-bridge version
 - Compatibility: Use new `set_transient` hook in place of `setted_transient` hook deprecated in WordPress 6.8.
 - Consolidating widget-related code from wpcom and wpcomsh into jetpack-mu-wpcom
 - jetpack-assets now requires jetpack-status so updating composer lock files.
