@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - remove wp-staging from incompatible plugins list
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Updated wpcomsh's wc-calypso-bridge dependency to the latest version.
+- Update package dependencies.
 
 ### Deprecated
 - Remove `default_rendering_mode` hotfix since there's no need for it anymore.
