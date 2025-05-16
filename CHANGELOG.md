@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - Linting: Remove outdated vendor prefixes in stylesheets.
 - Linting: Use double colon notation for pseudo-element selectors.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
+- Tests: Add script that runs PHPUnit tests.
 
 ## 6.1.0 - 2025-04-07
 ### Added
