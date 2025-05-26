@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Site Visibility: Disable search engines indexing for sites with wpcomstaging.com domain
 - Updated wpcomsh's wc-calypso-bridge dependency to the latest version.
 - Update package dependencies.
+- Use Jetpack Autoloader.
 - wpcomsh: bilmur: Now includes theme name
 
 ### Deprecated

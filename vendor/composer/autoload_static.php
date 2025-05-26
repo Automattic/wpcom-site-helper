@@ -21,6 +21,10 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_0_0_alpha
         array (
             'ScssPhp\\ScssPhp\\' => 16,
         ),
+        'A' => 
+        array (
+            'Automattic\\Jetpack\\Autoloader\\' => 30,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -31,6 +35,10 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_0_0_alpha
         'ScssPhp\\ScssPhp\\' => 
         array (
             0 => __DIR__ . '/..' . '/scssphp/scssphp/src',
+        ),
+        'Automattic\\Jetpack\\Autoloader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src',
         ),
     );
 
@@ -58,6 +66,11 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_0_0_alpha
         'Automattic\\Jetpack\\Assets\\Logo' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-logo/src/class-logo.php',
         'Automattic\\Jetpack\\Assets\\Script_Data' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php',
         'Automattic\\Jetpack\\Assets\\Semver' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/src/class-semver.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php',
+        'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php',
+        'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php',
+        'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => __DIR__ . '/..' . '/automattic/jetpack-autoloader/src/ManifestGenerator.php',
         'Automattic\\Jetpack\\Blaze' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-blaze/src/class-blaze.php',
         'Automattic\\Jetpack\\Blaze\\Dashboard' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-blaze/src/class-dashboard.php',
         'Automattic\\Jetpack\\Blaze\\Dashboard_Config_Data' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-blaze/src/class-dashboard-config-data.php',
