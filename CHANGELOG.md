@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Linting: Use double colon notation for pseudo-element selectors.
 - Move I voted widget from wpcomsh to jetpack-mu-wpcom
 - My Jetpack: Fix readability of license activation button on hover.
+- Remove packages/forms dependency from jetpack-mu-wpcom-plugin, change submenu registration
 - Tests: Add script that runs PHPUnit tests.
 
 ## 6.1.0 - 2025-04-07
