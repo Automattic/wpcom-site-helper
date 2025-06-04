@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/at-pressable-podcasting' => array(
-            'pretty_version' => 'v2.0.2',
-            'version' => '2.0.2.0',
-            'reference' => '113461a854d3d6551c173ca4c02dbc901bbefd27',
+            'pretty_version' => 'v2.0.4',
+            'version' => '2.0.4.0',
+            'reference' => 'f3564cdc408f5354cfd70ce66ac131c891831a33',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../automattic/at-pressable-podcasting',
             'aliases' => array(),

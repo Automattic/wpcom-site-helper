@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Fix readability of license activation button on hover.
 - Remove packages/forms dependency from jetpack-mu-wpcom-plugin, change submenu registration
 - Tests: Add script that runs PHPUnit tests.
+- WoA podcasting: Make episode images comply with apple requirements
 
 ## 6.1.0 - 2025-04-07
 ### Added

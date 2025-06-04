@@ -104,11 +104,17 @@ function podcasting_feed_item() {
 	echo '<googleplay:explicit>' . esc_html( $explicit ) . "</googleplay:explicit>\n";
 
 	if ( has_post_thumbnail( $post->ID ) ) {
-		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnail' );
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' );
 		if ( ! empty( $image ) ) {
 			if ( is_array( $image ) ) {
 				$image = $image[0];
 			}
+
+			if ( function_exists( 'jetpack_photon_url' ) ) {
+				// The acceptable size ranges from 1400px square to 3000px
+				$image = jetpack_photon_url( $image, array( 'fit' => '3000,3000' ), 'https' );
+			}
+
 			echo "<itunes:image href='" . esc_url( $image ) . "' />\n";
 			echo "<googleplay:image href='" . esc_url( $image ) . "' />\n";
 		}
