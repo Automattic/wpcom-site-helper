@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added ability to test with other Jetpack monorepo plugins active
 - Add hook to signal a migration has ended using AIOWP
+- Adding support for protected connection owner.
 - Add jetpack-forms package dependency
 - Featured Content: Add messaging to clarify that the tag name is case sensitive.
 - Forms: add field-file feature/block support on WPCOM plans
