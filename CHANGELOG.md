@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Ensure we'll always enable jetpack modules after an atomic transfer
 - Ensure wpcomsh users are able to purchase the Boost paid offering
 - Fixed wrapping on the stats column heading in non-English languages
+- Fix Jetpack menu on untangled screens
 - JS Packages: Decrease CSS priority of global styles to prevent them from applying within the editor
 - Linting: Clean up various Stylelint violations.
 - Linting: Do additional stylesheet cleanup.
