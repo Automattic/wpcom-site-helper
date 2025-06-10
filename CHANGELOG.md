@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 7.0.0 - 2025-06-09
 ### Added
 - Add ability to test with other Jetpack monorepo plugins active. [#43259]
