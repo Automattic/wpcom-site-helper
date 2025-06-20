@@ -21,6 +21,7 @@ return array(
     'A8C\\FSE\\WP_REST_Help_Center_Support_Interactions' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-interactions.php',
     'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php',
     'A8C\\FSE\\WP_REST_Help_Center_Ticket' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php',
+    'A8C\\FSE\\WP_REST_Help_Center_Ticket_CSAT' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket-csat.php',
     'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
     'Atomic_Record_Jetpack_Token_Errors' => $baseDir . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php',
     'Automattic\\Jetpack\\A8c_Mc_Stats' => $baseDir . '/jetpack_vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',

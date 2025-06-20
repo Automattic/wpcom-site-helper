@@ -58,6 +58,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_0_1_alpha
         'A8C\\FSE\\WP_REST_Help_Center_Support_Interactions' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-interactions.php',
         'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php',
         'A8C\\FSE\\WP_REST_Help_Center_Ticket' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Ticket_CSAT' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket-csat.php',
         'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
         'Atomic_Record_Jetpack_Token_Errors' => __DIR__ . '/../..' . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php',
         'Automattic\\Jetpack\\A8c_Mc_Stats' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
