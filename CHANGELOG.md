@@ -1,10 +1,11 @@
 # Changelog
 
-## 7.0.1-alpha - unreleased
+## 7.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add archives endpoint support.
 - add tracking for site settings launch action
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
 
