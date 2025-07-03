@@ -15,7 +15,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/actions.php'
 	),
 	'700e9f220ab8246703a73d0e5d5d9192' => array(
-		'version' => '2.11.0.0',
+		'version' => '2.11.1.0',
 		'path'    => $vendorDir . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php'
 	),
 );
