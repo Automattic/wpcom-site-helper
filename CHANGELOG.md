@@ -9,6 +9,9 @@ This is an alpha version! The changes listed here are not final.
 - add tracking for site settings launch action
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
 
+### Changed
+- Update package dependencies.
+
 ### Removed
 - Removed css that hides connection info from the dashboard.
 - Remove language files after #42172, #42494, #42521, and #42550.
