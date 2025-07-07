@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
 
 ### Changed
+- Sync: Ignore the ActivityPub Outbox CPT
 - Update package dependencies.
 
 ### Removed
