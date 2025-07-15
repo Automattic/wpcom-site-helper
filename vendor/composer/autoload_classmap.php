@@ -50,6 +50,7 @@ return array(
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-main.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Nova_Restaurant' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-nova-restaurant.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-social-links.php',
+    'Automattic\\Jetpack\\Code_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/code-editor/class-code-editor.php',
     'Automattic\\Jetpack\\Composer\\Manager' => $vendorDir . '/automattic/jetpack-composer-plugin/src/class-manager.php',
     'Automattic\\Jetpack\\Composer\\Plugin' => $vendorDir . '/automattic/jetpack-composer-plugin/src/class-plugin.php',
     'Automattic\\Jetpack\\Config' => $baseDir . '/jetpack_vendor/automattic/jetpack-config/src/class-config.php',
