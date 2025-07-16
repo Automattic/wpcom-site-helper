@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - add tracking for site settings launch action
 - Code editors: Added advanced code and CSS editors.
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
+- Forms: Include multistep form in Jetpack and WPCOM plans.
 
 ### Changed
 - Allowing some specific users to test plugin and theme install on personal and higher plans
