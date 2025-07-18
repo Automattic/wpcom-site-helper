@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add archives endpoint support.
+- Added a new wp wpcomsh diagnostic command
 - add tracking for site settings launch action
 - Code editors: Added advanced code and CSS editors.
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
