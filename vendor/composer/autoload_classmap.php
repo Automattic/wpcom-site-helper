@@ -368,6 +368,7 @@ return array(
     'WPCOM_Tag_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-tag-cloud-widget.php',
     'WPCOM_Widget_Recent_Comments' => $baseDir . '/widgets/class-wpcom-widget-recent-comments.php',
     'WPCOM_Widget_Reservations' => $baseDir . '/widgets/class-wpcom-widget-reservations.php',
+    'WPCom_Comments_Likes' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/wpcom-comments.php',
     'WPCom_Themes_Api' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-api.php',
     'WPCom_Themes_Cache' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-cache.php',
     'WPCom_Themes_Mapper' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-mapper.php',

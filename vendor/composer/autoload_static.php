@@ -405,6 +405,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_1_0_alpha
         'WPCOM_Tag_Cloud_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-tag-cloud-widget.php',
         'WPCOM_Widget_Recent_Comments' => __DIR__ . '/../..' . '/widgets/class-wpcom-widget-recent-comments.php',
         'WPCOM_Widget_Reservations' => __DIR__ . '/../..' . '/widgets/class-wpcom-widget-reservations.php',
+        'WPCom_Comments_Likes' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/wpcom-comments.php',
         'WPCom_Themes_Api' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-api.php',
         'WPCom_Themes_Cache' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-cache.php',
         'WPCom_Themes_Mapper' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-mapper.php',
