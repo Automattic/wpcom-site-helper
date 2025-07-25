@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Add archives endpoint support.
 - Added a new wp wpcomsh diagnostic command
 - add tracking for site settings launch action
+- Allows Personal and Premium plans with summer-special-2025 blog sticker to install plugins
 - Code editors: Added advanced code and CSS editors.
 - Enabled Advanced SEO features for localized version of developer.wordpress.com
 - Forms: Include multistep form in Jetpack and WPCOM plans.
