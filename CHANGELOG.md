@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Removed
+- Removed backward compatibility for old version of Error_Handler class.
 - Removed css that hides connection info from the dashboard.
 - Remove language files after #42172, #42494, #42521, and #42550.
 
