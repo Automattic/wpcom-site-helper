@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Allowing some specific users to test plugin and theme install on personal and higher plans
 - Improves performance of wpcom comments liking by caching and minimizing API requests.
+- My Jetpack: Unify the user connection flow with a unified screen.
 - Sync: Ignore the ActivityPub Outbox CPT
 - Update package dependencies.
 
