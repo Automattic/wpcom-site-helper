@@ -1,8 +1,11 @@
 # Changelog
 
-## 7.1.1-alpha - unreleased
+## 7.2.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Enables theme uploads for blogs with summer-special-2025 stickers
 
 ## 7.1.0 - 2025-08-05
 ### Added
