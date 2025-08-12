@@ -7,6 +7,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Enables theme uploads for blogs with summer-special-2025 stickers
 
+### Changed
+- Update package dependencies.
+
 ## 7.1.0 - 2025-08-05
 ### Added
 - Add archives endpoint support. [#44028]
