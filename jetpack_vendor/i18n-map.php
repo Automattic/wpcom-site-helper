@@ -10,7 +10,7 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.3.4-alpha1754976850',
+      'ver' => '4.3.4',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
@@ -34,7 +34,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.17.2-alpha1754976850',
+      'ver' => '6.17.2',
     ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
