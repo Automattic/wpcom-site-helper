@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Enables theme uploads for blogs with summer-special-2025 stickers
 
 ### Changed
+- Description: Restrict unsupported file types from being selectable in media uploader based on site features.
 - Update package dependencies.
 
 ## 7.1.0 - 2025-08-05
