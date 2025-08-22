@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Description: Restrict unsupported file types from being selectable in media uploader based on site features.
+- Improves errors searching for diag command.
 - Update package dependencies.
 
 ## 7.1.0 - 2025-08-05
