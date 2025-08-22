@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 - Improves errors searching for diag command.
 - Update package dependencies.
 
+### Fixed
+- Code: Resolve PhanImpossibleCondition violations.
+
 ## 7.1.0 - 2025-08-05
 ### Added
 - Add archives endpoint support. [#44028]
