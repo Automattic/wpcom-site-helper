@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Enables theme uploads for blogs with summer-special-2025 stickers
+- Newspack blocks: Load feature on agency sites
 
 ### Changed
 - Description: Restrict unsupported file types from being selectable in media uploader based on site features.
