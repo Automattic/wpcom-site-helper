@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Description: Restrict unsupported file types from being selectable in media uploader based on site features.
 - Improves errors searching for diag command.
+- Send JSON with built-in WordPress functions.
 - Update package dependencies.
 
 ### Fixed
