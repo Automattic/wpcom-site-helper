@@ -16,6 +16,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
       'ver' => '0.26.7',
     ),
+    'jetpack-block-delimiter' => array(
+      'path' => 'jetpack_vendor/automattic/block-delimiter',
+      'ver' => '0.3.4',
+    ),
     'jetpack-calypsoify' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-calypsoify',
       'ver' => '0.2.7-alpha1757051536',
@@ -54,7 +58,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.8.0-alpha1757347332',
+      'ver' => '6.8.0-alpha1757422860',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',

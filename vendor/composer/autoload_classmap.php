@@ -24,6 +24,8 @@ return array(
     'A8C\\FSE\\WP_REST_Help_Center_Ticket_CSAT' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket-csat.php',
     'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
     'Atomic_Record_Jetpack_Token_Errors' => $baseDir . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php',
+    'Automattic\\Block_Delimiter' => $baseDir . '/jetpack_vendor/automattic/block-delimiter/src/class-block-delimiter.php',
+    'Automattic\\Block_Scanner' => $baseDir . '/jetpack_vendor/automattic/block-delimiter/src/class-block-scanner.php',
     'Automattic\\Jetpack\\A8c_Mc_Stats' => $baseDir . '/jetpack_vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
     'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php',
     'Automattic\\Jetpack\\Assets' => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-assets.php',
