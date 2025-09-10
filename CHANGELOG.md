@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Enables Scans and Backups for sites with the summer-special-2025 blog sticker
 - Enables theme uploads for blogs with summer-special-2025 stickers
 - Newspack blocks: Load feature on agency sites
+- Support for connection external storage class.
 
 ### Changed
 - Description: Restrict unsupported file types from being selectable in media uploader based on site features.
