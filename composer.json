@@ -11,7 +11,7 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "2.11.2",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-autoloader": "^5.0.10-alpha",
+		"automattic/jetpack-autoloader": "^5.0.10",
 		"automattic/jetpack-composer-plugin": "^4.0.5",
 		"automattic/jetpack-config": "^3.1.1",
 		"automattic/jetpack-post-list": "^0.8.28",
@@ -19,7 +19,7 @@
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.7-alpha",
+		"automattic/jetpack-changelogger": "^6.0.7",
 		"yoast/phpunit-polyfills": "^4.0.0",
 		"automattic/phpunit-select-config": "^1.0.3"
 	},
