@@ -751,7 +751,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-visitor.php'
 	),
 	'Automattic\\Jetpack\\Subscribers_Dashboard\\Dashboard' => array(
-		'version' => '0.3.1.0-alpha1758194149',
+		'version' => '0.4.0.0-alpha1758261808',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-subscribers-dashboard/src/class-dashboard.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Actions' => array(
