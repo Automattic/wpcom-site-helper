@@ -14,7 +14,7 @@
 		"automattic/jetpack-autoloader": "^5.0.10",
 		"automattic/jetpack-composer-plugin": "^4.0.5",
 		"automattic/jetpack-config": "^3.1.1",
-		"automattic/jetpack-post-list": "^0.8.29",
+		"automattic/jetpack-post-list": "^0.8.30",
 		"automattic/jetpack-mu-wpcom": "^6.8.0-alpha",
 		"tubalmartin/cssmin": "^4.1"
 	},
