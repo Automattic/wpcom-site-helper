@@ -3,26 +3,26 @@
  * Improves Blog token resilience by falling back to the token present in the Persistent Data if available.
  *
  * @package wpcomsh
- * @deprecated 7.2.0-alpha Use External Storage Handler instead.
+ * @deprecated 8.0.0-alpha Use External Storage Handler instead.
  */
 
 /**
  * Class WPCOMSH_Blog_Token_Resilience.
  *
- * @deprecated 7.2.0-alpha Use External Storage Handler instead.
+ * @deprecated 8.0.0-alpha Use External Storage Handler instead.
  */
 class WPCOMSH_Blog_Token_Resilience {
 
 	/**
 	 * Filters the Jetpack::get_option method and looks for the blog token in Persistent Data if not available in the database.
 	 *
-	 * @deprecated 7.2.0-alpha Use External Storage Handler instead.
+	 * @deprecated 8.0.0-alpha Use External Storage Handler instead.
 	 * @param string $value The option name.
 	 * @param string $name  The option value found in the database.
 	 * @return string
 	 */
 	public static function filter_get_option( $value, $name ) {
-		_deprecated_function( __METHOD__, 'wpcomsh-7.2.0-alpha', 'External Storage Handler' );
+		_deprecated_function( __METHOD__, 'wpcomsh-8.0.0-alpha', 'External Storage Handler' );
 		if ( 'blog_token' !== $name ) {
 			return $value;
 		}
@@ -38,4 +38,5 @@ class WPCOMSH_Blog_Token_Resilience {
 
 // Keep for backward compatibility but with lower priority
 // The new External Storage Handler runs earlier and will handle most cases
-add_filter( 'jetpack_options', array( 'WPCOMSH_Blog_Token_Resilience', 'filter_get_option' ), 15, 2 );
+// DISABLED: Removing deprecated class - External Storage Handler should handle all cases now
+// add_filter( 'jetpack_options', array( 'WPCOMSH_Blog_Token_Resilience', 'filter_get_option' ), 15, 2 );

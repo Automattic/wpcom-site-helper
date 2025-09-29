@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha
+class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha
 {
     public static $files = array (
         '3773ef3f09c37da5478d578e32b03a4b' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/actions.php',
@@ -390,7 +390,6 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha
         'Verbum_Asset_Loader' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-asset-loader.php',
         'Verbum_Block_Utils' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
         'Verbum_Gutenberg_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
-        'WPCOMSH_Blog_Token_Resilience' => __DIR__ . '/../..' . '/jetpack-token-resilience/class-wpcomsh-blog-token-resilience.php',
         'WPCOMSH_MailPoet_Subscribers_Stats_Report' => __DIR__ . '/../..' . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
         'WPCOMSH_Require_Connection_Owner' => __DIR__ . '/../..' . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
         'WPCOM_Category_Cloud_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-category-cloud-widget.php',
@@ -442,9 +441,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha::$classMap;
 
         }, null, ClassLoader::class);
     }

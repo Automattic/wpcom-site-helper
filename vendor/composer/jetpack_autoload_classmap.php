@@ -1446,10 +1446,6 @@ return array(
 		'version' => '5.0.10',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
 	),
-	'WPCOMSH_Blog_Token_Resilience' => array(
-		'version' => 'dev-trunk',
-		'path'    => $baseDir . '/jetpack-token-resilience/class-wpcomsh-blog-token-resilience.php'
-	),
 	'WPCOMSH_MailPoet_Subscribers_Stats_Report' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php'

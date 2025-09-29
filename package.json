@@ -1,6 +1,6 @@
 {
 	"name": "@automattic/jetpack-wpcomsh",
-	"version": "7.2.0-alpha",
+	"version": "8.0.0-alpha",
 	"description": "A helper for connecting WordPress.com sites to external host infrastructure.",
 	"homepage": "https://jetpack.com",
 	"bugs": {

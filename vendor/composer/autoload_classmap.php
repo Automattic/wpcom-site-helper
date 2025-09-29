@@ -353,7 +353,6 @@ return array(
     'Verbum_Asset_Loader' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-asset-loader.php',
     'Verbum_Block_Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
     'Verbum_Gutenberg_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
-    'WPCOMSH_Blog_Token_Resilience' => $baseDir . '/jetpack-token-resilience/class-wpcomsh-blog-token-resilience.php',
     'WPCOMSH_MailPoet_Subscribers_Stats_Report' => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
     'WPCOMSH_Require_Connection_Owner' => $baseDir . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
     'WPCOM_Category_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-category-cloud-widget.php',

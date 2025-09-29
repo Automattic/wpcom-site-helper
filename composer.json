@@ -34,7 +34,6 @@
 			"imports",
 			"jetpack-require-connection-owner",
 			"jetpack-token-error-header",
-			"jetpack-token-resilience",
 			"lib",
 			"mailpoet",
 			"notices",
@@ -121,7 +120,7 @@
 			"automattic/jetpack-composer-plugin": true,
 			"automattic/jetpack-autoloader": true
 		},
-		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ7_2_0_alpha"
+		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha"
 	},
 	"extra": {
 		"mirror-repo": "Automattic/wpcom-site-helper",
