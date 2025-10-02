@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - Enables theme uploads for blogs with summer-special-2025 stickers
 - Expose the Settings > Permalinks upsell screen at `options-general.php?page=options-permalink` on Atomic sites that have the `summer-special-2025` blog sticker (Personal/Premium). This does not grant the Permalinks feature.
 - Newspack blocks: Load feature on agency sites
+- Staging Sites: Add CLI commands to clear WPCOM Performance Profiler data after site cloning
 - Support for connection external storage class.
 
 ### Changed
