@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Improves errors searching for diag command.
 - Send JSON with built-in WordPress functions.
 - Update package dependencies.
+- WPCOM: Sync changes from class-wpcom-features.php
 
 ### Removed
 - Stop loading deprecated WPCOMSH_Blog_Token_Resilience class
