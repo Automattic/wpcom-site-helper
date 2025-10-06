@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM: Sync changes from class-wpcom-features.php
 
 ### Removed
+- Removed Token Resilience class.
 - Stop loading deprecated WPCOMSH_Blog_Token_Resilience class
 
 ### Fixed
