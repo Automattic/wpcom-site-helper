@@ -43,7 +43,6 @@ return array(
     'Automattic\\Jetpack\\Blaze\\Dashboard_REST_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-blaze/src/class-dashboard-rest-controller.php',
     'Automattic\\Jetpack\\Blaze\\REST_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-blaze/src/class-rest-controller.php',
     'Automattic\\Jetpack\\Blocks' => $baseDir . '/jetpack_vendor/automattic/jetpack-blocks/src/class-blocks.php',
-    'Automattic\\Jetpack\\Calypsoify\\Jetpack_Calypsoify' => $baseDir . '/jetpack_vendor/automattic/jetpack-calypsoify/src/class-jetpack-calypsoify.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-featured-content.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Portfolio' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-portfolio.php',
     'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial' => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial.php',

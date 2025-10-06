@@ -20,10 +20,6 @@ return array(
       'path' => 'jetpack_vendor/automattic/block-delimiter',
       'ver' => '0.3.4',
     ),
-    'jetpack-calypsoify' => array(
-      'path' => 'jetpack_vendor/automattic/jetpack-calypsoify',
-      'ver' => '0.3.0-alpha1759741451',
-    ),
     'jetpack-classic-theme-helper' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-classic-theme-helper',
       'ver' => '0.13.21-alpha1759349161',
@@ -58,7 +54,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.8.0-alpha1759430967',
+      'ver' => '6.8.0-alpha1759744958',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
