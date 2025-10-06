@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Newspack blocks: Load feature on agency sites
 - Staging Sites: Add CLI commands to clear WPCOM Performance Profiler data after site cloning
 - Support for connection external storage class.
+- WPCOM Features: add granular features for all theme tiers.
 
 ### Changed
 - Description: Restrict unsupported file types from being selectable in media uploader based on site features.
