@@ -167,7 +167,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-blocks/src/class-blocks.php'
 	),
 	'Automattic\\Jetpack\\Calypsoify\\Jetpack_Calypsoify' => array(
-		'version' => '0.2.7.0-alpha1758194149',
+		'version' => '0.3.0.0-alpha1759741451',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-calypsoify/src/class-jetpack-calypsoify.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => array(
