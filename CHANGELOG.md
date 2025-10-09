@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop loading deprecated WPCOMSH_Blog_Token_Resilience class
 
 ### Fixed
+- Added missing WPCOM feature checks on theme API functions on Atomic.
 - Code: Resolve PhanImpossibleCondition violations.
 - Freshly Pressed widget: fix PHP warning.
 - MovableType Import: Prevent duplicated comments
