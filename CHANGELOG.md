@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Resolve PhanImpossibleCondition violations.
 - Freshly Pressed widget: fix PHP warning.
 - MovableType Import: Prevent duplicated comments
+- Update wc-calypso-bridge from 2.11.2 to 2.11.3
 
 ## 7.1.0 - 2025-08-05
 ### Added
