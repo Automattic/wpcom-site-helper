@@ -15,7 +15,7 @@
 		"automattic/jetpack-composer-plugin": "^4.0.5",
 		"automattic/jetpack-config": "^3.1.1",
 		"automattic/jetpack-post-list": "^0.8.31",
-		"automattic/jetpack-mu-wpcom": "^6.8.1-alpha",
+		"automattic/jetpack-mu-wpcom": "^6.8.1",
 		"tubalmartin/cssmin": "^4.1"
 	},
 	"require-dev": {
@@ -120,7 +120,7 @@
 			"automattic/jetpack-composer-plugin": true,
 			"automattic/jetpack-autoloader": true
 		},
-		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0_alpha"
+		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_0"
 	},
 	"extra": {
 		"mirror-repo": "Automattic/wpcom-site-helper",
