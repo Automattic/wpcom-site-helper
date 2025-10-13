@@ -1,5 +1,12 @@
 # Changelog
 
+## 8.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Custom post types: Ensure features remain available when theme support is added.
+
 ## 8.0.0 - 2025-10-10
 ### Added
 - Add Code block (experimental). [#45181]
