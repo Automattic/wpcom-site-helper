@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Custom post types: Ensure features remain available when theme support is added.
+- Update package dependencies.
 
 ## 8.0.0 - 2025-10-10
 ### Added
