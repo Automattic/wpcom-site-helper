@@ -1,36 +1,30 @@
 # Changelog
 
-## 8.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 8.0.0 - 2025-10-10
 ### Added
-- Add code block
-- Enables Scans and Backups for sites with the summer-special-2025 blog sticker
-- Enables theme uploads for blogs with summer-special-2025 stickers
-- Expose the Settings > Permalinks upsell screen at `options-general.php?page=options-permalink` on Atomic sites that have the `summer-special-2025` blog sticker (Personal/Premium). This does not grant the Permalinks feature.
-- Newspack blocks: Load feature on agency sites
-- Staging Sites: Add CLI commands to clear WPCOM Performance Profiler data after site cloning
-- Support for connection external storage class.
-- WPCOM Features: add granular features for all theme tiers.
+- Add Code block (experimental). [#45181]
+- Add support for connection external storage class. [#44755]
+- Improve compatibility for sites with `summer-special-2025` sticker. [#44680] [#45053] [#45199]
+- Newspack blocks: Load feature on agency sites. [#44906]
+- Staging Sites: Add CLI commands to clear WordPress.com Performance Profiler data after site cloning. [#45318]
+- WPCOM Features: Add granular features for all theme tiers. [#45383]
 
 ### Changed
-- Description: Restrict unsupported file types from being selectable in media uploader based on site features.
-- Improves errors searching for diag command.
-- Send JSON with built-in WordPress functions.
-- Update package dependencies.
-- WPCOM: Sync changes from class-wpcom-features.php
+- CLI: Improve error searching in `diag` command. [#44902]
+- Restrict unsupported file types from being selectable in media uploader based on site features. [#44798]
+- Send JSON with built-in WordPress functions. [#45002]
+- Update package dependencies. [#44725] [#44948] [#45096]
+- WPCOM: Sync changes from class-wpcom-features.php [#45365]
 
 ### Removed
-- Removed Token Resilience class.
-- Stop loading deprecated WPCOMSH_Blog_Token_Resilience class
+- Remove `WPCOMSH_Blog_Token_Resilience` class. [#45317] [#45384]
 
 ### Fixed
-- Added missing WPCOM feature checks on theme API functions on Atomic.
-- Code: Resolve PhanImpossibleCondition violations.
-- Freshly Pressed widget: fix PHP warning.
-- MovableType Import: Prevent duplicated comments
-- Update wc-calypso-bridge from 2.11.2 to 2.11.3
+- Add missing WordPress.com feature checks on theme API functions on Atomic. [#45413]
+- Code: Resolve PhanImpossibleCondition violations. [#44869]
+- Freshly Pressed widget: Fix PHP warning. [#44962]
+- MovableType Import: Prevent duplicated comments. [#45139]
+- Update wc-calypso-bridge from 2.11.2 to 2.11.3. [#45409]
 
 ## 7.1.0 - 2025-08-05
 ### Added
