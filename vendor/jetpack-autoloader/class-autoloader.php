@@ -5,7 +5,7 @@
  * @package automattic/jetpack-autoloader
  */
 
-namespace Automattic\Jetpack\Autoloader\jp26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_0_1_alpha\al5_0_11;
+namespace Automattic\Jetpack\Autoloader\jp26841ac2064774301cbe06d174833bfc_wpcomshⓥ8_1_0_alpha\al5_0_11;
 
  // phpcs:ignore
 

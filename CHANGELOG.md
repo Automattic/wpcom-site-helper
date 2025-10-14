@@ -1,8 +1,11 @@
 # Changelog
 
-## 8.0.1-alpha - unreleased
+## 8.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 
 ### Changed
 - Custom post types: Ensure features remain available when theme support is added.
