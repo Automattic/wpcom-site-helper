@@ -11,6 +11,9 @@ This is an alpha version! The changes listed here are not final.
 - Custom post types: Ensure features remain available when theme support is added.
 - Update package dependencies.
 
+### Removed
+- JP Sitemaps: Removed sticker determination for XMLWriter
+
 ## 8.0.0 - 2025-10-10
 ### Added
 - Add Code block (experimental). [#45181]
