@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 
 ### Changed
+- Adds support for flex plans
 - Custom post types: Ensure features remain available when theme support is added.
 - Update package dependencies.
 
