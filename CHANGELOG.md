@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - JP Sitemaps: Removed sticker determination for XMLWriter
 
+### Fixed
+- Private site: Auto-redirect to login
+
 ## 8.0.0 - 2025-10-10
 ### Added
 - Add Code block (experimental). [#45181]
