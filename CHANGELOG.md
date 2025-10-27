@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Adds support for flex plans
 - Custom post types: Ensure features remain available when theme support is added.
 - Update package dependencies.
+- wpcom-features: add logs, monitoring, performance hosting features
 
 ### Removed
 - JP Sitemaps: Removed sticker determination for XMLWriter
