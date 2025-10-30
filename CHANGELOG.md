@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added domain features for woo_hosted plans
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
