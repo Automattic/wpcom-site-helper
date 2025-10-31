@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - JP Sitemaps: Removed sticker determination for XMLWriter
 
 ### Fixed
+- Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
 - Private site: Auto-redirect to login
 
 ## 8.0.0 - 2025-10-10
