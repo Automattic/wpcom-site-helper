@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Don't translate product names.
 - Update package dependencies.
 - wpcom-features: add logs, monitoring, performance hosting features
+- WPCOM: Sync changes from class-wpcom-features.php
 
 ### Removed
 - JP Sitemaps: Removed sticker determination for XMLWriter
