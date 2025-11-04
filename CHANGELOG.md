@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
 - Private site: Auto-redirect to login
+- Wrap deprecated no-op function in PHP version checks.
 
 ## 8.0.0 - 2025-10-10
 ### Added
