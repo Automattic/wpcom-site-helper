@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Adds support for flex plans
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
+- Tests: Ensure PHP 8.5 compatibility.
 - Update package dependencies.
 - wpcom-features: add logs, monitoring, performance hosting features
 - WPCOM: Sync changes from class-wpcom-features.php
