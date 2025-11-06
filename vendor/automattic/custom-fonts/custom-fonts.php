@@ -3,7 +3,7 @@
 Plugin Name: Custom Fonts
 Plugin URI: https://automattic.com/
 Description: Easily preview and add fonts to your WordPress site
-Version: 3.0.1
+Version: 3.0.7
 License: GPL2+
 Author: Matt Wiebe
 Author URI: https://automattic.com/
@@ -378,6 +378,9 @@ EMBED;
 
 	private function provider_keyed_fonts() {
 		$fonts = $this->get_fonts();
+		if ( ! is_array( $fonts ) ) {
+			return array();
+		}
 		$fonts = $this->add_generic_families( $fonts );
 		$keyed = array();
 

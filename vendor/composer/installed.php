@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'automattic/custom-fonts' => array(
-            'pretty_version' => 'v3.0.6',
-            'version' => '3.0.6.0',
-            'reference' => '63d0a9251a252b74ab0862ac00f4d4d4c1d6b320',
+            'pretty_version' => 'v3.0.7',
+            'version' => '3.0.7.0',
+            'reference' => '0c178a2751be66183cf78447f3a7b9ec14e7ac33',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../automattic/custom-fonts',
             'aliases' => array(),
