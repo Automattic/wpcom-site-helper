@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Footer: Avoid PHP errors when nested in output buffering.
 - Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
 - Prevent PHP 8.2+ deprecation warnings.
+- Prevent PHP errors when handling Google Fonts URLs.
 - Prevent PHP warnings when handling unexpected data types.
 - Private site: Auto-redirect to login
 - Wrap deprecated no-op function in PHP version checks.
