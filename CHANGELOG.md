@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Adds support for flex plans
+- Code block: Remove active line highlight when block is unselected.
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
 - Tests: Ensure PHP 8.5 compatibility.
