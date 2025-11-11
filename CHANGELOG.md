@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent PHP errors when handling Google Fonts URLs.
 - Prevent PHP warnings when handling unexpected data types.
 - Private site: Auto-redirect to login
+- Private sites: Prevent PHP errors.
 - Wrap deprecated no-op function in PHP version checks.
 
 ## 8.0.0 - 2025-10-10
