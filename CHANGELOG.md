@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Tests: Ensure PHP 8.5 compatibility.
 - Update package dependencies.
 - wpcom-features: add logs, monitoring, performance hosting features
+- WPCOM: Sync changes from class-wpcom-feature.php
 - WPCOM: Sync changes from class-wpcom-features.php
 
 ### Removed
