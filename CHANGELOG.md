@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Tracks events to theme screens
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 - Tested up to WordPress 6.9
+- Update scssphp/scssphp dependency.
 
 ### Changed
 - Adds support for flex plans
