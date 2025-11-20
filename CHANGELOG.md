@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Custom Colors: Prevent warnings when handling malformed data.
 - Footer: Avoid PHP errors when nested in output buffering.
+- Jetpack: remove getIconColor functions for block icons
 - Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
 - Prevent PHP 8.2+ deprecation warnings.
 - Prevent PHP errors when doing SSO bypass checks.
