@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
+- Private site: Rename "Subscriber" role to "Viewer"
 - Tests: Ensure PHP 8.5 compatibility.
 - Update package dependencies.
 - wpcom-features: add logs, monitoring, performance hosting features
