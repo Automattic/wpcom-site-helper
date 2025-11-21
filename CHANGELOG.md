@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Update scssphp/scssphp dependency.
 
 ### Changed
+- Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
 - Adds support for flex plans
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
