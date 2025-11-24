@@ -395,27 +395,27 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\AMP_Analytics' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-amp-analytics.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\GA_Manager' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-ga-manager.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\Legacy' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-legacy.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\Options' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-options.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\Universal' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-universal.php'
 	),
 	'Automattic\\Jetpack\\Google_Analytics\\Utils' => array(
-		'version' => '0.3.3.0',
+		'version' => '0.3.4.0-alpha1764015073',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Heartbeat' => array(
