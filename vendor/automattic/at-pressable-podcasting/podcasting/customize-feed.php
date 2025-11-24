@@ -142,7 +142,7 @@ function podcasting_rss_enclosure( $enclosure ) {
 		}
 
 		$metadata = wp_get_attachment_metadata( $attachment_id );
-		$duration = absint( $metadata['length'] );
+		$duration = absint( $metadata['length'] ?? 0 );
 
 		if ( 0 !== $duration ) {
 			return $enclosure . '<itunes:duration>' . $duration . "</itunes:duration>\n";

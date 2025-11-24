@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'automattic/at-pressable-podcasting' => array(
-            'pretty_version' => 'v2.0.4',
-            'version' => '2.0.4.0',
-            'reference' => 'f3564cdc408f5354cfd70ce66ac131c891831a33',
+            'pretty_version' => 'v2.0.5',
+            'version' => '2.0.5.0',
+            'reference' => 'c512aa27b2c33aee33bc024177c17f2745c52dfa',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../automattic/at-pressable-podcasting',
             'aliases' => array(),
@@ -389,9 +389,9 @@
             'dev_requirement' => false,
         ),
         'scssphp/source-span' => array(
-            'pretty_version' => 'v1.0.0',
-            'version' => '1.0.0.0',
-            'reference' => 'f08fc78765e6fb6fa8ca0573fc61b3f8860f0114',
+            'pretty_version' => 'v1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '37d653206daf11da1ee60b333984101bc4c27ba2',
             'type' => 'library',
             'install_path' => __DIR__ . '/../scssphp/source-span',
             'aliases' => array(),

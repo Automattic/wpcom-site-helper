@@ -2599,71 +2599,71 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
 	),
 	'SourceSpan\\ConcreteFileSpan' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/ConcreteFileSpan.php'
 	),
 	'SourceSpan\\FileLocation' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/FileLocation.php'
 	),
 	'SourceSpan\\FileSpan' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/FileSpan.php'
 	),
 	'SourceSpan\\Highlighter\\AsciiGlyph' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Highlighter/AsciiGlyph.php'
 	),
 	'SourceSpan\\Highlighter\\Highlight' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Highlighter/Highlight.php'
 	),
 	'SourceSpan\\Highlighter\\Highlighter' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Highlighter/Highlighter.php'
 	),
 	'SourceSpan\\Highlighter\\Line' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Highlighter/Line.php'
 	),
 	'SourceSpan\\SimpleSourceLocation' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SimpleSourceLocation.php'
 	),
 	'SourceSpan\\SimpleSourceSpan' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SimpleSourceSpan.php'
 	),
 	'SourceSpan\\SimpleSourceSpanWithContext' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SimpleSourceSpanWithContext.php'
 	),
 	'SourceSpan\\SourceFile' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceFile.php'
 	),
 	'SourceSpan\\SourceLocation' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceLocation.php'
 	),
 	'SourceSpan\\SourceLocationMixin' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceLocationMixin.php'
 	),
 	'SourceSpan\\SourceSpan' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceSpan.php'
 	),
 	'SourceSpan\\SourceSpanMixin' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceSpanMixin.php'
 	),
 	'SourceSpan\\SourceSpanWithContext' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/SourceSpanWithContext.php'
 	),
 	'SourceSpan\\Util' => array(
-		'version' => '1.0.0.0',
+		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Util.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\ExceptionInterface' => array(

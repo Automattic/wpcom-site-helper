@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Patch for a4a
 - Phan: Address PhanPossiblyUndeclaredVariable violations.
 - Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
+- Podcasting: Prevent PHP warnings when metadata is incomplete.
 - Prevent PHP 8.2+ deprecation warnings.
 - Prevent PHP errors when doing SSO bypass checks.
 - Prevent PHP errors when handling Google Fonts URLs.
