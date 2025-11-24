@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom Colors: Prevent warnings when handling malformed data.
 - Footer: Avoid PHP errors when nested in output buffering.
 - Jetpack: remove getIconColor functions for block icons
+- Managed Plugins: Handle malformed data gracefully.
 - Patch for a4a
 - Phan: Address PhanPossiblyUndeclaredVariable violations.
 - Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
