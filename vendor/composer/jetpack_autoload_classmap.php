@@ -7,75 +7,75 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'A8C\\FSE\\Help_Center' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php'
 	),
 	'A8C\\FSE\\Help_Center_Menu_Panel' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center-menu-panel.php'
 	),
 	'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Forum' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Odie' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Persisted_Open_State' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-persisted-open-state.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Search' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-search.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Sibyl' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-sibyl.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Support_Activity' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-activity.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Support_Interactions' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-interactions.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Support_Status' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-support-status.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Ticket' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_Ticket_CSAT' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-ticket-csat.php'
 	),
 	'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php'
 	),
 	'Atomic_Record_Jetpack_Token_Errors' => array(
@@ -203,15 +203,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-social-links.php'
 	),
 	'Automattic\\Jetpack\\Code_Block' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-blocks/code/class-code-block.php'
 	),
 	'Automattic\\Jetpack\\Code_Block_HTML_Replacer' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-blocks/code/class-code-block-html-replacer.php'
 	),
 	'Automattic\\Jetpack\\Code_Editor' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/code-editor/class-code-editor.php'
 	),
 	'Automattic\\Jetpack\\Composer\\Manager' => array(
@@ -471,83 +471,83 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-rest-api-endpoints.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/interface-data-point.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Literal' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-literal.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Option' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-option.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Theme' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-theme.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Set' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-set.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Global_Styles_Fonts_Message_Control' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/class-global-styles-fonts-message-control.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\JSON_Endpoint' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-json-endpoint.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Holiday_Snow' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/holiday-snow/class-holiday-snow.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WPCOM_Block_Editor_NUX' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wpcom-block-editor-nux.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_First_Post_Published_Modal_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-first-post-published-modal-controller.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_NUX_Status_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-nux-status-controller.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_Recommended_Tags_Modal_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-recommended-tags-modal-controller.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_Seller_Celebration_Modal_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-seller-celebration-modal-controller.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_Video_Celebration_Modal_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-video-celebration-modal-controller.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template.php'
 	),
 	'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template_Inserter' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template-inserter.php'
 	),
 	'Automattic\\Jetpack\\Masterbar\\Admin_Color_Schemes' => array(
@@ -999,15 +999,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-tracking.php'
 	),
 	'Automattic\\Jetpack\\Verbum_Admin' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-admin.php'
 	),
 	'Automattic\\Jetpack\\Verbum_Comments' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php'
 	),
 	'Automattic\\Jetpack\\Verbum_Moderate' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-moderate.php'
 	),
 	'Backup_Import_Response' => array(
@@ -1047,7 +1047,7 @@ return array(
 		'path'    => $baseDir . '/frontend-notices/gifting-banner/gifting-banner.php'
 	),
 	'Global_Styles_Status_Rest_API' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-global-styles/api/class-global-styles-status-rest-api.php'
 	),
 	'Gravatar_Widget' => array(
@@ -1115,7 +1115,7 @@ return array(
 		'path'    => $baseDir . '/imports/utils/logger/class-filelogger.php'
 	),
 	'Jetpack_Custom_CSS_Enhancements' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php'
 	),
 	'Jetpack_Customize_Control_Title' => array(
@@ -1135,7 +1135,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-ixr-clientmulticall.php'
 	),
 	'Jetpack_I_Voted_Widget' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-widgets/class-jetpack-i-voted-widget.php'
 	),
 	'Jetpack_Options' => array(
@@ -1171,7 +1171,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-latest-autoloader-guard.php'
 	),
 	'Launchpad_Task_Lists' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php'
 	),
 	'League\\Uri\\BaseUri' => array(
@@ -1395,7 +1395,7 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
 	),
 	'Marketplace_Products_Updater' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/marketplace-products-updater/class-marketplace-products-updater.php'
 	),
 	'Marketplace_Webhook_Response' => array(
@@ -1407,11 +1407,11 @@ return array(
 		'path'    => $baseDir . '/widgets/class-music-player-widget.php'
 	),
 	'Newspack_Blocks' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks.php'
 	),
 	'Newspack_Blocks_API' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks-api.php'
 	),
 	'PD_Top_Rated' => array(
@@ -1495,1111 +1495,1111 @@ return array(
 		'path'    => $baseDir . '/endpoints/class-rest-api-code-deployment-logs-controller.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\AstNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/AstNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssAtRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssAtRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssComment' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssComment.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssImport' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssImport.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssKeyframeBlock' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssKeyframeBlock.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssMediaQuery' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssMediaQuery.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssMediaRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssMediaRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssParentNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssParentNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssStyleRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssStyleRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssStylesheet' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssStylesheet.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssSupportsRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssSupportsRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\CssValue' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/CssValue.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\IsInvisibleVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/IsInvisibleVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\MediaQueryMergeResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/MediaQueryMergeResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\MediaQuerySingletonMergeResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/MediaQuerySingletonMergeResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssAtRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssAtRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssComment' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssComment.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssImport' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssImport.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssKeyframeBlock' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssKeyframeBlock.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssMediaRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssMediaRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssParentNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssParentNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssStyleRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssStyleRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssStylesheet' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssStylesheet.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Css\\ModifiableCssSupportsRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Css/ModifiableCssSupportsRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\FakeAstNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/FakeAstNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Argument' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Argument.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\ArgumentDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/ArgumentDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\ArgumentInvocation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/ArgumentInvocation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\AtRootQuery' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/AtRootQuery.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\CallableInvocation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/CallableInvocation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\ConfiguredVariable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/ConfiguredVariable.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\BinaryOperationExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/BinaryOperationExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\BinaryOperator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/BinaryOperator.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\BooleanExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/BooleanExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\ColorExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/ColorExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\FunctionExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/FunctionExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\IfExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/IfExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\InterpolatedFunctionExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/InterpolatedFunctionExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\IsCalculationSafeVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/IsCalculationSafeVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\ListExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/ListExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\MapExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/MapExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\NullExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/NullExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\NumberExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/NumberExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\ParenthesizedExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/ParenthesizedExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\SelectorExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/SelectorExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\StringExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/StringExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\SupportsExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/SupportsExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\UnaryOperationExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/UnaryOperationExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\UnaryOperator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/UnaryOperator.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\ValueExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/ValueExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Expression\\VariableExpression' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Expression/VariableExpression.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Import' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Import.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Import\\DynamicImport' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Import/DynamicImport.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Import\\StaticImport' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Import/StaticImport.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Interpolation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Interpolation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SassDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SassDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SassNode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SassNode.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SassReference' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SassReference.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\AtRootRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/AtRootRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\AtRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/AtRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\CallableDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/CallableDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ContentBlock' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ContentBlock.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ContentRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ContentRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\DebugRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/DebugRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\Declaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/Declaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\EachRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/EachRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ElseClause' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ElseClause.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ErrorRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ErrorRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ExtendRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ExtendRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ForRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ForRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\FunctionRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/FunctionRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\HasContentVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/HasContentVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\IfClause' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/IfClause.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\IfRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/IfRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\IfRuleClause' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/IfRuleClause.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ImportRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ImportRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\IncludeRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/IncludeRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\LoudComment' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/LoudComment.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\MediaRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/MediaRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\MixinRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/MixinRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ParentStatement' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ParentStatement.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\ReturnRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/ReturnRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\SilentComment' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/SilentComment.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\StyleRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/StyleRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\Stylesheet' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/Stylesheet.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\SupportsRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/SupportsRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\VariableDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/VariableDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\WarnRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/WarnRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\Statement\\WhileRule' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/Statement/WhileRule.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsAnything' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsAnything.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsDeclaration' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsDeclaration.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsFunction' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsFunction.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsInterpolation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsInterpolation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsNegation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsNegation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Sass\\SupportsCondition\\SupportsOperation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Sass/SupportsCondition/SupportsOperation.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\AttributeOperator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/AttributeOperator.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\AttributeSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/AttributeSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\ClassSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/ClassSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\Combinator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/Combinator.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\ComplexSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/ComplexSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\ComplexSelectorComponent' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/ComplexSelectorComponent.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\CompoundSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/CompoundSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\IDSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/IDSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\IsBogusVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/IsBogusVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\IsInvisibleVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/IsInvisibleVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\IsUselessVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/IsUselessVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\ParentSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/ParentSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\ParentSelectorVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/ParentSelectorVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\PlaceholderSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/PlaceholderSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\PseudoSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/PseudoSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\QualifiedName' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/QualifiedName.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\Selector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/Selector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\SelectorList' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/SelectorList.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\SimpleSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/SimpleSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\TypeSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/TypeSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\Selector\\UniversalSelector' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Ast/Selector/UniversalSelector.php'
 	),
 	'ScssPhp\\ScssPhp\\Collection\\Map' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Collection/Map.php'
 	),
 	'ScssPhp\\ScssPhp\\Colors' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Colors.php'
 	),
 	'ScssPhp\\ScssPhp\\CompilationResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/CompilationResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Compiler' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Compiler.php'
 	),
 	'ScssPhp\\ScssPhp\\Compiler\\LegacyValueVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Compiler/LegacyValueVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Deprecation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Deprecation.php'
 	),
 	'ScssPhp\\ScssPhp\\DeprecationStatus' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/DeprecationStatus.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\ArgumentResults' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/ArgumentResults.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\Environment' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/Environment.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\EvaluateResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/EvaluateResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\EvaluateVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/EvaluateVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\EvaluationContext' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/EvaluationContext.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\LoadedStylesheet' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/LoadedStylesheet.php'
 	),
 	'ScssPhp\\ScssPhp\\Evaluation\\VisitorEvaluationContext' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Evaluation/VisitorEvaluationContext.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\MultiSpanSassException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/MultiSpanSassException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\MultiSpanSassFormatException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/MultiSpanSassFormatException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\MultiSpanSassRuntimeException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/MultiSpanSassRuntimeException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\MultiSpanSassScriptException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/MultiSpanSassScriptException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SassException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SassException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SassFormatException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SassFormatException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SassRuntimeException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SassRuntimeException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SassScriptException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SassScriptException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SimpleSassException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SimpleSassException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SimpleSassFormatException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SimpleSassFormatException.php'
 	),
 	'ScssPhp\\ScssPhp\\Exception\\SimpleSassRuntimeException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Exception/SimpleSassRuntimeException.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ComplexSelectorMap' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ComplexSelectorMap.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ConcreteExtensionStore' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ConcreteExtensionStore.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\EmptyExtensionStore' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/EmptyExtensionStore.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ExtendMode' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ExtendMode.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ExtendUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ExtendUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\Extender' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/Extender.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\Extension' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/Extension.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ExtensionStore' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ExtensionStore.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\MergedExtension' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/MergedExtension.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\ObjectSet' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/ObjectSet.php'
 	),
 	'ScssPhp\\ScssPhp\\Extend\\SimpleSelectorMap' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Extend/SimpleSelectorMap.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\ColorFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/ColorFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\FunctionRegistry' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/FunctionRegistry.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\ListFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/ListFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\MapFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/MapFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\MathFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/MathFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\MetaFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/MetaFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\SelectorFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/SelectorFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Function\\StringFunctions' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Function/StringFunctions.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\CanonicalizeContext' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/CanonicalizeContext.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\CanonicalizeResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/CanonicalizeResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\FilesystemImporter' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/FilesystemImporter.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\ImportCache' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/ImportCache.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\ImportContext' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/ImportContext.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\ImportUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/ImportUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\Importer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/Importer.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\ImporterResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/ImporterResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\LegacyCallbackImporter' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/LegacyCallbackImporter.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\NoOpImporter' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/NoOpImporter.php'
 	),
 	'ScssPhp\\ScssPhp\\Importer\\SpecialCacheValue' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Importer/SpecialCacheValue.php'
 	),
 	'ScssPhp\\ScssPhp\\Logger\\DeprecationProcessingLogger' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Logger/DeprecationProcessingLogger.php'
 	),
 	'ScssPhp\\ScssPhp\\Logger\\LoggerInterface' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Logger/LoggerInterface.php'
 	),
 	'ScssPhp\\ScssPhp\\Logger\\QuietLogger' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Logger/QuietLogger.php'
 	),
 	'ScssPhp\\ScssPhp\\Logger\\StreamLogger' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Logger/StreamLogger.php'
 	),
 	'ScssPhp\\ScssPhp\\Node' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Node.php'
 	),
 	'ScssPhp\\ScssPhp\\Node\\Number' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Node/Number.php'
 	),
 	'ScssPhp\\ScssPhp\\OutputStyle' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/OutputStyle.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\AtRootQueryParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/AtRootQueryParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\CssParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/CssParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\FormatException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/FormatException.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\InterpolationBuffer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/InterpolationBuffer.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\InterpolationMap' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/InterpolationMap.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\KeyframeSelectorParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/KeyframeSelectorParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\LineScanner' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/LineScanner.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\MediaQueryParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/MediaQueryParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\MultiSourceFormatException' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/MultiSourceFormatException.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\Parser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/Parser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\SassParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/SassParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\ScssParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/ScssParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\SelectorParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/SelectorParser.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\StringScanner' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/StringScanner.php'
 	),
 	'ScssPhp\\ScssPhp\\Parser\\StylesheetParser' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Parser/StylesheetParser.php'
 	),
 	'ScssPhp\\ScssPhp\\SassCallable\\BuiltInCallable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SassCallable/BuiltInCallable.php'
 	),
 	'ScssPhp\\ScssPhp\\SassCallable\\PlainCssCallable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SassCallable/PlainCssCallable.php'
 	),
 	'ScssPhp\\ScssPhp\\SassCallable\\SassCallable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SassCallable/SassCallable.php'
 	),
 	'ScssPhp\\ScssPhp\\SassCallable\\UserDefinedCallable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SassCallable/UserDefinedCallable.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\SerializeResult' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/SerializeResult.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\SerializeVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/SerializeVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\Serializer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/Serializer.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\SimpleStringBuffer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/SimpleStringBuffer.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\SourceMapBuffer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/SourceMapBuffer.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\StringBuffer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/StringBuffer.php'
 	),
 	'ScssPhp\\ScssPhp\\Serializer\\TrackingSourceMapBuffer' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Serializer/TrackingSourceMapBuffer.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\Base64' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/Base64.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\Base64VLQ' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/Base64VLQ.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\Builder\\Entry' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/Builder/Entry.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\SingleMapping' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/SingleMapping.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\TargetEntry' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/TargetEntry.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceMap\\TargetLineEntry' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceMap/TargetLineEntry.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceSpan\\LazyFileSpan' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceSpan/LazyFileSpan.php'
 	),
 	'ScssPhp\\ScssPhp\\SourceSpan\\MultiSpan' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/SourceSpan/MultiSpan.php'
 	),
 	'ScssPhp\\ScssPhp\\StackTrace\\Frame' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/StackTrace/Frame.php'
 	),
 	'ScssPhp\\ScssPhp\\StackTrace\\Trace' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/StackTrace/Trace.php'
 	),
 	'ScssPhp\\ScssPhp\\Syntax' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Syntax.php'
 	),
 	'ScssPhp\\ScssPhp\\Type' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Type.php'
 	),
 	'ScssPhp\\ScssPhp\\Util' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\ArrayUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/ArrayUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\AstUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/AstUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\Box' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/Box.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\Character' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/Character.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\Equatable' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/Equatable.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\EquatableUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/EquatableUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\ErrorUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/ErrorUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\IterableUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/IterableUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\ListUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/ListUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\LoggerUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/LoggerUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\MakeExpressionCalculationSafe' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/MakeExpressionCalculationSafe.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\ModifiableBox' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/ModifiableBox.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\NumberUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/NumberUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\ParserUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/ParserUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\Path' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/Path.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\SpanUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/SpanUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\StringUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/StringUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\Util\\UriUtil' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Util/UriUtil.php'
 	),
 	'ScssPhp\\ScssPhp\\ValueConverter' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/ValueConverter.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\CalculationOperation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/CalculationOperation.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\CalculationOperator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/CalculationOperator.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\ColorFormat' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/ColorFormat.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\ColorFormatEnum' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/ColorFormatEnum.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\ComplexSassNumber' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/ComplexSassNumber.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\ListSeparator' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/ListSeparator.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassArgumentList' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassArgumentList.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassBoolean' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassBoolean.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassCalculation' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassCalculation.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassColor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassColor.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassFunction' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassFunction.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassList' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassList.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassMap' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassMap.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassMixin' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassMixin.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassNull' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassNull.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassNumber' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassNumber.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SassString' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SassString.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SingleUnitSassNumber' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SingleUnitSassNumber.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\SpanColorFormat' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/SpanColorFormat.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\UnitlessSassNumber' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/UnitlessSassNumber.php'
 	),
 	'ScssPhp\\ScssPhp\\Value\\Value' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Value/Value.php'
 	),
 	'ScssPhp\\ScssPhp\\Version' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Version.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\AnySelectorVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/AnySelectorVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\CssVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/CssVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\EveryCssVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/EveryCssVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\ExpressionVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/ExpressionVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\ModifiableCssVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/ModifiableCssVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\ReplaceExpressionVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/ReplaceExpressionVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\SelectorSearchVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/SelectorSearchVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\SelectorVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/SelectorVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\StatementSearchVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/StatementSearchVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\StatementVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/StatementVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Visitor\\ValueVisitor' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Visitor/ValueVisitor.php'
 	),
 	'ScssPhp\\ScssPhp\\Warn' => array(
-		'version' => '2.0.1.0',
+		'version' => '2.1.0.0',
 		'path'    => $vendorDir . '/scssphp/scssphp/src/Warn.php'
 	),
 	'Shutdown_Handler' => array(
@@ -2719,15 +2719,15 @@ return array(
 		'path'    => $baseDir . '/widgets/tlkio/class-tlkio-widget.php'
 	),
 	'Verbum_Asset_Loader' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-asset-loader.php'
 	),
 	'Verbum_Block_Utils' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php'
 	),
 	'Verbum_Gutenberg_Editor' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php'
 	),
 	'Version_Loader' => array(
@@ -2751,7 +2751,7 @@ return array(
 		'path'    => $baseDir . '/widgets/class-wpcom-category-cloud-widget.php'
 	),
 	'WPCOM_Enqueue_Dynamic_Script' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php'
 	),
 	'WPCOM_Features' => array(
@@ -2763,19 +2763,19 @@ return array(
 		'path'    => $baseDir . '/widgets/class-wpcom-freshly-pressed-widget.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Launchpad' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Site_Migration_WPCOM_Migration_Key' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-wpcom-migration-key.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => array(
@@ -2795,11 +2795,11 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php'
 	),
 	'WPCOM_REST_API_V2_Verbum_Auth' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php'
 	),
 	'WPCOM_REST_API_V2_Verbum_OEmbed' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php'
 	),
 	'WPCOM_Tag_Cloud_Widget' => array(
@@ -2815,7 +2815,7 @@ return array(
 		'path'    => $baseDir . '/widgets/class-wpcom-widget-reservations.php'
 	),
 	'WPCom_Comments_Likes' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/wpcom-comments.php'
 	),
 	'WPCom_Themes_Api' => array(
@@ -2847,11 +2847,11 @@ return array(
 		'path'    => $baseDir . '/privacy/class-wp-privacy-participating-plugins.php'
 	),
 	'WP_REST_Comment_Like' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php'
 	),
 	'WP_REST_Newspack_Articles_Controller' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php'
 	),
 	'Widget_Authors_Grid' => array(
@@ -2863,47 +2863,47 @@ return array(
 		'path'    => $baseDir . '/widgets/class-widget-top-clicks.php'
 	),
 	'Wpcom_Block_Patterns_From_Api' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php'
 	),
 	'Wpcom_Block_Patterns_Utils' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-utils.php'
 	),
 	'csstidy' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/csstidy/class.csstidy.php'
 	),
 	'csstidy_optimise' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/csstidy/class.csstidy-optimise.php'
 	),
 	'csstidy_print' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/csstidy/class.csstidy-print.php'
 	),
 	'lessc' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css/preprocessors/lessc.inc.php'
 	),
 	'lessc_formatter_classic' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css/preprocessors/lessc.inc.php'
 	),
 	'lessc_formatter_compressed' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css/preprocessors/lessc.inc.php'
 	),
 	'lessc_formatter_lessjs' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css/preprocessors/lessc.inc.php'
 	),
 	'lessc_parser' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css/preprocessors/lessc.inc.php'
 	),
 	'safecss' => array(
-		'version' => '6.9.0.0-alpha1764077982',
+		'version' => '6.9.0.0-alpha1764086199',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php'
 	),
 	'tubalmartin\\CssMin\\Colors' => array(
