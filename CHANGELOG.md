@@ -46,6 +46,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent PHP warnings when handling unexpected data types.
 - Private site: Auto-redirect to login
 - Private sites: Prevent PHP errors.
+- Social: Fix the incorrect format of feature flag for unified UI v1.
 - Widgets: Prevent PHP warnings when variables are undefined or malformed.
 - Wrap deprecated no-op function in PHP version checks.
 
