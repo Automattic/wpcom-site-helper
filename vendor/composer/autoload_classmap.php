@@ -99,6 +99,8 @@ return array(
     'Automattic\\Jetpack\\Device_Detection' => $baseDir . '/jetpack_vendor/automattic/jetpack-device-detection/src/class-device-detection.php',
     'Automattic\\Jetpack\\Device_Detection\\User_Agent_Info' => $baseDir . '/jetpack_vendor/automattic/jetpack-device-detection/src/class-user-agent-info.php',
     'Automattic\\Jetpack\\Errors' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-errors.php',
+    'Automattic\\Jetpack\\ExPlat' => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-explat.php',
+    'Automattic\\Jetpack\\ExPlat\\REST_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-rest-controller.php',
     'Automattic\\Jetpack\\Files' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php',
     'Automattic\\Jetpack\\Google_Analytics\\AMP_Analytics' => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-amp-analytics.php',
     'Automattic\\Jetpack\\Google_Analytics\\GA_Manager' => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-ga-manager.php',
