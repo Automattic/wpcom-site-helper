@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
+- Add form-webhooks feature support for WordPress.com plans
 - Adds support for flex plans
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
