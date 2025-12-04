@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Custom Colors: Prevent warnings when handling malformed data.
+- Ensure proper flags are used with `json_encode()`.
 - Footer: Avoid PHP errors when nested in output buffering.
 - Jetpack: remove getIconColor functions for block icons
 - Managed Plugins: Handle malformed data gracefully.
