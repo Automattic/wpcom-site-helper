@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
 - Add form-webhooks feature support for WordPress.com plans
 - Adds support for flex plans
+- Adjusting incompatible plugins list per this project - https://linear.app/a8c/project/audit-blocked-plugins-0e4e3a73bb43/overview
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
