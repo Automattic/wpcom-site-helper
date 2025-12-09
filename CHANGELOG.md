@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
 - Private site: Rename "Subscriber" role to "Viewer"
+- Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - Tests: Ensure PHP 8.5 compatibility.
 - Update package dependencies.
 - wpcom-features: add logs, monitoring, performance hosting features
