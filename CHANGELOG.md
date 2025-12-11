@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Social unified UI feature flag.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
+- Holiday Snow: Add speed and hemisphere settings.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 - Tested up to WordPress 6.9
 - Update scssphp/scssphp dependency.
