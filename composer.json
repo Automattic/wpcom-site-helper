@@ -11,10 +11,10 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "2.11.3",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-autoloader": "^5.0.15-alpha",
+		"automattic/jetpack-autoloader": "^5.0.15",
 		"automattic/jetpack-composer-plugin": "^4.0.5",
 		"automattic/jetpack-config": "^3.1.1",
-		"automattic/jetpack-post-list": "^0.8.36-alpha",
+		"automattic/jetpack-post-list": "^0.8.36",
 		"automattic/jetpack-mu-wpcom": "^6.9.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
 		"automattic/jetpack-explat": "^0.4.3"
