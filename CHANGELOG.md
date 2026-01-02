@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Adding or removing features to plans for a future experiment. Shouldn't impact existing sites
 - Adds support for flex plans
 - Adjusting incompatible plugins list per this project - https://linear.app/a8c/project/audit-blocked-plugins-0e4e3a73bb43/overview
+- Allow users with the UPLOAD_VIDEO_FILES feature to upload videos without VideoPress
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
