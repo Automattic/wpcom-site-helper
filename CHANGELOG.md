@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - Tests: Ensure PHP 8.5 compatibility.
 - Update package dependencies.
+- Update the feature gating for Donations, allowing conditional hiding based on a sticker
 - wpcom-features: add logs, monitoring, performance hosting features
 - WPCOM: Sync changes from class-wpcom-feature.php
 - WPCOM: Sync changes from class-wpcom-features.php
