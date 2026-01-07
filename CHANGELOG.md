@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
+- Feature gating for two blocks
 - Fix "Really Simple SSL" typo in file path.
 - Private site: Rename "Subscriber" role to "Viewer"
 - Remove Duplicator Pro from incompatible plugins list.
