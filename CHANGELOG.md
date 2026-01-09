@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Added automattic/explat dependency
 - Added domain features for woo_hosted plans
 - Add Social unified UI feature flag.
