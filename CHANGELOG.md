@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Social unified UI feature flag.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
+- Feature gating for payment-buttons and paypal-payment-buttons blocks
 - Holiday Snow: Add speed and hemisphere settings.
 - IDC: Add revalidation for IDCs.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
