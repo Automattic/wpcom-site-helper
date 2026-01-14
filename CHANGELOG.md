@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment.
 - Footer: Avoid PHP errors when nested in output buffering.
 - Jetpack: remove getIconColor functions for block icons
+- Legacy Pro plan: Remove artificial media storage limit.
 - Managed Plugins: Handle malformed data gracefully.
 - Patch for a4a
 - Phan: Address PhanPossiblyUndeclaredVariable violations.
