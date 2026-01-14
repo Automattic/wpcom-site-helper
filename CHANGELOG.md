@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Added automattic/explat dependency
 - Added domain features for woo_hosted plans
+- Adds a new feature to WPCOM_Features
 - Add Social unified UI feature flag.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
