@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Add form-webhooks feature support for WordPress.com plans
 - Adding or removing features to plans for a future experiment. Shouldn't impact existing sites
 - Adds support for flex plans
+- Add three plugins to incompatible list: `factory-reset/factory-reset.php`, `super-blank/super-blank.php`, and `porn-videos-embed/porn-videos-embed.php`
 - Adjusting incompatible plugins list per this project - https://linear.app/a8c/project/audit-blocked-plugins-0e4e3a73bb43/overview
 - Allow users with the UPLOAD_VIDEO_FILES feature to upload videos without VideoPress
 - Code block: Remove active line highlight when block is unselected.
