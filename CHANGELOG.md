@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - JP Sitemaps: Removed sticker determination for XMLWriter
+- Remove the dotcom command palette.
 
 ### Fixed
 - Custom Colors: Prevent warnings when handling malformed data.
