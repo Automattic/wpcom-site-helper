@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a new feature to WPCOM_Features
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Added automattic/explat dependency
 - Added domain features for woo_hosted plans
