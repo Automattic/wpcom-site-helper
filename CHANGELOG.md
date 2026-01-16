@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Add three plugins to incompatible list: `factory-reset/factory-reset.php`, `super-blank/super-blank.php`, and `porn-videos-embed/porn-videos-embed.php`
 - Adjusting incompatible plugins list per this project - https://linear.app/a8c/project/audit-blocked-plugins-0e4e3a73bb43/overview
 - Allow users with the UPLOAD_VIDEO_FILES feature to upload videos without VideoPress
+- Atomic sites that have access to Global Styles can use Custom CSS
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
