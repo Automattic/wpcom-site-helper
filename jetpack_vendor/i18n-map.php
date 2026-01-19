@@ -10,11 +10,11 @@ return array(
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '4.3.20-alpha1768599302',
+      'ver' => '4.3.20',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
-      'ver' => '0.27.0-alpha1768831430',
+      'ver' => '0.27.0-alpha1768838581',
     ),
     'jetpack-block-delimiter' => array(
       'path' => 'jetpack_vendor/automattic/block-delimiter',
@@ -22,7 +22,7 @@ return array(
     ),
     'jetpack-classic-theme-helper' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-classic-theme-helper',
-      'ver' => '0.14.10-alpha1768599302',
+      'ver' => '0.14.10',
     ),
     'jetpack-compat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-compat',
@@ -34,11 +34,11 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '6.20.3-alpha1768599302',
+      'ver' => '6.20.3',
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
-      'ver' => '0.4.7-alpha1768599302',
+      'ver' => '0.4.7',
     ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
@@ -50,11 +50,11 @@ return array(
     ),
     'jetpack-jitm' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-jitm',
-      'ver' => '4.3.16-alpha1768599302',
+      'ver' => '4.3.16',
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.27.8-alpha1768599302',
+      'ver' => '0.27.8',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
@@ -66,7 +66,7 @@ return array(
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',
-      'ver' => '0.9.2-alpha1768599302',
+      'ver' => '0.9.2',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
@@ -82,11 +82,11 @@ return array(
     ),
     'jetpack-subscribers-dashboard' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-subscribers-dashboard',
-      'ver' => '0.4.14-alpha1768599302',
+      'ver' => '0.4.14',
     ),
     'jetpack-sync' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-sync',
-      'ver' => '4.25.1-alpha1768797679',
+      'ver' => '4.25.1',
     ),
   ),
 );
