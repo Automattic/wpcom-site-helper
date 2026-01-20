@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Custom Colors: Prevent warnings when handling malformed data.
 - Ensure proper flags are used with `json_encode()`.
+- Fixed feature gating for payment blocks on WoA sites.
 - Fix plugin auto-update sync by preventing the `pre_option_auto_update_plugins` filter from interfering with Jetpack XML RPC requests
 - Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment.
 - Footer: Avoid PHP errors when nested in output buffering.
