@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - JP Sitemaps: Removed sticker determination for XMLWriter
+- Removed "Super Blank" plugin (known by slug: super-blank) from list of incompatible plugins.
 - Removed JetBackup from incompatible plugins list. Developer provided new version which works on WordPress.com when tested.
 - Remove the dotcom command palette.
 
