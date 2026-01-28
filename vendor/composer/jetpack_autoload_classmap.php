@@ -179,35 +179,35 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-blocks/src/class-blocks.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-featured-content.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Portfolio' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-portfolio.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Textarea_Control' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-textarea-control.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Title_Control' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-title-control.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-main.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Nova_Restaurant' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-nova-restaurant.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-social-links.php'
 	),
 	'Automattic\\Jetpack\\Code_Block' => array(
@@ -771,231 +771,231 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-subscribers-dashboard/src/class-dashboard.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Actions' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-actions.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Codec_Interface' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/interface-codec.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Data_Settings' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-data-settings.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Dedicated_Sender' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-dedicated-sender.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Default_Filter_Settings' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-default-filter-settings.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Defaults' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-defaults.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Functions' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-functions.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Health' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-health.php'
 	),
 	'Automattic\\Jetpack\\Sync\\JSON_Deflate_Array_Codec' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-json-deflate-array-codec.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Listener' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-listener.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Lock' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-lock.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Main' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-main.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-modules.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Attachments' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-attachments.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Callables' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-callables.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Comments' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-comments.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Constants' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-constants.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-full-sync.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Full_Sync_Immediately' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-full-sync-immediately.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Import' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-import.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Menus' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-menus.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Meta' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-meta.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Module' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-module.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Network_Options' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-network-options.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Options' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-options.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Plugins' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-plugins.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Posts' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-posts.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Protect' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-protect.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Search' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-search.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Stats' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-stats.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Term_Relationships' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-term-relationships.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Terms' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-terms.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Themes' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-themes.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Updates' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-updates.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\Users' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-users.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\WP_Super_Cache' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-wp-super-cache.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\WooCommerce' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-woocommerce.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\WooCommerce_HPOS_Orders' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-woocommerce-hpos-orders.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Modules\\WooCommerce_Products' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/modules/class-woocommerce-products.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Package_Version' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-package-version.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Queue' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-queue.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Queue\\Queue_Storage_Options' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/sync-queue/class-queue-storage-options.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Queue\\Queue_Storage_Table' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/sync-queue/class-queue-storage-table.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Queue_Buffer' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-queue-buffer.php'
 	),
 	'Automattic\\Jetpack\\Sync\\REST_Endpoints' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-rest-endpoints.php'
 	),
 	'Automattic\\Jetpack\\Sync\\REST_Sender' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-rest-sender.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-replicastore.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/replicastore/class-table-checksum.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum_Usermeta' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/replicastore/class-table-checksum-usermeta.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore\\Table_Checksum_Users' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/replicastore/class-table-checksum-users.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Replicastore_Interface' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/interface-replicastore.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Sender' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-sender.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Server' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-server.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Settings' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-settings.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Simple_Codec' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-simple-codec.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Users' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-users.php'
 	),
 	'Automattic\\Jetpack\\Sync\\Utils' => array(
-		'version' => '4.26.0.0-alpha1769583485',
+		'version' => '4.26.0.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-sync/src/class-utils.php'
 	),
 	'Automattic\\Jetpack\\Terms_Of_Service' => array(
@@ -1127,7 +1127,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php'
 	),
 	'Jetpack_Customize_Control_Title' => array(
-		'version' => '0.14.11.0',
+		'version' => '0.14.12.0-alpha1769616682',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php'
 	),
 	'Jetpack_Data' => array(
@@ -1183,219 +1183,251 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php'
 	),
 	'League\\Uri\\BaseUri' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/BaseUri.php'
 	),
+	'League\\Uri\\Builder' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri/Builder.php'
+	),
 	'League\\Uri\\Contracts\\AuthorityInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/AuthorityInterface.php'
 	),
 	'League\\Uri\\Contracts\\Conditionable' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/Conditionable.php'
 	),
 	'League\\Uri\\Contracts\\DataPathInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/DataPathInterface.php'
 	),
 	'League\\Uri\\Contracts\\DomainHostInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/DomainHostInterface.php'
 	),
 	'League\\Uri\\Contracts\\FragmentDirective' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/FragmentDirective.php'
 	),
 	'League\\Uri\\Contracts\\FragmentInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/FragmentInterface.php'
 	),
 	'League\\Uri\\Contracts\\HostInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/HostInterface.php'
 	),
 	'League\\Uri\\Contracts\\IpHostInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/IpHostInterface.php'
 	),
 	'League\\Uri\\Contracts\\PathInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/PathInterface.php'
 	),
 	'League\\Uri\\Contracts\\PortInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/PortInterface.php'
 	),
 	'League\\Uri\\Contracts\\QueryInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/QueryInterface.php'
 	),
 	'League\\Uri\\Contracts\\SegmentedPathInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/SegmentedPathInterface.php'
 	),
+	'League\\Uri\\Contracts\\Transformable' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/Transformable.php'
+	),
 	'League\\Uri\\Contracts\\UriAccess' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriAccess.php'
 	),
 	'League\\Uri\\Contracts\\UriComponentInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriComponentInterface.php'
 	),
 	'League\\Uri\\Contracts\\UriException' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriException.php'
 	),
 	'League\\Uri\\Contracts\\UriInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriInterface.php'
 	),
 	'League\\Uri\\Contracts\\UserInfoInterface' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UserInfoInterface.php'
 	),
 	'League\\Uri\\Encoder' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Encoder.php'
 	),
 	'League\\Uri\\Exceptions\\ConversionFailed' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/ConversionFailed.php'
 	),
 	'League\\Uri\\Exceptions\\MissingFeature' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/MissingFeature.php'
 	),
 	'League\\Uri\\Exceptions\\OffsetOutOfBounds' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/OffsetOutOfBounds.php'
 	),
 	'League\\Uri\\Exceptions\\SyntaxError' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/SyntaxError.php'
 	),
 	'League\\Uri\\FeatureDetection' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/FeatureDetection.php'
 	),
+	'League\\Uri\\HostFormat' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/HostFormat.php'
+	),
+	'League\\Uri\\HostRecord' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/HostRecord.php'
+	),
+	'League\\Uri\\HostType' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/HostType.php'
+	),
 	'League\\Uri\\Http' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/Http.php'
 	),
 	'League\\Uri\\HttpFactory' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/HttpFactory.php'
 	),
 	'League\\Uri\\IPv4\\BCMathCalculator' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/BCMathCalculator.php'
 	),
 	'League\\Uri\\IPv4\\Calculator' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/Calculator.php'
 	),
 	'League\\Uri\\IPv4\\Converter' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/Converter.php'
 	),
 	'League\\Uri\\IPv4\\GMPCalculator' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/GMPCalculator.php'
 	),
 	'League\\Uri\\IPv4\\NativeCalculator' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/NativeCalculator.php'
 	),
 	'League\\Uri\\IPv6\\Converter' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv6/Converter.php'
 	),
 	'League\\Uri\\Idna\\Converter' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Converter.php'
 	),
 	'League\\Uri\\Idna\\Error' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Error.php'
 	),
 	'League\\Uri\\Idna\\Option' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Option.php'
 	),
 	'League\\Uri\\Idna\\Result' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Result.php'
 	),
 	'League\\Uri\\KeyValuePair\\Converter' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/KeyValuePair/Converter.php'
 	),
+	'League\\Uri\\QueryComposeMode' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/QueryComposeMode.php'
+	),
+	'League\\Uri\\QueryExtractMode' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/QueryExtractMode.php'
+	),
 	'League\\Uri\\QueryString' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/QueryString.php'
 	),
 	'League\\Uri\\SchemeType' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/SchemeType.php'
 	),
+	'League\\Uri\\StringCoercionMode' => array(
+		'version' => '7.8.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/StringCoercionMode.php'
+	),
 	'League\\Uri\\Uri' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/Uri.php'
 	),
 	'League\\Uri\\UriComparisonMode' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UriComparisonMode.php'
 	),
 	'League\\Uri\\UriInfo' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriInfo.php'
 	),
 	'League\\Uri\\UriResolver' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriResolver.php'
 	),
 	'League\\Uri\\UriScheme' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriScheme.php'
 	),
 	'League\\Uri\\UriString' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UriString.php'
 	),
 	'League\\Uri\\UriTemplate' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate.php'
 	),
 	'League\\Uri\\UriTemplate\\Expression' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Expression.php'
 	),
 	'League\\Uri\\UriTemplate\\Operator' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Operator.php'
 	),
 	'League\\Uri\\UriTemplate\\Template' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Template.php'
 	),
 	'League\\Uri\\UriTemplate\\TemplateCanNotBeExpanded' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/TemplateCanNotBeExpanded.php'
 	),
 	'League\\Uri\\UriTemplate\\VarSpecifier' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/VarSpecifier.php'
 	),
 	'League\\Uri\\UriTemplate\\VariableBag' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/VariableBag.php'
 	),
 	'League\\Uri\\Urn' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri/Urn.php'
 	),
 	'League\\Uri\\UrnComparisonMode' => array(
-		'version' => '7.6.0.0',
+		'version' => '7.8.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UrnComparisonMode.php'
 	),
 	'Manifest_Reader' => array(
@@ -2683,35 +2715,35 @@ return array(
 		'path'    => $vendorDir . '/scssphp/source-span/src/Util.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\ExceptionInterface' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/ExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\FileNotFoundException' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/FileNotFoundException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOException' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOExceptionInterface' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\InvalidArgumentException' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/InvalidArgumentException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\RuntimeException' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/RuntimeException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Filesystem' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Filesystem.php'
 	),
 	'Symfony\\Component\\Filesystem\\Path' => array(
-		'version' => '6.4.24.0',
+		'version' => '6.4.30.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Path.php'
 	),
 	'Symfony\\Polyfill\\Ctype\\Ctype' => array(
