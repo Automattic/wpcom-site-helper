@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
 - Fix "Really Simple SSL" typo in file path.
+- Gating for the Forms Integrations feature
 - Private site: Rename "Subscriber" role to "Viewer"
 - Remove Duplicator Pro from incompatible plugins list.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
