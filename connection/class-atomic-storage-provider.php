@@ -88,7 +88,7 @@ if ( interface_exists( 'Automattic\Jetpack\Connection\Storage_Provider_Interface
 		 * Reports storage errors and empty states to the wpcom logstash cluster
 		 * for centralized error tracking and alerting.
 		 *
-		 * @since 8.1.0-alpha
+		 * @since 9.0.0-alpha
 		 *
 		 * @param string $event_type  The event type ('error' or 'empty').
 		 * @param string $key         The option key that triggered the event.
@@ -123,7 +123,7 @@ if ( interface_exists( 'Automattic\Jetpack\Connection\Storage_Provider_Interface
 		/**
 		 * Get the master user id from email.
 		 *
-		 * @since 8.1.0-alpha
+		 * @since 9.0.0-alpha
 		 *
 		 * @param string $email The user email.
 		 * @return int|bool The master user id or false if not found.
@@ -152,7 +152,7 @@ if ( interface_exists( 'Automattic\Jetpack\Connection\Storage_Provider_Interface
 		 * - Current user has a different token string than normalized token
 		 * - Any other user has a token sharing the same secret prefix
 		 *
-		 * @since 8.1.0-alpha
+		 * @since 9.0.0-alpha
 		 *
 		 * @param array  $tokens           Tokens array keyed by user ID.
 		 * @param string $normalized_token Normalized token (token_key.secret.user_id).
@@ -205,7 +205,7 @@ if ( interface_exists( 'Automattic\Jetpack\Connection\Storage_Provider_Interface
 		 *
 		 * Re-reads the latest state before persisting to minimize race condition window.
 		 *
-		 * @since 8.1.0-alpha
+		 * @since 9.0.0-alpha
 		 *
 		 * @param string $normalized_token The normalized token from external storage (token_key.secret.user_id).
 		 * @param array  $existing_tokens The existing tokens from the database.
@@ -251,7 +251,7 @@ if ( interface_exists( 'Automattic\Jetpack\Connection\Storage_Provider_Interface
 		/**
 		 * Get the user tokens by email and secret.
 		 *
-		 * @since 8.1.0-alpha
+		 * @since 9.0.0-alpha
 		 *
 		 * @param string $email The user email.
 		 * @param string $secret The token secret (format: token_key.secret).

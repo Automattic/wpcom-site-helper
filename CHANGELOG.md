@@ -1,6 +1,6 @@
 # Changelog
 
-## 8.1.0-alpha - unreleased
+## 9.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM: Sync changes from class-wpcom-features.php
 
 ### Removed
+- General: Update minimum WordPress version to 6.8.
 - JP Sitemaps: Removed sticker determination for XMLWriter
 - Removed "Super Blank" plugin (known by slug: super-blank) from list of incompatible plugins.
 - Removed JetBackup from incompatible plugins list. Developer provided new version which works on WordPress.com when tested.
