@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom post types: Ensure features remain available when theme support is added.
 - Don't translate product names.
 - Fix "Really Simple SSL" typo in file path.
+- Fixed the slug and file path for Really Simple Security (formerly Really Simple SSL) in the incompatibility list.
 - Gating for the Forms Integrations feature
 - Private site: Rename "Subscriber" role to "Viewer"
 - Remove Duplicator Pro from incompatible plugins list.
