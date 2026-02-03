@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix "Really Simple SSL" typo in file path.
 - Fixed the slug and file path for Really Simple Security (formerly Really Simple SSL) in the incompatibility list.
 - Gating for the Forms Integrations feature
+- Modified error logging.
 - Private site: Rename "Subscriber" role to "Viewer"
 - Remove Duplicator Pro from incompatible plugins list.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
