@@ -158,6 +158,7 @@ return array(
     'Automattic\\Jetpack\\Masterbar\\WPCOM_User_Profile_Fields_Revert' => $baseDir . '/jetpack_vendor/automattic/jetpack-masterbar/src/profile-edit/class-wpcom-user-profile-fields-revert.php',
     'Automattic\\Jetpack\\Masterbar\\WPcom_Admin_Menu' => $baseDir . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-wpcom-admin-menu.php',
     'Automattic\\Jetpack\\Modules' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php',
+    'Automattic\\Jetpack\\Newsletter\\Settings' => $baseDir . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-settings.php',
     'Automattic\\Jetpack\\Partner' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-partner.php',
     'Automattic\\Jetpack\\Partner_Coupon' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-partner-coupon.php',
     'Automattic\\Jetpack\\Password_Checker' => $baseDir . '/jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php',

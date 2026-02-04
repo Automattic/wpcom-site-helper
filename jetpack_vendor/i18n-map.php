@@ -58,7 +58,11 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.10.0-alpha1770138633',
+      'ver' => '6.10.0-alpha1770218961',
+    ),
+    'jetpack-newsletter' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-newsletter',
+      'ver' => '0.3.2-alpha1770218961',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
