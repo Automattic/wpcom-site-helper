@@ -58,6 +58,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove the dotcom command palette.
 
 ### Fixed
+- Changed the Playground loader to reflect new database schema generated from the SQLite plugin.
 - Custom Colors: Prevent warnings when handling malformed data.
 - Ensure proper flags are used with `json_encode()`.
 - Fixed feature gating for payment blocks on WoA sites.
