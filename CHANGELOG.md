@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Social unified UI feature flag.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
+- Add wraning when protected owner email is edited.
 - Enable error logging for external storage.
 - Feature gating for payment-buttons and paypal-payment-buttons blocks
 - Holiday Snow: Add speed and hemisphere settings.
