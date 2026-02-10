@@ -235,6 +235,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_0_0_alpha
         'Automattic\\Jetpack\\Masterbar\\WPCOM_User_Profile_Fields_Revert' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/profile-edit/class-wpcom-user-profile-fields-revert.php',
         'Automattic\\Jetpack\\Masterbar\\WPcom_Admin_Menu' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-wpcom-admin-menu.php',
         'Automattic\\Jetpack\\Modules' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php',
+        'Automattic\\Jetpack\\Newsletter\\Reader_Link' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-reader-link.php',
         'Automattic\\Jetpack\\Newsletter\\Settings' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-settings.php',
         'Automattic\\Jetpack\\Partner' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/src/class-partner.php',
         'Automattic\\Jetpack\\Partner_Coupon' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/src/class-partner-coupon.php',
