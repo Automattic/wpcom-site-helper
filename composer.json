@@ -17,7 +17,7 @@
 		"automattic/jetpack-post-list": "^0.9.5",
 		"automattic/jetpack-mu-wpcom": "^6.10.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.10"
+		"automattic/jetpack-explat": "^0.4.11-alpha"
 	},
 	"require-dev": {
 		"automattic/jetpack-changelogger": "^6.0.14-alpha",
