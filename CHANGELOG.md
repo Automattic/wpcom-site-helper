@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
 - Tested up to WordPress 6.9
 - Update scssphp/scssphp dependency.
+- WordPress.com Reader: add new feature plugin to force the activation of the new Reader module.
 
 ### Changed
 - Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
