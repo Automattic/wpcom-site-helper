@@ -43,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - Gating for the Forms Integrations feature
 - Modified error logging.
 - Private site: Rename "Subscriber" role to "Viewer"
+- Removed Summer Special checks for backups on wpcomsh
 - Remove Duplicator Pro from incompatible plugins list.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - Tests: Ensure PHP 8.5 compatibility.
