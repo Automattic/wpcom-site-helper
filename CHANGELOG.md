@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Added automattic/explat dependency
 - Added domain features for woo_hosted plans
 - Adds a new feature to WPCOM_Features
+- Add SCAN_SELF_SERVE feature and expand SCAN access to all WoW plans.
 - Add Social unified UI feature flag.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
