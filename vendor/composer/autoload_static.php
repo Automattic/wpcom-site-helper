@@ -87,6 +87,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_0_0_alpha
         'A8C\\FSE\\Help_Center' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
         'A8C\\FSE\\Help_Center_Menu_Panel' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center-menu-panel.php',
         'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
+        'A8C\\FSE\\Survicate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/survicate/class-survicate.php',
         'A8C\\FSE\\WP_REST_Agents_Manager_Persisted_Open_State' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/agents-manager/class-wp-rest-agents-manager-persisted-open-state.php',
         'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
         'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
