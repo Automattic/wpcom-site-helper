@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - Removed "Super Blank" plugin (known by slug: super-blank) from list of incompatible plugins.
 - Removed JetBackup from incompatible plugins list. Developer provided new version which works on WordPress.com when tested.
 - Remove the dotcom command palette.
+- Remove unused constants.
 
 ### Fixed
 - Changed the Playground loader to reflect new database schema generated from the SQLite plugin.
