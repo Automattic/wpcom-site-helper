@@ -183,35 +183,35 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-blocks/src/class-blocks.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Featured_Content' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-featured-content.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Portfolio' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-portfolio.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Textarea_Control' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-textarea-control.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Jetpack_Testimonial_Title_Control' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-jetpack-testimonial-title-control.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Main' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-main.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Nova_Restaurant' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/custom-post-types/class-nova-restaurant.php'
 	),
 	'Automattic\\Jetpack\\Classic_Theme_Helper\\Social_Links' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/class-social-links.php'
 	),
 	'Automattic\\Jetpack\\Code_Block' => array(
@@ -466,6 +466,26 @@ return array(
 		'version' => '8.0.1.0-alpha1771952333',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/identity-crisis/class-identity-crisis.php'
 	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN' => array(
+		'version' => '0.7.24.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Core' => array(
+		'version' => '0.7.24.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-core.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Image' => array(
+		'version' => '0.7.24.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-image.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Image_Sizes' => array(
+		'version' => '0.7.24.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-image-sizes.php'
+	),
+	'Automattic\\Jetpack\\Image_CDN\\Image_CDN_Setup' => array(
+		'version' => '0.7.24.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-image-cdn/src/class-image-cdn-setup.php'
+	),
 	'Automattic\\Jetpack\\JITMS\\JITM' => array(
 		'version' => '4.3.24.0-alpha1771952333',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-jitm.php'
@@ -666,6 +686,18 @@ return array(
 		'version' => '0.9.8.0-alpha1771952333',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-list/src/class-post-thumbnail.php'
 	),
+	'Automattic\\Jetpack\\Post_Media' => array(
+		'version' => '0.1.1.0-alpha1771952804',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-post-media.php'
+	),
+	'Automattic\\Jetpack\\Post_Media\\Images' => array(
+		'version' => '0.1.1.0-alpha1771952804',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php'
+	),
+	'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => array(
+		'version' => '0.1.1.0-alpha1771952804',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php'
+	),
 	'Automattic\\Jetpack\\Redirect' => array(
 		'version' => '3.0.9.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-redirect/src/class-redirect.php'
@@ -693,6 +725,10 @@ return array(
 	'Automattic\\Jetpack\\Scheduled_Updates_Logs' => array(
 		'version' => '0.14.6.0-alpha1770098352',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-logs.php'
+	),
+	'Automattic\\Jetpack\\Shortcodes' => array(
+		'version' => '0.1.1.0-alpha1771952804',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-shortcodes.php'
 	),
 	'Automattic\\Jetpack\\Stats\\Main' => array(
 		'version' => '0.18.0.0',
@@ -1143,7 +1179,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/custom-css/custom-css.php'
 	),
 	'Jetpack_Customize_Control_Title' => array(
-		'version' => '0.14.16.0-alpha1771952333',
+		'version' => '0.14.16.0-alpha1771952804',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-classic-theme-helper/src/content-options/customizer.php'
 	),
 	'Jetpack_Data' => array(
