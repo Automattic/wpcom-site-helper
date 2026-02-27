@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- ActivityPub: add new feature plugin, handling a custom sync event triggered when the plugin is activated.
 - Add a new feature to WPCOM_Features
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Added automattic/explat dependency
