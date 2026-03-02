@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Private site: Rename "Subscriber" role to "Viewer"
 - Removed Summer Special checks for backups on wpcomsh
 - Remove Duplicator Pro from incompatible plugins list.
+- Remove header border-bottom from the admin page for a cleaner unified header appearance.
 - Remove unused `jetpack_show_wpcom_upgrades_email_menu` filter.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - Tests: Ensure PHP 8.5 compatibility.
