@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - WordPress.com Reader: add new feature plugin to force the activation of the new Reader module.
 
 ### Changed
+- ActivityPub: include WebFinger handle alongside actor URI in plugin activation sync data.
 - Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
 - Add form-webhooks feature support for WordPress.com plans
 - Adding or removing features to plans for a future experiment. Shouldn't impact existing sites
