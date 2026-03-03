@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - IDC: Add revalidation for IDCs.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
 - MU WPCOM: Support linking back to my.wordpress.com domain.
+- MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
 - Tested up to WordPress 6.9
 - Update scssphp/scssphp dependency.
 - WordPress.com Reader: add new feature plugin to force the activation of the new Reader module.
