@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused constants.
 
 ### Fixed
+- Admin Page: Restore border on header component.
 - Changed the Playground loader to reflect new database schema generated from the SQLite plugin.
 - Custom Colors: Ensure Customizer's custom colors are enqueued in the block editor when set.
 - Custom Colors: Prevent warnings when handling malformed data.
