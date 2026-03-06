@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add wraning when protected owner email is edited.
 - Enable error logging for external storage.
 - Feature gating for payment-buttons and paypal-payment-buttons blocks
+- Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
 - Holiday Snow: Add speed and hemisphere settings.
 - IDC: Add revalidation for IDCs.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
