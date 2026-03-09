@@ -434,9 +434,9 @@
             'dev_requirement' => false,
         ),
         'symfony/filesystem' => array(
-            'pretty_version' => 'v6.4.30',
-            'version' => '6.4.30.0',
-            'reference' => '441c6b69f7222aadae7cbf5df588496d5ee37789',
+            'pretty_version' => 'v6.4.34',
+            'version' => '6.4.34.0',
+            'reference' => '01ffe0411b842f93c571e5c391f289c3fdd498c3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/filesystem',
             'aliases' => array(),
