@@ -23,7 +23,7 @@ return array(
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
 	),
 	'700e9f220ab8246703a73d0e5d5d9192' => array(
-		'version' => '2.11.4.0',
+		'version' => '2.11.5.0',
 		'path'    => $vendorDir . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php'
 	),
 );
