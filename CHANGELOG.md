@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Feature gating for payment-buttons and paypal-payment-buttons blocks
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
 - Gutenberg RTC: Add support for HTTP polling provider for real-time collaboration.
+- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
 - Holiday Snow: Add speed and hemisphere settings.
 - IDC: Add revalidation for IDCs.
 - Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
