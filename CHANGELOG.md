@@ -48,7 +48,6 @@ This is an alpha version! The changes listed here are not final.
 - Fix "Really Simple SSL" typo in file path.
 - Fixed the slug and file path for Really Simple Security (formerly Really Simple SSL) in the incompatibility list.
 - Gating for the Forms Integrations feature
-- Gutenberg RTC: Load wpcom-gutenberg-rtc script from widgets.wp.com instead of bundling it, enabling independent script deployments.
 - Modified error logging.
 - Private site: Rename "Subscriber" role to "Viewer"
 - Removed Summer Special checks for backups on wpcomsh
