@@ -729,6 +729,7 @@ return array(
     'WP_Customize_Footercredit_Select' => $baseDir . '/footer-credit/footer-credit/customizer.php',
     'WP_Privacy_Participating_Plugins' => $baseDir . '/privacy/class-wp-privacy-participating-plugins.php',
     'WP_REST_Comment_Like' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
+    'WP_REST_Gutenberg_RTC' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/gutenberg-rtc/class-wp-rest-gutenberg-rtc.php',
     'WP_REST_Newspack_Articles_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
     'Widget_Authors_Grid' => $baseDir . '/widgets/class-widget-authors-grid.php',
     'Widget_Top_Clicks' => $baseDir . '/widgets/class-widget-top-clicks.php',

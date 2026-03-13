@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Feature gating for payment-buttons and paypal-payment-buttons blocks
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
 - Gutenberg RTC: Add support for HTTP polling provider for real-time collaboration.
+- Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, fixing real-time collaboration on custom-domain Atomic sites with third-party cookie restrictions.
 - Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
 - Holiday Snow: Add speed and hemisphere settings.
 - IDC: Add revalidation for IDCs.

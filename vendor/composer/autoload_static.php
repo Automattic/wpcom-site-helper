@@ -806,6 +806,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_0_0_alpha
         'WP_Customize_Footercredit_Select' => __DIR__ . '/../..' . '/footer-credit/footer-credit/customizer.php',
         'WP_Privacy_Participating_Plugins' => __DIR__ . '/../..' . '/privacy/class-wp-privacy-participating-plugins.php',
         'WP_REST_Comment_Like' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-comments/class-wp-rest-comment-like.php',
+        'WP_REST_Gutenberg_RTC' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/gutenberg-rtc/class-wp-rest-gutenberg-rtc.php',
         'WP_REST_Newspack_Articles_Controller' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php',
         'Widget_Authors_Grid' => __DIR__ . '/../..' . '/widgets/class-widget-authors-grid.php',
         'Widget_Top_Clicks' => __DIR__ . '/../..' . '/widgets/class-widget-top-clicks.php',
