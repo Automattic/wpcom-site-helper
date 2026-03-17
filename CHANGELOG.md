@@ -79,6 +79,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Page: Restore border on header component.
 - Changed the Playground loader to reflect new database schema generated from the SQLite plugin.
 - Custom Colors: Ensure Customizer's custom colors are enqueued in the block editor when set.
+- Custom Colors: Fix block editor CSS not applying in Gutenberg 22.6.0+ iframe context.
 - Custom Colors: Prevent warnings when handling malformed data.
 - Ensure proper flags are used with `json_encode()`.
 - Fixed feature gating for payment blocks on WoA sites.
