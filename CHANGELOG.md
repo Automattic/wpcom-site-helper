@@ -75,6 +75,7 @@ This is an alpha version! The changes listed here are not final.
 - Removed persistent data empty state logging.
 - Remove the dotcom command palette.
 - Remove unused constants.
+- RTC: Move implementation to generic package
 
 ### Fixed
 - Add function_exists() check for wpcom_is_automattic_p2_site to prevent fatal errors when the function is undefined.
