@@ -66,6 +66,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-features: add logs, monitoring, performance hosting features
 - WPCOM: Sync changes from class-wpcom-feature.php
 - WPCOM: Sync changes from class-wpcom-features.php
+- WPCOM Features: Copy feature support for Big Sky from wpcom
 
 ### Removed
 - General: Update minimum WordPress version to 6.8.
