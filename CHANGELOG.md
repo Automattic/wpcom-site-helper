@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 - Add support for user tokens in external storage.
 - Add Tracks events to theme screens
 - Add wraning when protected owner email is edited.
+- Disable outgoing and incoming pingbacks for staging sites.
 - Enable error logging for external storage.
 - Feature gating for payment-buttons and paypal-payment-buttons blocks
 - Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
