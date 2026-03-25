@@ -88,6 +88,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom Colors: Fix block editor CSS not applying in Gutenberg 22.6.0+ iframe context.
 - Custom Colors: Prevent warnings when handling malformed data.
 - Ensure proper flags are used with `json_encode()`.
+- Fix disabling of outgoing pingbacks from staging sites.
 - Fixed feature gating for payment blocks on WoA sites.
 - Fix plugin auto-update sync by preventing the `pre_option_auto_update_plugins` filter from interfering with Jetpack XML RPC requests
 - Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment.
