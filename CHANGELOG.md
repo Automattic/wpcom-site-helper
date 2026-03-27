@@ -110,6 +110,7 @@ This is an alpha version! The changes listed here are not final.
 - Social: Fix the incorrect format of feature flag for unified UI v1.
 - Update wc-calypso-bridge from 2.11.3 to 2.11.4.
 - Update wc-calypso-bridge from 2.11.4 to 2.11.5.
+- Update wc-calypso-bridge to 2.11.6.
 - Widgets: Prevent PHP warnings when variables are undefined or malformed.
 - Wrap deprecated no-op function in PHP version checks.
 
