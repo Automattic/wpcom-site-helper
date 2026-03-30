@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - Footer: Avoid PHP errors when nested in output buffering.
 - Jetpack: remove getIconColor functions for block icons
 - Legacy Pro plan: Remove artificial media storage limit.
+- Make Discussion Settings UI reflect that pingbacks are disabled on staging sites.
 - Managed Plugins: Handle malformed data gracefully.
 - Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled.
 - Patch for a4a
