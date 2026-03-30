@@ -14,15 +14,15 @@
 		"automattic/jetpack-autoloader": "^5.0.16",
 		"automattic/jetpack-composer-plugin": "^4.0.5",
 		"automattic/jetpack-config": "^3.1.1",
-		"automattic/jetpack-post-list": "^0.9.11",
+		"automattic/jetpack-post-list": "^0.9.12",
 		"automattic/jetpack-mu-wpcom": "^6.10.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.18-alpha"
+		"automattic/jetpack-explat": "^0.4.18"
 	},
 	"require-dev": {
 		"automattic/jetpack-changelogger": "^6.0.14",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/phpunit-select-config": "^1.0.4-alpha"
+		"automattic/phpunit-select-config": "^1.0.4"
 	},
 	"autoload": {
 		"classmap": [
