@@ -50,6 +50,7 @@ This is an alpha version! The changes listed here are not final.
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
 - Custom post types: Ensure features remain available when theme support is added.
+- Dependencies: Update lock file to keep root requirements in sync.
 - Don't translate product names.
 - Enable Social unified UI v1 feature flag.
 - Fix "Really Simple SSL" typo in file path.
