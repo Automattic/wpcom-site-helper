@@ -711,11 +711,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php'
 	),
 	'Automattic\\Jetpack\\RTC' => array(
-		'version' => '0.1.0.0-alpha1775054305',
+		'version' => '0.1.0.0-alpha1775136002',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/class-rtc.php'
 	),
+	'Automattic\\Jetpack\\RTC\\REST_Connection_Log' => array(
+		'version' => '0.1.0.0-alpha1775136002',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-connection-log.php'
+	),
 	'Automattic\\Jetpack\\RTC\\REST_Pinghub_Token' => array(
-		'version' => '0.1.0.0-alpha1775054305',
+		'version' => '0.1.0.0-alpha1775136002',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-pinghub-token.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(

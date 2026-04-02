@@ -180,6 +180,7 @@ return array(
     'Automattic\\Jetpack\\Post_Media\\Images' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php',
     'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php',
     'Automattic\\Jetpack\\RTC' => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/class-rtc.php',
+    'Automattic\\Jetpack\\RTC\\REST_Connection_Log' => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-connection-log.php',
     'Automattic\\Jetpack\\RTC\\REST_Pinghub_Token' => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-pinghub-token.php',
     'Automattic\\Jetpack\\Redirect' => $baseDir . '/jetpack_vendor/automattic/jetpack-redirect/src/class-redirect.php',
     'Automattic\\Jetpack\\Roles' => $baseDir . '/jetpack_vendor/automattic/jetpack-roles/src/class-roles.php',

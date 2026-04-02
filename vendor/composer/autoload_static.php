@@ -257,6 +257,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_0_0_alpha
         'Automattic\\Jetpack\\Post_Media\\Images' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php',
         'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php',
         'Automattic\\Jetpack\\RTC' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-rtc/src/class-rtc.php',
+        'Automattic\\Jetpack\\RTC\\REST_Connection_Log' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-connection-log.php',
         'Automattic\\Jetpack\\RTC\\REST_Pinghub_Token' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-pinghub-token.php',
         'Automattic\\Jetpack\\Redirect' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-redirect/src/class-redirect.php',
         'Automattic\\Jetpack\\Roles' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-roles/src/class-roles.php',
