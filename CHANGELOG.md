@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Atomic sites that have access to Global Styles can use Custom CSS
 - Code block: Remove active line highlight when block is unselected.
 - Code block: Remove experimental warning
+- Comment: Add Tracking to Jetpack upsell link.
 - Custom post types: Ensure features remain available when theme support is added.
 - Dependencies: Update lock file to keep root requirements in sync.
 - Don't translate product names.
