@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused `jetpack_show_wpcom_upgrades_email_menu` filter.
 - Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
 - Tests: Ensure PHP 8.5 compatibility.
+- Update design of the sidebar upsell.
 - Update package dependencies.
 - Update the feature gating for Donations, allowing conditional hiding based on a sticker
 - wpcom-features: add logs, monitoring, performance hosting features
