@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Add autoloader check to prevent fatal errors when plugin is activated before composer install.
 - Added automattic/explat dependency
 - Added domain features for woo_hosted plans
+- Added Studio Sync features for lower plans
 - Add feature flag for X connection support for Jetpack Social
 - Add Real-time Collaboration as a WP.com plan feature.
 - Adds a new feature to WPCOM_Features
