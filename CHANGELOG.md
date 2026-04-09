@@ -1,124 +1,113 @@
 # Changelog
 
-## 9.0.0-alpha - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## 9.0.0 - 2026-04-09
 ### Added
-- ActivityPub: add new feature plugin, handling a custom sync event triggered when the plugin is activated.
-- Add a new feature to WPCOM_Features
-- Add autoloader check to prevent fatal errors when plugin is activated before composer install.
-- Added automattic/explat dependency
-- Added domain features for woo_hosted plans
-- Added Studio Sync features for lower plans
-- Add feature flag for X connection support for Jetpack Social
-- Add Real-time Collaboration as a WP.com plan feature.
-- Adds a new feature to WPCOM_Features
-- Add SCAN_SELF_SERVE feature and expand SCAN access to all WoW plans.
-- Add Social unified UI feature flag.
-- Add support for user tokens in external storage.
-- Add Tracks events to theme screens
-- Add wraning when protected owner email is edited.
-- Disable outgoing and incoming pingbacks for staging sites.
-- Enable error logging for external storage.
-- Feature gating for payment-buttons and paypal-payment-buttons blocks
-- Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections.
-- Gutenberg RTC: Add support for HTTP polling provider for real-time collaboration.
-- Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, fixing real-time collaboration on custom-domain Atomic sites with third-party cookie restrictions.
-- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature.
-- Holiday Snow: Add speed and hemisphere settings.
-- IDC: Add revalidation for IDCs.
-- Introduces Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option.
-- MU WPCOM: Support linking back to my.wordpress.com domain.
-- MU WPCOM: Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers
-- RTC: HTTP-polling ramp up for WoW sites
-- Tested up to WordPress 6.9
-- Update scssphp/scssphp dependency.
-- WordPress.com Reader: add new feature plugin to force the activation of the new Reader module.
+- ActivityPub: Add new feature plugin, handling a custom sync event triggered when the plugin is activated. [#47346]
+- Add a new feature to WPCOM_Features. [#46587] [#46629]
+- Add autoloader check to prevent fatal errors when plugin is activated before composer install. [#46489]
+- Add automattic/explat dependency. [#46066]
+- Add domain features for woo_hosted plans. [#45687]
+- Add feature flag for X connection support for Jetpack Social. [#47547]
+- Add Real-time Collaboration as a WP.com plan feature. [#47483]
+- Add SCAN_SELF_SERVE feature and expand SCAN access to all WoW plans. [#47187]
+- Add Social unified UI feature flag. [#46061]
+- Add Studio Sync features for lower plans. [#47966]
+- Add support for user tokens in external storage. [#45303]
+- Add Tracks events to theme screens. [#45587]
+- Add warning when protected owner email is edited. [#46899]
+- Disable outgoing and incoming pingbacks for staging sites. [#47628]
+- Enable error logging for external storage. [#46795]
+- Feature gating for payment-buttons and paypal-payment-buttons blocks. [#46536]
+- Gutenberg RTC: Add PingHub provider for real-time collaboration WebSocket connections. [#47421]
+- Gutenberg RTC: Add support for HTTP polling provider for real-time collaboration. [#47485]
+- Gutenberg RTC: Connect to PingHub WebSocket directly using a server-generated JWT token, fixing real-time collaboration on custom-domain Atomic sites with third-party cookie restrictions. [#47556]
+- Gutenberg RTC: Enable Real-Time Collaboration feature for sites with the REAL_TIME_COLLABORATION feature. [#47512]
+- Holiday Snow: Add speed and hemisphere settings. [#46139]
+- IDC: Add revalidation for IDCs. [#46268]
+- Introduce Attachment pages setting in the media settings screen in wp-admin which controlls the `wp_attachment_pages_enabled` option. [#40590]
+- RTC: HTTP-polling ramp up for WoW sites. [#47718]
+- Support linking back to my.wordpress.com domain. [#46559]
+- Tested up to WordPress 6.9. [#45571]
+- Unregister the Gutenberg RTC setting on the Writing page if there are no RTC providers. [#47403]
+- Update scssphp/scssphp dependency. [#45757]
+- WordPress.com Reader: Add new feature plugin to force the activation of the new Reader module. [#46782]
 
 ### Changed
-- ActivityPub: include WebFinger handle alongside actor URI in plugin activation sync data.
-- Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites
-- Add form-webhooks feature support for WordPress.com plans
-- Adding or removing features to plans for a future experiment. Shouldn't impact existing sites
-- Adds support for flex plans
-- Add support for 200GB legacy space through sticker
-- Add three plugins to incompatible list: `factory-reset/factory-reset.php`, `super-blank/super-blank.php`, and `porn-videos-embed/porn-videos-embed.php`
-- Adjusting incompatible plugins list per this project - https://linear.app/a8c/project/audit-blocked-plugins-0e4e3a73bb43/overview
-- Allow the content-guidelines Gutenberg experiment on Atomic sites instead of blanket-disabling all experiments.
-- Allow users with the UPLOAD_VIDEO_FILES feature to upload videos without VideoPress
-- Atomic sites that have access to Global Styles can use Custom CSS
-- Code block: Remove active line highlight when block is unselected.
-- Code block: Remove experimental warning
-- Comment: Add Tracking to Jetpack upsell link.
-- Custom post types: Ensure features remain available when theme support is added.
-- Dependencies: Update lock file to keep root requirements in sync.
-- Don't translate product names.
-- Enable Social unified UI v1 feature flag.
-- Fix "Really Simple SSL" typo in file path.
-- Fixed the slug and file path for Really Simple Security (formerly Really Simple SSL) in the incompatibility list.
-- Gating for the Forms Integrations feature
-- Modified error logging.
-- Private site: Rename "Subscriber" role to "Viewer"
-- Removed Summer Special checks for backups on wpcomsh
-- Remove Duplicator Pro from incompatible plugins list.
-- Remove header border-bottom from the admin page for a cleaner unified header appearance.
-- Remove unused `jetpack_show_wpcom_upgrades_email_menu` filter.
-- Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect.
-- Tests: Ensure PHP 8.5 compatibility.
-- Update design of the sidebar upsell.
-- Update package dependencies.
-- Update the feature gating for Donations, allowing conditional hiding based on a sticker
-- wpcom-features: add logs, monitoring, performance hosting features
-- WPCOM: Sync changes from class-wpcom-feature.php
-- WPCOM: Sync changes from class-wpcom-features.php
-- WPCOM Features: Copy feature support for Big Sky from wpcom
+- ActivityPub: Include WebFinger handle alongside actor URI in plugin activation sync data. [#47402]
+- Add 'mass-pagesposts-creator' to the plugin list we disallow for WoA sites. [#46050]
+- Add form-webhooks feature support for WordPress.com plans. [#46059]
+- Add support for 200GB legacy space through sticker. [#46920]
+- Add support for flex plans. [#45492]
+- Add/remove features to plans for a future experiment. [#46285]
+- Adjust incompatible plugins list. [#46225] [#46286] [#46577] [#47280]
+- Allow Atomic sites that have access to Global Styles to use Custom CSS. [#46632]
+- Allow the content-guidelines Gutenberg experiment on Atomic sites instead of blanket-disabling all experiments. [#47581]
+- Allow users with the UPLOAD_VIDEO_FILES feature to upload videos without VideoPress. [#46425]
+- Code block: Remove active line highlight when block is unselected. [#45828]
+- Code block: Remove experimental warning. [#45827]
+- Custom post types: Ensure features remain available when theme support is added. [#45407]
+- Dependencies: Update lock file to keep root requirements in sync. [#47418]
+- Do not translate product names. [#43961]
+- Enable Social unified UI v1 feature flag. [#47158]
+- Gate for the Forms Integrations feature [#46829]
+- Modify error logging. [#46919]
+- Private site: Rename "Subscriber" role to "Viewer". [#45956]
+- Remove header border-bottom from the admin page for a cleaner unified header appearance. [#47313]
+- Remove unused `jetpack_show_wpcom_upgrades_email_menu` filter. [#47146]
+- Removed Summer Special checks for backups on wpcomsh. [#46850]
+- Replace use of confusing `esc_js` with `wp_json_encode`, or with nothing where it had no effect. [#46229]
+- Tests: Ensure PHP 8.5 compatibility. [#45769]
+- Update design of the sidebar upsell. [#47909]
+- Update package dependencies. [#45478] [#45771] [#45958] [#46066] [#46082] [#46785] [#47021] [#47505] [#47799] [#47899]
+- Update the feature gating for Donations, allowing conditional hiding based on a sticker. [#46472]
+- WPCOM: Add logs, monitoring, performance hosting features. [#45622]
+- WPCOM: Sync changes from class-wpcom-features.php. [#45675] [#45848] [#46576]
 
 ### Removed
-- General: Update minimum WordPress version to 6.8.
-- JP Sitemaps: Removed sticker determination for XMLWriter
-- Removed "Super Blank" plugin (known by slug: super-blank) from list of incompatible plugins.
-- Removed JetBackup from incompatible plugins list. Developer provided new version which works on WordPress.com when tested.
-- Removed persistent data empty state logging.
-- Remove the dotcom command palette.
-- Remove unused constants.
-- RTC: Move implementation to generic package
+- General: Update minimum WordPress version to 6.8. [#46801]
+- JP Sitemaps: Remove sticker determination for XMLWriter. [#45527]
+- Remove "Super Blank" plugin (`super-blank`) from list of incompatible plugins. [#46735]
+- Remove JetBackup from incompatible plugins list. [#46618]
+- Remove persistent data empty state logging. [#47250]
+- Remove the dotcom command palette. [#46579]
+- Remove unused constants. [#47241]
+- RTC: Move implementation to generic package. [#47713]
 
 ### Fixed
-- Add function_exists() check for wpcom_is_automattic_p2_site to prevent fatal errors when the function is undefined.
-- Admin Page: Restore border on header component.
-- Changed the Playground loader to reflect new database schema generated from the SQLite plugin.
-- Custom Colors: Ensure Customizer's custom colors are enqueued in the block editor when set.
-- Custom Colors: Fix block editor CSS not applying in Gutenberg 22.6.0+ iframe context.
-- Custom Colors: Prevent warnings when handling malformed data.
-- Ensure proper flags are used with `json_encode()`.
-- Fix disabling of outgoing pingbacks from staging sites.
-- Fixed feature gating for payment blocks on WoA sites.
-- Fix plugin auto-update sync by preventing the `pre_option_auto_update_plugins` filter from interfering with Jetpack XML RPC requests
-- Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment.
-- Footer: Avoid PHP errors when nested in output buffering.
-- I18n: Correct WPCOM locale fallback when theme .mo files use {textdomain}-{locale} names under the themes directory.
-- Jetpack: remove getIconColor functions for block icons
-- Legacy Pro plan: Remove artificial media storage limit.
-- Make Discussion Settings UI reflect that pingbacks are disabled on staging sites.
-- Managed Plugins: Handle malformed data gracefully.
-- Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled.
-- Patch for a4a
-- Phan: Address PhanPossiblyUndeclaredVariable violations.
-- Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations.
-- Podcasting: Prevent PHP warnings when metadata is incomplete.
-- Prevent PHP 8.2+ deprecation warnings.
-- Prevent PHP errors when doing SSO bypass checks.
-- Prevent PHP errors when handling Google Fonts URLs.
-- Prevent PHP warnings when handling unexpected data types.
-- Private site: Auto-redirect to login
-- Private sites: Prevent PHP errors.
-- Social: Fix the incorrect format of feature flag for unified UI v1.
-- Update wc-calypso-bridge from 2.11.3 to 2.11.4.
-- Update wc-calypso-bridge from 2.11.4 to 2.11.5.
-- Update wc-calypso-bridge to 2.11.6.
-- Widgets: Prevent PHP warnings when variables are undefined or malformed.
-- Wrap deprecated no-op function in PHP version checks.
+- Add function_exists() check for wpcom_is_automattic_p2_site to prevent fatal errors when the function is undefined. [#47676]
+- Admin Page: Restore border on header component. [#47425]
+- Changed the Playground loader to reflect new database schema generated from the SQLite plugin. [#46825]
+- Custom Colors: Ensure Customizer's custom colors are enqueued in the block editor when set. [#46863]
+- Custom Colors: Fix block editor CSS not applying in Gutenberg 22.6.0+ iframe context. [#47603]
+- Custom Colors: Prevent warnings when handling malformed data. [#45925]
+- Ensure proper flags are used with `json_encode()`. [#46117]
+- Fix "Really Simple SSL" typo in file path. [#46267]
+- Fix disabling of outgoing pingbacks from staging sites. [#47752]
+- Fix feature gating for payment blocks on WoW sites. [#46690]
+- Fix plugin auto-update sync by preventing the `pre_option_auto_update_plugins` filter from interfering with Jetpack XML RPC requests. [#45636]
+- Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment. [#46428]
+- Fix the slug and file path for Really Simple Security (formerly Really Simple SSL) in the incompatibility list. [#46833]
+- Footer: Avoid PHP errors when nested in output buffering. [#45732]
+- I18n: Correct WPCOM locale fallback when theme .mo files use {textdomain}-{locale} names under the themes directory. [#48016]
+- Jetpack: Remove getIconColor functions for block icons. [#45992]
+- Legacy Pro plan: Remove artificial media storage limit. [#46543]
+- Make Discussion Settings UI reflect that pingbacks are disabled on staging sites. [#47817]
+- Managed Plugins: Handle malformed data gracefully. [#46053]
+- Newsletter: Fix Reading page notice URL and link to new settings page when the jetpack_wp_admin_newsletter_settings_enabled filter is enabled. [#47347]
+- Patch for A4A. [#46029]
+- Phan: Address PhanPossiblyUndeclaredVariable violations. [#45911]
+- Phan: Address PhanRedundantCondition, PhanRedundantArrayValuesCall, and PhanPluginRedundantAssignment violations. [#45681]
+- Podcasting: Prevent PHP warnings when metadata is incomplete. [#46071]
+- Prevent PHP 8.2+ deprecation warnings. [#45798]
+- Prevent PHP errors when doing SSO bypass checks. [#45859]
+- Prevent PHP errors when handling Google Fonts URLs. [#45858]
+- Prevent PHP warnings when handling unexpected data types. [#45798]
+- Private site: Auto-redirect to login. [#45584]
+- Private sites: Prevent PHP errors. [#45860]
+- Social: Fix the incorrect format of feature flag for unified UI v1. [#46078]
+- Update wc-calypso-bridge. [#46731] [#47487] [#47816]
+- Widgets: Prevent PHP warnings when variables are undefined or malformed. [#45934]
+- Wrap deprecated no-op function in PHP version checks. [#45766]
 
 ## 8.0.0 - 2025-10-10
 ### Added

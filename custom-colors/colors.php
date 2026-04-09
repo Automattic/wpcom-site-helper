@@ -1464,7 +1464,7 @@ class Colors_Manager_Common {
 	/**
 	 * Enqueue theme CSS for the block editor.
 	 *
-	 * @since 9.0.0-alpha
+	 * @since 9.0.0
 	 */
 	public static function print_block_editor_css() {
 		if ( ! self::should_enable_colors() ) {
