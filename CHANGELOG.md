@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix plugin auto-update sync by preventing the `pre_option_auto_update_plugins` filter from interfering with Jetpack XML RPC requests
 - Fix product features cache key to include gating-business-q1 sticker status for the calypso_plans_differentiators_20251210 experiment.
 - Footer: Avoid PHP errors when nested in output buffering.
+- I18n: Correct WPCOM locale fallback when theme .mo files use {textdomain}-{locale} names under the themes directory.
 - Jetpack: remove getIconColor functions for block icons
 - Legacy Pro plan: Remove artificial media storage limit.
 - Make Discussion Settings UI reflect that pingbacks are disabled on staging sites.
