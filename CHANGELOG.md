@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
 ## 9.0.0 - 2026-04-09
 ### Added
 - ActivityPub: Add new feature plugin, handling a custom sync event triggered when the plugin is activated. [#47346]
