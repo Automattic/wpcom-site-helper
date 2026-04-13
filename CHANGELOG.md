@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Load only when desired.
+- Update package dependencies.
 
 ## 9.0.0 - 2026-04-09
 ### Added

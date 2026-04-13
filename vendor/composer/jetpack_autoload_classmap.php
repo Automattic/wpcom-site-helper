@@ -2827,11 +2827,11 @@ return array(
 		'path'    => $vendorDir . '/symfony/filesystem/Path.php'
 	),
 	'Symfony\\Polyfill\\Ctype\\Ctype' => array(
-		'version' => '1.33.0.0',
+		'version' => '1.34.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/Ctype.php'
 	),
 	'Symfony\\Polyfill\\Mbstring\\Mbstring' => array(
-		'version' => '1.33.0.0',
+		'version' => '1.34.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php'
 	),
 	'Tlkio_Widget' => array(
