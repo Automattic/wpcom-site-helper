@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Load only when desired.
 - Update package dependencies.
 
