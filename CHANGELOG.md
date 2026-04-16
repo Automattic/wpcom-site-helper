@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Load only when desired.
+- Tested up to WordPress 7.0.
 - Update package dependencies.
 
 ## 9.0.0 - 2026-04-09
