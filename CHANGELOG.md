@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
+- Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
 - Customize the WordPress fatal error screen with WordPress.com support links.
 
 ### Changed
