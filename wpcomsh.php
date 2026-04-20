@@ -2,14 +2,14 @@
 /**
  * Plugin Name: WordPress.com Site Helper
  * Description: A helper for connecting WordPress.com sites to external host infrastructure.
- * Version: 9.0.1-alpha
+ * Version: 9.1.0-alpha
  * Author: Automattic
  * Author URI: http://automattic.com/
  *
  * @package wpcomsh
  */
 
-define( 'WPCOMSH_VERSION', '9.0.1-alpha' );
+define( 'WPCOMSH_VERSION', '9.1.0-alpha' );
 
 // Loaded first so the filter is registered before any other bootstrap that might fatal.
 require_once __DIR__ . '/fatal-error-screen.php';
@@ -153,6 +153,7 @@ require_once __DIR__ . '/feature-plugins/stats.php';
 require_once __DIR__ . '/feature-plugins/woocommerce.php';
 require_once __DIR__ . '/feature-plugins/wordpress-mods.php';
 require_once __DIR__ . '/feature-plugins/wpcom-reader-link.php';
+require_once __DIR__ . '/feature-plugins/reprint-exporter-api.php';
 require_once __DIR__ . '/feature-plugins/featured-image-in-email.php';
 
 /**

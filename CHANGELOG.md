@@ -1,10 +1,11 @@
 # Changelog
 
-## 9.0.1-alpha - unreleased
+## 9.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
 - Customize the WordPress fatal error screen with WordPress.com support links.
 
 ### Changed
@@ -12,6 +13,9 @@ This is an alpha version! The changes listed here are not final.
 - Load only when desired.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
+
+### Fixed
+- Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 
 ## 9.0.0 - 2026-04-09
 ### Added

@@ -17,7 +17,9 @@
 		"automattic/jetpack-post-list": "^0.9.15-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.11.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.21-alpha"
+		"automattic/jetpack-explat": "^0.4.21-alpha",
+		"wp-php-toolkit/reprint-exporter": "^0.1.44",
+		"wp-php-toolkit/reprint-importer": "^0.1.44"
 	},
 	"require-dev": {
 		"automattic/jetpack-changelogger": "^6.0.14",
@@ -121,7 +123,7 @@
 			"automattic/jetpack-composer-plugin": true,
 			"automattic/jetpack-autoloader": true
 		},
-		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_0_1_alpha"
+		"autoloader-suffix": "26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha"
 	},
 	"extra": {
 		"mirror-repo": "Automattic/wpcom-site-helper",

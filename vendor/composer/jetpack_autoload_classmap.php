@@ -94,6 +94,10 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php'
 	),
+	'Attribute' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/Attribute.php'
+	),
 	'Autoloader' => array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader.php'
@@ -1102,6 +1106,86 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/endpoints/class-backup-import-response.php'
 	),
+	'BlockMarkupProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/BlockMarkupProcessorTest.php'
+	),
+	'BlockMarkupUrlProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/BlockMarkupUrlProcessorTest.php'
+	),
+	'Brick\\Math\\BigDecimal' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigDecimal.php'
+	),
+	'Brick\\Math\\BigInteger' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigInteger.php'
+	),
+	'Brick\\Math\\BigNumber' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigNumber.php'
+	),
+	'Brick\\Math\\BigRational' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigRational.php'
+	),
+	'Brick\\Math\\Exception\\DivisionByZeroException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/DivisionByZeroException.php'
+	),
+	'Brick\\Math\\Exception\\IntegerOverflowException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/IntegerOverflowException.php'
+	),
+	'Brick\\Math\\Exception\\MathException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/MathException.php'
+	),
+	'Brick\\Math\\Exception\\NegativeNumberException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/NegativeNumberException.php'
+	),
+	'Brick\\Math\\Exception\\NumberFormatException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/NumberFormatException.php'
+	),
+	'Brick\\Math\\Exception\\RoundingNecessaryException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Exception/RoundingNecessaryException.php'
+	),
+	'Brick\\Math\\Internal\\Calculator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Internal/Calculator.php'
+	),
+	'Brick\\Math\\Internal\\Calculator\\BcMathCalculator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Internal/Calculator/BcMathCalculator.php'
+	),
+	'Brick\\Math\\Internal\\Calculator\\GmpCalculator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Internal/Calculator/GmpCalculator.php'
+	),
+	'Brick\\Math\\Internal\\Calculator\\NativeCalculator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/Internal/Calculator/NativeCalculator.php'
+	),
+	'Brick\\Math\\RoundingMode' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/RoundingMode.php'
+	),
+	'ByteReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/ByteReadStreamTest.php'
+	),
+	'CSSProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/CSSProcessorTest.php'
+	),
+	'CSSURLProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/CSSUrlProcessorTest.php'
+	),
 	'Colors_API' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/custom-colors/colors-api.php'
@@ -1130,6 +1214,50 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/custom-colors/core-bg-override.php'
 	),
+	'DatabaseContentEntityReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/DatabaseContentEntityReaderTest.php'
+	),
+	'DatabaseEntityReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/DatabaseEntityReaderTest.php'
+	),
+	'DeflateReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/DeflateReadStreamTest.php'
+	),
+	'EPubEntityReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/EPubEntityReaderTest.php'
+	),
+	'FileReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/FileReadStreamTest.php'
+	),
+	'FileReadWriteStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/FileReadWriteStreamTest.php'
+	),
+	'FileTreeProducer' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-file-tree-producer.php'
+	),
+	'FileWriteStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/FileWriteStreamTest.php'
+	),
+	'FilesystemEntityReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/FilesystemEntityReaderTest.php'
+	),
+	'FilesystemTestCase' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/FilesystemTestCase.php'
+	),
+	'FunctionsTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/FunctionsTest.php'
+	),
 	'Gifting_Banner' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/frontend-notices/gifting-banner/gifting-banner.php'
@@ -1141,6 +1269,14 @@ return array(
 	'Gravatar_Widget' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/class-gravatar-widget.php'
+	),
+	'GzipOutputStream' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/export.php'
+	),
+	'HTMLEntityReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/HTMLEntityReaderTest.php'
 	),
 	'Hook_Manager' => array(
 		'version' => '5.0.16',
@@ -1201,6 +1337,14 @@ return array(
 	'Imports\\Utils\\Logger\\FileLogger' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/imports/utils/logger/class-filelogger.php'
+	),
+	'InMemoryFilesystemTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/InMemoryFilesystemTest.php'
+	),
+	'InflateReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/InflateReadStreamTest.php'
 	),
 	'Jetpack_Custom_CSS_Enhancements' => array(
 		'version' => '6.11.0.0-alpha1776522627',
@@ -1510,6 +1654,10 @@ return array(
 		'version' => '7.8.1.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UrnComparisonMode.php'
 	),
+	'LocalFilesystemTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/LocalFilesystemTest.php'
+	),
 	'Manifest_Reader' => array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
@@ -1522,9 +1670,21 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/endpoints/class-marketplace-webhook-response.php'
 	),
+	'MarkupProcessorConsumerTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/MarkupProcessorConsumerTest.php'
+	),
 	'Music_Player_Widget' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/class-music-player-widget.php'
+	),
+	'MySQLDumpWriterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/MySQLDumpWriterTest.php'
+	),
+	'MySQLExportTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/MySQLExportTest.php'
 	),
 	'Newspack_Blocks' => array(
 		'version' => '6.11.0.0-alpha1776522627',
@@ -1533,6 +1693,10 @@ return array(
 	'Newspack_Blocks_API' => array(
 		'version' => '6.11.0.0-alpha1776522627',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/class-newspack-blocks-api.php'
+	),
+	'Normalizer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php'
 	),
 	'PD_Top_Rated' => array(
 		'version' => 'dev-trunk',
@@ -1550,6 +1714,10 @@ return array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
 	),
+	'PhpToken' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/PhpToken.php'
+	),
 	'Plugin_Locator' => array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
@@ -1557,6 +1725,18 @@ return array(
 	'Plugins_Handler' => array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugins-handler.php'
+	),
+	'Psr\\EventDispatcher\\EventDispatcherInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/event-dispatcher/src/EventDispatcherInterface.php'
+	),
+	'Psr\\EventDispatcher\\ListenerProviderInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/event-dispatcher/src/ListenerProviderInterface.php'
+	),
+	'Psr\\EventDispatcher\\StoppableEventInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/event-dispatcher/src/StoppableEventInterface.php'
 	),
 	'Psr\\Http\\Message\\MessageInterface' => array(
 		'version' => '2.0.0.0',
@@ -1610,9 +1790,613 @@ return array(
 		'version' => '2.0.0.0',
 		'path'    => $vendorDir . '/psr/http-message/src/UriInterface.php'
 	),
+	'Psr\\Log\\AbstractLogger' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/AbstractLogger.php'
+	),
+	'Psr\\Log\\InvalidArgumentException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/InvalidArgumentException.php'
+	),
+	'Psr\\Log\\LogLevel' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/LogLevel.php'
+	),
+	'Psr\\Log\\LoggerAwareInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/LoggerAwareInterface.php'
+	),
+	'Psr\\Log\\LoggerAwareTrait' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/LoggerAwareTrait.php'
+	),
+	'Psr\\Log\\LoggerInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/LoggerInterface.php'
+	),
+	'Psr\\Log\\LoggerTrait' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/LoggerTrait.php'
+	),
+	'Psr\\Log\\NullLogger' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/psr/log/src/NullLogger.php'
+	),
+	'Reprint_Exporter_Rest_Controller' => array(
+		'version' => 'dev-trunk',
+		'path'    => $baseDir . '/feature-plugins/class-reprint-exporter-rest-controller.php'
+	),
+	'ResourceBudget' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/export.php'
+	),
 	'Rest_Api_Code_Deployment_Logs_Controller' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/endpoints/class-rest-api-code-deployment-logs-controller.php'
+	),
+	'RewriteUrlsTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/RewriteUrlsTest.php'
+	),
+	'Rowbot\\Idna\\Bin\\Builder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/bin/Builder.php'
+	),
+	'Rowbot\\Idna\\Bin\\IdnaDataBuilder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/bin/IdnaDataBuilder.php'
+	),
+	'Rowbot\\Idna\\Bin\\RegexBuilder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/bin/RegexBuilder.php'
+	),
+	'Rowbot\\Idna\\Bin\\ViramaDataBuilder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/bin/ViramaDataBuilder.php'
+	),
+	'Rowbot\\Idna\\CodePoint' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/CodePoint.php'
+	),
+	'Rowbot\\Idna\\CodePointStatus' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/CodePointStatus.php'
+	),
+	'Rowbot\\Idna\\DomainInfo' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/DomainInfo.php'
+	),
+	'Rowbot\\Idna\\Idna' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/Idna.php'
+	),
+	'Rowbot\\Idna\\IdnaResult' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/IdnaResult.php'
+	),
+	'Rowbot\\Idna\\LabelValidator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/src/LabelValidator.php'
+	),
+	'Rowbot\\Idna\\Resource\\DisallowedRanges' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/resources/DisallowedRanges.php'
+	),
+	'Rowbot\\Idna\\Resource\\Regex' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/resources/Regex.php'
+	),
+	'Rowbot\\Idna\\Test\\IdnaV2Test' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/tests/IdnaV2Test.php'
+	),
+	'Rowbot\\Idna\\Test\\IdnaV2TestCase' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/idna/tests/IdnaV2TestCase.php'
+	),
+	'Rowbot\\Punycode\\Exception\\InvalidInputException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/src/Exception/InvalidInputException.php'
+	),
+	'Rowbot\\Punycode\\Exception\\OutputSizeExceededException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/src/Exception/OutputSizeExceededException.php'
+	),
+	'Rowbot\\Punycode\\Exception\\OverflowException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/src/Exception/OverflowException.php'
+	),
+	'Rowbot\\Punycode\\Exception\\PunycodeException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/src/Exception/PunycodeException.php'
+	),
+	'Rowbot\\Punycode\\Punycode' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/src/Punycode.php'
+	),
+	'Rowbot\\Punycode\\Test\\PunycodeTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/punycode/tests/PunycodeTest.php'
+	),
+	'Rowbot\\URL\\APIParserErrorType' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/APIParserErrorType.php'
+	),
+	'Rowbot\\URL\\APIParserResult' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/APIParserResult.php'
+	),
+	'Rowbot\\URL\\BasicURLParser' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/BasicURLParser.php'
+	),
+	'Rowbot\\URL\\Component\\AbstractPath' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/AbstractPath.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\AbstractHost' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/AbstractHost.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\HostInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/HostInterface.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\HostParser' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/HostParser.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\IPv4Address' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/IPv4Address.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\IPv4AddressParser' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/IPv4AddressParser.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\IPv6Address' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/IPv6Address.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\IPv6AddressParser' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/IPv6AddressParser.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Math\\BrickMathAdapter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Math/BrickMathAdapter.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Math\\Exception\\MathException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Math/Exception/MathException.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Math\\NativeIntAdapter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Math/NativeIntAdapter.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Math\\NumberFactory' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Math/NumberFactory.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Math\\NumberInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Math/NumberInterface.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\NullHost' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/NullHost.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Serializer\\HostSerializerInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Serializer/HostSerializerInterface.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Serializer\\IPv4AddressSerializer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Serializer/IPv4AddressSerializer.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Serializer\\IPv6AddressSerializer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Serializer/IPv6AddressSerializer.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\Serializer\\StringHostSerializer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/Serializer/StringHostSerializer.php'
+	),
+	'Rowbot\\URL\\Component\\Host\\StringHost' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Host/StringHost.php'
+	),
+	'Rowbot\\URL\\Component\\OpaqueOrigin' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/OpaqueOrigin.php'
+	),
+	'Rowbot\\URL\\Component\\OpaquePath' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/OpaquePath.php'
+	),
+	'Rowbot\\URL\\Component\\PathInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/PathInterface.php'
+	),
+	'Rowbot\\URL\\Component\\PathList' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/PathList.php'
+	),
+	'Rowbot\\URL\\Component\\PathSegment' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/PathSegment.php'
+	),
+	'Rowbot\\URL\\Component\\QueryList' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/QueryList.php'
+	),
+	'Rowbot\\URL\\Component\\Scheme' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/Scheme.php'
+	),
+	'Rowbot\\URL\\Component\\TupleOrigin' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Component/TupleOrigin.php'
+	),
+	'Rowbot\\URL\\Exception\\TypeError' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Exception/TypeError.php'
+	),
+	'Rowbot\\URL\\Exception\\URLException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Exception/URLException.php'
+	),
+	'Rowbot\\URL\\Exception\\UnsupportedOperationException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Exception/UnsupportedOperationException.php'
+	),
+	'Rowbot\\URL\\Origin' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Origin.php'
+	),
+	'Rowbot\\URL\\ParserContext' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/ParserContext.php'
+	),
+	'Rowbot\\URL\\ParserState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/ParserState.php'
+	),
+	'Rowbot\\URL\\State\\AbstractHostState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/AbstractHostState.php'
+	),
+	'Rowbot\\URL\\State\\AuthorityState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/AuthorityState.php'
+	),
+	'Rowbot\\URL\\State\\FileHostState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/FileHostState.php'
+	),
+	'Rowbot\\URL\\State\\FileSlashState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/FileSlashState.php'
+	),
+	'Rowbot\\URL\\State\\FileState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/FileState.php'
+	),
+	'Rowbot\\URL\\State\\FragmentState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/FragmentState.php'
+	),
+	'Rowbot\\URL\\State\\HostState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/HostState.php'
+	),
+	'Rowbot\\URL\\State\\HostnameState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/HostnameState.php'
+	),
+	'Rowbot\\URL\\State\\NoSchemeState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/NoSchemeState.php'
+	),
+	'Rowbot\\URL\\State\\OpaquePathState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/OpaquePathState.php'
+	),
+	'Rowbot\\URL\\State\\PathOrAuthorityState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/PathOrAuthorityState.php'
+	),
+	'Rowbot\\URL\\State\\PathStartState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/PathStartState.php'
+	),
+	'Rowbot\\URL\\State\\PathState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/PathState.php'
+	),
+	'Rowbot\\URL\\State\\PortState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/PortState.php'
+	),
+	'Rowbot\\URL\\State\\QueryState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/QueryState.php'
+	),
+	'Rowbot\\URL\\State\\RelativeSlashState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/RelativeSlashState.php'
+	),
+	'Rowbot\\URL\\State\\RelativeState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/RelativeState.php'
+	),
+	'Rowbot\\URL\\State\\SchemeStartState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/SchemeStartState.php'
+	),
+	'Rowbot\\URL\\State\\SchemeState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/SchemeState.php'
+	),
+	'Rowbot\\URL\\State\\SpecialAuthorityIgnoreSlashesState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/SpecialAuthorityIgnoreSlashesState.php'
+	),
+	'Rowbot\\URL\\State\\SpecialAuthoritySlashesState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/SpecialAuthoritySlashesState.php'
+	),
+	'Rowbot\\URL\\State\\SpecialRelativeOrAuthorityState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/SpecialRelativeOrAuthorityState.php'
+	),
+	'Rowbot\\URL\\State\\State' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/State.php'
+	),
+	'Rowbot\\URL\\State\\StatusCode' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/State/StatusCode.php'
+	),
+	'Rowbot\\URL\\String\\AbstractStringBuffer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/AbstractStringBuffer.php'
+	),
+	'Rowbot\\URL\\String\\AbstractStringList' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/AbstractStringList.php'
+	),
+	'Rowbot\\URL\\String\\AbstractUSVString' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/AbstractUSVString.php'
+	),
+	'Rowbot\\URL\\String\\CodePoint' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/CodePoint.php'
+	),
+	'Rowbot\\URL\\String\\EncodeSet' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/EncodeSet.php'
+	),
+	'Rowbot\\URL\\String\\Exception\\EncodingException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/Exception/EncodingException.php'
+	),
+	'Rowbot\\URL\\String\\Exception\\RegexException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/Exception/RegexException.php'
+	),
+	'Rowbot\\URL\\String\\Exception\\UndefinedIndexException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/Exception/UndefinedIndexException.php'
+	),
+	'Rowbot\\URL\\String\\PercentEncoder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/PercentEncoder.php'
+	),
+	'Rowbot\\URL\\String\\StringBuffer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/StringBuffer.php'
+	),
+	'Rowbot\\URL\\String\\StringBufferInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/StringBufferInterface.php'
+	),
+	'Rowbot\\URL\\String\\StringIteratorInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/StringIteratorInterface.php'
+	),
+	'Rowbot\\URL\\String\\StringList' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/StringList.php'
+	),
+	'Rowbot\\URL\\String\\StringListInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/StringListInterface.php'
+	),
+	'Rowbot\\URL\\String\\USVStringInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/USVStringInterface.php'
+	),
+	'Rowbot\\URL\\String\\Utf8String' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/Utf8String.php'
+	),
+	'Rowbot\\URL\\String\\Utf8StringIterator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/String/Utf8StringIterator.php'
+	),
+	'Rowbot\\URL\\Support\\EncodingHelper' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/Support/EncodingHelper.php'
+	),
+	'Rowbot\\URL\\Tests\\EncodingHelperTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/EncodingHelperTest.php'
+	),
+	'Rowbot\\URL\\Tests\\HostParserTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/HostParserTest.php'
+	),
+	'Rowbot\\URL\\Tests\\Math\\BrickMathAdapterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/Math/BrickMathAdapterTest.php'
+	),
+	'Rowbot\\URL\\Tests\\Math\\MathTestCase' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/Math/MathTestCase.php'
+	),
+	'Rowbot\\URL\\Tests\\Math\\NativeIntAdapterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/Math/NativeIntAdapterTest.php'
+	),
+	'Rowbot\\URL\\Tests\\NullHostTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/NullHostTest.php'
+	),
+	'Rowbot\\URL\\Tests\\OriginTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/OriginTest.php'
+	),
+	'Rowbot\\URL\\Tests\\PathTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/PathTest.php'
+	),
+	'Rowbot\\URL\\Tests\\QueryListTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/QueryListTest.php'
+	),
+	'Rowbot\\URL\\Tests\\QueryStateTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/QueryStateTest.php'
+	),
+	'Rowbot\\URL\\Tests\\SchemeTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/SchemeTest.php'
+	),
+	'Rowbot\\URL\\Tests\\StringsTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/StringsTest.php'
+	),
+	'Rowbot\\URL\\Tests\\URLRecordTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/URLRecordTest.php'
+	),
+	'Rowbot\\URL\\Tests\\URLSearchParamsSizeTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsSizeTest.php'
+	),
+	'Rowbot\\URL\\Tests\\URLSearchParamsTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/URLSearchParamsTest.php'
+	),
+	'Rowbot\\URL\\Tests\\URLStaticsCanParseTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLStaticsCanParseTest.php'
+	),
+	'Rowbot\\URL\\Tests\\URLTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/URLTest.php'
+	),
+	'Rowbot\\URL\\Tests\\ValidationErrorLogger' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/ValidationErrorLogger.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\FailureTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/FailureTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\PercentEncodingTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/PercentEncodingTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\ToASCIIWindowTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/ToASCIIWindowTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLConstructorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLConstructorTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLEncodedParserTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLEncodedParserTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLOriginTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLOriginTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsAppendTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsAppendTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsConstructorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsConstructorTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsDeleteTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsDeleteTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsForeachTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsForeachTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsGetAllTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsGetAllTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsGetTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsGetTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsHasTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsHasTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsSetTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsSetTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsSortTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsSortTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsStringifierTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsStringifierTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSearchParamsTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSearchParamsTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLSettersTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLSettersTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\URLToJSONTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/URLToJSONTest.php'
+	),
+	'Rowbot\\URL\\Tests\\WhatWg\\WhatwgTestCase' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/tests/WhatWg/WhatwgTestCase.php'
+	),
+	'Rowbot\\URL\\URL' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/URL.php'
+	),
+	'Rowbot\\URL\\URLRecord' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/URLRecord.php'
+	),
+	'Rowbot\\URL\\URLSearchParams' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/rowbot/url/src/URLSearchParams.php'
+	),
+	'SQLiteFilesystemTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/SQLiteFilesystemTest.php'
 	),
 	'ScssPhp\\ScssPhp\\Ast\\AstNode' => array(
 		'version' => '2.1.0.0',
@@ -2726,6 +3510,18 @@ return array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
 	),
+	'Site_Export_HMAC_Client' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-hmac-client.php'
+	),
+	'Site_Export_HMAC_Server' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-hmac-server.php'
+	),
+	'Site_Export_HTTP_Server' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-http-server.php'
+	),
 	'SourceSpan\\ConcreteFileSpan' => array(
 		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/ConcreteFileSpan.php'
@@ -2794,6 +3590,26 @@ return array(
 		'version' => '1.1.0.0',
 		'path'    => $vendorDir . '/scssphp/source-span/src/Util.php'
 	),
+	'SqliteDriverPDO' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-sqlite-driver-pdo.php'
+	),
+	'SqliteDriverPDOStatement' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-sqlite-driver-pdo.php'
+	),
+	'StaticPostFilesWriterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/StaticPostFilesWriterTest.php'
+	),
+	'StreamImporterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/StreamImporterTest.php'
+	),
+	'Stringable' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/Stringable.php'
+	),
 	'Symfony\\Component\\Filesystem\\Exception\\ExceptionInterface' => array(
 		'version' => '6.4.34.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/ExceptionInterface.php'
@@ -2827,16 +3643,60 @@ return array(
 		'path'    => $vendorDir . '/symfony/filesystem/Path.php'
 	),
 	'Symfony\\Polyfill\\Ctype\\Ctype' => array(
-		'version' => '1.34.0.0',
-		'path'    => $vendorDir . '/symfony/polyfill-ctype/Ctype.php'
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-ctype/Ctype.php'
+	),
+	'Symfony\\Polyfill\\Intl\\Normalizer\\Normalizer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-intl-normalizer/Normalizer.php'
 	),
 	'Symfony\\Polyfill\\Mbstring\\Mbstring' => array(
 		'version' => '1.34.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php'
 	),
+	'Symfony\\Polyfill\\Php80\\Php80' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Php80.php'
+	),
+	'Symfony\\Polyfill\\Php80\\PhpToken' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/PhpToken.php'
+	),
 	'Tlkio_Widget' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/tlkio/class-tlkio-widget.php'
+	),
+	'TransformedReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/Tests/TransformedReadStreamTest.php'
+	),
+	'URLInTextProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/URLInTextProcessorTest.php'
+	),
+	'URLInTextProcessorWHATWGComplianceTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/URLInTextProcessorWHATWGComplianceTest.php'
+	),
+	'URLParserWHATWGComplianceTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/URLParserWHATWGComplianceTest.php'
+	),
+	'UnhandledMatchError' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php'
+	),
+	'UploadedFilesystemTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Tests/UploadedFilesystemTest.php'
+	),
+	'UrldecodeNTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/UrldecodeNTest.php'
+	),
+	'ValueError' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/ValueError.php'
 	),
 	'Verbum_Asset_Loader' => array(
 		'version' => '6.11.0.0-alpha1776522627',
@@ -2857,6 +3717,10 @@ return array(
 	'Version_Selector' => array(
 		'version' => '5.0.16',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
+	),
+	'W3CXMLConformanceTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/Tests/W3CXMLConformanceTest.php'
 	),
 	'WPCOMSH_MailPoet_Subscribers_Stats_Report' => array(
 		'version' => 'dev-trunk',
@@ -2962,9 +3826,65 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-service.php'
 	),
+	'WPURLTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/WPURLTest.php'
+	),
 	'WP_Customize_Footercredit_Select' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/footer-credit/footer-credit/customizer.php'
+	),
+	'WP_HTML_Active_Formatting_Elements' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-active-formatting-elements.php'
+	),
+	'WP_HTML_Attribute_Token' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-attribute-token.php'
+	),
+	'WP_HTML_Decoder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-decoder.php'
+	),
+	'WP_HTML_Doctype_Info' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-doctype-info.php'
+	),
+	'WP_HTML_Open_Elements' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-open-elements.php'
+	),
+	'WP_HTML_Processor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-processor.php'
+	),
+	'WP_HTML_Processor_State' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-processor-state.php'
+	),
+	'WP_HTML_Span' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-span.php'
+	),
+	'WP_HTML_Stack_Event' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-stack-event.php'
+	),
+	'WP_HTML_Tag_Processor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-tag-processor.php'
+	),
+	'WP_HTML_Text_Replacement' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-text-replacement.php'
+	),
+	'WP_HTML_Token' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-token.php'
+	),
+	'WP_HTML_Unsupported_Exception' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-html-unsupported-exception.php'
 	),
 	'WP_Privacy_Participating_Plugins' => array(
 		'version' => 'dev-trunk',
@@ -2978,6 +3898,18 @@ return array(
 		'version' => '6.11.0.0-alpha1776522627',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/newspack-blocks/synced-newspack-blocks/blocks/homepage-articles/class-wp-rest-newspack-articles-controller.php'
 	),
+	'WP_Token_Map' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/html/class-wp-token-map.php'
+	),
+	'WXRReaderTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/WXRReaderTest.php'
+	),
+	'WXRWriterTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Tests/WXRWriterTest.php'
+	),
 	'Widget_Authors_Grid' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/class-widget-authors-grid.php'
@@ -2986,6 +3918,490 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/class-widget-top-clicks.php'
 	),
+	'WordPress\\ByteStream\\BytePipe' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/class-bytepipe.php'
+	),
+	'WordPress\\ByteStream\\ByteStreamException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/class-bytestreamexception.php'
+	),
+	'WordPress\\ByteStream\\ByteTransformer\\ByteTransformer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ByteTransformer/class-bytetransformer.php'
+	),
+	'WordPress\\ByteStream\\ByteTransformer\\ChecksumTransformer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ByteTransformer/class-checksumtransformer.php'
+	),
+	'WordPress\\ByteStream\\ByteTransformer\\DeflateTransformer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ByteTransformer/class-deflatetransformer.php'
+	),
+	'WordPress\\ByteStream\\ByteTransformer\\InflateTransformer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ByteTransformer/class-inflatetransformer.php'
+	),
+	'WordPress\\ByteStream\\FileReadWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/class-filereadwritestream.php'
+	),
+	'WordPress\\ByteStream\\MemoryPipe' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/class-memorypipe.php'
+	),
+	'WordPress\\ByteStream\\NotEnoughDataException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/class-notenoughdataexception.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\BaseByteReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-basebytereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\ByteReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/interface-bytereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\DeflateReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-deflatereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\FileReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-filereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\InflateReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-inflatereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\LimitedByteReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-limitedbytereadstream.php'
+	),
+	'WordPress\\ByteStream\\ReadStream\\TransformedReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/ReadStream/class-transformedreadstream.php'
+	),
+	'WordPress\\ByteStream\\WriteStream\\ByteWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/WriteStream/class-bytewritestream.php'
+	),
+	'WordPress\\ByteStream\\WriteStream\\FileWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/WriteStream/class-filewritestream.php'
+	),
+	'WordPress\\ByteStream\\WriteStream\\TransformedWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/bytestream/WriteStream/class-transformedwritestream.php'
+	),
+	'WordPress\\DataLiberation\\BlockMarkup\\BlockMarkupProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/BlockMarkup/class-blockmarkupprocessor.php'
+	),
+	'WordPress\\DataLiberation\\BlockMarkup\\BlockMarkupUrlProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/BlockMarkup/class-blockmarkupurlprocessor.php'
+	),
+	'WordPress\\DataLiberation\\BlockMarkup\\BlockObject' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/BlockMarkup/class-blockobject.php'
+	),
+	'WordPress\\DataLiberation\\CSS\\CSSProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/CSS/class-cssprocessor.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatConsumer\\AnnotatedBlockMarkupConsumer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatConsumer/class-annotatedblockmarkupconsumer.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatConsumer\\BlocksWithMetadata' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatConsumer/class-blockswithmetadata.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatConsumer\\DataFormatConsumer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatConsumer/interface-data-format-consumer.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatConsumer\\MarkupProcessorConsumer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatConsumer/class-markupprocessorconsumer.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatProducer\\AnnotatedBlockMarkupProducer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatProducer/class-annotatedblockmarkupproducer.php'
+	),
+	'WordPress\\DataLiberation\\DataFormatProducer\\DataFormatProducer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/DataFormatProducer/interface-data-format-producer.php'
+	),
+	'WordPress\\DataLiberation\\DataLiberationException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/class-dataliberationexception.php'
+	),
+	'WordPress\\DataLiberation\\DataLiberationHTMLProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/class-dataliberationhtmlprocessor.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\BlocksWithMetadataEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-blockswithmetadataentityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\DatabaseContentEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-databasecontententityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\DatabaseRowsEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-databaserowsentityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\EPubEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-epubentityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\EntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/interface-entity-reader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\EntityReaderIterator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-entityreaderiterator.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\FilesystemEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-filesystementityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\HTMLEntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-htmlentityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityReader\\WXREntityReader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityReader/class-wxrentityreader.php'
+	),
+	'WordPress\\DataLiberation\\EntityWriter\\EntityWriter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityWriter/interface-entity-writer.php'
+	),
+	'WordPress\\DataLiberation\\EntityWriter\\MySQLDumpWriter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityWriter/class-mysqldumpwriter.php'
+	),
+	'WordPress\\DataLiberation\\EntityWriter\\StaticPostFilesWriter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityWriter/class-staticpostfileswriter.php'
+	),
+	'WordPress\\DataLiberation\\EntityWriter\\WXRWriter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/EntityWriter/class-wxrwriter.php'
+	),
+	'WordPress\\DataLiberation\\ImportEntity' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/class-importentity.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\AttachmentDownloader' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-attachmentdownloader.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\AttachmentDownloaderEvent' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-attachmentdownloaderevent.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\EntityImporter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-entityimporter.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\EntityIteratorChain' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-entityiteratorchain.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\FileVisitorEvent' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-filevisitorevent.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\ImportSession' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-importsession.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\ImportUtils' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-importutils.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\Logger' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-entityimporter.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\RetryFrontloadingIterator' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-retryfrontloadingiterator.php'
+	),
+	'WordPress\\DataLiberation\\Importer\\StreamImporter' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/Importer/class-streamimporter.php'
+	),
+	'WordPress\\DataLiberation\\MySQLDumpProducer' => array(
+		'version' => '0.1.44.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-mysql-dump-producer.php'
+	),
+	'WordPress\\DataLiberation\\URL\\CSSURLProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-cssurlprocessor.php'
+	),
+	'WordPress\\DataLiberation\\URL\\ConvertedUrl' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-convertedurl.php'
+	),
+	'WordPress\\DataLiberation\\URL\\URLInTextProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-urlintextprocessor.php'
+	),
+	'WordPress\\DataLiberation\\URL\\WPURL' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-wpurl.php'
+	),
+	'WordPress\\Filesystem\\ByteStream\\FilesystemWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/ByteStream/class-filesystemwritestream.php'
+	),
+	'WordPress\\Filesystem\\Filesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/interface-filesystem.php'
+	),
+	'WordPress\\Filesystem\\FilesystemException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/class-filesystemexception.php'
+	),
+	'WordPress\\Filesystem\\InMemoryFilesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/class-inmemoryfilesystem.php'
+	),
+	'WordPress\\Filesystem\\Layer\\ChrootLayer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Layer/class-chrootlayer.php'
+	),
+	'WordPress\\Filesystem\\Layer\\Layer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Layer/class-layer.php'
+	),
+	'WordPress\\Filesystem\\LocalFilesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/class-localfilesystem.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\BufferedWriteStreamViaPutContents' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-bufferedwritestreamviaputcontents.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\CopyDirectoryRecursive' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-copydirectoryrecursive.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\CopyFileViaStreaming' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-copyfileviastreaming.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\CopyRecursiveViaStreaming' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-copyrecursiveviastreaming.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\GetContentsViaReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-getcontentsviareadstream.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\Interfaces\\InternalizedWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/Interfaces/interface-internalizedwritestream.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\InternalizeWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-internalizewritestream.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\MkdirRecursive' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-mkdirrecursive.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\PutContentsViaWriteStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-putcontentsviawritestream.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\ReadOnlyFilesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-readonlyfilesystem.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\RenameFileViaCopyAndRm' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-renamefileviacopyandrm.php'
+	),
+	'WordPress\\Filesystem\\Mixin\\RmdirRecursive' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Mixin/trait-rmdirrecursive.php'
+	),
+	'WordPress\\Filesystem\\Path\\WindowsPath' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Path/class-windowspath.php'
+	),
+	'WordPress\\Filesystem\\SQLiteFilesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/class-sqlitefilesystem.php'
+	),
+	'WordPress\\Filesystem\\UploadedFilesystem' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/class-uploadedfilesystem.php'
+	),
+	'WordPress\\Filesystem\\Visitor\\FileVisitorEvent' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Visitor/class-filevisitorevent.php'
+	),
+	'WordPress\\Filesystem\\Visitor\\FilesystemVisitor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/Visitor/class-filesystemvisitor.php'
+	),
+	'WordPress\\HttpClient\\ByteStream\\ChunkedDecoderReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/ByteStream/class-chunkeddecoderreadstream.php'
+	),
+	'WordPress\\HttpClient\\ByteStream\\ChunkedEncoderByteTransformer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/ByteStream/class-chunkedencoderbytetransformer.php'
+	),
+	'WordPress\\HttpClient\\ByteStream\\RequestReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/ByteStream/class-requestreadstream.php'
+	),
+	'WordPress\\HttpClient\\ByteStream\\SeekableRequestReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/ByteStream/class-seekablerequestreadstream.php'
+	),
+	'WordPress\\HttpClient\\Client' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-client.php'
+	),
+	'WordPress\\HttpClient\\ClientState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-clientstate.php'
+	),
+	'WordPress\\HttpClient\\Connection' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-connection.php'
+	),
+	'WordPress\\HttpClient\\Crawler' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-crawler.php'
+	),
+	'WordPress\\HttpClient\\HttpClientException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-httpclientexception.php'
+	),
+	'WordPress\\HttpClient\\HttpError' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-httperror.php'
+	),
+	'WordPress\\HttpClient\\Middleware\\CacheMiddleware' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Middleware/class-cachemiddleware.php'
+	),
+	'WordPress\\HttpClient\\Middleware\\HttpMiddleware' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Middleware/class-httpmiddleware.php'
+	),
+	'WordPress\\HttpClient\\Middleware\\MiddlewareInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Middleware/middleware-interface.php'
+	),
+	'WordPress\\HttpClient\\Middleware\\RedirectionMiddleware' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Middleware/class-redirectionmiddleware.php'
+	),
+	'WordPress\\HttpClient\\Request' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-request.php'
+	),
+	'WordPress\\HttpClient\\Response' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/class-response.php'
+	),
+	'WordPress\\HttpClient\\Tests\\CacheMiddlewareIntegrationTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/CacheMiddlewareIntegrationTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\CacheMiddlewareTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/CacheMiddlewareTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\ClientTestBase' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/ClientTestBase.php'
+	),
+	'WordPress\\HttpClient\\Tests\\CurlTransportTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/CurlTransportTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\MockClientState' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/CacheMiddlewareTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\MockMiddleware' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/CacheMiddlewareTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\ReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/ClientTestBase.php'
+	),
+	'WordPress\\HttpClient\\Tests\\RequestReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/RequestReadStreamTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\SeekableRequestReadStreamTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/SeekableRequestReadStreamTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\SocketTransportTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/SocketTransportTest.php'
+	),
+	'WordPress\\HttpClient\\Tests\\StringReadStream' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/ClientTestBase.php'
+	),
+	'WordPress\\HttpClient\\Tests\\WithServerTrait' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/WithServerTrait.php'
+	),
+	'WordPress\\HttpClient\\Tests\\WithTestServer' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Tests/RequestReadStreamTest.php'
+	),
+	'WordPress\\HttpClient\\Transport\\CurlTransport' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Transport/class-curltransport.php'
+	),
+	'WordPress\\HttpClient\\Transport\\SocketTransport' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Transport/class-sockettransport.php'
+	),
+	'WordPress\\HttpClient\\Transport\\TransportInterface' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/http-client/Transport/interface-transportinterface.php'
+	),
+	'WordPress\\XML\\XMLAttributeToken' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/class-xmlattributetoken.php'
+	),
+	'WordPress\\XML\\XMLDecoder' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/class-xmldecoder.php'
+	),
+	'WordPress\\XML\\XMLElement' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/class-xmlelement.php'
+	),
+	'WordPress\\XML\\XMLProcessor' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/class-xmlprocessor.php'
+	),
+	'WordPress\\XML\\XMLUnsupportedException' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/class-xmlunsupportedexception.php'
+	),
 	'Wpcom_Block_Patterns_From_Api' => array(
 		'version' => '6.11.0.0-alpha1776522627',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-from-api.php'
@@ -2993,6 +4409,10 @@ return array(
 	'Wpcom_Block_Patterns_Utils' => array(
 		'version' => '6.11.0.0-alpha1776522627',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/block-patterns/class-wpcom-block-patterns-utils.php'
+	),
+	'XMLProcessorTest' => array(
+		'version' => '0.5.1.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/xml/Tests/XMLProcessorTest.php'
 	),
 	'csstidy' => array(
 		'version' => '6.11.0.0-alpha1776522627',

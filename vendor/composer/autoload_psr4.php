@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'tubalmartin\\CssMin\\' => array($vendorDir . '/tubalmartin/cssmin/src'),
+    'WordPress\\HttpClient\\' => array($vendorDir . '/wp-php-toolkit/http-client'),
+    'WordPress\\Filesystem\\' => array($vendorDir . '/wp-php-toolkit/filesystem'),
+    'WordPress\\DataLiberation\\' => array($vendorDir . '/wp-php-toolkit/reprint-exporter/src'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
