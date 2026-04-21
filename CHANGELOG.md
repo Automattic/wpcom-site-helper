@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
+- Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
 - Load only when desired.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
