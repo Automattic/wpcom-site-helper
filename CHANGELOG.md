@@ -8,6 +8,7 @@ This is an alpha version! The changes listed here are not final.
 - Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
 - Customize the WordPress fatal error screen with WordPress.com support links.
+- Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.

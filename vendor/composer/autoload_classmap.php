@@ -888,6 +888,7 @@ return array(
     'Verbum_Block_Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
     'Verbum_Gutenberg_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
     'WPCOMSH_MailPoet_Subscribers_Stats_Report' => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
+    'WPCOMSH_Recovery_Mode_Sync' => $baseDir . '/feature-plugins/class-wpcomsh-recovery-mode-sync.php',
     'WPCOMSH_Require_Connection_Owner' => $baseDir . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
     'WPCOM_Category_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-category-cloud-widget.php',
     'WPCOM_Enqueue_Dynamic_Script' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',

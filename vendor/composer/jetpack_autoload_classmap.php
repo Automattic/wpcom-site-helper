@@ -3726,6 +3726,10 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php'
 	),
+	'WPCOMSH_Recovery_Mode_Sync' => array(
+		'version' => 'dev-trunk',
+		'path'    => $baseDir . '/feature-plugins/class-wpcomsh-recovery-mode-sync.php'
+	),
 	'WPCOMSH_Require_Connection_Owner' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php'

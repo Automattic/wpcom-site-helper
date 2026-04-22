@@ -989,6 +989,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha
         'Verbum_Block_Utils' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-block-utils.php',
         'Verbum_Gutenberg_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-gutenberg-editor.php',
         'WPCOMSH_MailPoet_Subscribers_Stats_Report' => __DIR__ . '/../..' . '/mailpoet/class-wpcomsh-mailpoet-subscribers-stats-report.php',
+        'WPCOMSH_Recovery_Mode_Sync' => __DIR__ . '/../..' . '/feature-plugins/class-wpcomsh-recovery-mode-sync.php',
         'WPCOMSH_Require_Connection_Owner' => __DIR__ . '/../..' . '/jetpack-require-connection-owner/class-wpcomsh-require-connection-owner.php',
         'WPCOM_Category_Cloud_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-category-cloud-widget.php',
         'WPCOM_Enqueue_Dynamic_Script' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/wpcom-enqueue-dynamic-script/class-wpcom-enqueue-dynamic-script.php',
