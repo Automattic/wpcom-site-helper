@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
+- Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
 - Load only when desired.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Tested up to WordPress 7.0.
