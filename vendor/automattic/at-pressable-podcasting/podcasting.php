@@ -17,6 +17,11 @@ class Automattic_Podcasting {
 		}
 
 		require_once plugin_dir_path( __FILE__ ) . 'podcasting/settings-rest-api.php';
+		$tracks_path = plugin_dir_path( __FILE__ ) . 'podcasting/tracks.php';
+		if ( file_exists( $tracks_path ) ) {
+			require_once $tracks_path;
+			Automattic_Podcasting_Tracks::init();
+		}
 
 		if ( self::podcasting_is_enabled() ) {
 			add_action( 'after_setup_theme', array( 'Automattic_Podcasting', 'podcasting_add_post_thumbnail_support' ), 20 ); // Later then themes normally do.

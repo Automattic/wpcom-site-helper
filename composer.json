@@ -5,26 +5,25 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=8.1",
-		"automattic/at-pressable-podcasting": "^2.0.5",
+		"automattic/at-pressable-podcasting": "^2.0.7",
 		"automattic/custom-fonts": "^3.0",
 		"automattic/custom-fonts-typekit": "^2.0",
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "^2.11.6",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-autoloader": "^5.0.16",
-		"automattic/jetpack-composer-plugin": "^4.0.5",
-		"automattic/jetpack-config": "^3.1.1",
-		"automattic/jetpack-post-list": "^0.9.15",
+		"automattic/jetpack-autoloader": "^5.0.17-alpha",
+		"automattic/jetpack-composer-plugin": "^4.0.6-alpha",
+		"automattic/jetpack-config": "^3.1.2-alpha",
+		"automattic/jetpack-post-list": "^0.9.16-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.11.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.21",
+		"automattic/jetpack-explat": "^0.4.22-alpha",
 		"wp-php-toolkit/reprint-exporter": "^0.1.44",
 		"wp-php-toolkit/reprint-importer": "^0.1.44"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^6.0.14",
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/phpunit-select-config": "^1.0.4"
+		"automattic/phpunit-select-config": "^1.0.5-alpha"
 	},
 	"autoload": {
 		"classmap": [
