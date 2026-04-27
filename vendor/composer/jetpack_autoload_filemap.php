@@ -30,6 +30,10 @@ return array(
 		'version' => '0.6.2.0',
 		'path'    => $vendorDir . '/wp-php-toolkit/encoding/utf8-encoder.php'
 	),
+	'3ece6d8ef10b1c2fd398a0c341044be9' => array(
+		'version' => '0.6.2.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/functions.php'
+	),
 	'320cde22f66dd4f5d3fd621d3e88b98f' => array(
 		'version' => '1.34.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php'
@@ -37,10 +41,6 @@ return array(
 	'0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => array(
 		'version' => '1.34.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
-	),
-	'3ece6d8ef10b1c2fd398a0c341044be9' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/functions.php'
 	),
 	'ec471f3ca20b4a3001a1f5146b94c5d9' => array(
 		'version' => '0.1.47.0',
