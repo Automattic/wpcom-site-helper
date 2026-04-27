@@ -995,6 +995,7 @@ return array(
     'WordPress\\DataLiberation\\URL\\ConvertedUrl' => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-convertedurl.php',
     'WordPress\\DataLiberation\\URL\\URLInTextProcessor' => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-urlintextprocessor.php',
     'WordPress\\DataLiberation\\URL\\WPURL' => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-wpurl.php',
+    'WordPress\\DataLiberation\\URL\\WPWhatwgUrl' => $vendorDir . '/wp-php-toolkit/data-liberation/URL/class-wpwhatwgurl.php',
     'WordPress\\XML\\XMLAttributeToken' => $vendorDir . '/wp-php-toolkit/xml/class-xmlattributetoken.php',
     'WordPress\\XML\\XMLDecoder' => $vendorDir . '/wp-php-toolkit/xml/class-xmldecoder.php',
     'WordPress\\XML\\XMLElement' => $vendorDir . '/wp-php-toolkit/xml/class-xmlelement.php',
