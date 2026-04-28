@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Load only when desired.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
+- Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
 - Tested up to WordPress 7.0.
 - Update package dependencies.
 - Update wp-php-toolkit dependencies.
