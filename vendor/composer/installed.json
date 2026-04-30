@@ -30,7 +30,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/block-delimiter",
-                "reference": "b4968fae4c5a0dfa850584fdd67197958046e76c"
+                "reference": "1aac1ebf88b83ae2f47b15a4b7600eb3cd7bcbf5"
             },
             "require": {
                 "php": ">=7.2"
@@ -150,7 +150,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-a8c-mc-stats",
-                "reference": "a41219b9ab7cbf71a27a22c3d184e27088f7ec7b"
+                "reference": "2e3965d4cae8f9608914f3b130687e391967fbf5"
             },
             "require": {
                 "php": ">=7.2"
@@ -206,7 +206,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-admin-ui",
-                "reference": "1bb349622e0d86d3af8ad41c06572d8aeca5c23e"
+                "reference": "1b029305accfb6453d72c8a9ae5582e56c6b712e"
             },
             "require": {
                 "automattic/jetpack-redirect": "^3.0.10-alpha",
@@ -285,7 +285,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-assets",
-                "reference": "bcccd9e88e0bc0ac40692bb70cf7424d4ea3ae20"
+                "reference": "ae594387cf539c162fad8ff37e91bacb088d2606"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.9-alpha",
@@ -358,7 +358,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-autoloader",
-                "reference": "8f98fc9ca32312db2e63df60612a4ba1d6f255d9"
+                "reference": "5988d84e5bdef7f4e1197869a7c56773969d0a8d"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
@@ -429,7 +429,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blaze",
-                "reference": "767998edbe98556f2b7420debd9fb974697d2842"
+                "reference": "4ac9bf5366d2b2d93503691174b5ae2cb4069fa1"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -507,7 +507,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-blocks",
-                "reference": "738f311368c5b0d2ec7f2149b56206f475ed3896"
+                "reference": "d0e8404202362614f31f5c78c3ca03b737fbfcbe"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.9-alpha",
@@ -566,7 +566,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-classic-theme-helper",
-                "reference": "53cbda0457fa1881d1349688aba8651887815045"
+                "reference": "21fde3fb00787b3045ce50dbd6c1c921dabbb6b6"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -635,7 +635,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-compat",
-                "reference": "d513249977c3d93cda0e3aa071cd0f5d3a4d818f"
+                "reference": "20d39250be5e96a53fb94524f4d135f205555959"
             },
             "require": {
                 "php": ">=7.2"
@@ -672,7 +672,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-composer-plugin",
-                "reference": "e70028b5229b17540c9229e28bd0557a222455a0"
+                "reference": "be651567622d6b2a5b20bd3acce0c088fba893dd"
             },
             "require": {
                 "composer-plugin-api": "^2.2",
@@ -735,7 +735,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-config",
-                "reference": "7b0835161a230b29e539ac65ee4a61746a0ae266"
+                "reference": "345a4304be65b46f7c9fffb7c5ed7ed6a328744f"
             },
             "require": {
                 "php": ">=7.2"
@@ -809,7 +809,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-connection",
-                "reference": "3dd6f6f61c5566c2a7270fd20509e4e81195fca0"
+                "reference": "3fe84471e3fe4f60a84c6240f988dedc07297682"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^3.0.6-alpha",
@@ -896,7 +896,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-constants",
-                "reference": "c8106815bef4a60e825e20342fea1da046838057"
+                "reference": "8902694ab5cad58e874a58356fd649bb0d234b64"
             },
             "require": {
                 "php": ">=7.2"
@@ -953,7 +953,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-device-detection",
-                "reference": "c6920b99ce2cc5d445753a9ea99b78899131cd17"
+                "reference": "268962a737c59f1055daf5a6b4aa46af17581a58"
             },
             "require": {
                 "php": ">=7.2"
@@ -1009,7 +1009,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-explat",
-                "reference": "2a9bdc211733501f1bbc49a62e1e7051113c805d"
+                "reference": "a2bff0b6c3990c57e5a9bf9d1addf992925ec61f"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
@@ -1087,7 +1087,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-google-analytics",
-                "reference": "e016c5c531b3438db7447a64d8b03440e1380470"
+                "reference": "993c0d2371cb1595856a38da480b2cea8bb4a0ca"
             },
             "require": {
                 "automattic/jetpack-status": "^6.1.3-alpha",
@@ -1155,7 +1155,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-image-cdn",
-                "reference": "b5364ce04991661240e8aaae8cdbe2c765109b38"
+                "reference": "7ab84462da5438d27ccfc0ecea623ed4389b749d"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -1218,7 +1218,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-ip",
-                "reference": "463a4e9d5ad08d4f13b0bab3837f8fcc864e9842"
+                "reference": "c8895810dc583d1a3ae19895bfe14befb97ad745"
             },
             "require": {
                 "php": ">=7.2"
@@ -1279,7 +1279,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-jitm",
-                "reference": "b6d291e5801cfdbaf7b6b9a3d05a3b5988d4870a"
+                "reference": "ae5bfe757a95254b7a8d3baf2c654332c0c264d9"
             },
             "require": {
                 "automattic/jetpack-a8c-mc-stats": "^3.0.6-alpha",
@@ -1357,7 +1357,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-logo",
-                "reference": "80263257575f2494e386d9d9004cd6e1f5b0e232"
+                "reference": "62e3945e2b211275b73b47698b01bd07915c702b"
             },
             "require": {
                 "php": ">=7.2"
@@ -1413,7 +1413,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-masterbar",
-                "reference": "94457a8391ed0bc4090164aa2222c031b9fb9901"
+                "reference": "7de6647f807b7f12a1ab9d354342c7d5dffad30f"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -1498,7 +1498,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-mu-wpcom",
-                "reference": "103a489d227922689edcc7eea447a64f4ed26236"
+                "reference": "4e5a86bb37c11384b59e5ab45dff403c17d7703b"
             },
             "require": {
                 "automattic/block-delimiter": "^0.3.6-alpha",
@@ -1588,7 +1588,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-newsletter",
-                "reference": "1cfe6e776e6c2a1bc20672cc6afe36a33bfeff0c"
+                "reference": "e4935e1bf3b2ccbb3d2aea8a05a32bb350ada693"
             },
             "require": {
                 "automattic/jetpack-admin-ui": "^0.8.2-alpha",
@@ -1669,7 +1669,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-password-checker",
-                "reference": "fde03b4b802ce079329818b87d47bd69f3093b40"
+                "reference": "88bc12afbf304e8c6f1f3e6c0cd06c5340d15124"
             },
             "require": {
                 "php": ">=7.2"
@@ -1727,7 +1727,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-plans",
-                "reference": "ee0858f69ce2f050808231f486b66511d9630fd6"
+                "reference": "47150142bbcfa05138d29347ff078cbe414969b1"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
@@ -1792,7 +1792,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-post-list",
-                "reference": "28d463ef37227b1c914dfdfbaecad8964db9e3ed"
+                "reference": "e75a26b80d2b7aebe2a163c73d5ae25bfa8bdd00"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -1860,7 +1860,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-post-media",
-                "reference": "663730a52e15e9926df560e5f688f382a5ab6c41"
+                "reference": "6d07cc122ef1b491df41d497e0df5a7f48ab5fba"
             },
             "require": {
                 "automattic/block-delimiter": "^0.3.6-alpha",
@@ -1930,7 +1930,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-redirect",
-                "reference": "738be1f03bec2a66a70dcc68ad943649c6d93d4c"
+                "reference": "c43cb1640a2255cc0f2f3385870061d72670efc9"
             },
             "require": {
                 "automattic/jetpack-status": "^6.1.3-alpha",
@@ -1988,7 +1988,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-roles",
-                "reference": "02a154fcb136a5073b63e42a148821f22b6e9ae9"
+                "reference": "a37ed0973a67bf308c94a000ddc7fbbda0187563"
             },
             "require": {
                 "php": ">=7.2"
@@ -2045,7 +2045,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-rtc",
-                "reference": "80f0180efbcbdd6c1ab9a4f6f962b306eca166d1"
+                "reference": "490a495e86e5d7dab2ff291e775006745120e62d"
             },
             "require": {
                 "automattic/jetpack-assets": "^4.3.34-alpha",
@@ -2109,17 +2109,18 @@
         },
         {
             "name": "automattic/jetpack-stats",
-            "version": "0.18.2-alpha.1777322605",
-            "version_normalized": "0.18.2.0-alpha1777322605",
+            "version": "0.19.0-alpha.1777583813",
+            "version_normalized": "0.19.0.0-alpha1777583813",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats",
-                "reference": "714cb8ab633879509c1f42d36bdb4b39e44bc720"
+                "reference": "15e8d7eab0ea0eb679f70c0c38577a032f5f7838"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
                 "automattic/jetpack-constants": "^3.0.9-alpha",
                 "automattic/jetpack-status": "^6.1.3-alpha",
+                "automattic/jetpack-wp-abilities": "^0.1.0-alpha",
                 "php": ">=7.2"
             },
             "require-dev": {
@@ -2141,7 +2142,7 @@
                     "link-template": "https://github.com/Automattic/jetpack-stats/compare/v${old}...v${new}"
                 },
                 "branch-alias": {
-                    "dev-trunk": "0.18.x-dev"
+                    "dev-trunk": "0.19.x-dev"
                 },
                 "textdomain": "jetpack-stats"
             },
@@ -2183,7 +2184,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-stats-admin",
-                "reference": "40145a2334dd4d1e19b0116a956a347505bcae64"
+                "reference": "e5aa267bef6943dbf31dbb29fa601b0dade85056"
             },
             "require": {
                 "automattic/jetpack-blaze": "^0.27.16-alpha",
@@ -2191,7 +2192,7 @@
                 "automattic/jetpack-constants": "^3.0.9-alpha",
                 "automattic/jetpack-jitm": "^4.3.32-alpha",
                 "automattic/jetpack-plans": "^0.11.4-alpha",
-                "automattic/jetpack-stats": "^0.18.2-alpha",
+                "automattic/jetpack-stats": "^0.19.0-alpha",
                 "automattic/jetpack-status": "^6.1.3-alpha",
                 "php": ">=7.2"
             },
@@ -2254,7 +2255,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-status",
-                "reference": "b6a0e24c34f4c8969e43141cd10fea58001fbc7e"
+                "reference": "b3a4d2b122decdae86e9de6c0f3eed7f6c36ce6b"
             },
             "require": {
                 "automattic/jetpack-constants": "^3.0.9-alpha",
@@ -2321,14 +2322,14 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-subscribers-dashboard",
-                "reference": "3dab8217aaf5224acc2862b225a2c732ef609f4e"
+                "reference": "c9bb9d84dd88a5c003bcae927fba938a6e7b9394"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
                 "automattic/jetpack-constants": "^3.0.9-alpha",
                 "automattic/jetpack-jitm": "^4.3.32-alpha",
                 "automattic/jetpack-plans": "^0.11.4-alpha",
-                "automattic/jetpack-stats": "^0.18.2-alpha",
+                "automattic/jetpack-stats": "^0.19.0-alpha",
                 "automattic/jetpack-status": "^6.1.3-alpha",
                 "php": ">=7.2"
             },
@@ -2402,7 +2403,7 @@
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/jetpack-sync",
-                "reference": "2ebf5ec017dbb7ca5b1113d1d69880bfea3787ed"
+                "reference": "cd17812a8664fd824571a531227ba56d16769b6d"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
@@ -2471,13 +2472,74 @@
             "install-path": "../../jetpack_vendor/automattic/jetpack-sync"
         },
         {
+            "name": "automattic/jetpack-wp-abilities",
+            "version": "0.1.0-alpha.1777322605",
+            "version_normalized": "0.1.0.0-alpha1777322605",
+            "dist": {
+                "type": "path",
+                "url": "/tmp/jetpack-build/Automattic/jetpack-wp-abilities",
+                "reference": "8b46bd88a21fbca2cac8f2770b9f807f70d4f60a"
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "automattic/phpunit-select-config": "^1.0.5-alpha",
+                "brain/monkey": "^2.6.2",
+                "yoast/phpunit-polyfills": "^4.0.0"
+            },
+            "suggest": {
+                "automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
+            },
+            "type": "jetpack-library",
+            "extra": {
+                "autotagger": true,
+                "mirror-repo": "Automattic/jetpack-wp-abilities",
+                "changelogger": {
+                    "link-template": "https://github.com/automattic/jetpack-wp-abilities/compare/v${old}...v${new}"
+                },
+                "branch-alias": {
+                    "dev-trunk": "0.1.x-dev"
+                },
+                "textdomain": "jetpack-wp-abilities",
+                "version-constants": {
+                    "::PACKAGE_VERSION": "src/class-registrar.php"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpunit": [
+                    "phpunit-select-config phpunit.#.xml.dist --colors=always"
+                ],
+                "test-coverage": [
+                    "php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
+                ],
+                "test-php": [
+                    "@composer phpunit"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Shared utilities for registering abilities with the WordPress Abilities API from Jetpack packages and plugins.",
+            "transport-options": {
+                "relative": false
+            },
+            "install-path": "../../jetpack_vendor/automattic/jetpack-wp-abilities"
+        },
+        {
             "name": "automattic/scheduled-updates",
             "version": "0.14.7-alpha.1777322605",
             "version_normalized": "0.14.7.0-alpha1777322605",
             "dist": {
                 "type": "path",
                 "url": "/tmp/jetpack-build/Automattic/scheduled-updates",
-                "reference": "681b6505c00a77de8cda0b72c15d86368c94ecc7"
+                "reference": "d567df39e999c8cad00c194ee96dec7fc267a4d7"
             },
             "require": {
                 "automattic/jetpack-connection": "^8.3.3-alpha",
@@ -3136,8 +3198,8 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.37.0",
-            "version_normalized": "1.37.0.0",
+            "version": "v1.34.0",
+            "version_normalized": "1.34.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -3198,7 +3260,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.37.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.34.0"
             },
             "funding": [
                 {
@@ -3222,8 +3284,8 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.37.0",
-            "version_normalized": "1.37.0.0",
+            "version": "v1.34.0",
+            "version_normalized": "1.34.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -3286,7 +3348,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.37.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.34.0"
             },
             "funding": [
                 {
@@ -3390,17 +3452,17 @@
         },
         {
             "name": "wp-php-toolkit/bytestream",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/bytestream.git",
-                "reference": "bf3e28e6f6e51e7abeec16e3f8c3a096e0aa2a02"
+                "reference": "664b3f6930afcd057acd3eb92370ba99853858f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/bytestream/zipball/bf3e28e6f6e51e7abeec16e3f8c3a096e0aa2a02",
-                "reference": "bf3e28e6f6e51e7abeec16e3f8c3a096e0aa2a02",
+                "url": "https://api.github.com/repos/wp-php-toolkit/bytestream/zipball/664b3f6930afcd057acd3eb92370ba99853858f0",
+                "reference": "664b3f6930afcd057acd3eb92370ba99853858f0",
                 "shasum": ""
             },
             "require": {
@@ -3409,7 +3471,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2026-04-10T20:16:27+00:00",
+            "time": "2025-09-11T23:53:08+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3437,33 +3499,33 @@
             "description": "ByteStream component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/bytestream/issues",
-                "source": "https://github.com/wp-php-toolkit/bytestream/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/bytestream/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/bytestream"
         },
         {
             "name": "wp-php-toolkit/data-liberation",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/data-liberation.git",
-                "reference": "3502454cd1c760b929329cb4f744ada6eb08ba73"
+                "reference": "b42d4b045a3a0b124ec361de3b5873d85c9bb549"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/data-liberation/zipball/3502454cd1c760b929329cb4f744ada6eb08ba73",
-                "reference": "3502454cd1c760b929329cb4f744ada6eb08ba73",
+                "url": "https://api.github.com/repos/wp-php-toolkit/data-liberation/zipball/b42d4b045a3a0b124ec361de3b5873d85c9bb549",
+                "reference": "b42d4b045a3a0b124ec361de3b5873d85c9bb549",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "wp-php-toolkit/bytestream": "^0.6.2",
-                "wp-php-toolkit/filesystem": "^0.6.2",
-                "wp-php-toolkit/http-client": "^0.6.2",
-                "wp-php-toolkit/xml": "^0.6.2"
+                "wp-php-toolkit/bytestream": "^0.5.1",
+                "wp-php-toolkit/filesystem": "^0.5.1",
+                "wp-php-toolkit/http-client": "^0.5.1",
+                "wp-php-toolkit/xml": "^0.5.1"
             },
-            "time": "2026-04-27T14:15:30+00:00",
+            "time": "2026-04-02T14:37:51+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3495,29 +3557,29 @@
             "description": "Data Liberation component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/data-liberation/issues",
-                "source": "https://github.com/wp-php-toolkit/data-liberation/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/data-liberation/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/data-liberation"
         },
         {
             "name": "wp-php-toolkit/encoding",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/encoding.git",
-                "reference": "f814ff6cae957449baa16f7dabe840cca756db6a"
+                "reference": "aafe834847cc45133836b0462f22fa1511eb3b5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/encoding/zipball/f814ff6cae957449baa16f7dabe840cca756db6a",
-                "reference": "f814ff6cae957449baa16f7dabe840cca756db6a",
+                "url": "https://api.github.com/repos/wp-php-toolkit/encoding/zipball/aafe834847cc45133836b0462f22fa1511eb3b5a",
+                "reference": "aafe834847cc45133836b0462f22fa1511eb3b5a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
-            "time": "2026-04-10T20:16:27+00:00",
+            "time": "2025-11-20T12:04:55+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3547,33 +3609,33 @@
             "description": "Encoding component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/encoding/issues",
-                "source": "https://github.com/wp-php-toolkit/encoding/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/encoding/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/encoding"
         },
         {
             "name": "wp-php-toolkit/filesystem",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/filesystem.git",
-                "reference": "36c54d8007b949c98a9fc460914367bcdc9b778f"
+                "reference": "900e4d8e1a8ef79e59e6efa52a1e0d46eb47e8e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/filesystem/zipball/36c54d8007b949c98a9fc460914367bcdc9b778f",
-                "reference": "36c54d8007b949c98a9fc460914367bcdc9b778f",
+                "url": "https://api.github.com/repos/wp-php-toolkit/filesystem/zipball/900e4d8e1a8ef79e59e6efa52a1e0d46eb47e8e2",
+                "reference": "900e4d8e1a8ef79e59e6efa52a1e0d46eb47e8e2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "wp-php-toolkit/bytestream": "^0.6.2"
+                "wp-php-toolkit/bytestream": "^0.5.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2026-04-27T14:15:30+00:00",
+            "time": "2026-04-02T14:37:51+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3604,23 +3666,23 @@
             "description": "Filesystem component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/filesystem/issues",
-                "source": "https://github.com/wp-php-toolkit/filesystem/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/filesystem/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/filesystem"
         },
         {
             "name": "wp-php-toolkit/html",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/html.git",
-                "reference": "d7dac562cdaff693d830ede7f35cf490a397678e"
+                "reference": "7b3863dfd82d76bd9c54e6e10a3ba317110a6e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/html/zipball/d7dac562cdaff693d830ede7f35cf490a397678e",
-                "reference": "d7dac562cdaff693d830ede7f35cf490a397678e",
+                "url": "https://api.github.com/repos/wp-php-toolkit/html/zipball/7b3863dfd82d76bd9c54e6e10a3ba317110a6e92",
+                "reference": "7b3863dfd82d76bd9c54e6e10a3ba317110a6e92",
                 "shasum": ""
             },
             "require": {
@@ -3629,7 +3691,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2026-04-10T20:16:27+00:00",
+            "time": "2025-09-08T13:34:24+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3657,35 +3719,35 @@
             "description": "HTML component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/html/issues",
-                "source": "https://github.com/wp-php-toolkit/html/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/html/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/html"
         },
         {
             "name": "wp-php-toolkit/http-client",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/http-client.git",
-                "reference": "1174f1e20e1f4c60a3274006ebed791ac6bccd77"
+                "reference": "c9f79808c164578c6080ac87a4ecc335c78dd947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/http-client/zipball/1174f1e20e1f4c60a3274006ebed791ac6bccd77",
-                "reference": "1174f1e20e1f4c60a3274006ebed791ac6bccd77",
+                "url": "https://api.github.com/repos/wp-php-toolkit/http-client/zipball/c9f79808c164578c6080ac87a4ecc335c78dd947",
+                "reference": "c9f79808c164578c6080ac87a4ecc335c78dd947",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "wp-php-toolkit/bytestream": "^0.6.2",
-                "wp-php-toolkit/data-liberation": "^0.6.2",
-                "wp-php-toolkit/filesystem": "^0.6.2"
+                "wp-php-toolkit/bytestream": "^0.5.1",
+                "wp-php-toolkit/data-liberation": "^0.5.1",
+                "wp-php-toolkit/filesystem": "^0.5.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2026-04-27T14:15:30+00:00",
+            "time": "2026-04-02T14:37:51+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3713,33 +3775,33 @@
             "description": "HttpClient component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/http-client/issues",
-                "source": "https://github.com/wp-php-toolkit/http-client/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/http-client/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/http-client"
         },
         {
             "name": "wp-php-toolkit/reprint-exporter",
-            "version": "v0.1.47",
-            "version_normalized": "0.1.47.0",
+            "version": "v0.1.44",
+            "version_normalized": "0.1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/reprint-exporter.git",
-                "reference": "3c56b78f4d19add36f8448421d1ed4fdda135bb6"
+                "reference": "80f0e0b6cd809ac81f45a13af627681bb46a3557"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/reprint-exporter/zipball/3c56b78f4d19add36f8448421d1ed4fdda135bb6",
-                "reference": "3c56b78f4d19add36f8448421d1ed4fdda135bb6",
+                "url": "https://api.github.com/repos/wp-php-toolkit/reprint-exporter/zipball/80f0e0b6cd809ac81f45a13af627681bb46a3557",
+                "reference": "80f0e0b6cd809ac81f45a13af627681bb46a3557",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
                 "ext-pdo_mysql": "*",
                 "php": ">=7.4",
-                "wp-php-toolkit/data-liberation": "^0.6.2",
-                "wp-php-toolkit/html": "^0.6.2"
+                "wp-php-toolkit/data-liberation": "^0.5.1",
+                "wp-php-toolkit/html": "^0.5.1"
             },
-            "time": "2026-04-27T14:34:36+00:00",
+            "time": "2026-04-16T16:07:42+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3765,34 +3827,34 @@
             "description": "Streaming export engine used by the Reprint Exporter WordPress plugin",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/reprint-exporter/issues",
-                "source": "https://github.com/wp-php-toolkit/reprint-exporter/tree/v0.1.47"
+                "source": "https://github.com/wp-php-toolkit/reprint-exporter/tree/v0.1.44"
             },
             "install-path": "../wp-php-toolkit/reprint-exporter"
         },
         {
             "name": "wp-php-toolkit/reprint-importer",
-            "version": "v0.1.47",
-            "version_normalized": "0.1.47.0",
+            "version": "v0.1.44",
+            "version_normalized": "0.1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/reprint-importer.git",
-                "reference": "e56a796721f559d9a5932bf14d65cab0de51350e"
+                "reference": "9aa2108c7fa7050f5f589cd61887e50c70c00763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/reprint-importer/zipball/e56a796721f559d9a5932bf14d65cab0de51350e",
-                "reference": "e56a796721f559d9a5932bf14d65cab0de51350e",
+                "url": "https://api.github.com/repos/wp-php-toolkit/reprint-importer/zipball/9aa2108c7fa7050f5f589cd61887e50c70c00763",
+                "reference": "9aa2108c7fa7050f5f589cd61887e50c70c00763",
                 "shasum": ""
             },
             "require": {
                 "ext-pdo": "*",
                 "ext-pdo_mysql": "*",
                 "php": ">=7.4",
-                "wp-php-toolkit/data-liberation": "^0.6.2",
-                "wp-php-toolkit/html": "^0.6.2",
+                "wp-php-toolkit/data-liberation": "^0.5.1",
+                "wp-php-toolkit/html": "^0.5.1",
                 "wp-php-toolkit/reprint-exporter": "*@dev"
             },
-            "time": "2026-04-27T14:34:36+00:00",
+            "time": "2026-04-16T14:19:55+00:00",
             "bin": [
                 "bin/reprint-importer"
             ],
@@ -3805,33 +3867,33 @@
             "description": "Streaming site importer with CLI and PHAR distribution support",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/reprint-importer/issues",
-                "source": "https://github.com/wp-php-toolkit/reprint-importer/tree/v0.1.47"
+                "source": "https://github.com/wp-php-toolkit/reprint-importer/tree/v0.1.44"
             },
             "install-path": "../wp-php-toolkit/reprint-importer"
         },
         {
             "name": "wp-php-toolkit/xml",
-            "version": "v0.6.2",
-            "version_normalized": "0.6.2.0",
+            "version": "v0.5.1",
+            "version_normalized": "0.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-php-toolkit/xml.git",
-                "reference": "65e8a47d350179a3217b4acaf4f3597f977a9194"
+                "reference": "8ec4e2f16b18313d52c8a61a6528afacf1ceb34a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-php-toolkit/xml/zipball/65e8a47d350179a3217b4acaf4f3597f977a9194",
-                "reference": "65e8a47d350179a3217b4acaf4f3597f977a9194",
+                "url": "https://api.github.com/repos/wp-php-toolkit/xml/zipball/8ec4e2f16b18313d52c8a61a6528afacf1ceb34a",
+                "reference": "8ec4e2f16b18313d52c8a61a6528afacf1ceb34a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
-                "wp-php-toolkit/encoding": "^0.6.2"
+                "wp-php-toolkit/encoding": "^0.5.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2026-04-27T14:15:30+00:00",
+            "time": "2026-04-02T14:37:51+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -3859,7 +3921,7 @@
             "description": "XML component for WordPress.",
             "support": {
                 "issues": "https://github.com/wp-php-toolkit/xml/issues",
-                "source": "https://github.com/wp-php-toolkit/xml/tree/v0.6.2"
+                "source": "https://github.com/wp-php-toolkit/xml/tree/v0.5.1"
             },
             "install-path": "../wp-php-toolkit/xml"
         }

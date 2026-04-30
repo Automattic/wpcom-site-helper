@@ -15,12 +15,9 @@
  * plain text strtr() replacement, which is simpler and more predictable for columns
  * that contain serialized PHP, JSON, or plain strings.
  *
- * Column resolution walks the lexer output directly. Both INSERT and UPDATE
- * statements emitted by MySQLDumpProducer follow a constrained set of shapes
- * the walker recognises; for any shape it doesn't, it returns null and every
- * FROM_BASE64() value falls back to plain-text URL rewriting (which is the
- * safe default anyway — block_markup is only ever assigned to a small set of
- * WordPress core columns).
+ * Column resolution uses WP_MySQL_Parser to build a full AST, then maps each value
+ * expression's byte range to its column name. Base64ValueScanner's match offset is
+ * looked up against this map — no regex or manual comma-counting needed.
  */
 class SqlStatementRewriter
 {
@@ -28,6 +25,9 @@ class SqlStatementRewriter
 
     /** @var array<string, array<string, string>> full_table_name => [column_name => content_type] */
     private array $db_columns_with_block_markup;
+
+    /** @var WP_Parser_Grammar|null Lazily loaded, shared across all instances. */
+    private static ?WP_Parser_Grammar $grammar = null;
 
     /**
      * WordPress core columns that contain block markup and benefit from
@@ -82,11 +82,6 @@ class SqlStatementRewriter
     /**
      * Rewrite URLs in a SQL statement.
      *
-     * NOTE: base64-encoded values that do not contain the string "http" are
-     * skipped entirely — column resolution and the StructuredDataUrlRewriter
-     * pipeline are never run for them. This means URLs stored in base64
-     * without an http/https scheme will not be rewritten.
-     *
      * @param string $sql The SQL statement.
      * @return string The modified SQL statement.
      */
@@ -97,60 +92,21 @@ class SqlStatementRewriter
             return $sql;
         }
 
-        // Fast path: producer-shape INSERTs (the overwhelming majority of
-        // statements in a typical dump) are recovered with strpos / regex
-        // and never touch WP_MySQL_Lexer. Anything the fast scanner doesn't
-        // recognise — UPDATE, INSERT … SELECT, qualified names, hex
-        // literals, escaped quotes — falls through to the lexer path
-        // below with identical behaviour.
-        $fast = FastInsertScanner::scan($sql);
-        if ($fast !== null) {
-            $value_to_column_map = [
-                'table' => $fast['table'],
-                'column_map' => $fast['column_map'],
-            ];
-            $scanner = Base64ValueScanner::from_entries($sql, $fast['base64_entries']);
-            return $this->rewrite_with_scanner($scanner, $value_to_column_map);
-        }
+        // Parse the INSERT/UPDATE statement to extract the table name and
+        // build a byte-offset→column map from the AST.
+        $parsed = $this->parse_statement($sql);
 
-        // Slow path: lex once, share the token array between the column
-        // map walker and Base64ValueScanner.
-        $tokens = self::significant_tokens($sql);
-        $value_to_column_map = $this->map_values_to_columns_from_tokens($tokens);
-        $scanner = new Base64ValueScanner($sql, $tokens);
-        return $this->rewrite_with_scanner($scanner, $value_to_column_map);
-    }
-
-    /**
-     * Run the value-rewriting loop given an already-populated scanner and
-     * the table/column-map context. Shared between the fast and lexer paths.
-     *
-     * @param array{table: string, column_map: list<array{int, int, string}>}|null $value_to_column_map
-     */
-    private function rewrite_with_scanner(Base64ValueScanner $scanner, ?array $value_to_column_map): string
-    {
+        // Iterate over all FROM_BASE64() values using the cursor-based scanner
+        $scanner = new Base64ValueScanner($sql);
         while ($scanner->next_value()) {
             $value = $scanner->get_value();
 
-            // Skip values that can't contain a URL we'd rewrite. Every
-            // rewritable domain starts with http:// or https://, so a value
-            // without "http" anywhere in it has nothing for us to do. This
-            // avoids the column-map lookup and the full StructuredDataUrlRewriter
-            // pipeline (HTML parse, block markup, PHP/JSON recursion) per value.
-            // See https://github.com/adamziel/reprint/pull/152
-            if (strpos($value, 'http') === false) {
-                continue;
-            }
-
             // Determine content type hint for this column
             $content_type = null;
-            if ($value_to_column_map !== null) {
-                $column_name = $this->find_column_at_offset(
-                    $value_to_column_map['column_map'],
-                    $scanner->get_match_offset()
-                );
+            if ($parsed !== null) {
+                $column_name = $this->find_column_at_offset($parsed['column_map'], $scanner->get_match_offset());
                 if ($column_name !== null) {
-                    $content_type = $this->get_content_type($value_to_column_map['table'], $column_name);
+                    $content_type = $this->get_content_type($parsed['table'], $column_name);
                 }
             }
 
@@ -168,392 +124,180 @@ class SqlStatementRewriter
     }
 
     /**
-     * Walk the lexer output to recover, for an INSERT or UPDATE statement,
-     * the byte-offset→column map needed to give each FROM_BASE64() value
-     * the right content-type hint.
+     * Parse the SQL with WP_MySQL_Parser to extract the table name and build
+     * an offset→column map. Each map entry is [start, end, column_name] where
+     * start/end are byte offsets of the value expression in the SQL string.
      *
-     * Recognised shapes:
-     *
-     *   INSERT [LOW_PRIORITY|DELAYED|HIGH_PRIORITY] [IGNORE] INTO `t`
-     *     (`c1`, `c2`, …) [VALUES|VALUE]
-     *     [ROW]?(e1, e2, …) [, [ROW]?(…), …]
-     *     [ON DUPLICATE KEY UPDATE …]?
-     *     [;]?
-     *
-     *   REPLACE [LOW_PRIORITY|DELAYED] INTO `t` (… same shape …)
-     *
-     *   UPDATE [LOW_PRIORITY] [IGNORE] `t`
-     *     SET `c1` = e1 [, `c2` = e2, …]
-     *     [WHERE … | ORDER BY … | LIMIT …]?
-     *     [;]?
-     *
-     * Anything else — INSERT … SELECT, INSERT … SET col=v, INSERT without a
-     * column list, qualified names like `db`.`t`, multi-table UPDATE — returns
-     * null. The caller treats null the same as an empty column_map: every
-     * FROM_BASE64() value falls through to plain-text URL rewriting, which
-     * is the safe default. URL rewriting still happens; only the
-     * block_markup hint (relevant for ~5 WordPress core columns) is lost.
-     *
-     * The lexer already handles strings, comments, escaped backticks, hex /
-     * binary / null literals and so on, so the walker only needs to track
-     * parenthesis depth at the token level — string-literal tokens that
-     * contain `(`, `)`, `,` etc. arrive as a single token and never affect
-     * depth.
+     * Returns null for non-INSERT/UPDATE statements or parse failures — the
+     * caller falls back to auto-detect with no column awareness.
      *
      * @return array{table: string, column_map: list<array{int, int, string}>}|null
      */
-    // Called via reflection in SqlStatementRewriterLexerWalkerTest.
-    // @phpstan-ignore method.unused
-    private function map_values_to_columns(string $sql): ?array
+    private function parse_statement(string $sql): ?array
     {
-        return $this->map_values_to_columns_from_tokens(self::significant_tokens($sql));
-    }
+        $lexer  = new WP_MySQL_Lexer($sql);
+        $tokens = $lexer->remaining_tokens();
+        $parser = new WP_MySQL_Parser(self::get_grammar(), $tokens);
 
-    /**
-     * Consumes a pre-lexed token array. Lets callers that already lexed the
-     * statement avoid a second WP_MySQL_Lexer pass.
-     *
-     * @param WP_MySQL_Token[] $tokens
-     * @return array{table: string, column_map: list<array{int, int, string}>}|null
-     */
-    private function map_values_to_columns_from_tokens(array $tokens): ?array
-    {
-        $token_count = count($tokens);
-        if ($token_count < 4) {
+        if (!$parser->next_query()) {
             return null;
         }
 
-        $cursor = 0;
-        $first_keyword_id = $tokens[$cursor]->id;
-
-        if (
-            $first_keyword_id === WP_MySQL_Lexer::INSERT_SYMBOL
-            || $first_keyword_id === WP_MySQL_Lexer::REPLACE_SYMBOL
-        ) {
-            return self::walk_insert($tokens, $token_count, $cursor);
+        $ast = $parser->get_query_ast();
+        if (!$ast) {
+            return null;
         }
 
-        if ($first_keyword_id === WP_MySQL_Lexer::UPDATE_SYMBOL) {
-            return self::walk_update($tokens, $token_count, $cursor);
+        // AST: query → simpleStatement → insertStatement|updateStatement
+        $simple = $ast->get_first_child_node('simpleStatement');
+        if (!$simple) {
+            return null;
+        }
+
+        $insert = $simple->get_first_child_node('insertStatement');
+        if ($insert) {
+            return $this->parse_insert($insert);
+        }
+
+        $update = $simple->get_first_child_node('updateStatement');
+        if ($update) {
+            return $this->parse_update($update);
         }
 
         return null;
     }
 
     /**
-     * Walk the body of an INSERT / REPLACE statement starting at
-     * `$cursor` (which already points at the leading verb).
+     * Extract table name, column list, and value expression ranges from an
+     * INSERT statement AST node.
      *
-     * @param WP_MySQL_Token[] $tokens
-     * @return array{table: string, column_map: list<array{int, int, string}>}|null
+     * AST shape:
+     *   insertStatement
+     *     tableRef                    → table name
+     *     insertFromConstructor
+     *       fields                    → column list (absent when no column list)
+     *         insertIdentifier...     → one per column
+     *       insertValues
+     *         valueList
+     *           values (per row)
+     *             expr (per column)   → byte range mapped to column index
      */
-    private static function walk_insert(array $tokens, int $token_count, int $cursor): ?array
+    private function parse_insert(WP_Parser_Node $stmt): ?array
     {
-        // Step past the leading INSERT or REPLACE.
-        $cursor++;
-
-        // Optional priority + IGNORE modifiers in any order MySQL accepts.
-        // An unrecognised modifier drops us out of the fast path.
-        while ($cursor < $token_count) {
-            $modifier_id = $tokens[$cursor]->id;
-            if (
-                $modifier_id === WP_MySQL_Lexer::LOW_PRIORITY_SYMBOL
-                || $modifier_id === WP_MySQL_Lexer::DELAYED_SYMBOL
-                || $modifier_id === WP_MySQL_Lexer::HIGH_PRIORITY_SYMBOL
-                || $modifier_id === WP_MySQL_Lexer::IGNORE_SYMBOL
-            ) {
-                $cursor++;
-                continue;
-            }
-            break;
-        }
-
-        // INTO
-        if ($cursor >= $token_count || $tokens[$cursor]->id !== WP_MySQL_Lexer::INTO_SYMBOL) {
-            return null;
-        }
-        $cursor++;
-
-        // Table identifier. Reject qualified names — `db`.`t` would mean we
-        // got the database wrong, and the column_map keys are matched by
-        // bare table name anyway.
-        if ($cursor >= $token_count) {
-            return null;
-        }
-        $table_token_id = $tokens[$cursor]->id;
-        $table_name = ($table_token_id === WP_MySQL_Lexer::BACK_TICK_QUOTED_ID || $table_token_id === WP_MySQL_Lexer::IDENTIFIER)
-            ? $tokens[$cursor]->get_value()
-            : null;
-        if ($table_name === null) {
-            return null;
-        }
-        $cursor++;
-        if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::DOT_SYMBOL) {
+        $table_ref = $stmt->get_first_child_node('tableRef');
+        if (!$table_ref) {
             return null;
         }
 
-        // Required column list `( col, col, … )`. Without column names there's
-        // nothing to map FROM_BASE64() byte offsets against.
-        if ($cursor >= $token_count || $tokens[$cursor]->id !== WP_MySQL_Lexer::OPEN_PAR_SYMBOL) {
+        $table = $this->extract_identifier($table_ref);
+        if ($table === null) {
             return null;
         }
-        $cursor++;
 
-        $column_names = [];
-        while ($cursor < $token_count && $tokens[$cursor]->id !== WP_MySQL_Lexer::CLOSE_PAR_SYMBOL) {
-            $column_token_id = $tokens[$cursor]->id;
-            $column_name = ($column_token_id === WP_MySQL_Lexer::BACK_TICK_QUOTED_ID || $column_token_id === WP_MySQL_Lexer::IDENTIFIER)
-                ? $tokens[$cursor]->get_value()
-                : null;
-            if ($column_name === null) {
-                return null;
-            }
-            $column_names[] = $column_name;
-            $cursor++;
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::COMMA_SYMBOL) {
-                $cursor++;
-                continue;
-            }
-            break;
+        $constructor = $stmt->get_first_child_node('insertFromConstructor');
+        if (!$constructor) {
+            return ['table' => $table, 'column_map' => []];
         }
-        if ($cursor >= $token_count || $tokens[$cursor]->id !== WP_MySQL_Lexer::CLOSE_PAR_SYMBOL) {
-            return null;
-        }
-        $cursor++;
 
-        // VALUES (or its singular alias VALUE).
-        if (
-            $cursor >= $token_count
-            || (
-                $tokens[$cursor]->id !== WP_MySQL_Lexer::VALUES_SYMBOL
-                && $tokens[$cursor]->id !== WP_MySQL_Lexer::VALUE_SYMBOL
-            )
-        ) {
-            return null;
-        }
-        $cursor++;
-
-        $column_count = count($column_names);
-        $column_map = [];
-        while ($cursor < $token_count) {
-            // Optional ROW prefix (MySQL 8.0+ explicit row constructor).
-            if ($tokens[$cursor]->id === WP_MySQL_Lexer::ROW_SYMBOL) {
-                $cursor++;
-                if ($cursor >= $token_count) {
-                    return null;
+        // Column names from the optional `fields` node. When absent (INSERT
+        // without column list), columns stays empty and the column_map will
+        // have no entries — every value falls back to auto-detect.
+        $columns = [];
+        $fields_node = $constructor->get_first_child_node('fields');
+        if ($fields_node) {
+            foreach ($fields_node->get_child_nodes('insertIdentifier') as $insert_id) {
+                $col_name = $this->extract_identifier($insert_id);
+                if ($col_name !== null) {
+                    $columns[] = $col_name;
                 }
             }
+        }
 
-            if ($tokens[$cursor]->id !== WP_MySQL_Lexer::OPEN_PAR_SYMBOL) {
-                return null;
-            }
-            $cursor++; // step past `(`
-
-            $column_index_in_row = 0;
-            $expression_starts_at_token = $cursor;
-            $paren_depth_inside_tuple = 0;
-            $tuple_was_closed = false;
-            while ($cursor < $token_count) {
-                $current_token_id = $tokens[$cursor]->id;
-                if ($current_token_id === WP_MySQL_Lexer::OPEN_PAR_SYMBOL) {
-                    $paren_depth_inside_tuple++;
-                } elseif ($current_token_id === WP_MySQL_Lexer::CLOSE_PAR_SYMBOL) {
-                    if ($paren_depth_inside_tuple === 0) {
-                        if ($column_index_in_row < $column_count && $expression_starts_at_token < $cursor) {
-                            $expression_first_token = $tokens[$expression_starts_at_token];
-                            $expression_last_token = $tokens[$cursor - 1];
+        // Build the offset→column map. Each `values` node has one `expr` child
+        // per column, in declaration order. Multi-row INSERTs repeat this for
+        // every row in the valueList.
+        $column_map = [];
+        $insert_values = $constructor->get_first_child_node('insertValues');
+        if ($insert_values) {
+            $value_list = $insert_values->get_first_child_node('valueList');
+            if ($value_list) {
+                foreach ($value_list->get_child_nodes('values') as $values_node) {
+                    $exprs = $values_node->get_child_nodes('expr');
+                    foreach ($exprs as $i => $expr) {
+                        if ($i < count($columns)) {
                             $column_map[] = [
-                                $expression_first_token->start,
-                                $expression_last_token->start + $expression_last_token->length,
-                                $column_names[$column_index_in_row],
+                                $expr->get_start(),
+                                $expr->get_start() + $expr->get_length(),
+                                $columns[$i],
                             ];
                         }
-                        $tuple_was_closed = true;
-                        break;
                     }
-                    $paren_depth_inside_tuple--;
-                } elseif ($current_token_id === WP_MySQL_Lexer::COMMA_SYMBOL && $paren_depth_inside_tuple === 0) {
-                    if ($column_index_in_row < $column_count && $expression_starts_at_token < $cursor) {
-                        $expression_first_token = $tokens[$expression_starts_at_token];
-                        $expression_last_token = $tokens[$cursor - 1];
-                        $column_map[] = [
-                            $expression_first_token->start,
-                            $expression_last_token->start + $expression_last_token->length,
-                            $column_names[$column_index_in_row],
-                        ];
-                    }
-                    $column_index_in_row++;
-                    $expression_starts_at_token = $cursor + 1;
                 }
-                $cursor++;
             }
-            if (!$tuple_was_closed) {
-                return null;
-            }
-            $cursor++; // step past `)`
-
-            // Another tuple, statement terminator, or trailer keyword.
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::COMMA_SYMBOL) {
-                $cursor++;
-                continue;
-            }
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::SEMICOLON_SYMBOL) {
-                $cursor++;
-            }
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::ON_SYMBOL) {
-                // ON DUPLICATE KEY UPDATE … — anything past here is the
-                // assignment list, which doesn't carry value-tuple
-                // FROM_BASE64() the rewriter would map. Stop reading.
-                break;
-            }
-            if ($cursor !== $token_count) {
-                return null;
-            }
-            break;
         }
 
-        return ['table' => $table_name, 'column_map' => $column_map];
+        return ['table' => $table, 'column_map' => $column_map];
     }
 
     /**
-     * Walk the body of an UPDATE statement starting at `$cursor` (which
-     * points at the leading UPDATE keyword).
+     * Extract table name and value expression ranges from an UPDATE statement
+     * AST node.
      *
-     * Single-table updates only: an unqualified table identifier followed
-     * by SET, then a comma-separated list of `col = expression` assignments.
-     * The expression range runs to the next comma at depth 0, or to the
-     * first occurrence of WHERE / ORDER / LIMIT / `;` / end of input.
-     *
-     * @param WP_MySQL_Token[] $tokens
-     * @return array{table: string, column_map: list<array{int, int, string}>}|null
+     * AST shape:
+     *   updateStatement
+     *     tableReferenceList → tableRef   → table name
+     *     updateList
+     *       updateElement (per SET assignment)
+     *         columnRef                    → column name
+     *         expr                         → byte range for the value
      */
-    private static function walk_update(array $tokens, int $token_count, int $cursor): ?array
+    private function parse_update(WP_Parser_Node $stmt): ?array
     {
-        // Step past UPDATE.
-        $cursor++;
-
-        while ($cursor < $token_count) {
-            $modifier_id = $tokens[$cursor]->id;
-            if (
-                $modifier_id === WP_MySQL_Lexer::LOW_PRIORITY_SYMBOL
-                || $modifier_id === WP_MySQL_Lexer::IGNORE_SYMBOL
-            ) {
-                $cursor++;
-                continue;
-            }
-            break;
-        }
-
-        if ($cursor >= $token_count) {
-            return null;
-        }
-        $table_token_id = $tokens[$cursor]->id;
-        $table_name = ($table_token_id === WP_MySQL_Lexer::BACK_TICK_QUOTED_ID || $table_token_id === WP_MySQL_Lexer::IDENTIFIER)
-            ? $tokens[$cursor]->get_value()
-            : null;
-        if ($table_name === null) {
-            return null;
-        }
-        $cursor++;
-        if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::DOT_SYMBOL) {
+        $table_ref_list = $stmt->get_first_child_node('tableReferenceList');
+        if (!$table_ref_list) {
             return null;
         }
 
-        // SET keyword.
-        if ($cursor >= $token_count || $tokens[$cursor]->id !== WP_MySQL_Lexer::SET_SYMBOL) {
+        $table_ref = $table_ref_list->get_first_descendant_node('tableRef');
+        if (!$table_ref) {
             return null;
         }
-        $cursor++;
 
-        // Reject multi-table UPDATEs by refusing anything that looks like a
-        // join after the table name. (The walk above already accepts only a
-        // single bare identifier, so we don't reach SET on multi-table
-        // updates — this is just a guard for the unusual cases.)
+        $table = $this->extract_identifier($table_ref);
+        if ($table === null) {
+            return null;
+        }
+
+        // Each updateElement has a columnRef (the column name) and an expr
+        // (the value expression). The FROM_BASE64() call lives somewhere
+        // inside the expr — possibly wrapped in CONVERT() or CONCAT().
         $column_map = [];
-        while ($cursor < $token_count) {
-            // Column being assigned to.
-            $assigned_column_token_id = $tokens[$cursor]->id;
-            $assigned_column_name = ($assigned_column_token_id === WP_MySQL_Lexer::BACK_TICK_QUOTED_ID || $assigned_column_token_id === WP_MySQL_Lexer::IDENTIFIER)
-                ? $tokens[$cursor]->get_value()
-                : null;
-            if ($assigned_column_name === null) {
-                return null;
-            }
-            $cursor++;
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::DOT_SYMBOL) {
-                // `t.col = …` form — qualified column ref, give up on the fast
-                // path so the rewriter falls back to plain-text rewriting.
-                return null;
-            }
-
-            // EQUAL_OPERATOR, expressed as `=` token.
-            if ($cursor >= $token_count || $tokens[$cursor]->id !== WP_MySQL_Lexer::EQUAL_OPERATOR) {
-                return null;
-            }
-            $cursor++;
-
-            // Walk the expression until comma at depth 0, or a clause keyword.
-            $expression_starts_at_token = $cursor;
-            $paren_depth_in_expression = 0;
-            while ($cursor < $token_count) {
-                $current_token_id = $tokens[$cursor]->id;
-                if ($current_token_id === WP_MySQL_Lexer::OPEN_PAR_SYMBOL) {
-                    $paren_depth_in_expression++;
-                } elseif ($current_token_id === WP_MySQL_Lexer::CLOSE_PAR_SYMBOL) {
-                    if ($paren_depth_in_expression === 0) {
-                        // Stray `)` at depth 0 means the statement is malformed
-                        // or shaped in a way we don't understand.
-                        return null;
-                    }
-                    $paren_depth_in_expression--;
-                } elseif ($paren_depth_in_expression === 0) {
-                    if (
-                        $current_token_id === WP_MySQL_Lexer::COMMA_SYMBOL
-                        || $current_token_id === WP_MySQL_Lexer::WHERE_SYMBOL
-                        || $current_token_id === WP_MySQL_Lexer::ORDER_SYMBOL
-                        || $current_token_id === WP_MySQL_Lexer::LIMIT_SYMBOL
-                        || $current_token_id === WP_MySQL_Lexer::SEMICOLON_SYMBOL
-                    ) {
-                        break;
-                    }
+        $update_list = $stmt->get_first_child_node('updateList');
+        if ($update_list) {
+            foreach ($update_list->get_child_nodes('updateElement') as $element) {
+                $col_ref = $element->get_first_child_node('columnRef');
+                if (!$col_ref) {
+                    continue;
                 }
-                $cursor++;
-            }
 
-            if ($cursor === $expression_starts_at_token) {
-                // Empty expression on the right of `=` — malformed.
-                return null;
+                $col_name = $this->extract_identifier($col_ref);
+                $expr = $element->get_first_child_node('expr');
+                if ($expr && $col_name !== null) {
+                    $column_map[] = [
+                        $expr->get_start(),
+                        $expr->get_start() + $expr->get_length(),
+                        $col_name,
+                    ];
+                }
             }
-
-            $expression_first_token = $tokens[$expression_starts_at_token];
-            $expression_last_token = $tokens[$cursor - 1];
-            $column_map[] = [
-                $expression_first_token->start,
-                $expression_last_token->start + $expression_last_token->length,
-                $assigned_column_name,
-            ];
-
-            if ($cursor < $token_count && $tokens[$cursor]->id === WP_MySQL_Lexer::COMMA_SYMBOL) {
-                $cursor++;
-                continue;
-            }
-            break;
         }
 
-        return ['table' => $table_name, 'column_map' => $column_map];
+        return ['table' => $table, 'column_map' => $column_map];
     }
 
     /**
      * Find which column a FROM_BASE64() expression belongs to by checking
      * which expression range contains the given byte offset.
-     *
-     * The column_map is built by parse_insert / parse_update by walking the
-     * statement in source order, so it's already sorted by `start` offset
-     * and the ranges never overlap. That lets us use a binary search instead
-     * of the obvious linear scan — a multi-row INSERT can produce thousands
-     * of entries and we look up an offset for every FROM_BASE64() value, so
-     * the linear cost was quadratic in row count and showed up as ~150 µs per
-     * lookup under WASM PHP.
      *
      * @param list<array{int, int, string}> $column_map [start, end, column_name] entries.
      * @param int $offset Byte offset of the CONVERT or FROM_BASE64 token.
@@ -561,44 +305,58 @@ class SqlStatementRewriter
      */
     private function find_column_at_offset(array $column_map, int $offset): ?string
     {
-        $low = 0;
-        $high = count($column_map) - 1;
-        while ($low <= $high) {
-            $mid = ($low + $high) >> 1;
-            $entry = $column_map[$mid];
-            if ($offset < $entry[0]) {
-                $high = $mid - 1;
-            } elseif ($offset >= $entry[1]) {
-                $low = $mid + 1;
-            } else {
-                return $entry[2];
+        foreach ($column_map as [$start, $end, $column]) {
+            if ($offset >= $start && $offset < $end) {
+                return $column;
             }
         }
         return null;
     }
 
     /**
-     * Lex the statement and drop the lexer's terminal EOF marker.
-     *
-     * `WP_MySQL_Lexer::next_token()` already skips whitespace and comment
-     * tokens internally, so the array we get back is already
-     * structure-only. The only token left to filter is the EOF that the
-     * lexer appends after the last real token, which would otherwise trip
-     * the walker's "trailing tokens after the last value tuple" guard.
-     *
-     * @return WP_MySQL_Token[]
+     * Extract the identifier text from an AST node by finding the last
+     * BACK_TICK_QUOTED_ID or IDENTIFIER descendant token. Using the last
+     * token handles qualified names like `schema`.`table` — we want `table`.
      */
-    private static function significant_tokens(string $sql): array
+    private function extract_identifier(WP_Parser_Node $node): ?string
     {
-        $lexer = new WP_MySQL_Lexer($sql);
-        $tokens = $lexer->remaining_tokens();
-        if (
-            !empty($tokens)
-            && end($tokens)->id === WP_MySQL_Lexer::EOF
-        ) {
-            array_pop($tokens);
+        $tokens = $node->get_descendant_tokens(WP_MySQL_Lexer::BACK_TICK_QUOTED_ID);
+        if (empty($tokens)) {
+            $tokens = $node->get_descendant_tokens(WP_MySQL_Lexer::IDENTIFIER);
         }
-        return $tokens;
+        if (empty($tokens)) {
+            return null;
+        }
+        return end($tokens)->get_value();
+    }
+
+    /**
+     * Lazily load and cache the MySQL grammar. The grammar data (~200KB PHP
+     * array) is expensive to inflate into a WP_Parser_Grammar, so we do it
+     * once and share across all SqlStatementRewriter instances.
+     */
+    private static function get_grammar(): WP_Parser_Grammar
+    {
+        if (self::$grammar === null) {
+            $path = null;
+            foreach ([
+                dirname(__DIR__, 5) . '/lib/sqlite-database-integration/wp-includes/mysql/mysql-grammar.php',
+                dirname(__DIR__, 6) . '/lib/sqlite-database-integration/wp-includes/mysql/mysql-grammar.php',
+            ] as $candidate) {
+                if (file_exists($candidate)) {
+                    $path = $candidate;
+                    break;
+                }
+            }
+            if ($path === null) {
+                throw new RuntimeException(
+                    'sqlite-database-integration is missing. Run: git submodule update --init'
+                );
+            }
+            $data = require $path;
+            self::$grammar = new WP_Parser_Grammar($data);
+        }
+        return self::$grammar;
     }
 
     /**

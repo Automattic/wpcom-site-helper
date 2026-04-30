@@ -7,6 +7,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
+- Add stats wp abbilities
 - Customize the WordPress fatal error screen with WordPress.com support links.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
