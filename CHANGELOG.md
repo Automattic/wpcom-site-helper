@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-fatal-error: rename the fatal-error screen's "Likely cause" heading to "Suspected plugin" / "Suspected theme", identify theme-origin fatals so the card shows the theme's name / version / description, and surface Error details + Environment (WordPress / PHP / theme / server) as always-visible sections below the card.
 - wpcom-fatal-error: rewrite the admin recovery-mode email — WordPress.com-branded HTML matching the fatal-error screen, with the site name, suspected plugin/theme card, action links into wp-admin, and separate Error details + Environment sections.
 - WPCOMSH_Log: add `unsafe_direct_log_logstash()` for records that need their own /logstash `feature` bucket; route fatal-error signatures through it under feature `atomic_extension_conflict` (severity `critical`).
+- WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
 
 ### Fixed
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
