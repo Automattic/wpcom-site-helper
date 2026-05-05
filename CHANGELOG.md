@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
 - Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
+- Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Load only when desired.
