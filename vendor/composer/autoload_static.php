@@ -1100,6 +1100,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha
         'WordPress\\DataLiberation\\URL\\ConvertedUrl' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/class-convertedurl.php',
         'WordPress\\DataLiberation\\URL\\URLInTextProcessor' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/class-urlintextprocessor.php',
         'WordPress\\DataLiberation\\URL\\WPURL' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/class-wpurl.php',
+        'WordPress\\DataLiberation\\URL\\WPWhatwgUrl' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/class-wpwhatwgurl.php',
         'WordPress\\XML\\XMLAttributeToken' => __DIR__ . '/..' . '/wp-php-toolkit/xml/class-xmlattributetoken.php',
         'WordPress\\XML\\XMLDecoder' => __DIR__ . '/..' . '/wp-php-toolkit/xml/class-xmldecoder.php',
         'WordPress\\XML\\XMLElement' => __DIR__ . '/..' . '/wp-php-toolkit/xml/class-xmlelement.php',

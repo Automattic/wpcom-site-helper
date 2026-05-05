@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
 
 ### Fixed
+- Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 
 ## 9.0.0 - 2026-04-09

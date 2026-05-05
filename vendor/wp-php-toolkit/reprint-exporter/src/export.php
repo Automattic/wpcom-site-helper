@@ -3,6 +3,11 @@
  * Unified export API for SQL and file operations.
  */
 
+use function WordPress\Reprint\Exporter\assert_valid_path;
+use function WordPress\Reprint\Exporter\build_pdo_dsn;
+use function WordPress\Reprint\Exporter\json_encode_or_throw;
+use function WordPress\Reprint\Exporter\parse_size;
+
 // Capture any accidental output before headers are set so we can discard it
 // when switching to streaming mode later.
 if (!ob_get_level()) {
@@ -375,8 +380,18 @@ function create_sqlite_pdo_adapter()
     return new SqliteDriverPDO($driver, $raw_pdo);
 }
 
-require_once __DIR__ . "/utils.php";
-require_once __DIR__ . "/class-http-server.php";
+// Guard with existence checks: when loaded via Composer autoloader, both
+// files are already included from a path that may differ from __DIR__
+// (e.g. symlink vs realpath). With opcache.revalidate_path=0 (default),
+// require_once does not resolve symlinks, so the same physical file can
+// be loaded twice through different paths, causing "Cannot redeclare"
+// fatal errors.
+if (!function_exists('WordPress\\Reprint\\Exporter\\build_pdo_dsn')) {
+    require_once __DIR__ . "/utils.php";
+}
+if (!class_exists('Site_Export_HTTP_Server', false)) {
+    require_once __DIR__ . "/class-http-server.php";
+}
 
 /**
  * Emits an error chunk into a gzip multipart stream.
