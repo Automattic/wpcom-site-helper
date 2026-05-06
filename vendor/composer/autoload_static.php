@@ -380,6 +380,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha
         'Automattic\\Jetpack\\Verbum_Comments' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
         'Automattic\\Jetpack\\Verbum_Moderate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-moderate.php',
         'Automattic\\Jetpack\\WP_Abilities\\Registrar' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
+        'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
         'Backup_Import_Response' => __DIR__ . '/../..' . '/endpoints/class-backup-import-response.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/vendor-patched/brick/math/src/BigInteger.php',

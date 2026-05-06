@@ -663,15 +663,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-modules.php'
 	),
 	'Automattic\\Jetpack\\Newsletter\\Reader_Link' => array(
-		'version' => '0.8.6.0',
+		'version' => '0.8.7.0-alpha1778039424',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-reader-link.php'
 	),
 	'Automattic\\Jetpack\\Newsletter\\Settings' => array(
-		'version' => '0.8.6.0',
+		'version' => '0.8.7.0-alpha1778039424',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-settings.php'
 	),
 	'Automattic\\Jetpack\\Newsletter\\Urls' => array(
-		'version' => '0.8.6.0',
+		'version' => '0.8.7.0-alpha1778039424',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-newsletter/src/class-urls.php'
 	),
 	'Automattic\\Jetpack\\Partner' => array(
@@ -1109,6 +1109,10 @@ return array(
 	'Automattic\\Jetpack\\WP_Abilities\\Registrar' => array(
 		'version' => '0.1.0.0',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php'
+	),
+	'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => array(
+		'version' => '0.1.6.0',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php'
 	),
 	'Backup_Import_Response' => array(
 		'version' => 'dev-trunk',
