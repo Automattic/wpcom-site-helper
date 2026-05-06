@@ -175,6 +175,8 @@ return array(
     'Automattic\\Jetpack\\Password_Checker' => $baseDir . '/jetpack_vendor/automattic/jetpack-password-checker/src/class-password-checker.php',
     'Automattic\\Jetpack\\Paths' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-paths.php',
     'Automattic\\Jetpack\\Plans' => $vendorDir . '/automattic/jetpack-plans/src/class-plans.php',
+    'Automattic\\Jetpack\\Podcast\\Admin_Page' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-admin-page.php',
+    'Automattic\\Jetpack\\Podcast\\Podcast' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
     'Automattic\\Jetpack\\Post_List\\Post_List' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-list/src/class-post-list.php',
     'Automattic\\Jetpack\\Post_List\\Post_Thumbnail' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-list/src/class-post-thumbnail.php',
     'Automattic\\Jetpack\\Post_Media' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-post-media.php',

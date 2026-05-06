@@ -62,7 +62,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1778092782',
+      'ver' => '6.11.0-alpha1778098399',
     ),
     'jetpack-newsletter' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-newsletter',
@@ -71,6 +71,10 @@ return array(
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
       'ver' => '0.4.10',
+    ),
+    'jetpack-podcast' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-podcast',
+      'ver' => '0.1.0-alpha1778098399',
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',

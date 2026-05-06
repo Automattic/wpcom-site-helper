@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
 - Tested up to WordPress 7.0.
+- Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Update package dependencies.
 - Update wp-php-toolkit dependencies.
 - wpcom-fatal-error: rename the fatal-error screen's "Likely cause" heading to "Suspected plugin" / "Suspected theme", identify theme-origin fatals so the card shows the theme's name / version / description, and surface Error details + Environment (WordPress / PHP / theme / server) as always-visible sections below the card.
