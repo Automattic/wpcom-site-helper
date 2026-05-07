@@ -699,12 +699,16 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-plans/src/class-plans.php'
 	),
 	'Automattic\\Jetpack\\Podcast\\Admin_Page' => array(
-		'version' => '0.1.0.0-alpha1778103741',
+		'version' => '0.1.0.0-alpha1778155323',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-admin-page.php'
 	),
 	'Automattic\\Jetpack\\Podcast\\Podcast' => array(
-		'version' => '0.1.0.0-alpha1778103741',
+		'version' => '0.1.0.0-alpha1778155323',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php'
+	),
+	'Automattic\\Jetpack\\Podcast\\Settings' => array(
+		'version' => '0.1.0.0-alpha1778155323',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-settings.php'
 	),
 	'Automattic\\Jetpack\\Post_List\\Post_List' => array(
 		'version' => '0.9.16.0',
