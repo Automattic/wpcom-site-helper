@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 - Customize the WordPress fatal error screen with WordPress.com support links.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Fatal error: log recovery-mode email dispatches (sent, disabled, no recipient) and post-login recovery-mode entry to logstash.
+- Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Wpcomsh fatal-error: log a `wpcomsh_fatal_deactivate` event when an admin clicks the Deactivate button on the fatal-error screen, so we can tell which fatals lead to user-initiated deactivations. Both the deactivate event and the existing `wpcomsh_fatal_signature` event now also carry `properties.atomic_site_id` for site-axis grouping.
 
