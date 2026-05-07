@@ -11,6 +11,7 @@ return array(
     'A8C\\FSE\\Help_Center_Menu_Panel' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center-menu-panel.php',
     'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
     'A8C\\FSE\\Survicate' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/survicate/class-survicate.php',
+    'A8C\\FSE\\WPCOM_Smart_Dictation' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-smart-dictation/class-wpcom-smart-dictation.php',
     'A8C\\FSE\\WP_REST_Agents_Manager_Persisted_Open_State' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/agents-manager/class-wp-rest-agents-manager-persisted-open-state.php',
     'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
     'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
