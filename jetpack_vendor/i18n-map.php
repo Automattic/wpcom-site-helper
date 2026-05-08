@@ -86,7 +86,7 @@ return array(
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
-      'ver' => '0.1.1-alpha1777322605',
+      'ver' => '0.1.1-alpha1778238562',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
