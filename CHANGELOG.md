@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Wpcomsh fatal-error: log a `wpcomsh_fatal_deactivate` event when an admin clicks the Deactivate button on the fatal-error screen, so we can tell which fatals lead to user-initiated deactivations. Both the deactivate event and the existing `wpcomsh_fatal_signature` event now also carry `properties.atomic_site_id` for site-axis grouping.
+- Wpcomsh fatal-error: route the screen's "Enter recovery mode" link through a first-party redirect endpoint that logs a `wpcomsh_fatal_recovery` event before forwarding to a freshly-generated core recovery URL, so we can measure screen-originated recovery clicks alongside the existing signature and deactivate events without conflating them with email-originated entries.
 
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
