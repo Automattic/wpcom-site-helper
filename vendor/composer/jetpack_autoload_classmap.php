@@ -3667,35 +3667,35 @@ return array(
 		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-php80/Resources/stubs/Stringable.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\ExceptionInterface' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/ExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\FileNotFoundException' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/FileNotFoundException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOException' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOExceptionInterface' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\InvalidArgumentException' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/InvalidArgumentException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\RuntimeException' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/RuntimeException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Filesystem' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Filesystem.php'
 	),
 	'Symfony\\Component\\Filesystem\\Path' => array(
-		'version' => '6.4.34.0',
+		'version' => '6.4.37.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Path.php'
 	),
 	'Symfony\\Polyfill\\Ctype\\Ctype' => array(
@@ -3707,7 +3707,7 @@ return array(
 		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-intl-normalizer/Normalizer.php'
 	),
 	'Symfony\\Polyfill\\Mbstring\\Mbstring' => array(
-		'version' => '1.34.0.0',
+		'version' => '1.37.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php'
 	),
 	'Symfony\\Polyfill\\Php80\\Php80' => array(
