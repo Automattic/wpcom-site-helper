@@ -12,6 +12,16 @@ function automattic_podcasting_init() {
 
 class Automattic_Podcasting {
 	function __construct() {
+		/**
+		 * Stand down on sites where the new automattic/jetpack-podcast
+		 * package owns RSS customization, settings, Tracks, and the
+		 * wp-admin SPA. Both layers reading this filter keeps the gate
+		 * symmetric: legacy off when package on, legacy on when package off.
+		 */
+		if ( true === apply_filters( 'jetpack_podcast_untangle', false ) ) {
+			return;
+		}
+
 		if ( is_admin() ) {
 			require_once plugin_dir_path( __FILE__ ) . 'podcasting/settings.php';
 		}

@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Load only when desired.
+- Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
@@ -36,6 +37,9 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-features: make BIG_SKY the single paid-plan eligibility gate for Big Sky / AI sidebar; remove BIG_SKY_EXISTING_SITE; add Starter to GLOBAL_STYLES.
 - WPCOMSH_Log: add `unsafe_direct_log_logstash()` for records that need their own /logstash `feature` bucket; route fatal-error signatures through it under feature `atomic_extension_conflict` (severity `critical`).
 - WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
+
+### Removed
+- Remove COLOURLovers UI feature
 
 ### Fixed
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
