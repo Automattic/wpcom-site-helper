@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Load only when desired.
+- Mirror Choose plan entries from wpcom
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
