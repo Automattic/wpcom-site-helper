@@ -14,10 +14,10 @@
 		"automattic/jetpack-autoloader": "^5.0.17",
 		"automattic/jetpack-composer-plugin": "^4.0.6",
 		"automattic/jetpack-config": "^3.1.2",
-		"automattic/jetpack-post-list": "^0.9.17",
+		"automattic/jetpack-post-list": "^0.9.18-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.11.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.23",
+		"automattic/jetpack-explat": "^0.4.24-alpha",
 		"wp-php-toolkit/reprint-exporter": "^0.1.47",
 		"wp-php-toolkit/reprint-importer": "^0.1.47"
 	},
