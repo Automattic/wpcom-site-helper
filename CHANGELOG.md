@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Load only when desired.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
+- Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.

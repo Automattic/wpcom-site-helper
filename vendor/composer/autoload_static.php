@@ -281,6 +281,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha
         'Automattic\\Jetpack\\Podcast\\Feed\\Customize_Feed' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-customize-feed.php',
         'Automattic\\Jetpack\\Podcast\\Feed\\Feed_Detection' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-feed-detection.php',
         'Automattic\\Jetpack\\Podcast\\Podcast' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
+        'Automattic\\Jetpack\\Podcast\\Podcast_Episode_Block' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/blocks/podcast-episode/class-podcast-episode-block.php',
         'Automattic\\Jetpack\\Podcast\\Settings' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-settings.php',
         'Automattic\\Jetpack\\Podcast\\Tracks' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-tracks.php',
         'Automattic\\Jetpack\\Post_List\\Post_List' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-list/src/class-post-list.php',
