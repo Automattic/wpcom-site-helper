@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+- Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Load only when desired.
 - Mirror Choose plan entries from wpcom
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
