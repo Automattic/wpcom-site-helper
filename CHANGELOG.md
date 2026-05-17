@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM Features: Add POSTS_TO_PODCAST_TIER_{1,2,3} features mapped to Personal+, Premium+, and Business+ plans respectively. Mirrors the wpcom-side change that gates the Posts-to-Podcast endpoint and its monthly generation quota.
 - Wpcomsh fatal-error: log a `wpcomsh_fatal_deactivate` event when an admin clicks the Deactivate button on the fatal-error screen, so we can tell which fatals lead to user-initiated deactivations. Both the deactivate event and the existing `wpcomsh_fatal_signature` event now also carry `properties.atomic_site_id` for site-axis grouping.
 - Wpcomsh fatal-error: route the screen's "Enter recovery mode" link through a first-party redirect endpoint that logs a `wpcomsh_fatal_recovery` event before forwarding to a freshly-generated core recovery URL, so we can measure screen-originated recovery clicks alongside the existing signature and deactivate events without conflating them with email-originated entries.
+- WPCOM_Features: add `PODCASTING` feature and map it to Premium-and-higher plans plus all Jetpack-connected sites.
 
 ### Changed
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
