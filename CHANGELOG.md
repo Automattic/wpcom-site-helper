@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Load only when desired.
 - Mirror Choose plan entries from wpcom
+- Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
