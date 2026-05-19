@@ -20,8 +20,7 @@
  * wrapper class. Class names are uniquely prefixed `jetpack-podcast-episode__`
  * to keep root-level selectors collision-safe.
  */
-.jetpack-podcast-episode__person-editor,
-.jetpack-podcast-episode__chapter-row {
+.jetpack-podcast-episode__person-editor {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -33,7 +32,6 @@
   border-radius: 4px;
 }
 
-.jetpack-podcast-episode__chapter-row--alt,
 .jetpack-podcast-episode__person-editor--alt {
   background: #f6f7f7;
 }

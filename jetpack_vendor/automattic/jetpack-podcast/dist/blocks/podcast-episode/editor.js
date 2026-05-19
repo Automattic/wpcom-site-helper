@@ -4030,8 +4030,6 @@ __webpack_require__.r(__webpack_exports__);
 /* wp:polyfill esnext.iterator.constructor */
 /* wp:polyfill esnext.iterator.filter */
 /* wp:polyfill esnext.iterator.map */
-/* wp:polyfill esnext.iterator.reduce */
-/* wp:polyfill esnext.iterator.some */
 
 
 
@@ -4072,82 +4070,6 @@ const TRANSCRIPT_TYPE_OPTIONS = [{
   label: __('JSON (application/json)', "jetpack-podcast"),
   value: 'application/json'
 }];
-const formatTimeCode = seconds => {
-  if (typeof seconds !== 'number' || seconds < 0 || Number.isNaN(seconds)) {
-    return '';
-  }
-  const total = Math.floor(seconds);
-  const h = Math.floor(total / 3600);
-  const m = Math.floor(total % 3600 / 60);
-  const s = total % 60;
-  const mm = String(m).padStart(2, '0');
-  const ss = String(s).padStart(2, '0');
-  return h > 0 ? `${h}:${mm}:${ss}` : `${m}:${ss}`;
-};
-const parseTimeCode = value => {
-  const trimmed = value.trim();
-  if ('' === trimmed) {
-    return undefined;
-  }
-  const parts = trimmed.split(':').map(p => Number(p));
-  if (parts.some(Number.isNaN) || parts.length > 3) {
-    return undefined;
-  }
-  return parts.reduce((total, p) => total * 60 + p, 0);
-};
-function ChaptersEditor({
-  chapters,
-  onChange
-}) {
-  const updateChapter = (index, patch) => {
-    onChange(chapters.map((chapter, i) => i === index ? {
-      ...chapter,
-      ...patch
-    } : chapter));
-  };
-  const removeChapter = index => onChange(chapters.filter((_, i) => i !== index));
-  const addChapter = () => {
-    const lastTime = chapters.reduce((max, c) => typeof c.startTime === 'number' && c.startTime > max ? c.startTime : max, -1);
-    onChange([...chapters, {
-      startTime: lastTime + 1,
-      title: ''
-    }]);
-  };
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.Fragment, {
-    children: [chapters.map((chapter, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxs)("div", {
-      className: (0,clsx__WEBPACK_IMPORTED_MODULE_8__["default"])('jetpack-podcast-episode__chapter-row', {
-        'jetpack-podcast-episode__chapter-row--alt': index % 2 === 1
-      }),
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
-        label: __('Start', "jetpack-podcast"),
-        help: __('HH:MM:SS or MM:SS.', "jetpack-podcast"),
-        value: formatTimeCode(chapter.startTime),
-        onChange: value => updateChapter(index, {
-          startTime: parseTimeCode(value)
-        }),
-        __nextHasNoMarginBottom: true,
-        __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
-        label: __('Title', "jetpack-podcast"),
-        value: chapter.title || '',
-        onChange: title => updateChapter(index, {
-          title
-        }),
-        __nextHasNoMarginBottom: true,
-        __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
-        variant: "link",
-        isDestructive: true,
-        onClick: () => removeChapter(index),
-        children: __('Remove chapter', "jetpack-podcast")
-      })]
-    }, index)), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
-      variant: "secondary",
-      onClick: addChapter,
-      children: __('Add chapter', "jetpack-podcast")
-    })]
-  });
-}
 function PeopleEditor({
   people,
   onChange
@@ -4237,7 +4159,8 @@ function PodcastEpisodeEdit({
     duration,
     transcriptUrl,
     transcriptType,
-    chapters = [],
+    chaptersUrl,
+    chaptersType,
     locationName,
     license,
     licenseUrl,
@@ -4498,11 +4421,67 @@ function PodcastEpisodeEdit({
           __nextHasNoMarginBottom: true,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
             children: __('Chapters', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(ChaptersEditor, {
-            chapters: chapters,
-            onChange: value => setAttributes({
-              chapters: value
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)("p", {
+            className: "components-base-control__help",
+            children: __('Upload a chapters JSON file or link to one. Podcasting 2.0 players fetch the file directly and display chapter markers in their UI.', "jetpack-podcast")
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUploadCheck, {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUpload, {
+              onSelect: media => {
+                if (!media?.url) {
+                  return;
+                }
+                // WP's MIME map almost never tags files as application/json+chapters, so
+                // always store the spec-blessed type and let the user override via the
+                // format select below if they really need plain application/json.
+                setAttributes({
+                  chaptersUrl: media.url,
+                  chaptersType: 'application/json+chapters'
+                });
+              },
+              allowedTypes: ['application/json', 'application/json+chapters'],
+              render: ({
+                open
+              }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+                variant: "secondary",
+                onClick: open,
+                children: chaptersUrl ? __('Replace chapters file', "jetpack-podcast") : __('Upload chapters file', "jetpack-podcast")
+              })
             })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+            label: __('Or paste a chapters file URL', "jetpack-podcast"),
+            type: "url",
+            value: chaptersUrl || '',
+            onChange: value => setAttributes({
+              chaptersUrl: value
+            }),
+            __nextHasNoMarginBottom: true,
+            __next40pxDefaultSize: true
+          }), chaptersUrl && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+            variant: "link",
+            isDestructive: true,
+            onClick: () => setAttributes({
+              chaptersUrl: '',
+              chaptersType: 'application/json+chapters'
+            }),
+            children: __('Remove chapters file', "jetpack-podcast")
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
+            label: __('Chapters file format', "jetpack-podcast"),
+            value: chaptersType || 'application/json+chapters',
+            options: [{
+              label: __('JSON Chapters (application/json+chapters)', "jetpack-podcast"),
+              value: 'application/json+chapters'
+            }, {
+              label: __('JSON (application/json)', "jetpack-podcast"),
+              value: 'application/json'
+            }],
+            onChange: value => setAttributes({
+              chaptersType: value
+            }),
+            __nextHasNoMarginBottom: true,
+            __next40pxDefaultSize: true
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ExternalLink, {
+            href: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/chapters/jsonChapters.md",
+            children: __('Learn about the chapters JSON format', "jetpack-podcast")
           })]
         })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
@@ -5058,7 +5037,7 @@ function r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else i
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"jetpack/podcast-episode","title":"Podcast Episode","description":"Embed a single podcast episode from an audio or video file, with Podcasting 2.0 metadata.","keywords":["audio","podcast","episode"],"version":"1.0.0","textdomain":"jetpack-podcast","category":"embed","icon":"<svg viewBox=\'0 0 24 24\' width=\'24\' height=\'24\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M12 2a5 5 0 0 0-5 5v5a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5zm0 2a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V7a3 3 0 0 1 3-3zm-7 8a1 1 0 0 1 1 1 6 6 0 0 0 12 0 1 1 0 1 1 2 0 8 8 0 0 1-7 7.93V22h3v2H8v-2h3v-1.07A8 8 0 0 1 4 13a1 1 0 0 1 1-1z\'/></svg>","usesContext":["postId","postType"],"supports":{"spacing":{"padding":true,"margin":true},"anchor":true,"customClassName":true,"className":true,"html":false,"multiple":true,"reusable":true},"attributes":{"mediaId":{"type":"integer"},"mediaUrl":{"type":"string"},"mediaType":{"type":"string","enum":["audio","video"]},"mediaMimeType":{"type":"string"},"episodeNumber":{"type":"integer"},"seasonNumber":{"type":"integer"},"episodeType":{"type":"string","enum":["full","trailer","bonus"],"default":"full"},"explicit":{"type":"boolean","default":false},"duration":{"type":"string","default":""},"transcriptUrl":{"type":"string","default":""},"transcriptType":{"type":"string","enum":["text/vtt","text/html","application/srt","application/json"],"default":"text/vtt"},"chapters":{"type":"array","default":[]},"locationName":{"type":"string","default":""},"license":{"type":"string","default":""},"licenseUrl":{"type":"string","default":""},"people":{"type":"array","default":[]},"showPoster":{"type":"boolean","default":true},"coverArt":{"type":"object","default":{}},"soundbites":{"type":"array","default":[]},"alternateEnclosures":{"type":"array","default":[]}},"example":{"attributes":{"episodeNumber":1,"seasonNumber":1,"episodeType":"full","duration":"11:25"}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"jetpack/podcast-episode","title":"Podcast Episode","description":"Embed a single podcast episode from an audio or video file, with Podcasting 2.0 metadata.","keywords":["audio","podcast","episode"],"version":"1.0.0","textdomain":"jetpack-podcast","category":"embed","icon":"<svg viewBox=\'0 0 24 24\' width=\'24\' height=\'24\' xmlns=\'http://www.w3.org/2000/svg\'><path d=\'M12 2a5 5 0 0 0-5 5v5a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5zm0 2a3 3 0 0 1 3 3v5a3 3 0 0 1-6 0V7a3 3 0 0 1 3-3zm-7 8a1 1 0 0 1 1 1 6 6 0 0 0 12 0 1 1 0 1 1 2 0 8 8 0 0 1-7 7.93V22h3v2H8v-2h3v-1.07A8 8 0 0 1 4 13a1 1 0 0 1 1-1z\'/></svg>","usesContext":["postId","postType"],"supports":{"spacing":{"padding":true,"margin":true},"anchor":true,"customClassName":true,"className":true,"html":false,"multiple":true,"reusable":true},"attributes":{"mediaId":{"type":"integer"},"mediaUrl":{"type":"string"},"mediaType":{"type":"string","enum":["audio","video"]},"mediaMimeType":{"type":"string"},"episodeNumber":{"type":"integer"},"seasonNumber":{"type":"integer"},"episodeType":{"type":"string","enum":["full","trailer","bonus"],"default":"full"},"explicit":{"type":"boolean","default":false},"duration":{"type":"string","default":""},"transcriptUrl":{"type":"string","default":""},"transcriptType":{"type":"string","enum":["text/vtt","text/html","application/srt","application/json"],"default":"text/vtt"},"chaptersUrl":{"type":"string","default":""},"chaptersType":{"type":"string","default":"application/json+chapters"},"locationName":{"type":"string","default":""},"license":{"type":"string","default":""},"licenseUrl":{"type":"string","default":""},"people":{"type":"array","default":[]},"showPoster":{"type":"boolean","default":true},"coverArt":{"type":"object","default":{}},"soundbites":{"type":"array","default":[]},"alternateEnclosures":{"type":"array","default":[]}},"example":{"attributes":{"episodeNumber":1,"seasonNumber":1,"episodeType":"full","duration":"11:25"}}}');
 
 /***/ }
 
