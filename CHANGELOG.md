@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
+- Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 
 ## 9.0.0 - 2026-04-09
