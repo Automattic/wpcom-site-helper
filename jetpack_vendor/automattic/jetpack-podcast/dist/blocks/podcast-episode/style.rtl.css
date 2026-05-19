@@ -115,7 +115,8 @@
 }
 .wp-block-jetpack-podcast-episode .jetpack-podcast-episode__poster img {
   inline-size: 100%;
-  block-size: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
   border-radius: calc(6px - 2px);
   display: block;
 }
