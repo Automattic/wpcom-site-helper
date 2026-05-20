@@ -4179,6 +4179,10 @@ function PodcastEpisodeEdit({
   const [postDate] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('postType', postType, 'date', postId);
   const [authorId] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('postType', postType, 'author', postId);
   const [featuredImageId] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('postType', postType, 'featured_media', postId);
+  // `post_excerpt` is the show notes — feed `<description>` / `<itunes:summary>`
+  // read from here. Bound to the same REST field as the sidebar Excerpt panel
+  // so the two controls stay in sync.
+  const [postExcerpt, setPostExcerpt] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('postType', postType, 'excerpt', postId);
 
   // Source the show-level cover from the same REST surface the dashboard
   // reads: /wp/v2/settings exposes `podcasting_image` (registered in
@@ -4294,7 +4298,14 @@ function PodcastEpisodeEdit({
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, {
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
         title: __('Episode', "jetpack-podcast"),
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextareaControl, {
+          __nextHasNoMarginBottom: true,
+          label: __('Show notes', "jetpack-podcast"),
+          help: __('Episode description shown in Apple Podcasts, Spotify, and Pocket Casts. Synced with the post’s Excerpt.', "jetpack-podcast"),
+          value: postExcerpt || '',
+          onChange: setPostExcerpt,
+          rows: 4
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Season number', "jetpack-podcast"),
           type: "number",
           min: 1,
