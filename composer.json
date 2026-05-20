@@ -17,7 +17,7 @@
 		"automattic/jetpack-post-list": "^0.9.18",
 		"automattic/jetpack-mu-wpcom": "^6.11.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.4.25",
+		"automattic/jetpack-explat": "^0.4.26-alpha",
 		"wp-php-toolkit/reprint-exporter": "^0.1.47",
 		"wp-php-toolkit/reprint-importer": "^0.1.47"
 	},
