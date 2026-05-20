@@ -4426,32 +4426,9 @@ function PodcastEpisodeEdit({
             children: __('Chapters', "jetpack-podcast")
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("p", {
             className: "components-base-control__help",
-            children: __('Upload a chapters JSON file or link to one. Podcasting 2.0 players fetch the file directly and display chapter markers in their UI.', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUploadCheck, {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUpload, {
-              onSelect: media => {
-                if (!media?.url) {
-                  return;
-                }
-                // WP's MIME map almost never tags files as application/json+chapters, so
-                // always store the spec-blessed type and let the user override via the
-                // format select below if they really need plain application/json.
-                setAttributes({
-                  chaptersUrl: media.url,
-                  chaptersType: 'application/json+chapters'
-                });
-              },
-              allowedTypes: ['application/json', 'application/json+chapters'],
-              render: ({
-                open
-              }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
-                variant: "secondary",
-                onClick: open,
-                children: chaptersUrl ? __('Replace chapters file', "jetpack-podcast") : __('Upload chapters file', "jetpack-podcast")
-              })
-            })
+            children: __('Link to a chapters JSON file hosted on a public URL. Podcasting 2.0 players fetch the file directly and display chapter markers in their UI.', "jetpack-podcast")
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
-            label: __('Or paste a chapters file URL', "jetpack-podcast"),
+            label: __('Chapters file URL', "jetpack-podcast"),
             type: "url",
             value: chaptersUrl || '',
             onChange: value => setAttributes({
@@ -4466,7 +4443,7 @@ function PodcastEpisodeEdit({
               chaptersUrl: '',
               chaptersType: 'application/json+chapters'
             }),
-            children: __('Remove chapters file', "jetpack-podcast")
+            children: __('Remove chapters URL', "jetpack-podcast")
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
             label: __('Chapters file format', "jetpack-podcast"),
             value: chaptersType || 'application/json+chapters',
