@@ -1337,7 +1337,6 @@ function JetpackRestApiClient(root, nonce) {
       body: JSON.stringify(newSettings)
     }),
     fetchSearchPricing: () => getRequest(`${wpcomOriginApiUrl}jetpack/v4/search/pricing`, getParams).then(checkStatus).then(parseJsonResponse),
-    resetSearchTemplate: postType => deleteRequest(`${wpcomOriginApiUrl}jetpack/v4/search/templates/${encodeURIComponent(postType)}`, getParams).then(checkStatus).then(parseJsonResponse),
     fetchMigrationStatus: () => getRequest(`${apiRoot}jetpack/v4/migration/status`, getParams).then(checkStatus).then(parseJsonResponse),
     fetchBackupUndoEvent: () => getRequest(`${apiRoot}jetpack/v4/site/backup/undo-event`, getParams).then(checkStatus).then(parseJsonResponse),
     fetchBackupPreflightStatus: () => getRequest(`${apiRoot}jetpack/v4/site/backup/preflight`, getParams).then(checkStatus).then(parseJsonResponse)
@@ -1378,20 +1377,6 @@ function JetpackRestApiClient(root, nonce) {
    */
   function postRequest(route, params, body) {
     return fetch(route, Object.assign({}, params, body)).catch(catchNetworkErrors);
-  }
-
-  /**
-   * Generate a DELETE request promise for the route. Inherits the same
-   * credentials + X-WP-Nonce headers as GET requests; DELETE carries no body.
-   *
-   * @param {string} route  - the route
-   * @param {object} params - the params (typically `getParams`)
-   * @return {Promise<Response>} - the http response promise
-   */
-  function deleteRequest(route, params) {
-    return fetch(route, Object.assign({}, params, {
-      method: 'delete'
-    })).catch(catchNetworkErrors);
   }
 
   /**
