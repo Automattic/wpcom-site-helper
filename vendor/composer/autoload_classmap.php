@@ -422,6 +422,7 @@ return array(
     'Normalizer' => $vendorDir . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
     'PCG_Load_Tester' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-load-tester.php',
     'PCG_Rollback' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-rollback.php',
+    'PCG_Rollout' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-rollout.php',
     'PCG_Snapshot' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-snapshot.php',
     'PD_Top_Rated' => $baseDir . '/widgets/class-pd-top-rated.php',
     'Palette' => $baseDir . '/custom-colors/class-palette.php',

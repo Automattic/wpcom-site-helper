@@ -523,6 +523,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ9_1_0_alpha
         'Normalizer' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/vendor-patched/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PCG_Load_Tester' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-load-tester.php',
         'PCG_Rollback' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-rollback.php',
+        'PCG_Rollout' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-rollout.php',
         'PCG_Snapshot' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/plugin-conflicts-guardian/class-pcg-snapshot.php',
         'PD_Top_Rated' => __DIR__ . '/../..' . '/widgets/class-pd-top-rated.php',
         'Palette' => __DIR__ . '/../..' . '/custom-colors/class-palette.php',
