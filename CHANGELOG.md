@@ -1,6 +1,6 @@
 # Changelog
 
-## 9.1.0-alpha - unreleased
+## 10.0.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - General: update composer.lock files.
+- General: Update minimum WordPress version to 6.9.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
