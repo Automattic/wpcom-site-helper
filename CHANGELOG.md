@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
+- Remove unneeded development and documentation files from the published plugin.
 - Tested up to WordPress 7.0.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
