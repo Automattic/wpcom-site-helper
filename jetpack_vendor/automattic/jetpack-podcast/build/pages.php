@@ -6,5 +6,11 @@
  * @package jetpack_podcast
  */
 
-require_once __DIR__ . '/pages/jetpack-podcast-dashboard/page.php';
-require_once __DIR__ . '/pages/jetpack-podcast-dashboard/page-wp-admin.php';
+foreach ( [
+	__DIR__ . '/pages/jetpack-podcast-dashboard/page.php',
+	__DIR__ . '/pages/jetpack-podcast-dashboard/page-wp-admin.php',
+] as $file ) {
+	if ( file_exists( $file ) ) {
+		require_once $file;
+	}
+}
