@@ -107,13 +107,11 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
     );
 
     public static $classMap = array (
-        'A8C\\FSE\\Agents_Manager' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/agents-manager/class-agents-manager.php',
         'A8C\\FSE\\Help_Center' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center.php',
         'A8C\\FSE\\Help_Center_Menu_Panel' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-help-center-menu-panel.php',
         'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
         'A8C\\FSE\\Survicate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/survicate/class-survicate.php',
         'A8C\\FSE\\WPCOM_Content_Research' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wpcom-content-research.php',
-        'A8C\\FSE\\WP_REST_Agents_Manager_Persisted_Open_State' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/agents-manager/class-wp-rest-agents-manager-persisted-open-state.php',
         'A8C\\FSE\\WP_REST_Content_Research_Search' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wp-rest-content-research-search.php',
         'A8C\\FSE\\WP_REST_Content_Research_Summarize' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wp-rest-content-research-summarize.php',
         'A8C\\FSE\\WP_REST_Help_Center_Authenticate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-authenticate.php',
@@ -139,6 +137,8 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Block_Scanner' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/block-delimiter/src/class-block-scanner.php',
         'Automattic\\Jetpack\\A8c_Mc_Stats' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-a8c-mc-stats/src/class-a8c-mc-stats.php',
         'Automattic\\Jetpack\\Admin_UI\\Admin_Menu' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php',
+        'Automattic\\Jetpack\\Agents_Manager\\Agents_Manager' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-agents-manager.php',
+        'Automattic\\Jetpack\\Agents_Manager\\WP_REST_Agents_Manager_Persisted_Open_State' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-wp-rest-agents-manager-persisted-open-state.php',
         'Automattic\\Jetpack\\Assets' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/src/class-assets.php',
         'Automattic\\Jetpack\\Assets\\Logo' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-logo/src/class-logo.php',
         'Automattic\\Jetpack\\Assets\\Script_Data' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php',

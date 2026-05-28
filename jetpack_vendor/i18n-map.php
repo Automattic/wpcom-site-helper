@@ -8,6 +8,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
       'ver' => '0.8.6',
     ),
+    'jetpack-agents-manager' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-agents-manager',
+      'ver' => '0.1.0-alpha1780001553',
+    ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
       'ver' => '4.3.38',
@@ -62,7 +66,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1779992048',
+      'ver' => '6.11.0-alpha1780001553',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
