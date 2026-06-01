@@ -13,9 +13,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         '293c13b83c57dba3ffcaf4c9d7af49fc' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8.php',
         'c2c7ec202e84a85f19abab25dd38d82d' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/compat-utf8.php',
         '713ad46f1f515216614131421c1ab59c' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8-encoder.php',
+        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         'ec471f3ca20b4a3001a1f5146b94c5d9' => __DIR__ . '/..' . '/wp-php-toolkit/reprint-exporter/src/utils.php',
         '700e9f220ab8246703a73d0e5d5d9192' => __DIR__ . '/..' . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php',
     );
@@ -287,6 +287,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Podcast\\Feed\\Customize_Feed' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-customize-feed.php',
         'Automattic\\Jetpack\\Podcast\\Feed\\Episode_Block_Tags' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-episode-block-tags.php',
         'Automattic\\Jetpack\\Podcast\\Feed\\Feed_Detection' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-feed-detection.php',
+        'Automattic\\Jetpack\\Podcast\\New_Episode_Prefill' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-new-episode-prefill.php',
         'Automattic\\Jetpack\\Podcast\\Podcast' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
         'Automattic\\Jetpack\\Podcast\\Podcast_Distribution_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-distribution-endpoint.php',
         'Automattic\\Jetpack\\Podcast\\Podcast_Episode_Block' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/blocks/podcast-episode/class-podcast-episode-block.php',

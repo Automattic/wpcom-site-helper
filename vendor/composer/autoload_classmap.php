@@ -186,6 +186,7 @@ return array(
     'Automattic\\Jetpack\\Podcast\\Feed\\Customize_Feed' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-customize-feed.php',
     'Automattic\\Jetpack\\Podcast\\Feed\\Episode_Block_Tags' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-episode-block-tags.php',
     'Automattic\\Jetpack\\Podcast\\Feed\\Feed_Detection' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/feed/class-feed-detection.php',
+    'Automattic\\Jetpack\\Podcast\\New_Episode_Prefill' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-new-episode-prefill.php',
     'Automattic\\Jetpack\\Podcast\\Podcast' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast.php',
     'Automattic\\Jetpack\\Podcast\\Podcast_Distribution_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-distribution-endpoint.php',
     'Automattic\\Jetpack\\Podcast\\Podcast_Episode_Block' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/blocks/podcast-episode/class-podcast-episode-block.php',

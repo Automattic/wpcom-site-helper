@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a persistent "Create episode" button to the /podcast page header and a server-side prefill that assigns the configured category (and, on Premium, inserts the Podcast Episode block) when `post-new.php?podcast_episode=1` is opened.
 - Create AI Podcast: Limit the "from specific posts" selection to 25 posts and surface a hint indicating the cap.
 
 ### Changed
