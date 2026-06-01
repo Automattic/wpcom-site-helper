@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Create AI Podcast: Limit the "from specific posts" selection to 25 posts and surface a hint indicating the cap.
 
 ### Changed
+- Podcast: align the distribution readiness notices with their settings field labels so it's clear which field each one refers to.
 - Posts to Podcast: Make the Create AI Podcast page available to connected users.
 - Update package dependencies.
 
