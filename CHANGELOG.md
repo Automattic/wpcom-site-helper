@@ -54,6 +54,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Remove COLOURLovers UI feature
+- Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
 
 ### Fixed
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
