@@ -139,11 +139,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\Agents_Manager' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1780518868',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-agents-manager.php'
 	),
+	'Automattic\\Jetpack\\Agents_Manager\\Sidebar_Open_Preservation' => array(
+		'version' => '0.2.0.0-alpha1780518868',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-sidebar-open-preservation.php'
+	),
 	'Automattic\\Jetpack\\Agents_Manager\\WP_REST_Agents_Manager_Persisted_Open_State' => array(
-		'version' => '0.1.0.0',
+		'version' => '0.2.0.0-alpha1780518868',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-wp-rest-agents-manager-persisted-open-state.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
