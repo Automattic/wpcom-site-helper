@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unneeded development and documentation files from the published plugin.
 - Social: Enable message templates feature for WPCOM sites.
 - Tested up to WordPress 7.0.
+- Update composer.lock files.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Updated package dependencies.
