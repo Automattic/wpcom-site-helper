@@ -43,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
 - Remove unneeded development and documentation files from the published plugin.
 - Social: Enable message templates feature for WPCOM sites.
+- Sync features list with WPCOM - removing social unified UI feature flag.
 - Tested up to WordPress 7.0.
 - Update composer.lock files.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
