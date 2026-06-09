@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a `wpcomsh php83-plugin-patch mega_main_menu` CLI command that removes the duplicate `static $theme_option_file` declaration triggering a "Duplicate declaration of static variable" fatal error under PHP 8.3+.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
 - Add stats wp abbilities
+- Add Titan Mail Premium and Ultra product constants to WPCOM_TITAN_MAIL_PRODUCTS for feature detection
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
 - Customize the WordPress fatal error screen with WordPress.com support links.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
