@@ -783,8 +783,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var debug__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! debug */ "../../../node_modules/.pnpm/debug@4.4.3/node_modules/debug/src/browser.js");
 /* harmony import */ var debug__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(debug__WEBPACK_IMPORTED_MODULE_0__);
-/* wp:polyfill */
-/* wp:polyfill es.json.stringify */
 
 const debug = debug__WEBPACK_IMPORTED_MODULE_0___default()('dops:analytics');
 let _superProps, _user;
