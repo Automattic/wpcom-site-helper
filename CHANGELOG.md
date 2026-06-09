@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Connection: Cache the Atomic Persistent Data instance and connection-owner lookup per request to reduce duplicate DB queries.
+- Copy a site: enable for all paid Atomic-capable plans (Personal, Premium, and Business or higher), mirroring WPCOM.
 - Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
 - Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
