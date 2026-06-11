@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a TypeScript config so dashboard route files type-check correctly.
 - Create AI Podcast: Register the Media submenu without an is_admin() guard so it appears in the Calypso nav, not just wp-admin.
 - Create AI Podcast: Require a connected WordPress.com account.
+- Podcast: fix empty episode descriptions in the feed when no excerpt is set.
 - Podcast: resolve the blog ID via Connection_Manager::get_site_id() for feed enclosure URLs and tracks events so Atomic sites use the correct WPCOM site ID instead of 1.
 
 ## [1.0.2] - 2026-05-20
