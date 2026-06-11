@@ -20,6 +20,9 @@ This is an alpha version! The changes listed here are not final.
 - Posts to Podcast: Make the Create AI Podcast page available to connected users.
 - Update package dependencies.
 
+### Removed
+- Podcast: remove the jetpack_podcast_untangle gate now that the legacy podcasting stack and at-pressable-podcasting bridge are gone; the package owns the experience unconditionally.
+
 ### Fixed
 - Add a TypeScript config so dashboard route files type-check correctly.
 - Create AI Podcast: Register the Media submenu without an is_admin() guard so it appears in the Calypso nav, not just wp-admin.

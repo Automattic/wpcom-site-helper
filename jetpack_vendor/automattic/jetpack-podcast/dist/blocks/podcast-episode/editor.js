@@ -4723,8 +4723,7 @@ __webpack_require__.r(__webpack_exports__);
 /**
  * Lightweight `registerJetpackBlock` for this package.
  *
- * Bridges Jetpack's extension-availability gate (driven by the
- * `jetpack_podcast_untangle` PHP filter via `Jetpack_Gutenberg`) to
+ * Bridges Jetpack's extension-availability gate (via `Jetpack_Gutenberg`) to
  * `registerBlockType`. Strips paid-plan / child-block / prefix branches that
  * the full shared helper carries — this block has none of those.
  *

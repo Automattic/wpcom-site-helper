@@ -60,6 +60,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
 
 ### Removed
+- Podcasting: remove the at-pressable-podcasting bridge now that the jetpack-podcast package owns the experience on every WoA site.
 - Remove COLOURLovers UI feature
 - Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
 
