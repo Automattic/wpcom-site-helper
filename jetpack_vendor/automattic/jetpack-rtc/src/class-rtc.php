@@ -19,7 +19,7 @@ use Automattic\Jetpack\RTC\REST_RTC_Notices;
  */
 class RTC {
 
-	const PACKAGE_VERSION = '0.1.1-alpha';
+	const PACKAGE_VERSION = '0.2.0-alpha';
 
 	/**
 	 * Option names for the RTC setting.
