@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - RTC: add a jetpack_rtc_blocked Tracks event recorded when a client is turned away because the per-room contributor limit was reached.
+- RTC: add a jetpack_rtc_connection_error Tracks event recorded on a genuine (non-limit) sync connection error; the per-room-limit case is skipped to avoid double-counting with jetpack_rtc_blocked.
 - RTC: add a jetpack_rtc_join Tracks event recording transport and contributors when a client joins a room
 
 ### Changed
