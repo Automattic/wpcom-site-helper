@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- RTC: add a jetpack_rtc_blocked Tracks event recorded when a client is turned away because the per-room contributor limit was reached.
 - RTC: add a jetpack_rtc_join Tracks event recording transport and contributors when a client joins a room
 
 ### Changed
@@ -21,6 +22,9 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - RTC: Remove the welcome modal.
+
+### Fixed
+- RTC: source Tracks event post and user context from the server-injected config so post_id, post_type, and wp_user_id are populated on all transports and even when an event fires before the editor and awareness have initialized.
 
 ## 0.1.0 - 2026-04-09
 ### Added
