@@ -811,19 +811,19 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php'
 	),
 	'Automattic\\Jetpack\\RTC' => array(
-		'version' => '0.2.0.0-alpha1781256627',
+		'version' => '0.2.0.0-alpha1781522920',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/class-rtc.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_Connection_Log' => array(
-		'version' => '0.2.0.0-alpha1781256627',
+		'version' => '0.2.0.0-alpha1781522920',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-connection-log.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_Pinghub_Token' => array(
-		'version' => '0.2.0.0-alpha1781256627',
+		'version' => '0.2.0.0-alpha1781522920',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-pinghub-token.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_RTC_Notices' => array(
-		'version' => '0.2.0.0-alpha1781256627',
+		'version' => '0.2.0.0-alpha1781522920',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-rtc-notices.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
