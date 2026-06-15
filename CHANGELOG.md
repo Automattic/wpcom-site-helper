@@ -66,6 +66,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Custom Colors: Scope Customizer colors to the editor content so they no longer leak into the block editor UI (e.g. the sidebar's Categories panel).
+- Custom Colors: stop injecting Customizer colors into the block editor so they no longer leak into the editor UI
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.

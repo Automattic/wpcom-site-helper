@@ -425,7 +425,6 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Colors_Manager' => __DIR__ . '/../..' . '/custom-colors/colors.php',
         'Colors_Manager_Common' => __DIR__ . '/../..' . '/custom-colors/colors.php',
         'Colors_Manager_Control' => __DIR__ . '/../..' . '/custom-colors/class-colors-controller.php',
-        'Colors_Manager_Gutenberg' => __DIR__ . '/../..' . '/custom-colors/colors.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Core_Bg_Override' => __DIR__ . '/../..' . '/custom-colors/core-bg-override.php',
         'FileTreeProducer' => __DIR__ . '/..' . '/wp-php-toolkit/reprint-exporter/src/class-file-tree-producer.php',

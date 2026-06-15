@@ -324,7 +324,6 @@ return array(
     'Colors_Manager' => $baseDir . '/custom-colors/colors.php',
     'Colors_Manager_Common' => $baseDir . '/custom-colors/colors.php',
     'Colors_Manager_Control' => $baseDir . '/custom-colors/class-colors-controller.php',
-    'Colors_Manager_Gutenberg' => $baseDir . '/custom-colors/colors.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Core_Bg_Override' => $baseDir . '/custom-colors/core-bg-override.php',
     'FileTreeProducer' => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/class-file-tree-producer.php',

@@ -1310,10 +1310,6 @@ return array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/custom-colors/class-colors-controller.php'
 	),
-	'Colors_Manager_Gutenberg' => array(
-		'version' => 'dev-trunk',
-		'path'    => $baseDir . '/custom-colors/colors.php'
-	),
 	'Container' => array(
 		'version' => '5.0.20-alpha',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-container.php'
