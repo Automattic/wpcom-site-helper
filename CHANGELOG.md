@@ -69,6 +69,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom Colors: Scope Customizer colors to the editor content so they no longer leak into the block editor UI (e.g. the sidebar's Categories panel).
 - Custom Colors: stop injecting Customizer colors into the block editor so they no longer leak into the editor UI
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
+- Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
