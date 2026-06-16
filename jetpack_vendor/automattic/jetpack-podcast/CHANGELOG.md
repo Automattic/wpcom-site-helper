@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Podcast: align the distribution readiness notices with their settings field labels so it's clear which field each one refers to.
+- Podcast: drop stale references to the removed jetpack_podcast_untangle gate and at-pressable-podcasting bridge from package docs.
 - Posts to Podcast: Make the Create AI Podcast page available to connected users.
 - Update package dependencies.
 
