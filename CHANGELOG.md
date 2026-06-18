@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
+- AI Launchpad: bundle the jetpack-wp-build-polyfills dependency used by the new launchpad admin page.
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
 - Connection: Cache the Atomic Persistent Data instance and connection-owner lookup per request to reduce duplicate DB queries.
 - Copy a site: enable for all paid Atomic-capable plans (Personal, Premium, and Business or higher), mirroring WPCOM.
