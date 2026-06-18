@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: add a dedicated wpcom/v2 REST endpoint for site settings and load/save them through it from the dashboard, reachable on Simple, WoA, and self-hosted from a single definition.
 - Podcast: align the distribution readiness notices with their settings field labels so it's clear which field each one refers to.
 - Podcast: drop stale references to the removed jetpack_podcast_untangle gate and at-pressable-podcasting bridge from package docs.
+- Podcast: gate the Posts to Podcast sub-feature to WordPress.com Simple and WoA hosts so it does not load on self-hosted Jetpack once the rest of the package becomes available there.
 - Posts to Podcast: Make the Create AI Podcast page available to connected users.
 - Update package dependencies.
 
