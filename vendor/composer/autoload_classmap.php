@@ -194,6 +194,7 @@ return array(
     'Automattic\\Jetpack\\Podcast\\Podcast_Distribution_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-distribution-endpoint.php',
     'Automattic\\Jetpack\\Podcast\\Podcast_Episode_Block' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/blocks/podcast-episode/class-podcast-episode-block.php',
     'Automattic\\Jetpack\\Podcast\\Podcast_Gate' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast-gate.php',
+    'Automattic\\Jetpack\\Podcast\\Podcast_Settings_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-settings-endpoint.php',
     'Automattic\\Jetpack\\Podcast\\Podcast_Stats_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-stats-endpoint.php',
     'Automattic\\Jetpack\\Podcast\\Posts_To_Podcast_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-posts-to-podcast-endpoint.php',
     'Automattic\\Jetpack\\Podcast\\Posts_To_Podcast_Helper' => $baseDir . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-posts-to-podcast-helper.php',

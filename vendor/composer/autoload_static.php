@@ -295,6 +295,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Podcast\\Podcast_Distribution_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-distribution-endpoint.php',
         'Automattic\\Jetpack\\Podcast\\Podcast_Episode_Block' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/blocks/podcast-episode/class-podcast-episode-block.php',
         'Automattic\\Jetpack\\Podcast\\Podcast_Gate' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/class-podcast-gate.php',
+        'Automattic\\Jetpack\\Podcast\\Podcast_Settings_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-settings-endpoint.php',
         'Automattic\\Jetpack\\Podcast\\Podcast_Stats_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-podcast-stats-endpoint.php',
         'Automattic\\Jetpack\\Podcast\\Posts_To_Podcast_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-posts-to-podcast-endpoint.php',
         'Automattic\\Jetpack\\Podcast\\Posts_To_Podcast_Helper' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-podcast/src/endpoints/class-posts-to-podcast-helper.php',

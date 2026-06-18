@@ -4006,12 +4006,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
 /* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var clsx__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! clsx */ "../../../node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./block.json */ "./src/blocks/podcast-episode/block.json");
-/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./icons */ "./src/blocks/podcast-episode/icons/index.ts");
-/* harmony import */ var _util_get_validated_attributes__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./util/get-validated-attributes */ "./src/blocks/podcast-episode/util/get-validated-attributes.ts");
-/* harmony import */ var _util_time_code__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./util/time-code */ "./src/blocks/podcast-episode/util/time-code.ts");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _dashboard_hooks_use_podcast_settings__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../dashboard/hooks/use-podcast-settings */ "./src/dashboard/hooks/use-podcast-settings.ts");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./block.json */ "./src/blocks/podcast-episode/block.json");
+/* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./icons */ "./src/blocks/podcast-episode/icons/index.ts");
+/* harmony import */ var _util_get_validated_attributes__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./util/get-validated-attributes */ "./src/blocks/podcast-episode/util/get-validated-attributes.ts");
+/* harmony import */ var _util_time_code__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./util/time-code */ "./src/blocks/podcast-episode/util/time-code.ts");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__);
 /* wp:polyfill */
 /* wp:polyfill esnext.iterator.constructor */
 /* wp:polyfill esnext.iterator.filter */
@@ -4027,6 +4028,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const __ = _wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__.__,
   _x = _wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__._x;
+
 
 
 
@@ -4075,12 +4077,12 @@ function PeopleEditor({
     href: '',
     img: ''
   }]);
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.Fragment, {
-    children: [people.map((person, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.Fragment, {
+    children: [people.map((person, index) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
       className: (0,clsx__WEBPACK_IMPORTED_MODULE_9__["default"])('jetpack-podcast-episode__person-editor', {
         'jetpack-podcast-episode__person-editor--alt': index % 2 === 1
       }),
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
         label: __('Name', "jetpack-podcast"),
         value: person.name || '',
         onChange: name => updatePerson(index, {
@@ -4088,7 +4090,7 @@ function PeopleEditor({
         }),
         __nextHasNoMarginBottom: true,
         __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
         label: __('Role', "jetpack-podcast"),
         help: __('e.g. host, guest, producer.', "jetpack-podcast"),
         value: person.role || '',
@@ -4097,7 +4099,7 @@ function PeopleEditor({
         }),
         __nextHasNoMarginBottom: true,
         __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
         label: __('Profile URL', "jetpack-podcast"),
         type: "url",
         value: person.href || '',
@@ -4106,7 +4108,7 @@ function PeopleEditor({
         }),
         __nextHasNoMarginBottom: true,
         __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
         label: __('Image URL', "jetpack-podcast"),
         type: "url",
         value: person.img || '',
@@ -4115,13 +4117,13 @@ function PeopleEditor({
         }),
         __nextHasNoMarginBottom: true,
         __next40pxDefaultSize: true
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
         variant: "link",
         isDestructive: true,
         onClick: () => removePerson(index),
         children: __('Remove person', "jetpack-podcast")
       })]
-    }, index)), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+    }, index)), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
       variant: "secondary",
       onClick: addPerson,
       children: __('Add person', "jetpack-podcast")
@@ -4133,7 +4135,7 @@ function PodcastEpisodeEdit({
   setAttributes,
   context
 }) {
-  const validated = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_6__.useMemo)(() => (0,_util_get_validated_attributes__WEBPACK_IMPORTED_MODULE_12__.getValidatedAttributes)(_block_json__WEBPACK_IMPORTED_MODULE_10__.attributes, attributes), [attributes]);
+  const validated = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_6__.useMemo)(() => (0,_util_get_validated_attributes__WEBPACK_IMPORTED_MODULE_13__.getValidatedAttributes)(_block_json__WEBPACK_IMPORTED_MODULE_11__.attributes, attributes), [attributes]);
   const {
     mediaId,
     mediaUrl,
@@ -4167,12 +4169,10 @@ function PodcastEpisodeEdit({
   // read from here. Bound to the same REST field as the sidebar Excerpt panel
   // so the two controls stay in sync.
   const [postExcerpt, setPostExcerpt] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('postType', postType, 'excerpt', postId);
-
-  // Source the show-level cover from the same REST surface the dashboard
-  // reads: /wp/v2/settings exposes `podcasting_image` (registered in
-  // class-settings.php). No more localized window globals.
-  const [siteShowCover] = (0,_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.useEntityProp)('root', 'site', 'podcasting_image');
-  const showCoverUrl = siteShowCover || '';
+  const {
+    data: podcastSettings
+  } = (0,_dashboard_hooks_use_podcast_settings__WEBPACK_IMPORTED_MODULE_10__.usePodcastSettings)();
+  const showCoverUrl = podcastSettings?.podcasting_image || '';
   const postAuthor = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_4__.useSelect)(select => {
     const author = authorId ? select(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_3__.store).getUser(authorId) : null;
     return author?.name || '';
@@ -4198,7 +4198,7 @@ function PodcastEpisodeEdit({
     // `fileLength` on the attachment shim is the ID3 `length_formatted` string
     // (e.g. "12:00"); fall back to computing from seconds if only a number is
     // available.
-    const nextDuration = duration || typeof media.fileLength === 'string' && media.fileLength || (media.duration ? (0,_util_time_code__WEBPACK_IMPORTED_MODULE_13__.convertSecondsToTimeCode)(media.duration) : '');
+    const nextDuration = duration || typeof media.fileLength === 'string' && media.fileLength || (media.duration ? (0,_util_time_code__WEBPACK_IMPORTED_MODULE_14__.convertSecondsToTimeCode)(media.duration) : '');
     const immediate = {
       mediaId: media.id,
       mediaUrl: media.url,
@@ -4222,7 +4222,7 @@ function PodcastEpisodeEdit({
       if (!immediate.duration && details.length_formatted) {
         patch.duration = details.length_formatted;
       } else if (!immediate.duration && details.length) {
-        patch.duration = (0,_util_time_code__WEBPACK_IMPORTED_MODULE_13__.convertSecondsToTimeCode)(details.length);
+        patch.duration = (0,_util_time_code__WEBPACK_IMPORTED_MODULE_14__.convertSecondsToTimeCode)(details.length);
       }
       if (!immediate.mediaMimeType && attachment?.mime_type) {
         patch.mediaMimeType = attachment.mime_type;
@@ -4235,20 +4235,20 @@ function PodcastEpisodeEdit({
     }
   };
   if (!postId || !postType) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
       ...blockProps,
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Placeholder, {
-        icon: _icons__WEBPACK_IMPORTED_MODULE_11__.microphone,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Placeholder, {
+        icon: _icons__WEBPACK_IMPORTED_MODULE_12__.microphone,
         label: __('Podcast Episode', "jetpack-podcast"),
         instructions: __('This block reads the title, author, and date from the post it lives in. Drop it inside a podcast post or singular template.', "jetpack-podcast")
       })
     });
   }
   if (!mediaUrl) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
       ...blockProps,
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaPlaceholder, {
-        icon: _icons__WEBPACK_IMPORTED_MODULE_11__.microphone,
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaPlaceholder, {
+        icon: _icons__WEBPACK_IMPORTED_MODULE_12__.microphone,
         labels: {
           title: __('Podcast Episode', "jetpack-podcast"),
           instructions: __('Upload an audio or video file, or pick one from the media library, to use as the episode audio.', "jetpack-podcast")
@@ -4257,7 +4257,7 @@ function PodcastEpisodeEdit({
         allowedTypes: AUDIO_VIDEO_MIME_TYPES,
         onSelect: onSelectMedia,
         onError: message => setUploadError(message),
-        notices: uploadError ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+        notices: uploadError ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
           className: "components-notice is-error",
           children: uploadError
         }) : null
@@ -4265,11 +4265,11 @@ function PodcastEpisodeEdit({
     });
   }
   const dateSettings = (0,_wordpress_date__WEBPACK_IMPORTED_MODULE_5__.getSettings)();
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
     ...blockProps,
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.BlockControls, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToolbarGroup, {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaReplaceFlow, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.BlockControls, {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToolbarGroup, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaReplaceFlow, {
           mediaId: mediaId,
           mediaURL: mediaUrl,
           allowedTypes: AUDIO_VIDEO_MIME_TYPES,
@@ -4279,17 +4279,17 @@ function PodcastEpisodeEdit({
           name: __('Replace audio/video', "jetpack-podcast")
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InspectorControls, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
         title: __('Episode', "jetpack-podcast"),
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextareaControl, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextareaControl, {
           __nextHasNoMarginBottom: true,
           label: __('Show notes', "jetpack-podcast"),
           help: __('Episode description shown in Apple Podcasts, Spotify, and Pocket Casts. Synced with the post’s Excerpt.', "jetpack-podcast"),
           value: postExcerpt || '',
           onChange: setPostExcerpt,
           rows: 4
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Season number', "jetpack-podcast"),
           type: "number",
           min: 1,
@@ -4299,7 +4299,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Episode number', "jetpack-podcast"),
           type: "number",
           min: 1,
@@ -4309,7 +4309,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
           label: __('Episode type', "jetpack-podcast"),
           value: episodeType,
           options: EPISODE_TYPE_OPTIONS,
@@ -4318,14 +4318,14 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToggleControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToggleControl, {
           label: __('Explicit content', "jetpack-podcast"),
           checked: !!explicit,
           onChange: value => setAttributes({
             explicit: value
           }),
           __nextHasNoMarginBottom: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToggleControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ToggleControl, {
           label: __('Show cover art', "jetpack-podcast"),
           help: __('Display cover art alongside the player on the post page. Cover art stays in schema metadata either way.', "jetpack-podcast"),
           checked: !!showPoster,
@@ -4333,12 +4333,12 @@ function PodcastEpisodeEdit({
             showPoster: value
           }),
           __nextHasNoMarginBottom: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
           __nextHasNoMarginBottom: true,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
             children: __('Cover art', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUploadCheck, {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUpload, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUploadCheck, {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.MediaUpload, {
               onSelect: media => setAttributes({
                 coverArt: media?.url ? {
                   id: media.id,
@@ -4349,28 +4349,28 @@ function PodcastEpisodeEdit({
               value: coverArt?.id,
               render: ({
                 open
-              }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+              }) => /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
                 className: "jetpack-podcast-episode__cover-picker",
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
                   variant: "secondary",
                   className: (0,clsx__WEBPACK_IMPORTED_MODULE_9__["default"])('jetpack-podcast-episode__cover-button', {
                     'jetpack-podcast-episode__cover-button--empty': !coverArtUrl
                   }),
                   onClick: open,
                   "aria-label": coverArt?.url ? __('Replace cover art', "jetpack-podcast") : __('Set episode cover art', "jetpack-podcast"),
-                  children: coverArtUrl ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("img", {
+                  children: coverArtUrl ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("img", {
                     src: coverArtUrl,
                     alt: ""
-                  }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+                  }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
                     children: __('Set episode cover art', "jetpack-podcast")
                   })
-                }), coverArt?.url && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+                }), coverArt?.url && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
                   className: "jetpack-podcast-episode__cover-actions",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
                     variant: "link",
                     onClick: open,
                     children: __('Replace', "jetpack-podcast")
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
                     variant: "link",
                     isDestructive: true,
                     onClick: () => setAttributes({
@@ -4381,14 +4381,14 @@ function PodcastEpisodeEdit({
                 })]
               })
             })
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("p", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("p", {
             className: "components-base-control__help",
             children: __('Defaults to the post’s featured image, then the show cover art from Settings → Writing → Podcasting.', "jetpack-podcast")
           })]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
         title: __('Audio', "jetpack-podcast"),
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Duration', "jetpack-podcast"),
           help: __('Formatted as HH:MM:SS or MM:SS.', "jetpack-podcast"),
           value: duration,
@@ -4397,7 +4397,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Transcript URL', "jetpack-podcast"),
           type: "url",
           value: transcriptUrl,
@@ -4406,7 +4406,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
           label: __('Transcript format', "jetpack-podcast"),
           value: transcriptType,
           options: TRANSCRIPT_TYPE_OPTIONS,
@@ -4415,14 +4415,14 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
           __nextHasNoMarginBottom: true,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
             children: __('Chapters', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("p", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("p", {
             className: "components-base-control__help",
             children: __('Link to a chapters JSON file hosted on a public URL. Podcasting 2.0 players fetch the file directly and display chapter markers in their UI.', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
             label: __('Chapters file URL', "jetpack-podcast"),
             type: "url",
             value: chaptersUrl || '',
@@ -4431,7 +4431,7 @@ function PodcastEpisodeEdit({
             }),
             __nextHasNoMarginBottom: true,
             __next40pxDefaultSize: true
-          }), chaptersUrl && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
+          }), chaptersUrl && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.Button, {
             variant: "link",
             isDestructive: true,
             onClick: () => setAttributes({
@@ -4439,7 +4439,7 @@ function PodcastEpisodeEdit({
               chaptersType: 'application/json+chapters'
             }),
             children: __('Remove chapters URL', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.SelectControl, {
             label: __('Chapters file format', "jetpack-podcast"),
             value: chaptersType || 'application/json+chapters',
             options: [{
@@ -4454,15 +4454,15 @@ function PodcastEpisodeEdit({
             }),
             __nextHasNoMarginBottom: true,
             __next40pxDefaultSize: true
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ExternalLink, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.ExternalLink, {
             href: "https://github.com/Podcastindex-org/podcast-namespace/blob/main/chapters/jsonChapters.md",
             children: __('Learn about the chapters JSON format', "jetpack-podcast")
           })]
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
         title: __('Metadata', "jetpack-podcast"),
         initialOpen: false,
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('Location', "jetpack-podcast"),
           help: __('Human-readable location associated with this episode.', "jetpack-podcast"),
           value: locationName,
@@ -4471,7 +4471,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('License', "jetpack-podcast"),
           help: __('e.g. CC-BY-4.0 or all rights reserved.', "jetpack-podcast"),
           value: license,
@@ -4480,7 +4480,7 @@ function PodcastEpisodeEdit({
           }),
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.TextControl, {
           label: __('License URL', "jetpack-podcast"),
           type: "url",
           value: licenseUrl,
@@ -4490,17 +4490,17 @@ function PodcastEpisodeEdit({
           __nextHasNoMarginBottom: true,
           __next40pxDefaultSize: true
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.PanelBody, {
         title: __('Podcasting 2.0', "jetpack-podcast"),
         initialOpen: false,
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl, {
           __nextHasNoMarginBottom: true,
-          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_wordpress_components__WEBPACK_IMPORTED_MODULE_2__.BaseControl.VisualLabel, {
             children: __('Guests & credits', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("p", {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("p", {
             className: "components-base-control__help",
             children: __('Credit hosts, guests, and producers. Read by Podcasting 2.0 apps (Podverse, Fountain, Podcast Addict) and rendered as a credits list on the post page.', "jetpack-podcast")
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(PeopleEditor, {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(PeopleEditor, {
             people: people,
             onChange: value => setAttributes({
               people: value
@@ -4508,61 +4508,61 @@ function PodcastEpisodeEdit({
           })]
         })
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("article", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("article", {
       className: "jetpack-podcast-episode",
-      children: [showPoster && coverArtUrl && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("figure", {
+      children: [showPoster && coverArtUrl && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("figure", {
         className: "jetpack-podcast-episode__poster",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("img", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("img", {
           src: coverArtUrl,
           alt: ""
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
         className: "jetpack-podcast-episode__body",
-        children: [(seasonNumber || episodeNumber || episodeType !== 'full' || explicit) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("p", {
+        children: [(seasonNumber || episodeNumber || episodeType !== 'full' || explicit) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("p", {
           className: "jetpack-podcast-episode__meta-line",
-          children: [seasonNumber ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          children: [seasonNumber ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__season",
             children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__.sprintf)(/* translators: %d: season number. */
             __('Season %d', "jetpack-podcast"), seasonNumber)
-          }) : null, episodeNumber ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          }) : null, episodeNumber ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__episode-number",
             children: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_8__.sprintf)(/* translators: %d: episode number. */
             __('Episode %d', "jetpack-podcast"), episodeNumber)
-          }) : null, episodeType === 'trailer' && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          }) : null, episodeType === 'trailer' && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__badge jetpack-podcast-episode__badge--trailer",
             children: __('Trailer', "jetpack-podcast")
-          }), episodeType === 'bonus' && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          }), episodeType === 'bonus' && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__badge jetpack-podcast-episode__badge--bonus",
             children: __('Bonus', "jetpack-podcast")
-          }), explicit && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          }), explicit && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__badge jetpack-podcast-episode__badge--explicit",
             title: __('Explicit content', "jetpack-podcast"),
             children: _x('E', 'short label for explicit content', "jetpack-podcast")
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("h3", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("h3", {
           className: "jetpack-podcast-episode__title",
           children: postTitle ? (0,_wordpress_html_entities__WEBPACK_IMPORTED_MODULE_7__.decodeEntities)(postTitle) : __('Untitled episode', "jetpack-podcast")
-        }), (postAuthor || postDate || duration) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("p", {
+        }), (postAuthor || postDate || duration) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("p", {
           className: "jetpack-podcast-episode__byline",
-          children: [postAuthor && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          children: [postAuthor && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__author",
             children: postAuthor
-          }), postDate && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("time", {
+          }), postDate && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("time", {
             className: "jetpack-podcast-episode__date",
             children: (0,_wordpress_date__WEBPACK_IMPORTED_MODULE_5__.dateI18n)(dateSettings.formats.date, postDate)
-          }), duration && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("span", {
+          }), duration && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("span", {
             className: "jetpack-podcast-episode__duration",
             children: duration
           })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
           className: "jetpack-podcast-episode__player",
-          children: mediaType === 'video' ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("video", {
+          children: mediaType === 'video' ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("video", {
             src: mediaUrl,
             controls: true,
             preload: "none",
             poster: showPoster ? coverArtUrl : undefined,
             "data-mime": mediaMimeType || undefined
-          }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("audio", {
+          }) : /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("audio", {
             src: mediaUrl,
             controls: true,
             preload: "none"
@@ -4777,6 +4777,188 @@ const convertSecondsToTimeCode = seconds => {
 
 /***/ },
 
+/***/ "./src/dashboard/hooks/use-podcast-settings.ts"
+/*!*****************************************************!*\
+  !*** ./src/dashboard/hooks/use-podcast-settings.ts ***!
+  \*****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   refreshPodcastSettings: () => (/* binding */ refreshPodcastSettings),
+/* harmony export */   usePodcastSettings: () => (/* binding */ usePodcastSettings),
+/* harmony export */   useUpdatePodcastSettings: () => (/* binding */ useUpdatePodcastSettings)
+/* harmony export */ });
+/* harmony import */ var _wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/core-data */ "@wordpress/core-data");
+/* harmony import */ var _wordpress_core_data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _wordpress_html_entities__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/html-entities */ "@wordpress/html-entities");
+/* harmony import */ var _wordpress_html_entities__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_html_entities__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @wordpress/i18n */ "@wordpress/i18n");
+/* harmony import */ var _wordpress_i18n__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _wordpress_notices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @wordpress/notices */ "@wordpress/notices");
+/* harmony import */ var _wordpress_notices__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_wordpress_notices__WEBPACK_IMPORTED_MODULE_5__);
+/* wp:polyfill */
+/* wp:polyfill es.array.includes */
+/* wp:polyfill esnext.iterator.constructor */
+/* wp:polyfill esnext.iterator.some */
+
+
+
+
+
+const __ = _wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__;
+
+const ENTITY_KIND = 'wpcom/v2';
+const ENTITY_NAME = 'podcast/settings';
+if (!(0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.select)(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).getEntitiesConfig(ENTITY_KIND).some(({
+  name
+}) => name === ENTITY_NAME)) {
+  (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.dispatch)(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).addEntities([{
+    kind: ENTITY_KIND,
+    name: ENTITY_NAME,
+    baseURL: `/${ENTITY_KIND}/${ENTITY_NAME}`,
+    label: __('Podcast settings', "jetpack-podcast")
+  }]);
+}
+const PODCAST_KEYS = ['podcasting_category_id', 'podcasting_title', 'podcasting_talent_name', 'podcasting_summary', 'podcasting_copyright', 'podcasting_explicit', 'podcasting_image', 'podcasting_image_id', 'podcasting_category_1', 'podcasting_category_2', 'podcasting_category_3', 'podcasting_email', 'podcasting_show_urls', 'podcasting_show_states'];
+
+// Keep in sync with `SHOW_URL_HOSTS` in src/class-settings.php.
+const PODCATCHER_IDS = ['pocketcasts', 'apple', 'spotify', 'youtube', 'amazon', 'podcastindex'];
+const normalizeShowUrls = raw => {
+  const source = raw && typeof raw === 'object' ? raw : {};
+  const out = {};
+  for (const id of PODCATCHER_IDS) {
+    const value = source[id];
+    out[id] = typeof value === 'string' ? value : '';
+  }
+  return out;
+};
+const SHOW_STATES = ['', 'pending', 'active'];
+const normalizeShowStates = raw => {
+  const source = raw && typeof raw === 'object' ? raw : {};
+  const out = {};
+  for (const id of PODCATCHER_IDS) {
+    const value = source[id];
+    out[id] = typeof value === 'string' && SHOW_STATES.includes(value) ? value : '';
+  }
+  return out;
+};
+const pickPodcastFields = raw => {
+  const numericKey = key => key === 'podcasting_category_id' || key === 'podcasting_image_id';
+  const toString = value => {
+    if (typeof value === 'string') {
+      return value;
+    }
+    if (value == null) {
+      return '';
+    }
+    return String(value);
+  };
+  const out = {};
+  for (const key of PODCAST_KEYS) {
+    const value = raw[key];
+    if (numericKey(key)) {
+      out[key] = typeof value === 'number' ? value : Number(value ?? 0) || 0;
+    } else if (key === 'podcasting_explicit') {
+      out[key] = Boolean(value);
+    } else if (key === 'podcasting_show_urls') {
+      out[key] = normalizeShowUrls(value);
+    } else if (key === 'podcasting_show_states') {
+      out[key] = normalizeShowStates(value);
+    } else if (key === 'podcasting_category_1' || key === 'podcasting_category_2' || key === 'podcasting_category_3') {
+      // Legacy WPCOM stored Apple categories HTML-entity encoded
+      // ("Fashion &amp; Beauty"); decode so the value matches the raw
+      // catalog keys in topics.ts.
+      out[key] = (0,_wordpress_html_entities__WEBPACK_IMPORTED_MODULE_3__.decodeEntities)(toString(value));
+    } else {
+      out[key] = toString(value);
+    }
+  }
+  return out;
+};
+const refreshPodcastSettings = () => {
+  (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.dispatch)(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).invalidateResolution('getEntityRecord', [ENTITY_KIND, ENTITY_NAME]);
+};
+/**
+ * Read the settings off the core-data entity, resolving on first use.
+ *
+ * @return `{ data, isLoading }`.
+ */
+function usePodcastSettings() {
+  const record = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useSelect)(select => select(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).getEntityRecord(ENTITY_KIND, ENTITY_NAME), []);
+  const hasResolved = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useSelect)(select => select(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).hasFinishedResolution('getEntityRecord', [ENTITY_KIND, ENTITY_NAME]), []);
+  // Memoised so the derived object identity is stable across renders. Without
+  // this, every render builds a new `data` object, breaking reference checks
+  // downstream (Settings' isDirty was permanently true on `podcasting_show_urls`).
+  const data = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.useMemo)(() => record ? pickPodcastFields(record) : undefined, [record]);
+  return {
+    data,
+    isLoading: !hasResolved
+  };
+}
+
+/**
+ * Save a partial update through the entity; the server returns the full merged
+ * record. Snackbars dispatch here unless `silent`.
+ *
+ * @return `{ mutate, mutateAsync, isPending }`.
+ */
+function useUpdatePodcastSettings() {
+  const {
+    saveEntityRecord
+  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useDispatch)(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store);
+  const {
+    createSuccessNotice,
+    createErrorNotice
+  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useDispatch)(_wordpress_notices__WEBPACK_IMPORTED_MODULE_5__.store);
+  const isPending = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useSelect)(select => !!select(_wordpress_core_data__WEBPACK_IMPORTED_MODULE_0__.store).isSavingEntityRecord(ENTITY_KIND, ENTITY_NAME, undefined), []);
+  const mutateAsync = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.useCallback)(async (updates, {
+    silent = false
+  } = {}) => {
+    try {
+      const record = await saveEntityRecord(ENTITY_KIND, ENTITY_NAME, updates);
+      if (!record) {
+        throw new Error('save returned no record');
+      }
+      if (!silent) {
+        createSuccessNotice(__('Settings saved.', "jetpack-podcast"), {
+          type: 'snackbar'
+        });
+      }
+      return pickPodcastFields(record);
+    } catch (error) {
+      if (!silent) {
+        createErrorNotice(__('Could not save your podcast settings. Please try again.', "jetpack-podcast"), {
+          type: 'snackbar'
+        });
+      }
+      throw error;
+    }
+  }, [saveEntityRecord, createSuccessNotice, createErrorNotice]);
+  const mutate = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.useCallback)((updates, {
+    onSuccess,
+    onError,
+    silent = false
+  } = {}) => {
+    // Default no-op keeps the rejection from going uncaught when no `onError` is passed.
+    mutateAsync(updates, {
+      silent
+    }).then(onSuccess, onError ?? (() => {}));
+  }, [mutateAsync]);
+  return {
+    mutate,
+    mutateAsync,
+    isPending
+  };
+}
+
+/***/ },
+
 /***/ "jetpackConfig"
 /*!**********************************************************!*\
   !*** external "{\"consumer_slug\":\"jetpack-podcast\"}" ***!
@@ -4963,6 +5145,17 @@ module.exports = window["wp"]["htmlEntities"];
 
 "use strict";
 module.exports = window["wp"]["i18n"];
+
+/***/ },
+
+/***/ "@wordpress/notices"
+/*!*********************************!*\
+  !*** external ["wp","notices"] ***!
+  \*********************************/
+(module) {
+
+"use strict";
+module.exports = window["wp"]["notices"];
 
 /***/ },
 
