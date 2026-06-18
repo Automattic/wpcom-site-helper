@@ -5,10 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.1.0] - 2026-06-18
 ### Added
 - Add a persistent "Create episode" button to the /podcast page header and a server-side prefill that assigns the configured category (and, on Premium, inserts the Podcast Episode block) when `post-new.php?podcast_episode=1` is opened.
 - Create AI Podcast: Limit the "from specific posts" selection to 25 posts and surface a hint indicating the cap.
@@ -127,7 +124,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Replace the wp-build placeholder with page chrome and tab navigation. [#48559]
 - Dashboard: Slim down wp-build wiring to the Backup pattern. [#48600]
 
-[1.1.0-alpha]: https://github.com/Automattic/jetpack-podcast/compare/v1.0.2...v1.1.0-alpha
+[1.1.0]: https://github.com/Automattic/jetpack-podcast/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/Automattic/jetpack-podcast/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/Automattic/jetpack-podcast/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/Automattic/jetpack-podcast/compare/v0.1.0...v1.0.0
