@@ -2270,7 +2270,7 @@ _store_holder__WEBPACK_IMPORTED_MODULE_6__["default"].mayBeInit(_store_id__WEBPA
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   JETPACK_DATA_PATH: () => (/* reexport safe */ _src_get_jetpack_data__WEBPACK_IMPORTED_MODULE_1__.JETPACK_DATA_PATH),
-/* harmony export */   JETPACK_MODULES_STORE_ID: () => (/* reexport safe */ _src_modules_state__WEBPACK_IMPORTED_MODULE_17__.JETPACK_MODULES_STORE_ID),
+/* harmony export */   JETPACK_MODULES_STORE_ID: () => (/* reexport safe */ _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_17__.JETPACK_MODULES_STORE_ID),
 /* harmony export */   PLAN_TYPE_FREE: () => (/* reexport safe */ _src_hooks_use_plan_type__WEBPACK_IMPORTED_MODULE_12__.PLAN_TYPE_FREE),
 /* harmony export */   PLAN_TYPE_TIERED: () => (/* reexport safe */ _src_hooks_use_plan_type__WEBPACK_IMPORTED_MODULE_12__.PLAN_TYPE_TIERED),
 /* harmony export */   PLAN_TYPE_UNLIMITED: () => (/* reexport safe */ _src_hooks_use_plan_type__WEBPACK_IMPORTED_MODULE_12__.PLAN_TYPE_UNLIMITED),
@@ -2300,7 +2300,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   removeJetpackEditorAction: () => (/* reexport safe */ _src_block_editor_actions__WEBPACK_IMPORTED_MODULE_22__.removeJetpackEditorAction),
 /* harmony export */   requiresPaidPlan: () => (/* reexport safe */ _src_plan_utils__WEBPACK_IMPORTED_MODULE_8__.requiresPaidPlan),
 /* harmony export */   shouldUseInternalLinks: () => (/* reexport safe */ _src_should_use_internal_links__WEBPACK_IMPORTED_MODULE_3__["default"]),
-/* harmony export */   store: () => (/* reexport safe */ _src_modules_state__WEBPACK_IMPORTED_MODULE_17__.store),
+/* harmony export */   store: () => (/* reexport safe */ _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_17__.store),
 /* harmony export */   useAnalytics: () => (/* reexport safe */ _src_hooks_use_analytics__WEBPACK_IMPORTED_MODULE_10__["default"]),
 /* harmony export */   useAutosaveAndRedirect: () => (/* reexport safe */ _src_hooks_use_autosave_and_redirect__WEBPACK_IMPORTED_MODULE_11__["default"]),
 /* harmony export */   useModuleStatus: () => (/* reexport safe */ _src_hooks_use_module_status__WEBPACK_IMPORTED_MODULE_14__["default"]),
@@ -2326,7 +2326,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_hooks_use_module_status__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./src/hooks/use-module-status */ "../../js-packages/shared-extension-utils/src/hooks/use-module-status/index.js");
 /* harmony import */ var _src_get_block_icon_from_metadata__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./src/get-block-icon-from-metadata */ "../../js-packages/shared-extension-utils/src/get-block-icon-from-metadata.js");
 /* harmony import */ var _src_get_jetpack_blocks_variation__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./src/get-jetpack-blocks-variation */ "../../js-packages/shared-extension-utils/src/get-jetpack-blocks-variation.js");
-/* harmony import */ var _src_modules_state__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./src/modules-state */ "../../js-packages/shared-extension-utils/src/modules-state/index.js");
+/* harmony import */ var _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @automattic/jetpack-shared-stores */ "@automattic/jetpack-shared-stores");
+/* harmony import */ var _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_17__);
 /* harmony import */ var _src_is_my_jetpack_available__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./src/is-my-jetpack-available */ "../../js-packages/shared-extension-utils/src/is-my-jetpack-available.js");
 /* harmony import */ var _src_has_feature_flag__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./src/has-feature-flag */ "../../js-packages/shared-extension-utils/src/has-feature-flag.js");
 /* harmony import */ var _src_libs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./src/libs */ "../../js-packages/shared-extension-utils/src/libs/index.js");
@@ -2898,11 +2899,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
-/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _modules_state__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../modules-state */ "../../js-packages/shared-extension-utils/src/modules-state/index.js");
+/* harmony import */ var _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @automattic/jetpack-shared-stores */ "@automattic/jetpack-shared-stores");
+/* harmony import */ var _automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
+/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @wordpress/element */ "@wordpress/element");
+/* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -2926,8 +2928,8 @@ const useModuleStatus = name => {
     isModuleActive,
     isChangingStatus,
     isLoadingModules
-  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_0__.useSelect)(selectData => {
-    const data = selectData(_modules_state__WEBPACK_IMPORTED_MODULE_2__.JETPACK_MODULES_STORE_ID);
+  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useSelect)(selectData => {
+    const data = selectData(_automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_0__.JETPACK_MODULES_STORE_ID);
     return {
       isModuleActive: data.isModuleActive(name),
       isChangingStatus: data.isModuleUpdating(name),
@@ -2936,12 +2938,12 @@ const useModuleStatus = name => {
   }, [name]);
   const {
     updateJetpackModuleStatus
-  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_0__.useDispatch)(_modules_state__WEBPACK_IMPORTED_MODULE_2__.JETPACK_MODULES_STORE_ID);
-  const changeStatus = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.useCallback)(value => updateJetpackModuleStatus({
+  } = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.useDispatch)(_automattic_jetpack_shared_stores__WEBPACK_IMPORTED_MODULE_0__.JETPACK_MODULES_STORE_ID);
+  const changeStatus = (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.useCallback)(value => updateJetpackModuleStatus({
     name,
     active: value
   }), [name, updateJetpackModuleStatus]);
-  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.useMemo)(() => ({
+  return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_2__.useMemo)(() => ({
     isLoadingModules,
     isChangingStatus,
     isModuleActive,
@@ -3273,368 +3275,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _connection__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./connection */ "../../js-packages/shared-extension-utils/src/libs/connection/index.ts");
 
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/actions.js"
-/*!*****************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/actions.js ***!
-  \*****************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SET_JETPACK_MODULES: () => (/* binding */ SET_JETPACK_MODULES),
-/* harmony export */   SET_MODULE_UPDATING: () => (/* binding */ SET_MODULE_UPDATING),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   fetchModules: () => (/* binding */ fetchModules),
-/* harmony export */   setIsLoading: () => (/* binding */ setIsLoading),
-/* harmony export */   setJetpackModules: () => (/* binding */ setJetpackModules),
-/* harmony export */   updateJetpackModuleStatus: () => (/* binding */ updateJetpackModuleStatus)
-/* harmony export */ });
-/* harmony import */ var _automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @automattic/jetpack-script-data */ "@automattic/jetpack-script-data");
-/* harmony import */ var _automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _controls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./controls */ "../../js-packages/shared-extension-utils/src/modules-state/controls.js");
-/* harmony import */ var ___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! . */ "../../js-packages/shared-extension-utils/src/modules-state/index.js");
-
-
-
-
-const SET_JETPACK_MODULES = 'SET_JETPACK_MODULES';
-const SET_MODULE_UPDATING = 'SET_MODULE_UPDATING';
-
-/**
- * Yield actions to update module status
- *
- * @param {object}  settings        - Jetpack module settings.
- * @param {string}  settings.name   - Jetpack module name.
- * @param {boolean} settings.active - If the module is active or not.
- * @yield {object} - an action object.
- * @return {object} - an action object.
- */
-function* updateJetpackModuleStatus(settings) {
-  try {
-    yield setIsUpdating(settings.name, true);
-    yield (0,_controls__WEBPACK_IMPORTED_MODULE_2__.updateJetpackModuleStatus)(settings);
-    const data = yield (0,_controls__WEBPACK_IMPORTED_MODULE_2__.fetchJetpackModules)();
-    yield setJetpackModules({
-      data
-    });
-    return true;
-  } catch {
-    const oldSettings = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.select)(___WEBPACK_IMPORTED_MODULE_3__.JETPACK_MODULES_STORE_ID).getJetpackModules();
-    yield setJetpackModules(oldSettings);
-    return false;
-  } finally {
-    yield setIsUpdating(settings.name, false);
-  }
-}
-
-/**
- * Yield actions to update module status
- * @yield {object} - an action object.
- * @return {boolean} - if operation is successful or not.
- */
-function* fetchModules() {
-  // We don't fetch modules for Simple Site and aknowledge that all modules are active
-  if ((0,_automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__.isSimpleSite)()) {
-    return true;
-  }
-  try {
-    yield setIsLoading(true);
-    const data = yield (0,_controls__WEBPACK_IMPORTED_MODULE_2__.fetchJetpackModules)();
-    yield setJetpackModules({
-      data
-    });
-    return true;
-  } catch {
-    const oldSettings = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_1__.select)(___WEBPACK_IMPORTED_MODULE_3__.JETPACK_MODULES_STORE_ID).getJetpackModules();
-    yield setJetpackModules(oldSettings);
-    return false;
-  } finally {
-    yield setIsLoading(false);
-  }
-}
-
-/**
- * Set modules as loading action
- *
- * @param {boolean} isLoading - If the modules are loading or not.
- * @return {object} - an action object.
- */
-function setIsLoading(isLoading) {
-  return setJetpackModules({
-    isLoading
-  });
-}
-
-/**
- * Set modules as updating action
- *
- * @param {string}  name       - Name of the module.
- * @param {boolean} isUpdating - If the modules are updating or not.
- * @return {object} - an action object.
- */
-function setIsUpdating(name, isUpdating) {
-  return {
-    type: SET_MODULE_UPDATING,
-    name,
-    isUpdating
-  };
-}
-
-/**
- * Set Jetpack module action
- *
- * @param {object}  options           - Jetpack settings.
- * @param {object}  options.modules   - Jetpack modules.
- * @param {boolean} options.isLoading - If the modules are loading or not.
- * @return {object} - an action object.
- */
-function setJetpackModules(options) {
-  return {
-    type: SET_JETPACK_MODULES,
-    options
-  };
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  updateJetpackModuleStatus,
-  setJetpackModules,
-  fetchModules
-});
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/controls.js"
-/*!******************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/controls.js ***!
-  \******************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   FETCH_JETPACK_MODULES: () => (/* binding */ FETCH_JETPACK_MODULES),
-/* harmony export */   UPDATE_JETPACK_MODULE_STATUS: () => (/* binding */ UPDATE_JETPACK_MODULE_STATUS),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   fetchJetpackModules: () => (/* binding */ fetchJetpackModules),
-/* harmony export */   updateJetpackModuleStatus: () => (/* binding */ updateJetpackModuleStatus)
-/* harmony export */ });
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/api-fetch */ "@wordpress/api-fetch");
-/* harmony import */ var _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_0__);
-
-const FETCH_JETPACK_MODULES = 'FETCH_JETPACK_MODULES';
-const UPDATE_JETPACK_MODULE_STATUS = 'UPDATE_JETPACK_MODULE_STATUS';
-
-/**
- * fetchJetpackModules action
- *
- * @return {object} - an action object.
- */
-const fetchJetpackModules = () => {
-  return {
-    type: FETCH_JETPACK_MODULES
-  };
-};
-
-/**
- * Updating single module status action
- *
- * @param           settings        - Jetpack module settings.
- * @param {string}  settings.name   - Jetpack module name.
- * @param {boolean} settings.active - If the module is active or not.
- */
-
-const updateJetpackModuleStatus = settings => {
-  return {
-    type: UPDATE_JETPACK_MODULE_STATUS,
-    settings
-  };
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  [FETCH_JETPACK_MODULES]: function () {
-    return _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_0___default()({
-      path: `/jetpack/v4/module/all`,
-      method: 'GET'
-    });
-  },
-  [UPDATE_JETPACK_MODULE_STATUS]: function ({
-    settings
-  }) {
-    return _wordpress_api_fetch__WEBPACK_IMPORTED_MODULE_0___default()({
-      path: `/jetpack/v4/module/${settings.name}/active`,
-      method: 'POST',
-      data: {
-        active: settings.active
-      }
-    });
-  }
-});
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/index.js"
-/*!***************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/index.js ***!
-  \***************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   JETPACK_MODULES_STORE_ID: () => (/* binding */ JETPACK_MODULES_STORE_ID),
-/* harmony export */   store: () => (/* binding */ store)
-/* harmony export */ });
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/data */ "@wordpress/data");
-/* harmony import */ var _wordpress_data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_data__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./actions */ "../../js-packages/shared-extension-utils/src/modules-state/actions.js");
-/* harmony import */ var _controls__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./controls */ "../../js-packages/shared-extension-utils/src/modules-state/controls.js");
-/* harmony import */ var _reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./reducer */ "../../js-packages/shared-extension-utils/src/modules-state/reducer.js");
-/* harmony import */ var _resolvers__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./resolvers */ "../../js-packages/shared-extension-utils/src/modules-state/resolvers.js");
-/* harmony import */ var _selectors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./selectors */ "../../js-packages/shared-extension-utils/src/modules-state/selectors.js");
-
-
-
-
-
-
-const JETPACK_MODULES_STORE_ID = 'jetpack-modules';
-const store = (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_0__.createReduxStore)(JETPACK_MODULES_STORE_ID, {
-  reducer: _reducer__WEBPACK_IMPORTED_MODULE_3__["default"],
-  actions: _actions__WEBPACK_IMPORTED_MODULE_1__["default"],
-  controls: _controls__WEBPACK_IMPORTED_MODULE_2__["default"],
-  resolvers: _resolvers__WEBPACK_IMPORTED_MODULE_4__["default"],
-  selectors: _selectors__WEBPACK_IMPORTED_MODULE_5__["default"]
-});
-(0,_wordpress_data__WEBPACK_IMPORTED_MODULE_0__.register)(store);
-const initialData = window?.Initial_State?.getModules ||
-// Jetpack Dashboard
-window?.Jetpack_Editor_Initial_State?.modules ||
-// Gutenberg
-null;
-
-// This is a temporary fix to have store filled properly.
-// TODO: Create a proper solution after fixing initial issue (https://github.com/Automattic/jetpack/issues/34793).
-if (initialData !== null) {
-  (0,_wordpress_data__WEBPACK_IMPORTED_MODULE_0__.dispatch)(JETPACK_MODULES_STORE_ID).setJetpackModules({
-    data: {
-      ...initialData
-    }
-  });
-}
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/reducer.js"
-/*!*****************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/reducer.js ***!
-  \*****************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const defaultState = {
-  isLoading: false,
-  isUpdating: {},
-  data: {}
-};
-const setModulesData = (state = defaultState, action) => {
-  switch (action.type) {
-    case 'SET_JETPACK_MODULES':
-      return {
-        ...state,
-        ...action.options
-      };
-    case 'SET_MODULE_UPDATING':
-      return {
-        ...state,
-        ...{
-          isUpdating: {
-            ...state.isUpdating,
-            [action.name]: action.isUpdating
-          }
-        }
-      };
-  }
-  return state;
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (setModulesData);
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/resolvers.js"
-/*!*******************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/resolvers.js ***!
-  \*******************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   getJetpackModules: () => (/* binding */ getJetpackModules)
-/* harmony export */ });
-/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./actions */ "../../js-packages/shared-extension-utils/src/modules-state/actions.js");
-/* harmony import */ var _controls__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./controls */ "../../js-packages/shared-extension-utils/src/modules-state/controls.js");
-
-
-
-/**
- * Yield actions to get the Jetpack modules.
- *
- * @yield {object} - an action object.
- * @return {object} - an action object.
- */
-function* getJetpackModules() {
-  try {
-    yield (0,_actions__WEBPACK_IMPORTED_MODULE_0__.setIsLoading)(true);
-    const data = yield (0,_controls__WEBPACK_IMPORTED_MODULE_1__.fetchJetpackModules)();
-    if (data) {
-      return (0,_actions__WEBPACK_IMPORTED_MODULE_0__.setJetpackModules)({
-        data
-      });
-    }
-  } catch (e) {
-    console.error(e); // eslint-disable-line no-console
-  } finally {
-    yield (0,_actions__WEBPACK_IMPORTED_MODULE_0__.setIsLoading)(false);
-  }
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  getJetpackModules
-});
-
-/***/ },
-
-/***/ "../../js-packages/shared-extension-utils/src/modules-state/selectors.js"
-/*!*******************************************************************************!*\
-  !*** ../../js-packages/shared-extension-utils/src/modules-state/selectors.js ***!
-  \*******************************************************************************/
-(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @automattic/jetpack-script-data */ "@automattic/jetpack-script-data");
-/* harmony import */ var _automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__);
-
-const jetpackModulesSelectors = {
-  getJetpackModules: state => state.data,
-  // We consider simple sites to have all modules active
-  // TODO: we would remove this when wrapping logic with hooks
-  isModuleActive: (state, moduleName) => (0,_automattic_jetpack_script_data__WEBPACK_IMPORTED_MODULE_0__.isSimpleSite)() || (state?.data?.[moduleName]?.activated ?? false),
-  areModulesLoading: state => state.isLoading ?? false,
-  isModuleUpdating: (state, moduleName) => state?.isUpdating?.[moduleName] ?? false
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (jetpackModulesSelectors);
 
 /***/ },
 
@@ -4980,6 +4620,17 @@ module.exports = {"consumer_slug":"jetpack-podcast"};
 
 "use strict";
 module.exports = window["JetpackScriptDataModule"];
+
+/***/ },
+
+/***/ "@automattic/jetpack-shared-stores"
+/*!**************************************!*\
+  !*** external "JetpackSharedStores" ***!
+  \**************************************/
+(module) {
+
+"use strict";
+module.exports = window["JetpackSharedStores"];
 
 /***/ },
 
