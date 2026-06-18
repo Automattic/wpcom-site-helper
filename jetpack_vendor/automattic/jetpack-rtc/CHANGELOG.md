@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Removed
+- RTC: remove the pinghub.rtc.* analytics pixels (room_peers, conn_open, conn_close_code, conn_err, jwt_fetch, jwt_fetch_error, send_drop), now superseded by the jetpack_rtc_* Tracks events. The generic pinghub.* pixels and the logConnectionEvent() logging are unchanged.
 - RTC: Remove the welcome modal.
 
 ### Fixed
