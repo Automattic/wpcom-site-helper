@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add a persistent "Create episode" button to the /podcast page header and a server-side prefill that assigns the configured category (and, on Premium, inserts the Podcast Episode block) when `post-new.php?podcast_episode=1` is opened.
 - Create AI Podcast: Limit the "from specific posts" selection to 25 posts and surface a hint indicating the cap.
+- Podcast: allow the package to load on self-hosted Jetpack sites behind the default-off `jetpack_podcast_for_the_world` filter.
 - Podcast: ignore a deleted podcast category and add a raw show image URL accessor
 - Podcast Episode block: add email renderer for the WooCommerce Email Editor.
 
