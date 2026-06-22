@@ -30,6 +30,7 @@ return array(
     'A8C\\FSE\\WP_REST_Help_Center_User_Fields' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-user-fields.php',
     'A8C\\WPCOM_DICTATION\\WPCOM_Smart_Dictation' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-smart-dictation/class-wpcom-smart-dictation.php',
     'A8C\\WPCOM_DICTATION\\WP_REST_WPCOM_Smart_Dictation_Client_Secret' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-smart-dictation/class-wp-rest-wpcom-smart-dictation-client-secret.php',
+    'AI_Launchpad_Dev_Enable' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-dev-enable.php',
     'AI_Launchpad_Listeners' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-listeners.php',
     'AI_Launchpad_REST' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-rest.php',
     'AI_Launchpad_Theme_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-theme-listener.php',
