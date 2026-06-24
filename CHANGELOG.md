@@ -51,6 +51,7 @@ This is an alpha version! The changes listed here are not final.
 - Sync features list with WPCOM - removing social unified UI feature flag.
 - Tested up to WordPress 7.0.
 - Update composer.lock files.
+- Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Updated package dependencies.
