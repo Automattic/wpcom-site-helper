@@ -17,7 +17,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add richer connection logging: channel path, JWT age at disconnect, wasClean flag, and reconnect attempt events.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
-- RTC: Disable real-time collaboration by default while keeping the existing opt-in setting.
+- RTC: Re-enable real-time collaboration by default on WP.com sites.
 - RTC: Re-enable RTC by default on WoW sites
 - Update package dependencies.
 
