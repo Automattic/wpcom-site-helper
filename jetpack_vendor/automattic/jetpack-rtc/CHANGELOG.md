@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - PingHub: allow local (unconnected) users to obtain a token via the site blog token, requesting the /wpcom/v2/ signing endpoint with the correct API base
+- RTC: Fix PingHub WebSocket chunking so messages larger than 1024 bytes reassemble correctly. Each chunk now carries the room tag, instead of tagging the whole message once before chunking which left later chunks untagged and dropped on receive.
 - RTC: source Tracks event post and user context from the server-injected config so post_id, post_type, and wp_user_id are populated on all transports and even when an event fires before the editor and awareness have initialized.
 
 ## 0.1.0 - 2026-04-09
