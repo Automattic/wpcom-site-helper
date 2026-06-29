@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
 - Remove unneeded development and documentation files from the published plugin.
 - Social: Enable message templates feature for WPCOM sites.
+- Stop serving COLOURLovers background images now that COLOURLovers support has been discontinued.
 - Sync features list with WPCOM - add Student plan with Business plan feature parity.
 - Sync features list with WPCOM - removing social unified UI feature flag.
 - Tested up to WordPress 7.0.
