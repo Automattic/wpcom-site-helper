@@ -32,6 +32,7 @@ return array(
     'A8C\\WPCOM_DICTATION\\WP_REST_WPCOM_Smart_Dictation_Client_Secret' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-smart-dictation/class-wp-rest-wpcom-smart-dictation-client-secret.php',
     'AI_Launchpad_About_Page_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-about-page-listener.php',
     'AI_Launchpad_Dev_Enable' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-dev-enable.php',
+    'AI_Launchpad_First_Post_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-first-post-listener.php',
     'AI_Launchpad_Listeners' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-listeners.php',
     'AI_Launchpad_Memberships' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-memberships.php',
     'AI_Launchpad_REST' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-rest.php',
