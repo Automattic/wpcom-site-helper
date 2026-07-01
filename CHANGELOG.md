@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Custom Colors: Scope Customizer colors to the editor content so they no longer leak into the block editor UI (e.g. the sidebar's Categories panel).
 - Custom Colors: stop injecting Customizer colors into the block editor so they no longer leak into the editor UI
+- Fatal error screen: ensure enough free memory before rendering (raising the limit when headroom is short, or falling back to core's screen) so the screen no longer exhausts memory mid-render on a near-limit request and masks the real error in logs.
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
