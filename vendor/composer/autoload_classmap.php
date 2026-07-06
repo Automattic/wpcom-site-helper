@@ -38,6 +38,7 @@ return array(
     'AI_Launchpad_Memberships' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-memberships.php',
     'AI_Launchpad_REST' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-rest.php',
     'AI_Launchpad_Social_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-social-listener.php',
+    'AI_Launchpad_Subscribe_Block_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-subscribe-block-listener.php',
     'AI_Launchpad_Subscribers_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-subscribers-listener.php',
     'AI_Launchpad_Theme_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-theme-listener.php',
     'Atomic_Record_Jetpack_Token_Errors' => $baseDir . '/jetpack-token-error-header/class-atomic-record-jetpack-token-errors.php',
