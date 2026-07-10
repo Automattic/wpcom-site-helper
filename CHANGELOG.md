@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Add Titan Mail Premium and Ultra product constants to WPCOM_TITAN_MAIL_PRODUCTS for feature detection
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
 - CLI: generalize `wpcomsh php83-plugin-patch` into a table-driven patcher for PHP 8.3+ duplicate-static-variable fatals and add a `php83-theme-patch` counterpart. Covers the dash-slug mega-main-menu folder, ninja-forms, wiziapp, thegem-blocks, deepcore, malina-elements, sfwd-lms, cp-addons-for-vc and ingeniofy plugins, plus the SecondLine (tusant/gumbo/dixie/satchmo/bolden) and Select-Themes (hazel/hazel1/alma/maple/rhythm/architek) theme families.
+- CLI: php83 patchers round 2 — accept any known folder slug as the command argument, add a `--force` escape hatch for pending-but-uninstallable updates, support alternative replacement sets per patch (CRLF/LF vendor variants), extend the deepcore patch to all three duplicated static counters, and add the skudo and larch-1 themes to the Select-Themes family.
 - Customize the WordPress fatal error screen with WordPress.com support links.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Fatal error: log recovery-mode email dispatches (sent, disabled, no recipient) and post-login recovery-mode entry to logstash.
