@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 - Update wp-php-toolkit dependencies.
 - WP.com Error Reporting: delegate all decisions to host-specific filters
+- WP.com Error Reporting: use direct fetch with no CORS preflight
 - wpcom-fatal-error: rename the fatal-error screen's "Likely cause" heading to "Suspected plugin" / "Suspected theme", identify theme-origin fatals so the card shows the theme's name / version / description, and surface Error details + Environment (WordPress / PHP / theme / server) as always-visible sections below the card.
 - wpcom-fatal-error: rewrite the admin recovery-mode email — WordPress.com-branded HTML matching the fatal-error screen, with the site name, suspected plugin/theme card, action links into wp-admin, and separate Error details + Environment sections.
 - wpcom-features: make BIG_SKY the single paid-plan eligibility gate for Big Sky / AI sidebar; remove BIG_SKY_EXISTING_SITE; add Starter to GLOBAL_STYLES.
