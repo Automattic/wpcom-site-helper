@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: show a clear message when episode play counts can't load, instead of quietly showing zero plays.
 - Podcast feed: fixed missing episode details when the Podcast Episode block sits inside another block.
 - Podcast feed: stop podcast feed pages from showing up short or empty.
+- Podcast stats: fix time-window labels and show a loading state instead of stale numbers when switching periods.
 
 ## [1.3.2] - 2026-07-13
 ### Changed
