@@ -78,6 +78,7 @@ This is an alpha version! The changes listed here are not final.
 - Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
 
 ### Fixed
+- Admin bar: don't treat the default favicon fallback as a site icon
 - Crowdsignal: suppress the onboarding and "link your account" notices that cluttered the Plugins page on WoA sites after activation.
 - Custom Colors: Scope Customizer colors to the editor content so they no longer leak into the block editor UI (e.g. the sidebar's Categories panel).
 - Custom Colors: stop injecting Customizer colors into the block editor so they no longer leak into the editor UI
