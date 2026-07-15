@@ -7,11 +7,11 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'3773ef3f09c37da5478d578e32b03a4b' => array(
-		'version' => '4.4.5.0',
+		'version' => '4.4.6.0-alpha1784147716',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/actions.php'
 	),
 	'7372b7fb88a9723cf5b76d456eb0b738' => array(
-		'version' => '8.7.8.0',
+		'version' => '8.7.9.0-alpha1784147716',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/actions.php'
 	),
 	'c8f84af3c24cff85f963d6926f4b2d42' => array(
@@ -30,6 +30,10 @@ return array(
 		'version' => '0.6.2.0',
 		'path'    => $vendorDir . '/wp-php-toolkit/encoding/utf8-encoder.php'
 	),
+	'3ece6d8ef10b1c2fd398a0c341044be9' => array(
+		'version' => '0.6.2.0',
+		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/functions.php'
+	),
 	'320cde22f66dd4f5d3fd621d3e88b98f' => array(
 		'version' => '1.37.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php'
@@ -37,10 +41,6 @@ return array(
 	'0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => array(
 		'version' => '1.38.2.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
-	),
-	'3ece6d8ef10b1c2fd398a0c341044be9' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/functions.php'
 	),
 	'ec471f3ca20b4a3001a1f5146b94c5d9' => array(
 		'version' => '0.1.47.0',
