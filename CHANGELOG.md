@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Load only when desired.
 - Move Custom CSS to Devcie Detection
 - Permalinks: make the Settings → Permalinks page available on all sites and remove the plan-based gating and upsell.
+- Podcast: Remove the obsolete availability filter while retaining the temporary Atomic activation-state migration.
 - Podcasting: flip jetpack_podcast_untangle globally on Atomic so every WoA site moves to the new jetpack-podcast package (parallel to the wpcom-side flip already live on Simple).
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
