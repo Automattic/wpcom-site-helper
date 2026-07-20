@@ -205,6 +205,7 @@ This is an alpha version! The changes listed here are not final.
 - Locations: Align widget Storybook and comparison states with dashboard guidelines.
 - Locations widget: Use the updated view selector size.
 - Make the post detail page a fixed composition — render the Post highlights card by default and remove widget editing.
+- Metric tiles: pin wide-layout values at 32px regular and use the neutral stroke for tile borders, per the post/email detail mocks
 - Migrate dashboard widgets to the shared WidgetState component for consistent loading, error (with retry), and empty states. Align empty-state copy with the "No X in this period." style, give the Clicks and Top posts widgets topical icons, and show a booking-specific error message on the Top performing bookings widget.
 - Most viewed: Align the widget layout with the Stats card and add an inline View control switching between Posts & pages and Archives.
 - Move the Premium Analytics admin menu to the top position, directly under Dashboard, and remove the Jetpack Stats menu (when present) so Premium Analytics replaces it.
