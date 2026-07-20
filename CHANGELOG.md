@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - CLI: php83 patchers round 2 — accept any known folder slug as the command argument, add a `--force` escape hatch for pending-but-uninstallable updates, support alternative replacement sets per patch (CRLF/LF vendor variants), extend the deepcore patch to all three duplicated static counters, and add the skudo and larch-1 themes to the Select-Themes family.
 - CLI: php83 patchers round 3 — LF variants for the SecondLine theme patch (newer licensed builds ship Unix line endings), and a deepcore-widget patch for the duplicated static counters in the Elementor magazine widget's render(), which only compiles on pages using that widget.
 - Customize the WordPress fatal error screen with WordPress.com support links.
+- Enable wp-admin JS error reporting on sites participating in the `gutenberg-react-19` experiment.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Fatal error: log recovery-mode email dispatches (sent, disabled, no recipient) and post-login recovery-mode entry to logstash.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
