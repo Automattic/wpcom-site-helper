@@ -222,6 +222,7 @@ This is an alpha version! The changes listed here are not final.
 - Replace the Analytics dashboard page title with breadcrumbs.
 - Reports: consolidate shared page-shell layout styles and align report bottom padding with the design token.
 - Reports: Display table row links as neutral text, applying the interactive color and underline on hover or focus.
+- Reuse shared data and percentage helpers across Premium Analytics widgets.
 - Show widget descriptions in the native header info popover.
 - Stats: Email time series hooks now return comparison-aware report results and resolve hourly buckets into distinct per-hour intervals.
 - Stats widgets: align drill-down reset behavior — selections survive refetches and range changes while they still resolve, and stored state is trimmed deterministically once settled data drops the selected row.
