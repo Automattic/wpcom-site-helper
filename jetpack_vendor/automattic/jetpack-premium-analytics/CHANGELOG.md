@@ -187,6 +187,7 @@ This is an alpha version! The changes listed here are not final.
 - Comment: Expand stylelint no-token-fallback-values to the whole package and remove manual WPDS token fallbacks from source so wp-build injects canonical theme fallbacks at build time.
 - Comment: Remove manual WPDS token fallbacks from wp-build route styles so build-time PostCSS injects canonical design-token fallbacks.
 - Comments/tests: update residual proxy/reports path references in Storybook mock docs and a REST test literal to the versioned agnostic proxy route. No functional change.
+- Comments: link authors to the comments-admin search (guest commenters), keep the label and new-tab arrow on one line, and align both views on the 36px leaderboard row.
 - Cover the Top Platforms browser/OS toolbar dimension in Storybook.
 - Dashboard: Add tab-specific default widget layouts.
 - Dashboard: Add tabbed sections around the customizable widget grid.
