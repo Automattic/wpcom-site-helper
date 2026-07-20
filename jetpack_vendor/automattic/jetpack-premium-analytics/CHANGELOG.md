@@ -157,6 +157,7 @@ This is an alpha version! The changes listed here are not final.
 - Widgets: Add sessions by device widget.
 - Widgets: Add store conversion rate bookings widget.
 - Widgets: Add the Store performance widget; metric tabs collapse into a dropdown on narrow tiles and the chart degrades to a sparkline on short tiles.
+- Widgets: Add the video highlights widget: views, impressions, hours watched, and retention rate tiles for a selected video, with period-over-period comparison.
 - Widgets: Add top performing bookings widget.
 - Widgets: Add top performing products widget.
 - Widgets: Add total returns widget.
