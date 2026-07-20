@@ -92,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: add the single post/page detail traffic view, with its own route, header, tabs, and customizable per-tab widget grids.
 - Premium Analytics: add the Tags & categories Stats widget.
 - Premium Analytics: type the Stats post payload (StatsPostMeta) and add single-resource post_id support to report params.
+- Report pages: Show an error state with retry when loading fails.
 - Reports: Add CSV downloads to full Posts & Pages reports.
 - Reports: Add Insights report pages for tags, comments, and annual insights.
 - Reports: add the Emails report page (top-30 email opens/clicks summary linking into the post detail email tabs).
