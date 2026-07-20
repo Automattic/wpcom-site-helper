@@ -13,9 +13,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         '293c13b83c57dba3ffcaf4c9d7af49fc' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8.php',
         'c2c7ec202e84a85f19abab25dd38d82d' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/compat-utf8.php',
         '713ad46f1f515216614131421c1ab59c' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8-encoder.php',
+        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         'ec471f3ca20b4a3001a1f5146b94c5d9' => __DIR__ . '/..' . '/wp-php-toolkit/reprint-exporter/src/utils.php',
         '700e9f220ab8246703a73d0e5d5d9192' => __DIR__ . '/..' . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php',
     );
@@ -118,6 +118,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'A8C\\FSE\\WP_REST_Help_Center_Email_Support_Enabled' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-email-support-enabled.php',
         'A8C\\FSE\\WP_REST_Help_Center_Fetch_Post' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-fetch-post.php',
         'A8C\\FSE\\WP_REST_Help_Center_Forum' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-forum.php',
+        'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Connection_Health' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-connection-health.php',
         'A8C\\FSE\\WP_REST_Help_Center_Jetpack_Search_AI' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-jetpack-search-ai.php',
         'A8C\\FSE\\WP_REST_Help_Center_Odie' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-odie.php',
         'A8C\\FSE\\WP_REST_Help_Center_Persisted_Open_State' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/help-center/class-wp-rest-help-center-persisted-open-state.php',
