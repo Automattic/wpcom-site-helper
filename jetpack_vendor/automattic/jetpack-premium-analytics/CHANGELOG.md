@@ -167,6 +167,7 @@ This is an alpha version! The changes listed here are not final.
 - Widgets Toolkit: add the reusable MetricTabsChart component (metric cards + comparative line chart with previous-period overlay), shared by the subscribers and traffic charts.
 - Widgets Toolkit: Add the shared report-page framework components (ReportPageLayout, ReportPerformanceChart, ReportRecordsTable) for the second-level module report pages.
 - Wire up the WooCommerce Analytics front-end tracker with ClickHouse and proxy tracking enabled.
+- WordAds: Add separate earnings, sponsored content, and adjustments history widgets.
 - WordAds: Add the WordAds chart tabs widget — ads served, average CPM, and revenue as metric tabs over a comparative line chart. A "Group by" control sets the bucket granularity and a "Metrics" control selects which metrics show as tabs. Requires WordAds to be active on the site.
 
 ### Changed
