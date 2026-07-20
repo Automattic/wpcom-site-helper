@@ -168,6 +168,7 @@ This is an alpha version! The changes listed here are not final.
 - Widgets Toolkit: add a data-agnostic WidgetState component for consistent widget loading / error / empty state, and migrate the Search Terms widget onto it.
 - Widgets Toolkit: add the reusable MetricTabsChart component (metric cards + comparative line chart with previous-period overlay), shared by the subscribers and traffic charts.
 - Widgets Toolkit: Add the shared report-page framework components (ReportPageLayout, ReportPerformanceChart, ReportRecordsTable) for the second-level module report pages.
+- Widget types: carry the declarative widget.json metadata (category, title, description, help, keywords) from the build manifest through the registry into the widget-modules REST record, translated and sanitized at registration.
 - Wire up the WooCommerce Analytics front-end tracker with ClickHouse and proxy tracking enabled.
 - WordAds: Add separate earnings, sponsored content, and adjustments history widgets.
 - WordAds: Add the WordAds chart tabs widget — ads served, average CPM, and revenue as metric tabs over a comparative line chart. A "Group by" control sets the bucket granularity and a "Metrics" control selects which metrics show as tabs. Requires WordAds to be active on the site.
