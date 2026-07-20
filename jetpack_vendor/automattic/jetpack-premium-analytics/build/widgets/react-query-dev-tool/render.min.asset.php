@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('react', 'react-jsx-runtime'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/data', 'import' => 'static')), 'version' => 'ab6b83d5eb2522d70659');
