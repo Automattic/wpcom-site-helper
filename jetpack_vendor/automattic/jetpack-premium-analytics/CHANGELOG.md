@@ -185,8 +185,6 @@ This is an alpha version! The changes listed here are not final.
 - Build the internal ui and data packages as registered script modules (wpScriptModuleExports) so consumers externalize them instead of bundling per-consumer copies: styled ui components stay out of style-less builds, and data's QueryClient becomes a genuine page-wide singleton.
 - Clean up leftover WooCommerce/standalone naming in comments, docs, and the search route key.
 - Clicks report: Show clicked URLs nested under their click group instead of in a separate Group column, and announce the group to screen readers on nested rows.
-- Comment: Expand stylelint no-token-fallback-values to the whole package and remove manual WPDS token fallbacks from source so wp-build injects canonical theme fallbacks at build time.
-- Comment: Remove manual WPDS token fallbacks from wp-build route styles so build-time PostCSS injects canonical design-token fallbacks.
 - Comments/tests: update residual proxy/reports path references in Storybook mock docs and a REST test literal to the versioned agnostic proxy route. No functional change.
 - Comments: link authors to the comments-admin search (guest commenters), keep the label and new-tab arrow on one line, and align both views on the 36px leaderboard row.
 - Cover the Top Platforms browser/OS toolbar dimension in Storybook.
