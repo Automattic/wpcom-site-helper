@@ -192,6 +192,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Add tabbed sections around the customizable widget grid.
 - Dashboard: seed Authors, VideoPress, and Plan usage in the Traffic tab's default layout, matching the Traffic page composition.
 - Dashboard: seed the Emails widget in the Subscribers tab and make the subscriber highlights and chart full width, matching the Subscribers page composition.
+- Dashboard Sections API: expose a derived section slug and trim GET /sections to definitions only ({ id, slug, label, order }), retire the per-user section layout write routes in favor of core preferences persistence, and relabel the WooCommerce section to Store.
 - Dashboard widgets: align the hello-world example widget with the widget render contract and translate its strings.
 - Data layer: point report requests at the endpoint-agnostic proxy route (proxy/v2/analytics/reports) after the per-endpoint proxy route was removed.
 - Data layer: route report requests through the jetpack-premium-analytics proxy controller instead of the legacy woocommerce-analytics proxy route.
