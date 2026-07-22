@@ -191,6 +191,7 @@ This is an alpha version! The changes listed here are not final.
 - Cover the Top Platforms browser/OS toolbar dimension in Storybook.
 - Dashboard: Add tab-specific default widget layouts.
 - Dashboard: Add tabbed sections around the customizable widget grid.
+- Dashboard: drive the section tab bar from the server-side registry through a core-data entity, and carry each section's default layout in the sections response so reset reads it from the store without a request.
 - Dashboard: seed Authors, VideoPress, and Plan usage in the Traffic tab's default layout, matching the Traffic page composition.
 - Dashboard: seed the Emails widget in the Subscribers tab and make the subscriber highlights and chart full width, matching the Subscribers page composition.
 - Dashboard Sections API: expose a derived section slug and trim GET /sections to definitions only ({ id, slug, label, order }), retire the per-user section layout write routes in favor of core preferences persistence, and relabel the WooCommerce section to Store.
