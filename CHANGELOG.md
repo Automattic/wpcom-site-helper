@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update composer.lock files.
 - General: Update minimum WordPress version to 6.9.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
+- Gutenberg: Enable wp-admin JS error reporting on 1% of Atomic sites.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Load only when desired.
