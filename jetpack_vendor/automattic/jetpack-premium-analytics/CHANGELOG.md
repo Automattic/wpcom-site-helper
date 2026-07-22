@@ -226,6 +226,7 @@ This is an alpha version! The changes listed here are not final.
 - Reports: Display table row links as neutral text, applying the interactive color and underline on hover or focus.
 - Reuse shared data and percentage helpers across Premium Analytics widgets.
 - Show widget descriptions in the native header info popover.
+- Standardize leaderboard row spacing, text and media sizing, and link and drill-down behavior.
 - Stats: Email time series hooks now return comparison-aware report results and resolve hourly buckets into distinct per-hour intervals.
 - Stats widgets: align drill-down reset behavior — selections survive refetches and range changes while they still resolve, and stored state is trimmed deterministically once settled data drops the selected row.
 - Stats widgets: Use widget headers and move drill-down back links into widget content.
