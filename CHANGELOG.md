@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: Enable and activate the Podcast module on Atomic sites.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
+- Sync the `SOCIAL_ADMIN_UI_V2` feature flag.
 - WPCOM Features: Add POSTS_TO_PODCAST_TIER_{1,2,3} features mapped to Personal+, Premium+, and Business+ plans respectively. Mirrors the wpcom-side change that gates the Posts-to-Podcast endpoint and its monthly generation quota.
 - Wpcomsh fatal-error: log a `wpcomsh_fatal_deactivate` event when an admin clicks the Deactivate button on the fatal-error screen, so we can tell which fatals lead to user-initiated deactivations. Both the deactivate event and the existing `wpcomsh_fatal_signature` event now also carry `properties.atomic_site_id` for site-axis grouping.
 - Wpcomsh fatal-error: route the screen's "Enter recovery mode" link through a first-party redirect endpoint that logs a `wpcomsh_fatal_recovery` event before forwarding to a freshly-generated core recovery URL, so we can measure screen-originated recovery clicks alongside the existing signature and deactivate events without conflating them with email-originated entries.
