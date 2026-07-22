@@ -229,6 +229,7 @@ This is an alpha version! The changes listed here are not final.
 - Standardize leaderboard row spacing, text and media sizing, and link and drill-down behavior.
 - Stats: Email time series hooks now return comparison-aware report results and resolve hourly buckets into distinct per-hour intervals.
 - Stats widgets: align drill-down reset behavior — selections survive refetches and range changes while they still resolve, and stored state is trimmed deterministically once settled data drops the selected row.
+- Stats widgets: Share the summary-count and date-only helpers across widgets.
 - Stats widgets: Use widget headers and move drill-down back links into widget content.
 - Store performance: Define the visible metrics as a metrics array attribute with an inline header control.
 - Storybook: Omit comparison stories from widgets without comparison data.
