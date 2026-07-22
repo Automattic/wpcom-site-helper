@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Add the Subscriber highlights widget to the Premium Analytics dashboard.
 - Add the UTM report at `/reports/utm`.
 - Add the Video embeds Stats widget, listing where a single video is embedded.
+- Add the VideoPress video detail page shell and links.
 - Add the Videos report at `/reports/videos`.
 - Add the WordAds highlights widget showing all-time earnings, paid, and outstanding totals.
 - Add UTM Insights widget: traffic breakdown by UTM parameter (source/medium, campaign, source, medium, campaign) as a ranked leaderboard with a per-instance dimension selector.
