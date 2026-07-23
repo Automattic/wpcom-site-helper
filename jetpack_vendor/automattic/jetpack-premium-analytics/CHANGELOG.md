@@ -50,6 +50,7 @@ This is an alpha version! The changes listed here are not final.
 - Add the Referrers report at `/reports/referrers`.
 - Add the Referrers widget to the Premium Analytics dashboard: a ranked leaderboard of the websites and search engines referring visitors, with drill-down into referrer groups and sources, backed by the Jetpack Stats API.
 - Add the Subscriber highlights widget to the Premium Analytics dashboard.
+- Add the Top authors report with nested post view totals linked to single-post details.
 - Add the UTM report at `/reports/utm`.
 - Add the Video embeds Stats widget, listing where a single video is embedded.
 - Add the VideoPress video detail page shell and links.
