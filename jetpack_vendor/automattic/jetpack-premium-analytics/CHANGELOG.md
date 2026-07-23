@@ -264,6 +264,7 @@ This is an alpha version! The changes listed here are not final.
 - Widgets: normalize CSS-module file naming, convert the lone SCSS to CSS, and align hello-world imports and dependencies.
 - Widgets: Remove the widget-picker preview aspect-ratio workaround now that the picker host sizes preview tiles itself.
 - Widgets: update helper copy across the Traffic, Insights, and Subscribers widgets, and link "Learn more" out to Stats support.
+- Widgets: Use consistent row-count controls across Stats widgets.
 - Widgets: Use SelectField for text attributes with elements across Stats and email widgets.
 
 ### Removed
