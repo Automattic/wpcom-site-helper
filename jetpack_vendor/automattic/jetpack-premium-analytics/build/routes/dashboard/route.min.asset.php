@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array('wp-core-data', 'wp-data', 'wp-i18n'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/data', 'import' => 'static'), array('id' => '@wordpress/route', 'import' => 'static')), 'version' => 'c0274194c1ff1f2bf197');
+<?php return array('dependencies' => array('wp-core-data', 'wp-data', 'wp-i18n'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/data', 'import' => 'static'), array('id' => '@wordpress/route', 'import' => 'static')), 'version' => '56b494f8bbdaaa801889');
