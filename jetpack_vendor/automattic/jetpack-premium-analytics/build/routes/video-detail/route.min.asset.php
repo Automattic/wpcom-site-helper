@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array(), 'module_dependencies' => array(array('id' => '@wordpress/route', 'import' => 'static')), 'version' => '2769e93ea25ef67593da');
+<?php return array('dependencies' => array('wp-core-data', 'wp-data', 'wp-i18n'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/data', 'import' => 'static'), array('id' => '@wordpress/route', 'import' => 'static')), 'version' => 'beacd9766805e91346c6');
