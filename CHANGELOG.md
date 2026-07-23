@@ -93,6 +93,7 @@ This is an alpha version! The changes listed here are not final.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Podcast: Restore the Atomic opt-in so the module stays available on Jetpack builds that predate the self-hosted release, and force-activate it before Jetpack initializes so the dashboard renders instead of an empty container.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
+- Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 
