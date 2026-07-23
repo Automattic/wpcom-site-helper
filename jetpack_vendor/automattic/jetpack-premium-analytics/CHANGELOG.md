@@ -225,6 +225,7 @@ This is an alpha version! The changes listed here are not final.
 - Most viewed: Align the widget layout with the Stats card and add an inline View control switching between Posts & pages and Archives.
 - Move the Premium Analytics admin menu to the top position, directly under Dashboard, and remove the Jetpack Stats menu (when present) so Premium Analytics replaces it.
 - Pin @wordpress/build to 0.19.1-next and the widget packages (@wordpress/widget-primitives, @wordpress/widget-dashboard) to 0.3.1-next development snapshots, scoped to this package.
+- Post detail: hide the UTM Insights "See report" link to match the design mocks; detail-page widgets carry no report actions.
 - Post detail: move the date filters directly below the tab bar, mirroring the dashboard's placement.
 - Premium Analytics: keep the standalone Jetpack "Stats" menu visible so Analytics and Stats appear side by side.
 - Premium Analytics: post detail header — summary and date filters share one row, with the featured-image thumbnail leading the title and a publish/performance-window subtitle.
