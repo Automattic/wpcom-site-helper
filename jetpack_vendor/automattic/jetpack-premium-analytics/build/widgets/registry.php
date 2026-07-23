@@ -744,7 +744,7 @@ return array(
 		'has_render'   => true,
 		'has_widget'   => true,
 		'presentation' => 'framed',
-		'category'     => 'store',
+		'category'     => 'bookings',
 		'keywords'     => null,
 		'textdomain'   => null,
 	),
