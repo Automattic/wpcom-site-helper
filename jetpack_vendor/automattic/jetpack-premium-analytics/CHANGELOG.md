@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Stats widgets and report tables: Validate the URL scheme of report data before rendering it as a link, so a non-http(s) URL can no longer reach an anchor's href.
+
 ### Added
 - Add /connect and /syncing routes with connection-aware route guards: /connect detects the connection state and shows a "site not connected" screen, and /syncing shows initial-sync progress. Emit window.JetpackScriptData on the boot-rendered admin page so the connection data the guards read is available.
 - Add an All-time stats widget to the Analytics dashboard, showing your site's lifetime views, visitors, posts, and comments.
