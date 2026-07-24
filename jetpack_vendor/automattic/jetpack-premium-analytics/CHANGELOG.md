@@ -285,6 +285,7 @@ This is an alpha version! The changes listed here are not final.
 - Dashboard: Fix global error handling for widgets.
 - Dashboard: fix widget grid flicker when resizing a widget vertically by letting the section panel fill the viewport height and scroll internally, so it no longer oscillates with the grid.
 - Dashboard: Load WordPress build polyfills so the dashboard can run without the Gutenberg plugin.
+- Dashboard: make Reset to default follow the section's current default layout instead of pinning a snapshot of it.
 - Dashboard: Prevent widget focus outlines from being clipped in dashboard and post detail views.
 - DataViewsDrilldownNative: inline the DataViews stylesheet through meta.load-css instead of a passthrough @import that 404'd at runtime.
 - Date range picker: make the first calendar click start a new range instead of moving the nearest endpoint
