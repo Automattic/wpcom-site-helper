@@ -213,6 +213,7 @@ This is an alpha version! The changes listed here are not final.
 - Fields: Match ArrayCheckboxField compact trigger font sizing to SelectControl on narrow viewports.
 - Fields: Match ArrayCheckboxField menu item hover styling to SelectControl.
 - Fields: SelectField preserves the original option value type when writing a selection, avoiding string coercion of numeric-valued enums.
+- Hide the File downloads widget and report outside WordPress.com Simple sites, matching the Calypso Stats gating.
 - Hide WooCommerce widget categories (store, orders, coupons, bookings) when WooCommerce is inactive, and bookings widgets when the WooCommerce Bookings extension is inactive.
 - Hoist the shared SalesByUtmWidget component into widgets-toolkit so the UTM channel and campaign widgets render from a single source (upstream pattern).
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
@@ -283,6 +284,7 @@ This is an alpha version! The changes listed here are not final.
 - Bookings by device: Use booking-specific empty and error messages.
 - Bundle widgets-toolkit once as a shared script module instead of into every widget, fixing CI memory exhaustion during the widgets build phase. Stopped rebuilding the assets package from the build scripts.
 - Clicks widget: fix favicons rendering oversized in the Add widget picker grid preview by rendering row labels through the shared LeaderboardLabel component.
+- Comparison widgets: Show an unavailable percentage change when the previous value is zero.
 - CSV exports: Preserve the external API error contract when proxy responses cannot be normalized.
 - CSV exports: Surface external API error details.
 - Dashboard: Fix global error handling for widgets.
