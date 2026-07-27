@@ -2,13 +2,11 @@
 /**
  * Help center
  *
- * @package automattic/jetpack-mu-wpcom
+ * @package automattic/jetpack-help-center
  */
 
-namespace A8C\FSE;
+namespace Automattic\Jetpack\Help_Center;
 
-use Automattic\Jetpack\Connection\Client;
-use Automattic\Jetpack\Connection\Manager as Connection_Manager;
 use Automattic\Jetpack\Status\Host;
 
 /**
@@ -16,11 +14,25 @@ use Automattic\Jetpack\Status\Host;
  */
 class Help_Center {
 	/**
+	 * The package version of the Help Center package.
+	 *
+	 * @var string
+	 */
+	const PACKAGE_VERSION = '0.1.0-alpha';
+
+	/**
 	 * Class instance.
 	 *
 	 * @var Help_Center|null
 	 */
 	private static $instance = null;
+
+	/**
+	 * WP.com request client.
+	 *
+	 * @var Wpcom_Request_Client
+	 */
+	private $wpcom_request_client;
 
 	/**
 	 * Whether the current site is a support site.
@@ -45,8 +57,12 @@ class Help_Center {
 
 	/**
 	 * Help_Center constructor.
+	 *
+	 * @param Wpcom_Request_Client|null $wpcom_request_client WP.com request client.
 	 */
-	public function __construct() {
+	public function __construct( ?Wpcom_Request_Client $wpcom_request_client = null ) {
+		$this->wpcom_request_client = $wpcom_request_client ?? new Jetpack_Wpcom_Request_Client();
+
 		if ( function_exists( 'wpcom_get_site_purchases' ) ) {
 			$this->purchases = wp_list_filter( wpcom_get_site_purchases(), array( 'product_type' => 'bundle' ) );
 		}
@@ -123,7 +139,7 @@ class Help_Center {
 	 *
 	 * @return string ISO 639 locale string e.g. "en"
 	 */
-	private static function determine_iso_639_locale() {
+	public static function determine_iso_639_locale() {
 		$language = get_user_locale();
 		$language = strtolower( $language );
 
@@ -161,18 +177,41 @@ class Help_Center {
 	/**
 	 * Creates instance.
 	 *
-	 * @return void
+	 * @param Wpcom_Request_Client|null $wpcom_request_client WP.com request client.
+	 * @return self|null
 	 */
-	public static function init() {
+	public static function init( ?Wpcom_Request_Client $wpcom_request_client = null ) {
 		$request_uri = isset( $_SERVER['REQUEST_URI'] ) ? sanitize_text_field( wp_unslash( $_SERVER['REQUEST_URI'] ) ) : '';
 
 		if ( str_contains( $request_uri, 'wp-content/plugins/gutenberg-core' ) || str_contains( $request_uri, 'preview=true' ) ) {
-			return;
+			return null;
 		}
 
 		if ( self::$instance === null ) {
-			self::$instance = new self();
+			if ( null === $wpcom_request_client ) {
+				/**
+				 * Filters the client used for authenticated WordPress.com requests.
+				 *
+				 * @since 0.1.0-alpha
+				 *
+				 * @param Wpcom_Request_Client $wpcom_request_client WP.com request client.
+				 */
+				$wpcom_request_client = apply_filters( 'jetpack_help_center_wpcom_request_client', new Jetpack_Wpcom_Request_Client() );
+
+				if ( ! $wpcom_request_client instanceof Wpcom_Request_Client ) {
+					_doing_it_wrong(
+						__METHOD__,
+						esc_html__( 'The jetpack_help_center_wpcom_request_client filter must return a Wpcom_Request_Client instance.', 'jetpack-help-center' ),
+						esc_html( self::PACKAGE_VERSION )
+					);
+					$wpcom_request_client = new Jetpack_Wpcom_Request_Client();
+				}
+			}
+
+			self::$instance = new self( $wpcom_request_client );
 		}
+
+		return self::$instance;
 	}
 
 	/**
@@ -201,7 +240,7 @@ class Help_Center {
 					$wp_admin_bar->add_menu(
 						array(
 							'id'     => 'help-center',
-							'title'  => '<span title="' . __( 'Help Center', 'jetpack-mu-wpcom' ) . '"><svg id="help-center-icon" class="ab-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+							'title'  => '<span title="' . __( 'Help Center', 'jetpack-help-center' ) . '"><svg id="help-center-icon" class="ab-icon" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 												<path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm-1 16v-2h2v2h-2zm2-3v-1.141A3.991 3.991 0 0016 10a4 4 0 00-8 0h2c0-1.103.897-2 2-2s2 .897 2 2-.897 2-2 2a1 1 0 00-1 1v2h2z" />
 											</svg>
 											<svg id="help-center-icon-with-notification" class="ab-icon"  width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,9 +367,9 @@ class Help_Center {
 
 		if ( ( new Host() )->is_wpcom_simple() ) {
 			$result = $experiment_variation === \ExPlat\assign_current_user( $experiment_name );
-		} elseif ( ( new Connection_Manager() )->is_user_connected() ) {
+		} elseif ( $this->wpcom_request_client->is_user_connected() ) {
 			$request_path = '/experiments/0.1.0/assignments/calypso';
-			$response     = Client::wpcom_json_api_request_as_user(
+			$response     = $this->wpcom_request_client->request_as_user(
 				add_query_arg( array( 'experiment_name' => $experiment_name ), $request_path ),
 				'v2'
 			);
@@ -463,67 +502,67 @@ class Help_Center {
 	 */
 	public function register_rest_api() {
 		require_once __DIR__ . '/class-wp-rest-help-center-authenticate.php';
-		$controller = new WP_REST_Help_Center_Authenticate();
+		$controller = new WP_REST_Help_Center_Authenticate( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-sibyl.php';
-		$controller = new WP_REST_Help_Center_Sibyl();
+		$controller = new WP_REST_Help_Center_Sibyl( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-support-status.php';
-		$controller = new WP_REST_Help_Center_Support_Status();
+		$controller = new WP_REST_Help_Center_Support_Status( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-search.php';
-		$controller = new WP_REST_Help_Center_Search();
+		$controller = new WP_REST_Help_Center_Search( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-jetpack-search-ai.php';
-		$controller = new WP_REST_Help_Center_Jetpack_Search_AI();
+		$controller = new WP_REST_Help_Center_Jetpack_Search_AI( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-jetpack-connection-health.php';
-		$controller = new WP_REST_Help_Center_Jetpack_Connection_Health();
+		$controller = new WP_REST_Help_Center_Jetpack_Connection_Health( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-fetch-post.php';
-		$controller = new WP_REST_Help_Center_Fetch_Post();
+		$controller = new WP_REST_Help_Center_Fetch_Post( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-ticket.php';
-		$controller = new WP_REST_Help_Center_Ticket();
+		$controller = new WP_REST_Help_Center_Ticket( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-forum.php';
-		$controller = new WP_REST_Help_Center_Forum();
+		$controller = new WP_REST_Help_Center_Forum( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-support-activity.php';
-		$controller = new WP_REST_Help_Center_Support_Activity();
+		$controller = new WP_REST_Help_Center_Support_Activity( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-support-interactions.php';
-		$controller = new WP_REST_Help_Center_Support_Interactions();
+		$controller = new WP_REST_Help_Center_Support_Interactions( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-user-fields.php';
-		$controller = new WP_REST_Help_Center_User_Fields();
+		$controller = new WP_REST_Help_Center_User_Fields( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-odie.php';
-		$controller = new WP_REST_Help_Center_Odie();
+		$controller = new WP_REST_Help_Center_Odie( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-persisted-open-state.php';
-		$controller = new WP_REST_Help_Center_Persisted_Open_State();
+		$controller = new WP_REST_Help_Center_Persisted_Open_State( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-email-support-enabled.php';
-		$controller = new WP_REST_Help_Center_Email_Support_Enabled();
+		$controller = new WP_REST_Help_Center_Email_Support_Enabled( $this->wpcom_request_client );
 		$controller->register_rest_route();
 
 		require_once __DIR__ . '/class-wp-rest-help-center-ticket-csat.php';
-		$controller = new WP_REST_Help_Center_Ticket_CSAT();
+		$controller = new WP_REST_Help_Center_Ticket_CSAT( $this->wpcom_request_client );
 		$controller->register_rest_route();
 	}
 
@@ -561,15 +600,14 @@ class Help_Center {
 	 * Returns true if the current user is connected through Jetpack
 	 */
 	public function is_jetpack_disconnected() {
-		$user_id = get_current_user_id();
 		$blog_id = get_current_blog_id();
 
 		if ( defined( 'IS_ATOMIC' ) && IS_ATOMIC ) {
-			return ! ( new Connection_Manager( 'jetpack' ) )->is_user_connected( $user_id );
+			return ! $this->wpcom_request_client->is_user_connected();
 		}
 
 		if ( true === apply_filters( 'is_jetpack_site', false, $blog_id ) ) {
-			return ! ( new Connection_Manager( 'jetpack' ) )->is_user_connected( $user_id );
+			return ! $this->wpcom_request_client->is_user_connected();
 		}
 
 		return false;
@@ -715,5 +753,3 @@ class Help_Center {
 		$this->enqueue_script( $variant, $asset_file['dependencies'], $version );
 	}
 }
-
-add_action( 'init', array( __NAMESPACE__ . '\Help_Center', 'init' ) );

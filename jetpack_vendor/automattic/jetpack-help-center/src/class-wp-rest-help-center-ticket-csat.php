@@ -2,21 +2,22 @@
 /**
  * WP_REST_Help_Center_Ticket_CSAT file.
  *
- * @package automattic/jetpack-mu-wpcom
+ * @package automattic/jetpack-help-center
  */
 
-namespace A8C\FSE;
-
-use Automattic\Jetpack\Connection\Client;
+namespace Automattic\Jetpack\Help_Center;
 
 /**
  * Class WP_REST_Help_Center_Ticket_CSAT.
  */
-class WP_REST_Help_Center_Ticket_CSAT extends \WP_REST_Controller {
+class WP_REST_Help_Center_Ticket_CSAT extends WP_REST_Help_Center_Controller {
 	/**
 	 * WP_REST_Help_Center_Ticket_CSAT constructor.
+	 *
+	 * @param Wpcom_Request_Client|null $wpcom_request_client WP.com request client.
 	 */
-	public function __construct() {
+	public function __construct( ?Wpcom_Request_Client $wpcom_request_client = null ) {
+		parent::__construct( $wpcom_request_client );
 		$this->namespace = 'help-center';
 		$this->rest_base = '/csat';
 	}
@@ -73,7 +74,7 @@ class WP_REST_Help_Center_Ticket_CSAT extends \WP_REST_Controller {
 			'test_mode' => $request['test_mode'],
 		);
 
-		$body = Client::wpcom_json_api_request_as_user(
+		$body = $this->wpcom_request_client->request_as_user(
 			'/help/csat',
 			'2',
 			array(

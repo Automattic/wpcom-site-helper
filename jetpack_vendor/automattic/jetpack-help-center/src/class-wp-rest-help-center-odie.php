@@ -2,22 +2,23 @@
 /**
  * WP_REST_Help_Center_Odie file.
  *
- * @package automattic/jetpack-mu-wpcom
+ * @package automattic/jetpack-help-center
  */
 
-namespace A8C\FSE;
-
-use Automattic\Jetpack\Connection\Client;
+namespace Automattic\Jetpack\Help_Center;
 
 /**
  * Class WP_REST_Help_Center_Odie.
  */
-class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
+class WP_REST_Help_Center_Odie extends WP_REST_Help_Center_Controller {
 
 	/**
 	 * WP_REST_Help_Center_Odie constructor.
+	 *
+	 * @param Wpcom_Request_Client|null $wpcom_request_client WP.com request client.
 	 */
-	public function __construct() {
+	public function __construct( ?Wpcom_Request_Client $wpcom_request_client = null ) {
+		parent::__construct( $wpcom_request_client );
 		$this->namespace = 'help-center';
 		$this->rest_base = '/odie';
 	}
@@ -37,23 +38,23 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 					'permission_callback' => 'is_user_logged_in',
 					'args'                => array(
 						'bot_id'           => array(
-							'description' => __( 'The bot id to get the chat for.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The bot id to get the chat for.', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'chat_id'          => array(
-							'description' => __( 'The chat id to get the chat for.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The chat id to get the chat for.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => true,
 						),
 						'page_number'      => array(
-							'description' => __( 'The number of the page to retrieve, limited to 100', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The number of the page to retrieve, limited to 100', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => false,
 							'default'     => 1,
 						),
 						'items_per_page'   => array(
-							'description' => __( 'The number of items per page.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The number of items per page.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => false,
 							'default'     => 10,
@@ -61,7 +62,7 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 						'include_feedback' => array(
 							'required'    => false,
 							'type'        => 'boolean',
-							'description' => __( 'If true, include the feedback rating value for each message in the response.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'If true, include the feedback rating value for each message in the response.', 'jetpack-help-center' ),
 						),
 					),
 				),
@@ -72,23 +73,23 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 					'permission_callback' => 'is_user_logged_in',
 					'args'                => array(
 						'bot_id'  => array(
-							'description' => __( 'The bot id to chat with.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The bot id to chat with.', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'chat_id' => array(
-							'description' => __( 'The chat id for the existing chat.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The chat id for the existing chat.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => true,
 						),
 						'message' => array(
-							'description' => __( 'The message to add to the chat', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The message to add to the chat', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						// an arbitray key/value object of data to pass to the bot
 						'context' => array(
-							'description' => __( 'The context to continue the chat with.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The context to continue the chat with.', 'jetpack-help-center' ),
 							'type'        => 'object',
 							'required'    => false,
 						),
@@ -107,22 +108,22 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 					'permission_callback' => 'is_user_logged_in',
 					'args'                => array(
 						'bot_id'       => array(
-							'description' => __( 'The bot id to chat with.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The bot id to chat with.', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'chat_id'      => array(
-							'description' => __( 'The chat id for the existing chat.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The chat id for the existing chat.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => true,
 						),
 						'message_id'   => array(
-							'description' => __( 'The message id for the existing message.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The message id for the existing message.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => true,
 						),
 						'rating_value' => array(
-							'description' => __( 'The feedback rating value.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The feedback rating value.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => true,
 						),
@@ -141,22 +142,22 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 					'permission_callback' => 'is_user_logged_in',
 					'args'                => array(
 						'bot_id'  => array(
-							'description' => __( 'The bot id to chat with.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The bot id to chat with.', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'context' => array(
-							'description' => __( 'The context to continue the chat with.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The context to continue the chat with.', 'jetpack-help-center' ),
 							'type'        => 'object',
 							'required'    => false,
 						),
 						'message' => array(
-							'description' => __( 'The message to add to the chat', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The message to add to the chat', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'test'    => array(
-							'description' => __( 'Whether to mark this as a test chat (a11n-only).', 'jetpack-mu-wpcom' ),
+							'description' => __( 'Whether to mark this as a test chat (a11n-only).', 'jetpack-help-center' ),
 							'type'        => 'boolean',
 							'required'    => false,
 						),
@@ -176,18 +177,18 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 					'permission_callback' => 'is_user_logged_in',
 					'args'                => array(
 						'bot_ids'        => array(
-							'description' => __( 'The bot id(s) to get the conversations for, separated by commas.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The bot id(s) to get the conversations for, separated by commas.', 'jetpack-help-center' ),
 							'type'        => 'string',
 							'required'    => true,
 						),
 						'page_number'    => array(
-							'description' => __( 'The number of the page to retrieve, limited to 100', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The number of the page to retrieve, limited to 100', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => false,
 							'default'     => 1,
 						),
 						'items_per_page' => array(
-							'description' => __( 'The number of items per page.', 'jetpack-mu-wpcom' ),
+							'description' => __( 'The number of items per page.', 'jetpack-help-center' ),
 							'type'        => 'integer',
 							'required'    => false,
 							'default'     => 10,
@@ -208,7 +209,7 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 		$chat_id       = $request->get_param( 'chat_id' );
 
 		// Forward the request body to the support chat endpoint.
-		$body = Client::wpcom_json_api_request_as_user(
+		$body = $this->wpcom_request_client->request_as_user(
 			'/odie/chat/' . $bot_name_slug . '/' . $chat_id,
 			'2',
 			array(
@@ -251,7 +252,7 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 			)
 		);
 
-		$body = Client::wpcom_json_api_request_as_user(
+		$body = $this->wpcom_request_client->request_as_user(
 			'/odie/chat/' . $bot_name_slug . '/' . $chat_id . '?' . $url_query_params
 		);
 
@@ -276,7 +277,7 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 		$rating_value = $request->get_param( 'rating_value' );
 
 		// Forward the request body to the feedback endpoint.
-		$body = Client::wpcom_json_api_request_as_user(
+		$body = $this->wpcom_request_client->request_as_user(
 			'/odie/chat/' . $bot_id . '/' . $chat_id . '/' . $message_id . '/feedback',
 			'2',
 			array( 'method' => 'POST' ),
@@ -313,7 +314,7 @@ class WP_REST_Help_Center_Odie extends \WP_REST_Controller {
 			)
 		);
 
-		$body = Client::wpcom_json_api_request_as_user(
+		$body = $this->wpcom_request_client->request_as_user(
 			'/odie/conversations/' . $bot_ids . '?' . $url_query_params
 		);
 

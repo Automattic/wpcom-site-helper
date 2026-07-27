@@ -2,10 +2,10 @@
 /**
  * Help Center Menu Panel
  *
- * @package automattic/jetpack-mu-wpcom
+ * @package automattic/jetpack-help-center
  */
 
-namespace A8C\FSE;
+namespace Automattic\Jetpack\Help_Center;
 
 /**
  * Class Help_Center_Menu_Panel
@@ -56,7 +56,7 @@ class Help_Center_Menu_Panel {
 			array(
 				'parent' => 'help-center-menu-panel-chat',
 				'id'     => 'help-center-chat-support',
-				'title'  => self::get_icon( 'comment' ) . '<span>' . __( 'Chat support', 'jetpack-mu-wpcom' ) . '</span>',
+				'title'  => self::get_icon( 'comment' ) . '<span>' . __( 'Chat support', 'jetpack-help-center' ) . '</span>',
 			)
 		);
 
@@ -65,7 +65,7 @@ class Help_Center_Menu_Panel {
 			array(
 				'parent' => 'help-center-menu-panel-chat',
 				'id'     => 'help-center-chat-history',
-				'title'  => self::get_icon( 'backup' ) . '<span>' . __( 'Chat history', 'jetpack-mu-wpcom' ) . '</span>',
+				'title'  => self::get_icon( 'backup' ) . '<span>' . __( 'Chat history', 'jetpack-help-center' ) . '</span>',
 			)
 		);
 
@@ -85,7 +85,7 @@ class Help_Center_Menu_Panel {
 			array(
 				'parent' => 'help-center-menu-panel-links',
 				'id'     => 'help-center-support-guides',
-				'title'  => self::get_icon( 'page' ) . '<span>' . __( 'Support guides', 'jetpack-mu-wpcom' ) . '</span>',
+				'title'  => self::get_icon( 'page' ) . '<span>' . __( 'Support guides', 'jetpack-help-center' ) . '</span>',
 			)
 		);
 
@@ -94,7 +94,7 @@ class Help_Center_Menu_Panel {
 			array(
 				'parent' => 'help-center-menu-panel-links',
 				'id'     => 'help-center-courses',
-				'title'  => self::get_icon( 'video' ) . '<span>' . __( 'Courses', 'jetpack-mu-wpcom' ) . '</span>',
+				'title'  => self::get_icon( 'video' ) . '<span>' . __( 'Courses', 'jetpack-help-center' ) . '</span>',
 				'href'   => 'https://wordpress.com/support/courses/',
 				'meta'   => array(
 					'target' => '_blank',
@@ -107,7 +107,7 @@ class Help_Center_Menu_Panel {
 			array(
 				'parent' => 'help-center-menu-panel-links',
 				'id'     => 'help-center-product-updates',
-				'title'  => self::get_icon( 'rss' ) . '<span>' . __( 'Product updates', 'jetpack-mu-wpcom' ) . '</span>',
+				'title'  => self::get_icon( 'rss' ) . '<span>' . __( 'Product updates', 'jetpack-help-center' ) . '</span>',
 				'href'   => 'https://wordpress.com/blog/category/product-features/',
 				'meta'   => array(
 					'target' => '_blank',
