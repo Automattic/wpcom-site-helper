@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - Add CSV export for the bookings over time and booking status breakdown analytics reports.
 - Add CSV export for the over-time analytics reports: gross sales, net sales, average order value, average items per order, refunds, conversion rate, visitors, taxes over time, coupon use, and orders fulfilled.
 - Add CSV export for the ranked and attribution analytics reports: top performing products, sales by channel/source/device/campaign/coupon, sessions by device/location, revenue by customer type, and tax rate breakdown.
+- Add DateYearFilter, an all-time and per-year date filter that switches between pills and a select based on the space it measures.
 - Add file-downloads widget porting the Jetpack Stats File downloads module into Premium Analytics.
 - Add jpa/devices (screen-size semi-circle) and jpa/top-platforms (browser/OS leaderboard) widgets.
 - Add Latest comments and post-scoped UTM cards to the post detail traffic view.
