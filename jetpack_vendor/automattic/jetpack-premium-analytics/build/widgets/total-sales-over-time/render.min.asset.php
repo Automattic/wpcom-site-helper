@@ -1,1 +1,1 @@
-<?php return array('dependencies' => array('react-jsx-runtime', 'wp-i18n'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/widgets-toolkit', 'import' => 'static')), 'version' => 'a655e5c569ad1facce45');
+<?php return array('dependencies' => array('react-jsx-runtime', 'wp-i18n'), 'module_dependencies' => array(array('id' => '@jetpack-premium-analytics/widgets-toolkit', 'import' => 'static')), 'version' => '81727fdd01460a2c7b7e');

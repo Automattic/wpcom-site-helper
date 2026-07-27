@@ -240,6 +240,7 @@ This is an alpha version! The changes listed here are not final.
 - Realign the Traffic, Insights, and Subscribers default widget layouts with the design mocks.
 - Referrers: move comparison matching into the data layer's merge helper and render loading/error/empty through WidgetState.
 - Referrers report: Replace the chart with nested referrer groups and comparison deltas in the records table, keeping referrer labels aligned whether or not a row shows a favicon.
+- Rename the package text domain to `jetpack-premium-analytics-pkg` so it no longer collides with the plugin slug of the same name, matching the convention already used by jetpack-backup-pkg and jetpack-videopress-pkg.
 - Render the Premium Analytics admin page inside the native wp-admin shell (sidebar and header) instead of taking over the full screen.
 - Replace the Analytics dashboard page title with breadcrumbs.
 - Reports: consolidate shared page-shell layout styles and align report bottom padding with the design token.

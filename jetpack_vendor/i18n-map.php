@@ -88,9 +88,9 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-media',
       'ver' => '0.1.6',
     ),
-    'jetpack-premium-analytics' => array(
+    'jetpack-premium-analytics-pkg' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-premium-analytics',
-      'ver' => '0.1.0-alpha1785170455',
+      'ver' => '0.1.0-alpha1785185891',
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
