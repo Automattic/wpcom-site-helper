@@ -264,6 +264,7 @@ This is an alpha version! The changes listed here are not final.
 - Update widget conventions and Stats porting documentation.
 - Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
 - Use consistent access and retry error states across Stats widgets.
+- UTM report: Group posts by UTM value, link them to post details, and show view comparison deltas. Searching a drilldown report now keeps a matched parent's rows with it.
 - VideoPress widget: Consume merged comparison rows from the Stats data layer instead of matching periods in the widget.
 - VideoPress widget: remove the legend from the video plays leaderboard.
 - Widgets: add shared WidgetFooter and ReportLink primitives and migrate top-posts.
