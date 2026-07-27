@@ -317,6 +317,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix TypeScript error in five zero-attribute widget stories (Record<never, never> instead of Record<string, never>).
 - Keep the widget-dashboard Storybook story's settings drawer on-screen when the dashboard is wider than the preview canvas.
 - Keep the widget settings drawer above widget chrome in dashboard Storybook stories.
+- Load JS translation catalogs and stamp the package text domain on the wp-build dashboard bundles.
 - Locations widget: Show Locations header before drill-down.
 - Metric tabs chart: hide the tab-list selection underline so it doesn't render alongside the selected metric card's fill. A @wordpress/ui update moved the minimal Tabs indicator from a per-tab element to a tab-list-level one, leaving a stray underline under the selected tab in the Subscribers and Traffic chart widgets.
 - Metric tabs chart: on a narrow tile the metric cards squeezed into one cramped row. Stack the header and lay the cards out in an even two-column grid below a 420px container width, so the four-metric Traffic chart reflows to a balanced 2 x 2 instead of a crammed single row.
