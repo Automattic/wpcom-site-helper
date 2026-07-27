@@ -230,6 +230,7 @@ This is an alpha version! The changes listed here are not final.
 - Pin @wordpress/build to 0.19.1-next and the widget packages (@wordpress/widget-primitives, @wordpress/widget-dashboard) to 0.3.1-next development snapshots, scoped to this package.
 - Post detail: hide the UTM Insights "See report" link to match the design mocks; detail-page widgets carry no report actions.
 - Post detail: move the date filters directly below the tab bar, mirroring the dashboard's placement.
+- Posts report: Update data requests and date filters, and show comparison deltas for views.
 - Premium Analytics: keep the standalone Jetpack "Stats" menu visible so Analytics and Stats appear side by side.
 - Premium Analytics: post detail header — summary and date filters share one row, with the featured-image thumbnail leading the title and a publish/performance-window subtitle.
 - Read the Latest post widget's content locally from core so it resolves on private sites, source its views/likes/comments from the Stats post endpoint, and redesign the card with the post's featured image and token-based typography.
