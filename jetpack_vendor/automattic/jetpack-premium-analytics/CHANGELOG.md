@@ -218,6 +218,7 @@ This is an alpha version! The changes listed here are not final.
 - Hoist the shared SalesByUtmWidget component into widgets-toolkit so the UTM channel and campaign widgets render from a single source (upstream pattern).
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Leaderboard widgets: centralize the widget-picker preview image-size fix in the shared LeaderboardLabel and render Referrers row labels through it.
+- Leaderboard widgets: Use a shared scale for current and comparison-period bars.
 - Leaderboard widgets now show only the rows that fit the tile instead of scrolling. Rows that do not fit are hidden until the tile is made taller.
 - Locations: Align widget Storybook and comparison states with dashboard guidelines.
 - Locations widget: Use the updated view selector size.
