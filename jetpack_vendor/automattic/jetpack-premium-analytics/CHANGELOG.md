@@ -209,6 +209,7 @@ This is an alpha version! The changes listed here are not final.
 - Data layer: Use endpoint-specific typing for dashboard module settings.
 - Date range: Show quick presets on the surface, add Last 24 hours, keep the custom picker calendar-only, distinguish staged vs applied custom trigger states, remember the last committed custom range in the trigger label and calendar, and replace the comparison menu with a SelectControl that keeps the dynamic comparison range label. Rolling preset ranges stage their exact window (no end-of-day rounding), comparisons mirror sub-day windows exactly, and closing the custom popover without applying discards the draft like Cancel.
 - Date range filter: refine the compact (mobile) layout so the preset select and custom-range trigger read as consistent bordered controls.
+- Default the main dashboard grid to the small (200px) row height to match the design mocks.
 - Extract a shared MetricTile component and use it in the Annual highlights and Subscriber highlights widgets, with a responsive row/tile layout.
 - Fields: Add a chevron to the ArrayCheckboxField compact trigger to match SelectControl.
 - Fields: Match ArrayCheckboxField compact trigger font sizing to SelectControl on narrow viewports.
@@ -229,12 +230,14 @@ This is an alpha version! The changes listed here are not final.
 - Most viewed: Align the widget layout with the Stats card and add an inline View control switching between Posts & pages and Archives.
 - Move the Premium Analytics admin menu to the top position, directly under Dashboard, and remove the Jetpack Stats menu (when present) so Premium Analytics replaces it.
 - Pin @wordpress/build to 0.19.1-next and the widget packages (@wordpress/widget-primitives, @wordpress/widget-dashboard) to 0.3.1-next development snapshots, scoped to this package.
+- Post detail: align the Post traffic and Email tab layouts with the design mocks and pin the page to the small row height.
 - Post detail: hide the UTM Insights "See report" link to match the design mocks; detail-page widgets carry no report actions.
 - Post detail: move the date filters directly below the tab bar, mirroring the dashboard's placement.
 - Posts report: Update data requests and date filters, and show comparison deltas for views.
 - Premium Analytics: keep the standalone Jetpack "Stats" menu visible so Analytics and Stats appear side by side.
 - Premium Analytics: post detail header — summary and date filters share one row, with the featured-image thumbnail leading the title and a publish/performance-window subtitle.
 - Read the Latest post widget's content locally from core so it resolves on private sites, source its views/likes/comments from the Stats post endpoint, and redesign the card with the post's featured image and token-based typography.
+- Realign the Traffic, Insights, and Subscribers default widget layouts with the design mocks.
 - Referrers: move comparison matching into the data layer's merge helper and render loading/error/empty through WidgetState.
 - Referrers report: Replace the chart with nested referrer groups and comparison deltas in the records table, keeping referrer labels aligned whether or not a row shows a favicon.
 - Render the Premium Analytics admin page inside the native wp-admin shell (sidebar and header) instead of taking over the full screen.
