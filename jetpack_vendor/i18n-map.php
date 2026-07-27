@@ -98,7 +98,7 @@ return array(
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',
-      'ver' => '0.14.7-alpha1781111196',
+      'ver' => '0.14.7-alpha1785189181',
     ),
     'jetpack-stats' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
