@@ -236,6 +236,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: post detail header — summary and date filters share one row, with the featured-image thumbnail leading the title and a publish/performance-window subtitle.
 - Read the Latest post widget's content locally from core so it resolves on private sites, source its views/likes/comments from the Stats post endpoint, and redesign the card with the post's featured image and token-based typography.
 - Referrers: move comparison matching into the data layer's merge helper and render loading/error/empty through WidgetState.
+- Referrers report: Replace the chart with nested referrer groups and comparison deltas in the records table, keeping referrer labels aligned whether or not a row shows a favicon.
 - Render the Premium Analytics admin page inside the native wp-admin shell (sidebar and header) instead of taking over the full screen.
 - Replace the Analytics dashboard page title with breadcrumbs.
 - Reports: consolidate shared page-shell layout styles and align report bottom padding with the design token.
