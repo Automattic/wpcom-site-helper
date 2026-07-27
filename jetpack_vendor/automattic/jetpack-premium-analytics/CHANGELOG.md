@@ -262,6 +262,7 @@ This is an alpha version! The changes listed here are not final.
 - Update Stats widget porting guidelines for Storybook, comparison states, and drill-down behavior.
 - Update widget conventions and Stats porting documentation.
 - Update WPDS design tokens to the @wordpress/theme 0.16/0.17 names (see https://github.com/WordPress/gutenberg/blob/trunk/packages/theme/CHANGELOG.md#0160-2026-06-24 ).
+- Use consistent access and retry error states across Stats widgets.
 - VideoPress widget: Consume merged comparison rows from the Stats data layer instead of matching periods in the widget.
 - VideoPress widget: remove the legend from the video plays leaderboard.
 - Widgets: add shared WidgetFooter and ReportLink primitives and migrate top-posts.
@@ -328,6 +329,7 @@ This is an alpha version! The changes listed here are not final.
 - Scope wp-build polyfill registration to the dashboard pages so it no longer force-replaces core script handles (wp-private-apis) on every admin page
 - Show every widget in the "Add widget" gallery. The dashboard fetched widget types with core-data's default query, which caps results at 10 per page, so any widget registered past the tenth was silently hidden. Fetch the full set with per_page: -1.
 - Stats: Align traffic normalizer row metadata with legacy Stats behavior.
+- Stats: Stop retrying unavailable reports and show authentication and server errors correctly.
 - Stats reports: format table counts and rates using the WordPress user locale.
 - Stats reports: keep data requests day-bucketed and group chart intervals client-side via a shared helper; fixes the Posts report table totals changing with the chart interval.
 - Stats reports: request day-bucketed windows instead of leaking the dashboard chart interval as the API period, and exclude archive pages from the top-posts list.
