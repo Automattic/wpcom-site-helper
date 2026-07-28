@@ -11,6 +11,7 @@ __( "More details follow the field.", "jetpack-premium-analytics-pkg" );
 __( "Select", "jetpack-premium-analytics-pkg" );
 /* translators: accessibility text appended to link text */
 __( "(opens in a new tab)", "jetpack-premium-analytics-pkg" );
+__( "Notifications", "jetpack-premium-analytics-pkg" );
 __( "Reset zoom", "jetpack-premium-analytics-pkg" );
 __( "View details", "jetpack-premium-analytics-pkg" );
 __( "Close", "jetpack-premium-analytics-pkg" );
