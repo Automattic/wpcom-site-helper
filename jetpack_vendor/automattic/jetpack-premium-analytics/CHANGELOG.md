@@ -348,6 +348,7 @@ This is an alpha version! The changes listed here are not final.
 - Storybook: let the two stats mock middlewares fall through on unknown endpoints instead of swallowing them.
 - Syncing: derive the analytics "started" state from the woocommerce_analytics sync-progress bucket instead of Jetpack's generic `started` flag, so the connection-time initial_sync no longer makes the syncing screen show "Sync interrupted" and suppress its auto-trigger.
 - Top posts &amp; pages: Honor the dashboard date-range picker and comparison period instead of the widget's own fixed range.
+- Translate the admin menu label in the package instead of requiring callers to pass one, accept a closure from callers that need a label in their own textdomain, and show an explanatory notice instead of a blank page when the build output is missing.
 - Videos report: fix the report showing no data; the table now lists each video's views, impressions, watch time, and retention for the selected date range.
 - Widget error, empty, and loading states no longer overlap the widget footer on short (height 1) tiles; overflowing state content scrolls instead.
 - Widgets: fix the Most viewed and Referrers widgets changing size when a dropdown opens elsewhere on the dashboard.
