@@ -90,7 +90,7 @@ return array(
     ),
     'jetpack-premium-analytics-pkg' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-premium-analytics',
-      'ver' => '0.1.0-alpha1785434996',
+      'ver' => '0.1.0-alpha1785446750',
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
@@ -118,7 +118,7 @@ return array(
     ),
     'jetpack-wp-build-polyfills' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-wp-build-polyfills',
-      'ver' => '0.2.6-alpha1785220502',
+      'ver' => '0.2.6-alpha1785446750',
     ),
   ),
   'paths' => array(
