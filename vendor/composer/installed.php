@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.28.1',
             'version' => '0.28.1.0',
-            'reference' => '4ac2acf493e5e3c130276ba11afe021e093a9ee5',
+            'reference' => 'dd160999b63fddc25060b6c9c33f2cbf52a2d32c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -292,7 +292,7 @@
         'automattic/jetpack-premium-analytics' => array(
             'pretty_version' => '0.1.0-alpha.1785395729',
             'version' => '0.1.0.0-alpha1785395729',
-            'reference' => 'c0933a796c08369e378f51502db45b7e3ef23259',
+            'reference' => '39cb9c00287bd00f64ae5a121f57b60062ad74c2',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-premium-analytics',
             'aliases' => array(),
@@ -353,9 +353,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-sync' => array(
-            'pretty_version' => '4.45.2',
-            'version' => '4.45.2.0',
-            'reference' => '6d629f889fad93ec40b3755ab5ed0b13575a16b2',
+            'pretty_version' => '4.45.3-alpha.1785410812',
+            'version' => '4.45.3.0-alpha1785410812',
+            'reference' => '30425e84205ab36555b5e43e9bcea0f14fa2a3a4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-sync',
             'aliases' => array(),
@@ -382,7 +382,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.14.7-alpha.1785189181',
             'version' => '0.14.7.0-alpha1785189181',
-            'reference' => 'ad6dbb70d7361762e00553053eb1cf0d0c6ddda3',
+            'reference' => 'a625c2bd934ae6b053a8784bdb7cbc2cece698b0',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
