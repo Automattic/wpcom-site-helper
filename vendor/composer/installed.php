@@ -182,9 +182,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-help-center' => array(
-            'pretty_version' => '0.3.0',
-            'version' => '0.3.0.0',
-            'reference' => 'f5dbad86bf6efe688f73e9165959c5f5aee7b72a',
+            'pretty_version' => '0.3.1',
+            'version' => '0.3.1.0',
+            'reference' => '9d1cb826d2f0219a448f28081dafea17227d6bd8',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-help-center',
             'aliases' => array(),
@@ -238,7 +238,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.11.0-alpha.1785485905',
             'version' => '6.11.0.0-alpha1785485905',
-            'reference' => '27ae24719d446562c7b6b1a4a2ff12acf5894be8',
+            'reference' => '2e32b3f32d0652670b0952ebcc197239937b1ab5',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
