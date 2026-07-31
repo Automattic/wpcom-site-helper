@@ -13,9 +13,9 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         '293c13b83c57dba3ffcaf4c9d7af49fc' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8.php',
         'c2c7ec202e84a85f19abab25dd38d82d' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/compat-utf8.php',
         '713ad46f1f515216614131421c1ab59c' => __DIR__ . '/..' . '/wp-php-toolkit/encoding/utf8-encoder.php',
-        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '3ece6d8ef10b1c2fd398a0c341044be9' => __DIR__ . '/..' . '/wp-php-toolkit/data-liberation/URL/functions.php',
         'ec471f3ca20b4a3001a1f5146b94c5d9' => __DIR__ . '/..' . '/wp-php-toolkit/reprint-exporter/src/utils.php',
         '700e9f220ab8246703a73d0e5d5d9192' => __DIR__ . '/..' . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php',
     );
@@ -332,6 +332,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Post_Media\\Images' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php',
         'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php',
         'Automattic\\Jetpack\\PremiumAnalytics\\Analytics' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-premium-analytics/src/class-analytics.php',
+        'Automattic\\Jetpack\\PremiumAnalytics\\Capabilities' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-premium-analytics/src/class-capabilities.php',
         'Automattic\\Jetpack\\PremiumAnalytics\\Connection_Configuration' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-premium-analytics/src/class-connection-configuration.php',
         'Automattic\\Jetpack\\PremiumAnalytics\\Dashboard_Section' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-premium-analytics/src/class-dashboard-section.php',
         'Automattic\\Jetpack\\PremiumAnalytics\\Dashboard_Section_Registry' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-premium-analytics/src/class-dashboard-section-registry.php',
