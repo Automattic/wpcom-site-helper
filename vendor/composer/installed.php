@@ -92,9 +92,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-blocks' => array(
-            'pretty_version' => '3.3.5',
-            'version' => '3.3.5.0',
-            'reference' => 'd343505029cbdcf7930ae369bdcc9c46715f58a2',
+            'pretty_version' => '3.3.6-alpha.1785760816',
+            'version' => '3.3.6.0-alpha1785760816',
+            'reference' => '2313e714ae2d6e7c5555a1c661c9f425c9623697',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blocks',
             'aliases' => array(),
@@ -103,7 +103,7 @@
         'automattic/jetpack-classic-theme-helper' => array(
             'pretty_version' => '0.14.38',
             'version' => '0.14.38.0',
-            'reference' => '2eaf0e4f50559b09163a2ca37a825df10c3a56e2',
+            'reference' => 'c94152cf7569c84311b09f9e18ce9ad16fa21a9f',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-classic-theme-helper',
             'aliases' => array(),
@@ -238,7 +238,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.11.0-alpha.1785485905',
             'version' => '6.11.0.0-alpha1785485905',
-            'reference' => 'ccce96e4781a45bfe042a4435cf61512a9b0bd9f',
+            'reference' => '646de4b45442b20d669a1c7a54a648e78463c1f4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -265,7 +265,7 @@
         'automattic/jetpack-podcast' => array(
             'pretty_version' => '1.4.3-alpha.1785328911',
             'version' => '1.4.3.0-alpha1785328911',
-            'reference' => '747bd5e9613fd2fbc018fb1855f566abae590161',
+            'reference' => 'e698b27eac2d26a5ceb3a928bbd3bf7339ce1886',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-podcast',
             'aliases' => array(),
