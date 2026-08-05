@@ -56,9 +56,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-agents-manager' => array(
-            'pretty_version' => '0.9.0',
-            'version' => '0.9.0.0',
-            'reference' => 'ea90973850ed2ba608b66d355176ecc2fd83d778',
+            'pretty_version' => '0.9.1-alpha.1785944036',
+            'version' => '0.9.1.0-alpha1785944036',
+            'reference' => '9d369de51b0759c69a875efc9fbc380d8e97674b',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-agents-manager',
             'aliases' => array(),
@@ -238,7 +238,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.11.0-alpha.1785922550',
             'version' => '6.11.0.0-alpha1785922550',
-            'reference' => 'bde2c00d6d5b2497789910ed07327c06603a8746',
+            'reference' => 'd2860bb5cc94060db87478a509a431ab553b0807',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
