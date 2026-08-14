@@ -1175,23 +1175,23 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-roles/src/class-roles.php'
 	),
 	'Automattic\\Jetpack\\Scheduled_Updates' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates.php'
 	),
 	'Automattic\\Jetpack\\Scheduled_Updates_Active' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-active.php'
 	),
 	'Automattic\\Jetpack\\Scheduled_Updates_Admin' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-admin.php'
 	),
 	'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php'
 	),
 	'Automattic\\Jetpack\\Scheduled_Updates_Logs' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-logs.php'
 	),
 	'Automattic\\Jetpack\\Shortcodes' => array(
@@ -1235,39 +1235,39 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats/src/class-xmlrpc-provider.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Admin_Post_List_Column' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-admin-post-list-column.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Dashboard' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-dashboard.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Main' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-main.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Notices' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-notices.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Odyssey_Assets' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-odyssey-assets.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\Odyssey_Config_Data' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-odyssey-config-data.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\REST_Controller' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-rest-controller.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\WPCOM_Client' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-wpcom-client.php'
 	),
 	'Automattic\\Jetpack\\Stats_Admin\\WP_Dashboard_Odyssey_Widget' => array(
-		'version' => '0.32.2.0-alpha1786475350',
+		'version' => '0.32.2.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-stats-admin/src/class-wp-dashboard-odyssey-widget.php'
 	),
 	'Automattic\\Jetpack\\Status' => array(
@@ -4267,19 +4267,19 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-wpcom-migration-key.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Active' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-active.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Capabilities' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-capabilities.php'
 	),
 	'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Logs' => array(
-		'version' => '0.14.7.0-alpha1785189181',
+		'version' => '0.14.7.0-alpha1786735111',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php'
 	),
 	'WPCOM_REST_API_V2_Verbum_Auth' => array(
