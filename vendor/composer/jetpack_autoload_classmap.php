@@ -4290,6 +4290,10 @@ return array(
 		'version' => '6.11.0.0-alpha1786545509',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php'
 	),
+	'WPCOM_Site_Purchase' => array(
+		'version' => 'dev-trunk',
+		'path'    => $baseDir . '/wpcom-features/class-wpcom-site-purchase.php'
+	),
 	'WPCOM_Tag_Cloud_Widget' => array(
 		'version' => 'dev-trunk',
 		'path'    => $baseDir . '/widgets/class-wpcom-tag-cloud-widget.php'

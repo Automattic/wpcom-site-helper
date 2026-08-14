@@ -1130,6 +1130,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Logs' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php',
         'WPCOM_REST_API_V2_Verbum_Auth' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php',
         'WPCOM_REST_API_V2_Verbum_OEmbed' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php',
+        'WPCOM_Site_Purchase' => __DIR__ . '/../..' . '/wpcom-features/class-wpcom-site-purchase.php',
         'WPCOM_Tag_Cloud_Widget' => __DIR__ . '/../..' . '/widgets/class-wpcom-tag-cloud-widget.php',
         'WPCOM_Widget_Recent_Comments' => __DIR__ . '/../..' . '/widgets/class-wpcom-widget-recent-comments.php',
         'WPCOM_Widget_Reservations' => __DIR__ . '/../..' . '/widgets/class-wpcom-widget-reservations.php',

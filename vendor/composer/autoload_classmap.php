@@ -1029,6 +1029,7 @@ return array(
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules_Logs' => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules-logs.php',
     'WPCOM_REST_API_V2_Verbum_Auth' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-auth.php',
     'WPCOM_REST_API_V2_Verbum_OEmbed' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-wpcom-rest-api-v2-verbum-oembed.php',
+    'WPCOM_Site_Purchase' => $baseDir . '/wpcom-features/class-wpcom-site-purchase.php',
     'WPCOM_Tag_Cloud_Widget' => $baseDir . '/widgets/class-wpcom-tag-cloud-widget.php',
     'WPCOM_Widget_Recent_Comments' => $baseDir . '/widgets/class-wpcom-widget-recent-comments.php',
     'WPCOM_Widget_Reservations' => $baseDir . '/widgets/class-wpcom-widget-reservations.php',

@@ -59,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
 - Refactored URL linkification to use WP_HTML_Tag_Processor for more robust HTML parsing.
 - Remove unneeded development and documentation files from the published plugin.
+- Return site purchases in a declared shape, with billing-derived auto-renew state behind accessors.
 - Social: Enable message templates feature for WPCOM sites.
 - Stop serving COLOURLovers background images now that COLOURLovers support has been discontinued.
 - Sync features list with WPCOM - add Student plan with Business plan feature parity.
