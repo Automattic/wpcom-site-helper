@@ -44,6 +44,10 @@ return array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
       'ver' => '0.5.0',
     ),
+    'jetpack-feature-flags' => array(
+      'path' => 'jetpack_vendor/automattic/jetpack-feature-flags',
+      'ver' => '0.1.0-alpha1782495361',
+    ),
     'jetpack-google-analytics' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-google-analytics',
       'ver' => '0.3.5-alpha1780671753',
@@ -70,7 +74,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1786969704',
+      'ver' => '6.11.0-alpha1786994142',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
