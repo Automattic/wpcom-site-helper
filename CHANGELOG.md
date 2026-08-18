@@ -97,6 +97,7 @@ This is an alpha version! The changes listed here are not final.
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Podcast: Restore the Atomic opt-in so the module stays available on Jetpack builds that predate the self-hosted release, and force-activate it before Jetpack initializes so the dashboard renders instead of an empty container.
+- Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them and repeat a label instead.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
