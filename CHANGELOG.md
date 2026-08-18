@@ -40,6 +40,7 @@ This is an alpha version! The changes listed here are not final.
 - Copy a site: enable for all paid Atomic-capable plans (Personal, Premium, and Business or higher), mirroring WPCOM.
 - Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
 - Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
+- Enable wp-admin JS error reporting on 2% of sites, to keep up with the React 19 experiment rollout.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - General: update composer.lock files.
 - General: Update minimum WordPress version to 6.9.
