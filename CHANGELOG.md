@@ -98,6 +98,7 @@ This is an alpha version! The changes listed here are not final.
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Podcast: Restore the Atomic opt-in so the module stays available on Jetpack builds that predate the self-hosted release, and force-activate it before Jetpack initializes so the dashboard renders instead of an empty container.
+- Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
