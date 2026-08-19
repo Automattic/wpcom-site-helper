@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.28.4-alpha.1786475350',
             'version' => '0.28.4.0-alpha1786475350',
-            'reference' => '5c64b84d8e354b71a6bbbfa82a51e389ed999f6f',
+            'reference' => '2e94801aa80d6db5cab40bda267b8f537f624c08',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -301,7 +301,7 @@
         'automattic/jetpack-premium-analytics' => array(
             'pretty_version' => '0.3.0-alpha.1787128592',
             'version' => '0.3.0.0-alpha1787128592',
-            'reference' => 'a121a79ab786b26f536d702aff532f57423a4a40',
+            'reference' => 'a2926d16a3ac570f824a553ae8dd82c4d3bff4a4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-premium-analytics',
             'aliases' => array(),
@@ -362,9 +362,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-sync' => array(
-            'pretty_version' => '4.45.3',
-            'version' => '4.45.3.0',
-            'reference' => '7843806bba83732fbaa718903419f9ef8548a903',
+            'pretty_version' => '4.45.4-alpha.1787146260',
+            'version' => '4.45.4.0-alpha1787146260',
+            'reference' => '22e42851938bd014e8c467d50945da63ddd83677',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-sync',
             'aliases' => array(),
@@ -391,7 +391,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.14.7-alpha.1786735111',
             'version' => '0.14.7.0-alpha1786735111',
-            'reference' => '594b136ed9e2bd6fe60d4234877d23a6d2780165',
+            'reference' => '4b358073dfc799585129862b271057d20bd6be13',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
