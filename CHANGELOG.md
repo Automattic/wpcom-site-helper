@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - General: update composer.lock files.
 - General: Update minimum WordPress version to 6.9.
+- General: Update minimum WordPress version to 7.0.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Gutenberg: Enable wp-admin JS error reporting on 1% of Atomic sites.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
@@ -67,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Sync features list with WPCOM - add Student plan with Business plan feature parity.
 - Sync features list with WPCOM - removing social unified UI feature flag.
 - Tested up to WordPress 7.0.
+- Tested up to WordPress 7.1.
 - Update composer.lock files.
 - Updated composer.lock for the Podcast package's new jetpack-admin-ui dependency.
 - Updated composer.lock to pick up jetpack-plans transitively via jetpack-podcast.
