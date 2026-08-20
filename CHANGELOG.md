@@ -22,7 +22,6 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
-- Podcast: Enable and activate the Podcast module on Atomic sites.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
@@ -52,7 +51,6 @@ This is an alpha version! The changes listed here are not final.
 - Load only when desired.
 - Move Custom CSS to Devcie Detection
 - Permalinks: make the Settings → Permalinks page available on all sites and remove the plan-based gating and upsell.
-- Podcast: Remove the obsolete availability filter while retaining the temporary Atomic activation-state migration.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Podcasting: flip jetpack_podcast_untangle globally on Atomic so every WoA site moves to the new jetpack-podcast package (parallel to the wpcom-side flip already live on Simple).
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
@@ -85,6 +83,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
 
 ### Removed
+- Podcast: Remove the Atomic module opt-in and force-activation, so the module follows the site's own setting.
 - Podcasting: remove the at-pressable-podcasting bridge now that the jetpack-podcast package owns the experience on every WoA site.
 - Remove COLOURLovers UI feature
 - Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
@@ -100,7 +99,6 @@ This is an alpha version! The changes listed here are not final.
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
-- Podcast: Restore the Atomic opt-in so the module stays available on Jetpack builds that predate the self-hosted release, and force-activate it before Jetpack initializes so the dashboard renders instead of an empty container.
 - Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
