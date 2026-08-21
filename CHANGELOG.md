@@ -59,6 +59,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
+- Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
