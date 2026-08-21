@@ -165,6 +165,8 @@ return array(
     'Automattic\\Jetpack\\JITMS\\Rest_Api_Endpoints' => $baseDir . '/jetpack_vendor/automattic/jetpack-jitm/src/class-rest-api-endpoints.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/class-jetpack-mu-wpcom.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\AI_Launchpad' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/ai-launchpad.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Expiry_Notices\\Expiry_Data' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/expiry-notices/class-expiry-data.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Expiry_Notices\\Expiry_Notice_Dismiss' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/expiry-notices/class-expiry-notice-dismiss.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/interface-data-point.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Literal' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-literal.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Option' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-option.php',

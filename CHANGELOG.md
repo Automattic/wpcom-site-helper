@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Load only when desired.
 - Move Custom CSS to Devcie Detection
 - Permalinks: make the Settings → Permalinks page available on all sites and remove the plan-based gating and upsell.
+- Plan expiry notices: sites on the new expiry notices no longer see the legacy plan-renewal admin notice.
 - Podcast: split the Distribution directories into Automatic and Manual submission, explain why a disabled button is disabled, and link to your Pocket Casts show once it is live.
 - Podcasting: flip jetpack_podcast_untangle globally on Atomic so every WoA site moves to the new jetpack-podcast package (parallel to the wpcom-side flip already live on Simple).
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
