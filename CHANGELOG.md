@@ -116,6 +116,7 @@ This is an alpha version! The changes listed here are not final.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
+- Update wc-calypso-bridge to 2.11.7.
 
 ## 9.0.0 - 2026-04-09
 ### Added

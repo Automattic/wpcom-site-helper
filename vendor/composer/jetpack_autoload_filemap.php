@@ -47,7 +47,7 @@ return array(
 		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/utils.php'
 	),
 	'700e9f220ab8246703a73d0e5d5d9192' => array(
-		'version' => '2.11.6.0',
+		'version' => '2.11.7.0',
 		'path'    => $vendorDir . '/automattic/wc-calypso-bridge/wc-calypso-bridge.php'
 	),
 );
