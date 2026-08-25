@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
+- Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
