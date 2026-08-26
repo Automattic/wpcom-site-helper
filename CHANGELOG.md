@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Load only when desired.
 - Move Custom CSS to Devcie Detection
+- Newspack Blocks: Update the Blog Posts and Posts Carousel blocks to Newspack Blocks 4.30.3.
 - Permalinks: make the Settings → Permalinks page available on all sites and remove the plan-based gating and upsell.
 - Plan expiry notices: sites on the new expiry notices no longer see the legacy plan-renewal admin notice.
 - Plugin Conflicts Guardian: raise the Atomic rollout to 2% of sites.
