@@ -112,7 +112,6 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error screen: ensure enough free memory before rendering (raising the limit when headroom is short, or falling back to core's screen) so the screen no longer exhausts memory mid-render on a near-limit request and masks the real error in logs.
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
-- Jetpack AI: Keep AI working on Atomic sites where the new AI module has not activated, and stop the editor breaking when another plugin bundles an older copy of the Jetpack Status package.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
