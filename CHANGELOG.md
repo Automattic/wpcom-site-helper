@@ -66,6 +66,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
+- Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
