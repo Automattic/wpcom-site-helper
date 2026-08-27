@@ -256,7 +256,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.11.0-alpha.1787776775',
             'version' => '6.11.0.0-alpha1787776775',
-            'reference' => '8b54bf8095b1728640e25c35888d9c6eb492836b',
+            'reference' => '59260f9a79914413af5d4834d48acc58e194a116',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -283,7 +283,7 @@
         'automattic/jetpack-podcast' => array(
             'pretty_version' => '2.0.0-alpha.1787728966',
             'version' => '2.0.0.0-alpha1787728966',
-            'reference' => '69dfc607b4f633922310a93e9b29b596611d3432',
+            'reference' => '3272c2c38893c6c3441bb51aedca18b1bf869fba',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-podcast',
             'aliases' => array(),
@@ -310,7 +310,7 @@
         'automattic/jetpack-premium-analytics' => array(
             'pretty_version' => '0.5.0-alpha.1787811708',
             'version' => '0.5.0.0-alpha1787811708',
-            'reference' => '7186ec90502e8248443b489d74096f132906ea97',
+            'reference' => '459a47d67c4fec10e4132398f53987554205e7c0',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-premium-analytics',
             'aliases' => array(),
@@ -389,9 +389,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-wp-build-polyfills' => array(
-            'pretty_version' => '0.5.0',
-            'version' => '0.5.0.0',
-            'reference' => '1b1075463133661856bced855e15738e7c712250',
+            'pretty_version' => '0.5.1-alpha.1787816115',
+            'version' => '0.5.1.0-alpha1787816115',
+            'reference' => 'b601ac4ee9953e98e1f1fce5b31c7803904074b9',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-wp-build-polyfills',
             'aliases' => array(),

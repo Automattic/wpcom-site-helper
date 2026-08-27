@@ -397,6 +397,7 @@ return array(
     'Automattic\\Jetpack\\Verbum_Comments' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/class-verbum-comments.php',
     'Automattic\\Jetpack\\Verbum_Moderate' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/verbum-comments/assets/class-verbum-moderate.php',
     'Automattic\\Jetpack\\WP_Abilities\\Registrar' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
+    'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Admin_Frame' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-admin-frame.php',
     'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
     'Automattic\\Woocommerce_Analytics' => $baseDir . '/jetpack_vendor/automattic/woocommerce-analytics/src/class-woocommerce-analytics.php',
     'Automattic\\Woocommerce_Analytics\\Consent_Manager' => $baseDir . '/jetpack_vendor/automattic/woocommerce-analytics/src/class-consent-manager.php',

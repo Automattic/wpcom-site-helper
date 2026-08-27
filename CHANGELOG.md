@@ -127,6 +127,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
+- Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 - Update wc-calypso-bridge to 2.11.7.
 
