@@ -122,6 +122,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
+- Premium Analytics: Link a subscriber's name to their subscriber details page.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
