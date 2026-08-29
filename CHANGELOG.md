@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
 - Enable wp-admin JS error reporting on 2% of sites, to keep up with the React 19 experiment rollout.
 - Enable wp-admin JS error reporting on 5% of sites, to keep up with the React 19 experiment rollout.
+- Enable wp-admin JS error reporting on 10% of sites, to keep up with the React 19 experiment rollout.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - Forms, Stats: CSV export will now process data containing backslashed quotation marks as specified in the relevant standard.
 - General: update composer.lock files.
