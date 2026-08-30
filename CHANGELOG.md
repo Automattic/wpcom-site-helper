@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
+- Add a check for sites with legacy feature gating.
 - Add a `wpcomsh php83-plugin-patch mega_main_menu` CLI command that removes the duplicate `static $theme_option_file` declaration triggering a "Duplicate declaration of static variable" fatal error under PHP 8.3+.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
 - Add stats wp abbilities
