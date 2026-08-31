@@ -26,6 +26,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
+- Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
@@ -131,8 +132,10 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Include the last day of the selected range in the WordAds card.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
+- Premium Analytics: keep the Year in review report link reachable.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
+- Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
