@@ -138,6 +138,7 @@ This is an alpha version! The changes listed here are not final.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
+- Stats: Only show the admin bar link when the Stats module is active.
 - Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 - Update wc-calypso-bridge to 2.11.7.
 
