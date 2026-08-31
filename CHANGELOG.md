@@ -136,6 +136,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
+- Premium Analytics: Stop the Ads chart interval menu offering buckets the WordAds chart cannot draw.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
