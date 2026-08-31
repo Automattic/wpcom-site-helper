@@ -129,6 +129,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
+- Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
