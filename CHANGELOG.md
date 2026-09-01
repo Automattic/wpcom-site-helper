@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Wpcomsh fatal-error: log a `wpcomsh_fatal_deactivate` event when an admin clicks the Deactivate button on the fatal-error screen, so we can tell which fatals lead to user-initiated deactivations. Both the deactivate event and the existing `wpcomsh_fatal_signature` event now also carry `properties.atomic_site_id` for site-axis grouping.
 - Wpcomsh fatal-error: route the screen's "Enter recovery mode" link through a first-party redirect endpoint that logs a `wpcomsh_fatal_recovery` event before forwarding to a freshly-generated core recovery URL, so we can measure screen-originated recovery clicks alongside the existing signature and deactivate events without conflating them with email-originated entries.
 - WPCOM_Features: add `PODCASTING` feature and map it to Premium-and-higher plans plus all Jetpack-connected sites.
+- Write: Ask writers one question about their experience after their first post, with an optional comment.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
