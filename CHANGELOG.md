@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - AI Launchpad: bundle the jetpack-wp-build-polyfills dependency used by the new launchpad admin page.
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
+- Charts: update chart grid, axis and label colors immediately when the theme changes.
 - Connection: Cache the Atomic Persistent Data instance and connection-owner lookup per request to reduce duplicate DB queries.
 - Copy a site: enable for all paid Atomic-capable plans (Personal, Premium, and Business or higher), mirroring WPCOM.
 - Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
