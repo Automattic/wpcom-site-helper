@@ -151,6 +151,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
+- Site purchases: Fix a fatal error when a cached purchase row arrives in an unexpected shape.
 - Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
