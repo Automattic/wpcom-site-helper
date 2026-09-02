@@ -256,7 +256,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.11.0-alpha.1788342643',
             'version' => '6.11.0.0-alpha1788342643',
-            'reference' => 'd7d90515a771c4612db37db53b6c790f63bffeba',
+            'reference' => '3a33ab7cbaf7a4f3ae10984b6cfd12466d87d05a',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
@@ -281,9 +281,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-podcast' => array(
-            'pretty_version' => '2.0.1-alpha.1788342643',
-            'version' => '2.0.1.0-alpha1788342643',
-            'reference' => '8c5e08a4b3632265104c338793f34d214ba1efce',
+            'pretty_version' => '2.1.0-alpha.1788373142',
+            'version' => '2.1.0.0-alpha1788373142',
+            'reference' => '287d890c91566e668149c09218f0f5929efd6b4a',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-podcast',
             'aliases' => array(),
