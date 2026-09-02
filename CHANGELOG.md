@@ -5,7 +5,6 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Add ?reprint-api export endpoint and /wpcomsh/v1/reprint/rotate-export-secret REST route for site export authorization.
 - Add a check for sites with legacy feature gating.
 - Add a `wpcomsh php83-plugin-patch mega_main_menu` CLI command that removes the duplicate `static $theme_option_file` declaration triggering a "Duplicate declaration of static variable" fatal error under PHP 8.3+.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
@@ -48,8 +47,6 @@ This is an alpha version! The changes listed here are not final.
 - Charts: update chart grid, axis and label colors immediately when the theme changes.
 - Connection: Cache the Atomic Persistent Data instance and connection-owner lookup per request to reduce duplicate DB queries.
 - Copy a site: enable for all paid Atomic-capable plans (Personal, Premium, and Business or higher), mirroring WPCOM.
-- Drop is_automattician() from the export gate and expose reprint_exporter_enabled via the site settings API.
-- Drop the A8C_PROXIED_REQUEST gate from the ?reprint-api export handler so Playground clients can reach it. Authentication still relies on HMAC + the 60-minute activation window.
 - Enable wp-admin JS error reporting on 2% of sites, to keep up with the React 19 experiment rollout.
 - Enable wp-admin JS error reporting on 5% of sites, to keep up with the React 19 experiment rollout.
 - Enable wp-admin JS error reporting on 10% of sites, to keep up with the React 19 experiment rollout.
@@ -157,7 +154,6 @@ This is an alpha version! The changes listed here are not final.
 - Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
-- Updated reprint-importer and reprint-exporter to v0.1.36 – fixes site imports on Atomic that only downloaded WordPress core files and missed wp-content (plugins, themes, uploads).
 - Update wc-calypso-bridge to 2.11.7.
 
 ## 9.0.0 - 2026-04-09

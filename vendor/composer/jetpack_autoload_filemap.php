@@ -14,26 +14,6 @@ return array(
 		'version' => '9.1.1.0-alpha1788342643',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/actions.php'
 	),
-	'c8f84af3c24cff85f963d6926f4b2d42' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/filesystem/functions.php'
-	),
-	'293c13b83c57dba3ffcaf4c9d7af49fc' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/encoding/utf8.php'
-	),
-	'c2c7ec202e84a85f19abab25dd38d82d' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/encoding/compat-utf8.php'
-	),
-	'713ad46f1f515216614131421c1ab59c' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/encoding/utf8-encoder.php'
-	),
-	'3ece6d8ef10b1c2fd398a0c341044be9' => array(
-		'version' => '0.6.2.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/data-liberation/URL/functions.php'
-	),
 	'320cde22f66dd4f5d3fd621d3e88b98f' => array(
 		'version' => '1.37.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php'
@@ -41,10 +21,6 @@ return array(
 	'0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => array(
 		'version' => '1.38.2.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
-	),
-	'ec471f3ca20b4a3001a1f5146b94c5d9' => array(
-		'version' => '0.1.47.0',
-		'path'    => $vendorDir . '/wp-php-toolkit/reprint-exporter/src/utils.php'
 	),
 	'700e9f220ab8246703a73d0e5d5d9192' => array(
 		'version' => '2.11.7.0',
