@@ -133,6 +133,7 @@ This is an alpha version! The changes listed here are not final.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Scope the generated episodes list to the posts the current user can edit, matching the Posts screen.
+- Podcast dashboard: keep the chart tooltip under sticky and fixed page elements.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
 - Premium Analytics: Compute date-filter day boundaries in the site's timezone, so visitors west of the site timezone no longer get stretched ranges or wrong chart buckets.
 - Premium Analytics: Drop the Last 24 hours range from the WordAds card, which has no hourly data to chart.
