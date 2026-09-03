@@ -118,6 +118,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcasting: remove the at-pressable-podcasting bridge now that the jetpack-podcast package owns the experience on every WoA site.
 - Remove COLOURLovers UI feature
 - Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
+- Subscriptions: Remove the transitional Subscribers announcement page from the Jetpack menu.
 
 ### Fixed
 - Admin bar: don't treat the default favicon fallback as a site icon
