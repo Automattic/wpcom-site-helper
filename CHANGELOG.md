@@ -102,6 +102,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated composer.lock to pull in the new jetpack-podcast wp-build scaffold transitively (via jetpack-mu-wpcom).
 - Updated package dependencies.
 - Update package dependencies.
+- Update wc-calypso-bridge to 2.11.8.
 - Update wp-php-toolkit dependencies.
 - WP.com Error Reporting: delegate all decisions to host-specific filters
 - WP.com Error Reporting: use direct fetch with no CORS preflight
