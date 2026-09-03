@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
+- Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
