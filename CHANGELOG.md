@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
 - Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
+- Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
