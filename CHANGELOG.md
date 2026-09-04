@@ -143,6 +143,7 @@ This is an alpha version! The changes listed here are not final.
 - Launch: Do not show the pre-launch confirmation modal on trial sites, which still need to choose a plan and domain.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
+- Podcast: Fix the dashboard overlapping the admin menu in right-to-left languages.
 - Podcast: Scope the generated episodes list to the posts the current user can edit, matching the Posts screen.
 - Podcast dashboard: keep the chart tooltip under sticky and fixed page elements.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
