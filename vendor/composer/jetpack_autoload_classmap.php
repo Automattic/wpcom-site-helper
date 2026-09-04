@@ -511,91 +511,95 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\Help_Center' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\Help_Center_Menu_Panel' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center-menu-panel.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\Jetpack_Wpcom_Request_Client' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-jetpack-wpcom-request-client.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Article_Rating' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-article-rating.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Authenticate' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-authenticate.php'
 	),
+	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_CTA' => array(
+		'version' => '0.4.0.0-alpha1788540386',
+		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-cta.php'
+	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Controller' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-controller.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Email_Support_Enabled' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-email-support-enabled.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Fetch_Post' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-fetch-post.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Forum' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-forum.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Jetpack_Connection_Health' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-jetpack-connection-health.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Jetpack_Search_AI' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-jetpack-search-ai.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Odie' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-odie.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Persisted_Open_State' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-persisted-open-state.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Search' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-search.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Sibyl' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-sibyl.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Support_Activity' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-support-activity.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Support_Interactions' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-support-interactions.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Support_Status' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-support-status.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Ticket' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-ticket.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Ticket_CSAT' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-ticket-csat.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_User_Fields' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-user-fields.php'
 	),
 	'Automattic\\Jetpack\\Help_Center\\Wpcom_Request_Client' => array(
-		'version' => '0.4.0.0-alpha1788533423',
+		'version' => '0.4.0.0-alpha1788540386',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/interface-wpcom-request-client.php'
 	),
 	'Automattic\\Jetpack\\IP\\Utils' => array(

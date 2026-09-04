@@ -58,7 +58,7 @@ return array(
     ),
     'jetpack-help-center' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-help-center',
-      'ver' => '0.4.0-alpha1788533423',
+      'ver' => '0.4.0-alpha1788540386',
     ),
     'jetpack-image-cdn' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-image-cdn',

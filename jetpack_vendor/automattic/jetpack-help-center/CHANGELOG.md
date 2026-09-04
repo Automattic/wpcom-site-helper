@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add the `/help-center/article-rating` endpoint so the Help Center can save a user's "Was this helpful?" answer for a support article.
+- Add the `/help-center/cta` endpoint so the Help Center can fetch the contextual CTA for the current user from wp-admin.
 
 ### Removed
 - Minimum supported PHP version is now 7.4.

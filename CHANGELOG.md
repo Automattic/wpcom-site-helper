@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Fatal error: log recovery-mode email dispatches (sent, disabled, no recipient) and post-login recovery-mode entry to logstash.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
+- Help Center: Show the contextual CTA in wp-admin.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
