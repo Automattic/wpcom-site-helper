@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
+- Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
@@ -87,6 +88,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
 - Premium Analytics: Shorten the Popular post card title so it survives a narrow dashboard cell.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
+- Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
 - Redesign the fatal error screen: identify the likely-cause plugin, offer admins a one-click signed deactivation URL, surface recovery mode when available, and link to WordPress.com support.
