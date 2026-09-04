@@ -132,6 +132,7 @@ return array(
     'Automattic\\Jetpack\\Help_Center\\Help_Center' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center.php',
     'Automattic\\Jetpack\\Help_Center\\Help_Center_Menu_Panel' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center-menu-panel.php',
     'Automattic\\Jetpack\\Help_Center\\Jetpack_Wpcom_Request_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-jetpack-wpcom-request-client.php',
+    'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Article_Rating' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-article-rating.php',
     'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Authenticate' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-authenticate.php',
     'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-controller.php',
     'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Email_Support_Enabled' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-email-support-enabled.php',
