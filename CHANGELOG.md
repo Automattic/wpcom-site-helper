@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
+- Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
@@ -66,6 +67,7 @@ This is an alpha version! The changes listed here are not final.
 - Make the help and Ask AI admin bar nodes available from the admin-bar REST endpoints, with the label, icon and destination a client needs.
 - Move Custom CSS to Devcie Detection
 - Newspack Blocks: Update the Blog Posts and Posts Carousel blocks to Newspack Blocks 4.30.3.
+- Omnibar: point the WordPress.com sites and account links to the my.wordpress.com subdomain.
 - Permalinks: make the Settings → Permalinks page available on all sites and remove the plan-based gating and upsell.
 - Plan expiry notices: sites on the new expiry notices no longer see the legacy plan-renewal admin notice.
 - Plugin Conflicts Guardian: raise the Atomic rollout to 2% of sites.
