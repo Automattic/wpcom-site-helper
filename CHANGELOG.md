@@ -80,6 +80,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
+- Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
