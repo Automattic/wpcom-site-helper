@@ -78,6 +78,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcasting: flip jetpack_podcast_untangle globally on Atomic so every WoA site moves to the new jetpack-podcast package (parallel to the wpcom-side flip already live on Simple).
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
+- Premium Analytics: disable the dashboard's date controls while customizing its layout.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
 - Premium Analytics: hide the report pages behind tabs the Stats dashboard does not show.
