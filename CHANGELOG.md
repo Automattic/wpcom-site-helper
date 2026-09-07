@@ -84,6 +84,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
+- Premium Analytics: move the dashboard feedback action into a page options menu.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: Open the Authors, Clicks and UTM reports folded to their top-level groups, and move the drill-down control to the right of the row title.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
