@@ -105,6 +105,7 @@ This is an alpha version! The changes listed here are not final.
 - Stop serving COLOURLovers background images now that COLOURLovers support has been discontinued.
 - Sync features list with WPCOM - add Student plan with Business plan feature parity.
 - Sync features list with WPCOM - removing social unified UI feature flag.
+- Sync features list with WPCOM to enable access to new features for legacy sites.
 - Tested up to WordPress 7.0.
 - Tested up to WordPress 7.1.
 - Update composer.lock files.
