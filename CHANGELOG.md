@@ -165,6 +165,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
 - Premium Analytics: Show chart dates in the site's timezone and locale, and name the hour on hourly charts.
+- Premium Analytics: Show published dates in the site's language and date format.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
 - Premium Analytics: Stop the Ads chart interval menu offering buckets the WordAds chart cannot draw.
