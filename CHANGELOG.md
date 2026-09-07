@@ -33,6 +33,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
+- Premium Analytics: show the onboarding again to a reader who switches the new Traffic tab back on.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
