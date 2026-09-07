@@ -89,6 +89,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
 - Premium Analytics: Shorten the Popular post card title so it survives a narrow dashboard cell.
+- Premium Analytics: show only the Traffic tab while the site is running the Stats preview.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
