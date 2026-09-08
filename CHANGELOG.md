@@ -25,6 +25,7 @@ This is an alpha version! The changes listed here are not final.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
+- Premium Analytics: Add a page options menu with a Customize action on the post, email, and video detail pages.
 - Premium Analytics: add a page option that switches the new Traffic tab off, asks why on the way out, and returns to classic Stats.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
