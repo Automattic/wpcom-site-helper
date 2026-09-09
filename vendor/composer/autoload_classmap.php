@@ -856,6 +856,7 @@ return array(
     'WPCOM_REST_API_V2_Endpoint_Jetpack_Launch_Site' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-jetpack-launch-site.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad.php',
     'WPCOM_REST_API_V2_Endpoint_Launchpad_Navigator' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-launchpad-navigator.php',
+    'WPCOM_REST_API_V2_Endpoint_PayPal_Onboarding' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-paypal-onboarding.php',
     'WPCOM_REST_API_V2_Endpoint_Site_Migration_Migrate_Guru_Key' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-migrate-guru-key.php',
     'WPCOM_REST_API_V2_Endpoint_Site_Migration_WPCOM_Migration_Key' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-site-migration-wpcom-migration-key.php',
     'WPCOM_REST_API_V2_Endpoint_Update_Schedules' => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-update-schedules.php',

@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Fatal error: tag log events with request_kind/path/method and dedup per (signature, kind) so a site-wide fatal surfaces as one row per affected surface.
 - Help Center: Show the contextual CTA in wp-admin.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
+- PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
@@ -156,6 +157,9 @@ This is an alpha version! The changes listed here are not final.
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Launch: Do not show the pre-launch confirmation modal on trial sites, which still need to choose a plan and domain.
+- PayPal Payment Buttons: include PayPal's own error details when it rejects a partner referral, so a failed connection says what was wrong.
+- PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
+- PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Fix the dashboard overlapping the admin menu in right-to-left languages.
