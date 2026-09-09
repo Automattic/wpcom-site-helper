@@ -10,7 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Feedback: tell readers where their feedback went and that they can send more, instead of a one-line thank you.
 - Report date filters: stage a date range through one shared bounds helper in both pickers.
+
+### Fixed
+- Onboarding: keep the welcome modal open on a click outside it, so the tour can still be started.
 
 ## [0.6.0] - 2026-09-08
 ### Added
