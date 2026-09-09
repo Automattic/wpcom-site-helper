@@ -20,6 +20,7 @@ This is an alpha version! The changes listed here are not final.
 - RTC: Default collaboration to off, drive the Gutenberg 23.8 experiment from the Settings > Writing toggle, and preserve the choice of sites that had already opted in.
 - RTC: Re-enable real-time collaboration by default on WP.com sites.
 - RTC: Re-enable RTC by default on WoW sites
+- RTC: Skip unnecessary eligibility checks when real-time collaboration is disabled.
 - Update package dependencies.
 
 ### Removed

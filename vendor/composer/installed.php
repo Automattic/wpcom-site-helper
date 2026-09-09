@@ -335,9 +335,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-rtc' => array(
-            'pretty_version' => '0.2.0-alpha.1788342643',
-            'version' => '0.2.0.0-alpha1788342643',
-            'reference' => '20184b34cbd628bf3162ecd90302bb379f3e02a1',
+            'pretty_version' => '0.2.0-alpha.1788969667',
+            'version' => '0.2.0.0-alpha1788969667',
+            'reference' => 'f5160a3ff18a566deee053dfebdc1a6623311fae',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-rtc',
             'aliases' => array(),
