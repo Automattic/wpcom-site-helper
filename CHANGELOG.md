@@ -94,6 +94,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Build the custom date range calendar on the WordPress design system calendar.
 - Premium Analytics: disable the dashboard's date controls while customizing its layout.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
+- Premium Analytics: draw the Post views and Video performance charts on the detail pages as bars by default.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
 - Premium Analytics: hide the report pages behind tabs the Stats dashboard does not show.
 - Premium Analytics: Keep the custom range calendar's Cancel and Apply buttons at the bottom of the period menu.
