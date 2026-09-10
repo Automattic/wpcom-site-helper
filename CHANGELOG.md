@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add a Total views / Daily average switch to the post detail All-time traffic card.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
+- Premium Analytics: Add the Totals column to the post detail All-time traffic card; picking a total reads the page over that year.
 - Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
