@@ -68,6 +68,7 @@ This is an alpha version! The changes listed here are not final.
 - Enable wp-admin JS error reporting on 20% of sites, to keep up with the React 19 experiment rollout.
 - Expiry notices: only the WordPress.com account that bought the plan is offered a renewal; other admins, including those with no WordPress.com account, are told whose plan it is instead.
 - Expiry notices: Show the plan-expiry notice on the site front-end to logged-in admins, and stand the gifting banner down while it shows.
+- Expiry notices: show the plan expiry notice on agency-managed sites, telling client admins whose plan it is.
 - Fatal error screen: extend telemetry dedup windows from 5 minutes to 1 hour.
 - Forms, Stats: CSV export will now process data containing backslashed quotation marks as specified in the relevant standard.
 - General: update composer.lock files.
