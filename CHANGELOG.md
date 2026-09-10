@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
+- Premium Analytics: Add a map of views by location to the Locations report, with an option to hide it.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add a page options menu with a Customize action on the post, email, and video detail pages.
