@@ -185,6 +185,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Include the last day of the selected range in the WordAds card.
 - Premium Analytics: Keep the date picker on the range a chart drill-down applies.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
+- Premium Analytics: keep the same calendar dates when comparing a range starting on the 1st with the previous year, so Year to date in a leap year starts on 1 January rather than 31 December.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Premium Analytics: keep the Year in review report link reachable.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
