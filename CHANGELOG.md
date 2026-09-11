@@ -150,6 +150,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast: Remove the Atomic module opt-in and force-activation, so the module follows the site's own setting.
 - Podcasting: remove the at-pressable-podcasting bridge now that the jetpack-podcast package owns the experience on every WoA site.
 - Remove COLOURLovers UI feature
+- Remove the Tools > Marketing page and its menu item. Old links to it now go to the dashboard.
 - Revert the Jetpack-side changes that re-enabled X (Twitter) sharing in Jetpack Social.
 - Subscriptions: Remove the transitional Subscribers announcement page from the Jetpack menu.
 
