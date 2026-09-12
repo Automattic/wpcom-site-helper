@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Minimum supported PHP version is now 7.4.
+- Remove the unused Help Center admin bar menu panel and its experiment assignment.
 
 ## [0.3.2] - 2026-08-03
 ### Fixed

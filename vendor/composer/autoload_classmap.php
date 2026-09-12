@@ -130,7 +130,6 @@ return array(
     'Automattic\\Jetpack\\Google_Analytics\\Utils' => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-utils.php',
     'Automattic\\Jetpack\\Heartbeat' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/src/class-heartbeat.php',
     'Automattic\\Jetpack\\Help_Center\\Help_Center' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center.php',
-    'Automattic\\Jetpack\\Help_Center\\Help_Center_Menu_Panel' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-help-center-menu-panel.php',
     'Automattic\\Jetpack\\Help_Center\\Jetpack_Wpcom_Request_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-jetpack-wpcom-request-client.php',
     'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Article_Rating' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-article-rating.php',
     'Automattic\\Jetpack\\Help_Center\\WP_REST_Help_Center_Authenticate' => $baseDir . '/jetpack_vendor/automattic/jetpack-help-center/src/class-wp-rest-help-center-authenticate.php',
