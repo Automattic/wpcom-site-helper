@@ -8,9 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'A8C\\FSE\\Mailerlite\\WPCOM_Widget_Mailerlite' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/mailerlite/subscriber-popup.php',
     'A8C\\FSE\\Survicate' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/survicate/class-survicate.php',
-    'A8C\\FSE\\WPCOM_Content_Research' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wpcom-content-research.php',
-    'A8C\\FSE\\WP_REST_Content_Research_Search' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wp-rest-content-research-search.php',
-    'A8C\\FSE\\WP_REST_Content_Research_Summarize' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-content-research/class-wp-rest-content-research-summarize.php',
     'AI_Launchpad_About_Page_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-about-page-listener.php',
     'AI_Launchpad_Contact_Page_Listener' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-contact-page-listener.php',
     'AI_Launchpad_Dev_Enable' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/ai-launchpad/class-ai-launchpad-dev-enable.php',
