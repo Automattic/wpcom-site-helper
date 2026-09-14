@@ -171,6 +171,7 @@ This is an alpha version! The changes listed here are not final.
 - Fixed a regression added on https://github.com/Automattic/jetpack/pull/48286
 - Google Fonts: stop force-activating the module on every request, and stop hiding it from the classic Jetpack modules screen, so it is no longer auto-enabled by default and can be toggled off and back on.
 - Launch: Do not show the pre-launch confirmation modal on trial sites, which still need to choose a plan and domain.
+- Managed plugins: remove the stray separator line between a managed plugin's row and its "automatically managed" notice on the Plugins screen.
 - PayPal Payment Buttons: include PayPal's own error details when it rejects a partner referral, so a failed connection says what was wrong.
 - PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
 - PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
