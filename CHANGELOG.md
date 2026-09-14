@@ -111,6 +111,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: remove the year filter and interval dropdown from the Insights header.
 - Premium Analytics: Remove Total views, Total visitors, Popular days and Popular hours from the default Insights layout and from the widget picker for now.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
+- Premium Analytics: Retitle the Popular post card to "Most popular in the last year".
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
 - Premium Analytics: Shorten the Popular post card title so it survives a narrow dashboard cell.
 - Premium Analytics: Show a post's monthly views across its whole life on its detail page, in place of the daily heatmap, and picking a month applies it as the page's period.
