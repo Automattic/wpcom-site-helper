@@ -105,6 +105,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
+- Premium Analytics: move the dashboard's Customize button into the page options menu, with Reset to default beside Cancel and Done while customizing.
 - Premium Analytics: move the dashboard feedback action into a page options menu.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: offer feedback, the preview opt-out and Reset to default from the post and video detail pages too.
