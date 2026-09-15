@@ -117,6 +117,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: rearrange the default Ads widgets for the three-column grid, with the chart first, then the balance, then the three history tables side by side.
 - Premium Analytics: remove the year filter and interval dropdown from the Insights header.
 - Premium Analytics: Remove Total views, Total visitors, Popular days and Popular hours from the default Insights layout and from the widget picker for now.
+- Premium Analytics: Rename the Insights section title to Site insights.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
 - Premium Analytics: Retitle the Popular post card to "Most popular in the last year".
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
