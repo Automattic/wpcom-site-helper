@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add a map of views by location to the Locations report, with an option to hide it.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
+- Premium Analytics: Add an earnings history report, showing every period with its earnings, ads served, and payment status.
 - Premium Analytics: Add a page options menu with a Customize action on the post, email, and video detail pages.
 - Premium Analytics: add a page option that switches the new Traffic tab off, asks why on the way out, and returns to classic Stats.
 - Premium Analytics: Add a Total views / Daily average switch to the post detail All-time traffic card.
