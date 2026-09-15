@@ -18,6 +18,9 @@ This is an alpha version! The changes listed here are not final.
 - Minimum supported PHP version is now 7.4.
 - Remove the unused Help Center admin bar menu panel and its experiment assignment.
 
+### Fixed
+- Help Center: make the admin bar entry point keyboard reachable and let its icon follow the item's hover colour.
+
 ## [0.3.2] - 2026-08-03
 ### Fixed
 - Help Center: Support empty asset dependency lists.
