@@ -105,6 +105,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
+- Premium Analytics: Match the Year in review tile icons to the design and add space between the tiles and the footer link.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
 - Premium Analytics: move the dashboard's Customize button into the page options menu, with Reset to default beside Cancel and Done while customizing.
 - Premium Analytics: move the dashboard feedback action into a page options menu.
