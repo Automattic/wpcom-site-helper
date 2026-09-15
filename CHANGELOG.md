@@ -175,6 +175,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin color schemes: render the checked checkbox and radio marks in white, matching core.
 - Admin color schemes: Stop labelling the Fresh scheme "Default", which duplicated the Default (Modern) entry on WordPress 7.0.
 - Admin dashboards: Keep the page header and content in view when the wp-admin menu is taller than the window.
+- Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Place line and area chart date ticks on the site's time zone boundaries, name the hour in tooltips on hourly data, and read hour labels in the site's own locale rather than a forced 12-hour clock.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
