@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add the `/help-center/article-rating` endpoint so the Help Center can save a user's "Was this helpful?" answer for a support article.
 - Add the `/help-center/cta` endpoint so the Help Center can fetch the contextual CTA for the current user from wp-admin.
+- Admin bar: register the Help Center entry point on every request so the admin-bar REST endpoints return it, and show a "Get Help" label beside its icon for users in the calypso_help_center_get_help_chat_forward experiment treatment, and pass that variation to the Help Center bundles so they open on the AI chat.
 
 ### Removed
 - Minimum supported PHP version is now 7.4.
