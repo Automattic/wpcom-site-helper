@@ -163,6 +163,7 @@ This is an alpha version! The changes listed here are not final.
 - wpcom-features: make BIG_SKY the single paid-plan eligibility gate for Big Sky / AI sidebar; remove BIG_SKY_EXISTING_SITE; add Starter to GLOBAL_STYLES.
 - WPCOMSH_Log: add `unsafe_direct_log_logstash()` for records that need their own /logstash `feature` bucket; route fatal-error signatures through it under feature `atomic_extension_conflict` (severity `critical`).
 - WPCOMSH_Log: drop the unused top-level `siteurl` field from /logstash payloads (the receiver doesn't consume it). Fatal-error signatures now pass `site_url` as a property instead, so it lands at `properties.site_url` in Kibana alongside the other indexed fields.
+- Write: Remember a switch to the Block editor, so the Daily Writing Prompt widget stops offering Write.
 
 ### Removed
 - Podcast: Remove the Atomic module opt-in and force-activation, so the module follows the site's own setting.
