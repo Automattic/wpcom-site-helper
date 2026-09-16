@@ -39,6 +39,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: add total and per-post image counts to the Annual insights report.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
+- Premium Analytics: Link the Earnings History widget to its full report.
 - Premium Analytics: Note in the Traffic summary help that the Visitors total is a per-period sum.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
@@ -110,6 +111,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Keep the custom range calendar's Cancel and Apply buttons at the bottom of the period menu.
 - Premium Analytics: Label the Insights leaderboard widgets with the period they cover.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
+- Premium Analytics: Label WordAds earnings history periods by month and year, such as "August 2026".
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
 - Premium Analytics: Match the Year in review tile icons to the design and add space between the tiles and the footer link.
@@ -133,6 +135,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a post's monthly views across its whole life on its detail page, in place of the daily heatmap, and picking a month applies it as the page's period.
 - Premium Analytics: show only the Traffic tab while the site is running the Stats preview.
 - Premium Analytics: show Subscriber highlights by default on the Subscribers tab and rearrange the widgets for the three-column grid.
+- Premium Analytics: Show the Earnings History widget as a compact list without in-widget pagination.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Premium Analytics: Show the site's monthly views across every year on the Insights tab, in place of the daily heatmap; picking a month opens the Traffic tab over it.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
