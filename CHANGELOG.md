@@ -95,6 +95,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcasting: flip jetpack_podcast_untangle globally on Atomic so every WoA site moves to the new jetpack-podcast package (parallel to the wpcom-side flip already live on Simple).
 - Podcasting: only load the legacy at-pressable-podcasting plugin when the new jetpack-podcast package is not taking over the feature.
 - Podcasting: stand down the legacy at-pressable-podcasting plugin when the new Jetpack podcast package owns the feature.
+- Premium Analytics: Align the Most popular post and Latest post cards with the design: regular-weight stat labels and a grey ground behind the featured image.
 - Premium Analytics: Always show every total on the All-time stats card and drop its Metrics control.
 - Premium Analytics: Ask the same readiness question when switching the new Traffic tab off, and point to the Modules Visibility setting to switch it back on.
 - Premium Analytics: ask whether the new Traffic tab is ready to replace the old one, instead of how it compares with the old one.
