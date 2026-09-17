@@ -148,6 +148,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unneeded development and documentation files from the published plugin.
 - Return site purchases in a declared shape, with billing-derived auto-renew state behind accessors.
 - RTC: Skip unnecessary eligibility checks when real-time collaboration is disabled.
+- Site Logs: Make PHP error and web server logs available on Personal and Premium plans.
 - Social: Enable message templates feature for WPCOM sites.
 - Stop serving COLOURLovers background images now that COLOURLovers support has been discontinued.
 - Sync features list with WPCOM - add Student plan with Business plan feature parity.
