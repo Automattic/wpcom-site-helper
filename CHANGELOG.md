@@ -180,6 +180,7 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Podcast: Remove the Atomic module opt-in and force-activation, so the module follows the site's own setting.
 - Podcasting: remove the at-pressable-podcasting bridge now that the jetpack-podcast package owns the experience on every WoA site.
+- Premium Analytics: Remove the Sponsored Content History and Adjustments History widgets from the Ads tab.
 - Premium Analytics: Remove the Traffic views activity heatmap widget from the Insights tab, which Views over years replaced.
 - Remove COLOURLovers UI feature
 - Remove the Tools > Marketing page and its menu item. Old links to it now go to the dashboard.
