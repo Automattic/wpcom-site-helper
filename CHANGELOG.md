@@ -109,6 +109,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Draw attention to the date control, and read the new period out, when a card or a table cell sets the period rather than the reader.
 - Premium Analytics: draw the Post views and Video performance charts on the detail pages as bars by default.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
+- Premium Analytics: Filter the Earnings history report by payment status, explain Ads Served there, and show unpaid and negative amounts in red on the Earnings History widget.
 - Premium Analytics: hide the report pages behind tabs the Stats dashboard does not show.
 - Premium Analytics: Keep the custom range calendar's Cancel and Apply buttons at the bottom of the period menu.
 - Premium Analytics: Label the Insights leaderboard widgets with the period they cover.
