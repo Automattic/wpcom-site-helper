@@ -124,6 +124,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: move the dashboard feedback action into a page options menu.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: offer feedback, the preview opt-out and Reset to default from the post and video detail pages too.
+- Premium Analytics: On the Subscriber highlights card, show the subscriber count 30, 60, and 90 days ago for sites without paid subscribers, show social followers on any site that has them, rename the first tile to All-time subscribers, and remove the Metrics control.
 - Premium Analytics: Open the Authors, Clicks and UTM reports folded to their top-level groups, and move the drill-down control to the right of the row title.
 - Premium Analytics: Post detail: bring the page back to the top when a month in All-time traffic sets the period.
 - Premium Analytics: read ads served, average CPM and revenue out together in the Ads chart tooltip, whichever tab is selected.
