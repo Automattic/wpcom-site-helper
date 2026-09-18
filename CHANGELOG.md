@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
+- Staging sites: Add a wpcomsh_is_staging_environment filter to override staging environment detection.
 - Stats: Add a dismissible feedback banner above the new Traffic tab's widgets.
 - Stats: Add a Popular hours widget showing the busiest hour and its daily average views.
 - Stats: link the post list views column to the analytics post detail page when the new dashboard is enabled.
