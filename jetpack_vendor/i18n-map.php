@@ -6,7 +6,7 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.12.2-alpha1789759296',
+      'ver' => '0.13.0-alpha1789762796',
     ),
     'jetpack-agents-manager' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-agents-manager',
@@ -98,7 +98,7 @@ return array(
     ),
     'jetpack-premium-analytics-pkg' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-premium-analytics',
-      'ver' => '0.8.0-alpha1789745995',
+      'ver' => '0.8.0-alpha1789762796',
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
@@ -110,7 +110,7 @@ return array(
     ),
     'jetpack-stats-admin' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats-admin',
-      'ver' => '0.36.0',
+      'ver' => '0.37.0-alpha1789762796',
     ),
     'jetpack-stats-pkg' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-stats',
