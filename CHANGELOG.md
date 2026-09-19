@@ -44,6 +44,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Note in the Traffic summary help that the Visitors total is a per-period sum.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
+- Premium Analytics: Show sponsored content and adjustment earnings on the Earnings history report, each on its own tab.
 - Premium Analytics: show the onboarding again to a reader who switches the new Traffic tab back on.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
@@ -144,6 +145,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a post's monthly views across its whole life on its detail page, in place of the daily heatmap, and picking a month applies it as the page's period.
 - Premium Analytics: show only the Traffic tab while the site is running the Stats preview.
 - Premium Analytics: Show opens and clicks beside their rates in Latest emails sent.
+- Premium Analytics: Show payment status as a badge on the Earnings history report.
 - Premium Analytics: show Posting activity's last 12 months as one mini calendar per month.
 - Premium Analytics: show Subscriber highlights by default on the Subscribers tab and rearrange the widgets for the three-column grid.
 - Premium Analytics: Show the Earnings History widget as a compact list without in-widget pagination.
