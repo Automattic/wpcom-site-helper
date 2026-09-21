@@ -233,6 +233,7 @@ This is an alpha version! The changes listed here are not final.
 - Podcast dashboard: keep the chart tooltip under sticky and fixed page elements.
 - Premium Analytics: Compare a date range against a previous month or year of the same length, so the percentages no longer measure 30 days against 29. Whole calendar months still compare month to month.
 - Premium Analytics: Compute date-filter day boundaries in the site's timezone, so visitors west of the site timezone no longer get stretched ranges or wrong chart buckets.
+- Premium Analytics: Draw the bars on a bar chart whose value stays the same across the whole period, instead of leaving the chart empty.
 - Premium Analytics: Drop the Last 24 hours range from the WordAds card, which has no hourly data to chart.
 - Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
 - Premium Analytics: Fix the Subscribers summary help text to describe the cumulative subscriber total the chart plots, not new subscribers.
