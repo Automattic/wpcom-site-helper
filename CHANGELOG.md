@@ -139,6 +139,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Rename the Insights section title to Site insights.
 - Premium Analytics: Rename the Subscribers summary widget to Subscriber summary.
 - Premium Analytics: rename the Top pages CSV comparison column to "Views (Previous Period)" and move it after the primary columns.
+- Premium Analytics: Rename the WordAds widgets to Ads summary, All-time balance and WordAds earnings, and give each its own icon.
 - Premium Analytics: Retitle the Popular post card to "Most popular in the last year".
 - Premium Analytics: Retitle the Popular post card to "Most popular post in the last 12 months" and pin it to the last 12 months.
 - Premium Analytics: Shorten the Popular post card title so it survives a narrow dashboard cell.
