@@ -87,6 +87,7 @@ This is an alpha version! The changes listed here are not final.
 - General: Update minimum WordPress version to 7.0.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Gutenberg: Enable wp-admin JS error reporting on 1% of Atomic sites.
+- Incompatible Plugins: unblock Duplicator (duplicator/duplicator.php). Version 5.0.3 added WordPress.com managed host detection and resolved all previous compatibility issues.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Internal: regenerate composer.lock to pick up the podcast package's new automattic/jetpack-connection dependency.
 - Load only when desired.
