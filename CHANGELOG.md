@@ -126,6 +126,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Move the Ads date range into the WordAds card's own header, and drop the section header's date filter.
 - Premium Analytics: move the dashboard's Customize button into the page options menu, with Reset to default beside Cancel and Done while customizing.
 - Premium Analytics: move the dashboard feedback action into a page options menu.
+- Premium Analytics: Move the Subscribers date range control off the tab header and onto the Subscriber summary chart, which is the only widget there that reads a range. The tab no longer offers a previous-period comparison.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: offer feedback, the preview opt-out and Reset to default from the post and video detail pages too.
 - Premium Analytics: On the Subscriber highlights card, show the subscriber count 30, 60, and 90 days ago for sites without paid subscribers, show social followers on any site that has them, rename the first tile to All-time subscribers, and remove the Metrics control.
@@ -240,6 +241,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Keep the year column and month labels of the Views over years and a post's All-time traffic heatmaps fully opaque while the grid scrolls, so scrolled-under cells no longer show through around them.
 - Premium Analytics: keep the Year in review report link reachable.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
+- Premium Analytics: Open the Ads tab's WordAds chart on the last 7 days rather than a single day on a site launched today.
 - Premium Analytics: Post detail: stop the Post traffic layout from flashing when an email tab is opened directly, and show placeholder lines in the header while the title loads.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
