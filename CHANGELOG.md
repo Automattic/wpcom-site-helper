@@ -150,6 +150,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: show Posting activity's last 12 months as one mini calendar per month.
 - Premium Analytics: show Subscriber highlights by default on the Subscribers tab and rearrange the widgets for the three-column grid.
 - Premium Analytics: Show the Earnings History widget as a compact list without in-widget pagination.
+- Premium Analytics: Show the heatmap tooltips in the dark style, the daily ones titled with the date; draw the Views over years and post All-time traffic cells as flush bands under a continuous scale, lifting a hovered month with a light ring and a shadow.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Premium Analytics: Show the site's monthly views across every year on the Insights tab, in place of the daily heatmap; picking a month opens the Traffic tab over it.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
