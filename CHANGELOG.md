@@ -41,6 +41,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
 - Premium Analytics: Link the Earnings History widget to its full report.
+- Premium Analytics: Note in the Earnings History widget when the site has adjustments, linking to the Adjustments history tab of the Earnings report.
 - Premium Analytics: Note in the Traffic summary help that the Visitors total is a per-period sum.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
