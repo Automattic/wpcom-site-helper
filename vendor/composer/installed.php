@@ -254,9 +254,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-mu-wpcom' => array(
-            'pretty_version' => '6.11.0-alpha.1790079025',
-            'version' => '6.11.0.0-alpha1790079025',
-            'reference' => 'c25079d9c7a45f536985666500098ac0ee48f1fa',
+            'pretty_version' => '6.11.0-alpha.1790088876',
+            'version' => '6.11.0.0-alpha1790088876',
+            'reference' => '0de620007162a2b8d609c57a9b6d8ee432ba3136',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
