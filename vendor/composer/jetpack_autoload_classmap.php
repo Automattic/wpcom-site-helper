@@ -951,15 +951,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-list/src/class-post-thumbnail.php'
 	),
 	'Automattic\\Jetpack\\Post_Media' => array(
-		'version' => '0.2.0.0',
+		'version' => '0.2.1.0-alpha1790092376',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-post-media.php'
 	),
 	'Automattic\\Jetpack\\Post_Media\\Images' => array(
-		'version' => '0.2.0.0',
+		'version' => '0.2.1.0-alpha1790092376',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-images.php'
 	),
 	'Automattic\\Jetpack\\Post_Media\\Twitter_Cards' => array(
-		'version' => '0.2.0.0',
+		'version' => '0.2.1.0-alpha1790092376',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php'
 	),
 	'Automattic\\Jetpack\\PremiumAnalytics\\Analytics' => array(
@@ -1247,7 +1247,7 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-logs.php'
 	),
 	'Automattic\\Jetpack\\Shortcodes' => array(
-		'version' => '0.2.0.0',
+		'version' => '0.2.1.0-alpha1790092376',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-shortcodes.php'
 	),
 	'Automattic\\Jetpack\\Stats\\Abilities\\Stats_Abilities' => array(
