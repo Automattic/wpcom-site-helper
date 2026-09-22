@@ -120,6 +120,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Label the Insights leaderboard widgets with the period they cover.
 - Premium Analytics: label the traffic chart's time axis by the size of the bucket behind the data, and name each bar's period in full in its tooltip.
 - Premium Analytics: Label WordAds earnings history periods by month and year, such as "August 2026".
+- Premium Analytics: Lead each chart tooltip row with the value, then the metric, then the date.
 - Premium Analytics: Let hosts show or hide the Analytics sidebar entry.
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
