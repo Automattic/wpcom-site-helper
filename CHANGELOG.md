@@ -269,6 +269,7 @@ This is an alpha version! The changes listed here are not final.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
 - Update wc-calypso-bridge to 2.11.7.
+- Write: Stop showing wp-admin notices, such as the plan expiry banner, behind the editor header.
 
 ## 9.0.0 - 2026-04-09
 ### Added
