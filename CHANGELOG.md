@@ -64,6 +64,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: answer the daily writing prompt in the distraction-free Write editor.
 - Write: Ask writers one question about their experience after their first post, with an optional comment.
 - Write: Introduce the editor on a first visit, and offer a switch to the Block editor from the note and the Tips panel.
+- Write: send users back to My Home or the Reader when they open the editor from a daily prompt card there.
 
 ### Changed
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
