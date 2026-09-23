@@ -258,6 +258,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a dash instead of zero in the Earnings history report when a period has no Ads Served count.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
 - Premium Analytics: Show chart dates in the site's timezone and locale, and name the hour on hourly charts.
+- Premium Analytics: Show each number on a chart's value axis once when the counts are small, instead of repeating 0 and 1.
 - Premium Analytics: Show published dates in the site's language and date format.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
