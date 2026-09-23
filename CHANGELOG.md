@@ -151,6 +151,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a post's monthly views across its whole life on its detail page, in place of the daily heatmap, and picking a month applies it as the page's period.
 - Premium Analytics: show only the Traffic tab while the site is running the Stats preview.
 - Premium Analytics: Show opens and clicks beside their rates in Latest emails sent.
+- Premium Analytics: Show payment status as a badge in the Earnings History widget, and shorten the pending statuses to one word with the reason beside them. Negative amounts in the widget are no longer red; only the badge carries colour.
 - Premium Analytics: Show payment status as a badge on the Earnings history report.
 - Premium Analytics: show Posting activity's last 12 months as one mini calendar per month.
 - Premium Analytics: show Subscriber highlights by default on the Subscribers tab and rearrange the widgets for the three-column grid.
