@@ -264,6 +264,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Start bar chart value axes at zero so a small change no longer looks like a large one.
 - Premium Analytics: Start line chart value axes at zero, and pad the Subscribers chart's axis a little below its data, so a small change no longer looks like a large one.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
+- Premium Analytics: Stop listing an author's post that only appears in the comparison period as 0 (-100%).
 - Premium Analytics: Stop the Ads chart interval menu offering buckets the WordAds chart cannot draw.
 - Premium Analytics: write the calendar heatmap's weekday, month and tooltip labels in the site's language.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
