@@ -122,6 +122,7 @@ return array(
     'Automattic\\Jetpack\\ExPlat' => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-explat.php',
     'Automattic\\Jetpack\\ExPlat\\REST_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-rest-controller.php',
     'Automattic\\Jetpack\\Feature_Flags\\Feature_Flags' => $baseDir . '/jetpack_vendor/automattic/jetpack-feature-flags/src/class-feature-flags.php',
+    'Automattic\\Jetpack\\Feature_Policy' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-feature-policy.php',
     'Automattic\\Jetpack\\Files' => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-files.php',
     'Automattic\\Jetpack\\Google_Analytics\\AMP_Analytics' => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-amp-analytics.php',
     'Automattic\\Jetpack\\Google_Analytics\\GA_Manager' => $baseDir . '/jetpack_vendor/automattic/jetpack-google-analytics/src/class-ga-manager.php',
