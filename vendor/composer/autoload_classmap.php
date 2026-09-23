@@ -405,6 +405,7 @@ return array(
     'Automattic\\Jetpack\\WP_Abilities\\Registrar' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-abilities/src/class-registrar.php',
     'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Admin_Frame' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-admin-frame.php',
     'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Polyfills' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-polyfills.php',
+    'Automattic\\Jetpack\\WP_Build_Polyfills\\WP_Build_Screen_Id' => $baseDir . '/jetpack_vendor/automattic/jetpack-wp-build-polyfills/src/class-wp-build-screen-id.php',
     'Automattic\\Woocommerce_Analytics' => $baseDir . '/jetpack_vendor/automattic/woocommerce-analytics/src/class-woocommerce-analytics.php',
     'Automattic\\Woocommerce_Analytics\\Consent_Manager' => $baseDir . '/jetpack_vendor/automattic/woocommerce-analytics/src/class-consent-manager.php',
     'Automattic\\Woocommerce_Analytics\\Features' => $baseDir . '/jetpack_vendor/automattic/woocommerce-analytics/src/class-features.php',
