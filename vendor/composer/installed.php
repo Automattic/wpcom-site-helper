@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.29.5',
             'version' => '0.29.5.0',
-            'reference' => '893dfa1a989fec58fe316274041bad239d057992',
+            'reference' => '3c07415ef263be61851972b15f87cfc063a28364',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -310,7 +310,7 @@
         'automattic/jetpack-premium-analytics' => array(
             'pretty_version' => '0.9.0-alpha.1790172466',
             'version' => '0.9.0.0-alpha1790172466',
-            'reference' => '447d590d7136f8dadbd3852df432d9f94a2ddcb5',
+            'reference' => 'c2e0bdddd6f0bdcad0eb9db255d551aa6812427d',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-premium-analytics',
             'aliases' => array(),
@@ -371,9 +371,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-sync' => array(
-            'pretty_version' => '5.1.3',
-            'version' => '5.1.3.0',
-            'reference' => '50fd4d7018807bc5fc12b00895b70dabbc279821',
+            'pretty_version' => '5.2.0-alpha.1790176159',
+            'version' => '5.2.0.0-alpha1790176159',
+            'reference' => 'e7023114e3b35dbc9a9fe6d79fee5ab63c6aa4a5',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-sync',
             'aliases' => array(),
@@ -400,7 +400,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.15.0-alpha.1787942239',
             'version' => '0.15.0.0-alpha1787942239',
-            'reference' => '1ae059f77291c991483f5bac60715cb06b4ac29d',
+            'reference' => 'c0cbbe78117c84dc5b3a2cd8d9c945b0a9c03175',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
