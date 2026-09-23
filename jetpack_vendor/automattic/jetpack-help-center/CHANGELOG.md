@@ -14,6 +14,9 @@ This is an alpha version! The changes listed here are not final.
 - Add the `/help-center/cta` endpoint so the Help Center can fetch the contextual CTA for the current user from wp-admin.
 - Admin bar: register the Help Center entry point on every request so the admin-bar REST endpoints return it, and show a "Get Help" label beside its icon for users in the calypso_help_center_get_help_chat_forward experiment treatment, and pass that variation to the Help Center bundles so they open on the AI chat.
 
+### Changed
+- Remove the obsolete Agents Manager unified experience check.
+
 ### Removed
 - Minimum supported PHP version is now 7.4.
 - Remove the unused Help Center admin bar menu panel and its experiment assignment.
