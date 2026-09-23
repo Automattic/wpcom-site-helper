@@ -98,7 +98,7 @@ return array(
     ),
     'jetpack-premium-analytics-pkg' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-premium-analytics',
-      'ver' => '0.9.0-alpha1790131955',
+      'ver' => '0.9.0-alpha1790132382',
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
