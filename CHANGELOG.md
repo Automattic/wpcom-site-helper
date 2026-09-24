@@ -113,6 +113,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Ask the same readiness question when switching the new Traffic tab off, and point to the Modules Visibility setting to switch it back on.
 - Premium Analytics: ask whether the new Traffic tab is ready to replace the old one, instead of how it compares with the old one.
 - Premium Analytics: Build the custom date range calendar on the WordPress design system calendar.
+- Premium Analytics: Call the preview the new Stats in its welcome, feedback and switch-off copy.
 - Premium Analytics: disable the dashboard's date controls while customizing its layout.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: Draw attention to the date control, and read the new period out, when a card or a table cell sets the period rather than the reader.
