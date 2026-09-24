@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.29.6-alpha.1790193890',
             'version' => '0.29.6.0-alpha1790193890',
-            'reference' => '0c2da64b74e25ded969e16dcc14bc17188fce6eb',
+            'reference' => 'b195ea9e42e85c5806ebbf2c77a145b765f0130f',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -301,7 +301,7 @@
         'automattic/jetpack-premium-analytics' => array(
             'pretty_version' => '0.9.0-alpha.1790270666',
             'version' => '0.9.0.0-alpha1790270666',
-            'reference' => '8f0b7b641df7db3e095b8c50ed5639252d2846fc',
+            'reference' => '000ac73d77842b65220047b552a6ded9dca3c542',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-premium-analytics',
             'aliases' => array(),
@@ -362,9 +362,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-sync' => array(
-            'pretty_version' => '5.2.0',
-            'version' => '5.2.0.0',
-            'reference' => '20b00af063e77457bb3d7143d281acd88913c27a',
+            'pretty_version' => '5.3.0-alpha.1790282525',
+            'version' => '5.3.0.0-alpha1790282525',
+            'reference' => 'f83ad108fba44b6db8d03ab2e84e844797c3686e',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-sync',
             'aliases' => array(),
@@ -391,7 +391,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.15.0-alpha.1787942239',
             'version' => '0.15.0.0-alpha1787942239',
-            'reference' => 'b3b702a911f4f6e2634dc68d13d233453ff2d6ec',
+            'reference' => '46e93d81cd0e6e71ad5468018bdcbe621179361c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
