@@ -78,15 +78,11 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1790249934',
+      'ver' => '6.11.0-alpha1790258229',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',
       'ver' => '0.5.2',
-    ),
-    'jetpack-podcast' => array(
-      'path' => 'jetpack_vendor/automattic/jetpack-podcast',
-      'ver' => '2.1.4-alpha1790186230',
     ),
     'jetpack-post-list' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-post-list',
