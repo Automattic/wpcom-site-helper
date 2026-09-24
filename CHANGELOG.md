@@ -258,6 +258,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
+- Premium Analytics: Show "1 Subscriber" rather than "1 Subscribers" in chart tooltips, using each language's plural rules.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
 - Premium Analytics: Show a dash instead of zero in the Earnings history report when a period has no Ads Served count.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
