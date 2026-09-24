@@ -163,6 +163,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: show the Insights tab beside Traffic while the site is running the Stats preview, and name both tabs in the preview's welcome, feedback and switch-off copy.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
 - Premium Analytics: Show the site's monthly views across every year on the Insights tab, in place of the daily heatmap; picking a month opens the Traffic tab over it.
+- Premium Analytics: Title the Ads tab Ads performance, reword the WordAds widget tips, and tidy the Earnings report table.
 - Profile Settings: reword the WordPress.com links on wp-admin/profile.php to "Edit account settings on WordPress.com".
 - Pull in the latest jetpack-podcast package (adds the Podcast Episode block, gated behind the jetpack_podcast_untangle filter; no behavior change while off).
 - Recovery-mode sync: include per-extension error info so wpcom-side consumers can surface what fataled.
