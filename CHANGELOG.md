@@ -222,6 +222,7 @@ This is an alpha version! The changes listed here are not final.
 - Charts: Fix unreadable axis labels in forced-colors mode.
 - Charts: Place line and area chart date ticks on the site's time zone boundaries, name the hour in tooltips on hourly data, and read hour labels in the site's own locale rather than a forced 12-hour clock.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
+- Coming Soon: Respect the site's Coming Soon and search engine visibility settings when the option is missing or after a Playground import.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Connection: Point the WordPress.com account link in the plan owner email warning to my.wordpress.com.
 - Connection: Update wording for some connection error notices.
