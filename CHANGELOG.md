@@ -220,6 +220,7 @@ This is an alpha version! The changes listed here are not final.
 - Charts: Place line and area chart date ticks on the site's time zone boundaries, name the hour in tooltips on hourly data, and read hour labels in the site's own locale rather than a forced 12-hour clock.
 - Charts: Restore keyboard focus after dismissing line chart tooltips.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
+- Connection: Point the WordPress.com account link in the plan owner email warning to my.wordpress.com.
 - Connection: Update wording for some connection error notices.
 - Crowdsignal: suppress the onboarding and "link your account" notices that cluttered the Plugins page on WoA sites after activation.
 - Custom Colors: Fix translucent color rules being output as fully transparent.
@@ -278,6 +279,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Stop the Ads chart interval menu offering buckets the WordAds chart cannot draw.
 - Premium Analytics: write the calendar heatmap's weekday, month and tooltip labels in the site's language.
 - Prevent Crowdsignal Forms from redirecting to its settings page on WoA sites after the Atomic transfer or a managed plugin version bump.
+- Profile Settings: Point the WordPress.com links on wp-admin/profile.php to the matching my.wordpress.com settings pages.
 - Recurring Payments: restore the unconditional free-tier branch so free-plan sites keep paid newsletters and paid subscriptions.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Site purchases: Fix a fatal error when a cached purchase row arrives in an unexpected shape.
