@@ -264,6 +264,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show chart dates in the site's timezone and locale, and name the hour on hourly charts.
 - Premium Analytics: Show each number on a chart's value axis once when the counts are small, instead of repeating 0 and 1.
 - Premium Analytics: Show published dates in the site's language and date format.
+- Premium Analytics: Show readable link names in an email's Top links list, and list the links clicked inside the post instead of dropping them.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Start bar chart value axes at zero so a small change no longer looks like a large one.
 - Premium Analytics: Start line chart value axes at zero, and pad the Subscribers chart's axis a little below its data, so a small change no longer looks like a large one.
