@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Premium Analytics: Show sponsored content and adjustment earnings on the Earnings history report, each on its own tab.
 - Premium Analytics: show the onboarding again to a reader who switches the new Traffic tab back on.
+- Premium Analytics: Show the Subscribers tab, and the Ads tab on sites that have WordAds, in the customer preview.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
 - Report recovery-mode state to wpcom (via /sites/{blog_id}/recovery-mode-status) so wpcom-side consumers can surface "needs recovery" and related states for sites that have hit a fatal error.
 - Social: Register the social-image-focal-point feature flag for WPCOM sites.
