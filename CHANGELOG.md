@@ -38,6 +38,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
 - Premium Analytics: Add the Totals column to the post detail All-time traffic card; picking a total reads the page over that year.
 - Premium Analytics: add total and per-post image counts to the Annual insights report.
+- Premium Analytics: Describe the 30, 60 and 90 days ago and Social followers counts on Subscriber highlights on hover and for screen readers.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
 - Premium Analytics: Link the Earnings History widget to its full report.
