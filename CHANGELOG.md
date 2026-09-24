@@ -273,6 +273,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show published dates in the site's language and date format.
 - Premium Analytics: Show readable link names in an email's Top links list, and list the links clicked inside the post instead of dropping them.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
+- Premium Analytics: Show the date menus opened from a widget's controls above the controls popover.
 - Premium Analytics: Start bar chart value axes at zero so a small change no longer looks like a large one.
 - Premium Analytics: Start line chart value axes at zero, and pad the Subscribers chart's axis a little below its data, so a small change no longer looks like a large one.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
