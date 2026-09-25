@@ -48,6 +48,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Premium Analytics: Show sponsored content and adjustment earnings on the Earnings history report, each on its own tab.
+- Premium Analytics: Show the change since 30 days ago on the all-time, paid and free subscriber counts for sites with paid subscribers.
 - Premium Analytics: show the onboarding again to a reader who switches the new Traffic tab back on.
 - Premium Analytics: Show the Subscribers tab in the customer preview.
 - Profile Settings: add a link to manage your username on WordPress.com to the username row on wp-admin/profile.php.
