@@ -282,6 +282,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Masterbar\\Base_Admin_Menu' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-base-admin-menu.php',
         'Automattic\\Jetpack\\Masterbar\\CSS_Customizer_Nudge' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/nudges/additional-css/class-css-customizer-nudge.php',
         'Automattic\\Jetpack\\Masterbar\\CSS_Nudge_Customize_Control' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/nudges/additional-css/class-css-nudge-customize-control.php',
+        'Automattic\\Jetpack\\Masterbar\\DIFM_Lite_Admin_Menu' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-difm-lite-admin-menu.php',
         'Automattic\\Jetpack\\Masterbar\\Dashboard_Switcher_Tracking' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-dashboard-switcher-tracking.php',
         'Automattic\\Jetpack\\Masterbar\\Domain_Only_Admin_Menu' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/admin-menu/class-domain-only-admin-menu.php',
         'Automattic\\Jetpack\\Masterbar\\Inline_Help' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-masterbar/src/inline-help/class-inline-help.php',

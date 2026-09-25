@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - CLI: php83 patchers round 3 — LF variants for the SecondLine theme patch (newer licensed builds ship Unix line endings), and a deepcore-widget patch for the duplicated static counters in the Elementor magazine widget's render(), which only compiles on pages using that widget.
 - Connection: Surface SSL certificate verification failures reported by WordPress.com as a connection error notice.
 - Customize the WordPress fatal error screen with WordPress.com support links.
+- DIFM Express: Keep Posts, Media, and Pages accessible in wp-admin while awaiting the customer's content.
 - Enable wp-admin JS error reporting on sites participating in the `gutenberg-react-19` experiment.
 - Fatal-error screen: log the offending extension's signature (kind, slug, version, WordPress core, PHP) to wpcom logstash via WPCOMSH_Log, deduped so a persistent fatal emits one record rather than one per visitor, so MC dashboards can aggregate the most common breakages.
 - Fatal error: log recovery-mode email dispatches (sent, disabled, no recipient) and post-login recovery-mode entry to logstash.
