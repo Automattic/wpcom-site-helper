@@ -293,6 +293,7 @@ This is an alpha version! The changes listed here are not final.
 - Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
+- Update the Gutenberg Experiments slug
 - Update wc-calypso-bridge to 2.11.7.
 - Write: Stop showing wp-admin notices, such as the plan expiry banner, behind the editor header.
 
