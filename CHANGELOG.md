@@ -92,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - General: update composer.lock files.
 - General: Update minimum WordPress version to 6.9.
 - General: Update minimum WordPress version to 7.0.
+- General Settings: Update the domain and site management links to point to the new WordPress.com pages.
 - Guidelines CPT meta now syncs via jetpack_sync_post_meta_whitelist filter with explicit meta keys instead of prefix matching.
 - Gutenberg: Enable wp-admin JS error reporting on 1% of Atomic sites.
 - Incompatible Plugins: unblock Duplicator (duplicator/duplicator.php). Version 5.0.3 added WordPress.com managed host detection and resolved all previous compatibility issues.
