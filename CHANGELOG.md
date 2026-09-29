@@ -73,6 +73,7 @@ This is an alpha version! The changes listed here are not final.
 - Write: send users back to My Home or the Reader when they open the editor from a daily prompt card there.
 
 ### Changed
+- Admin color schemes: Mark the WordPress.com-specific color schemes as deprecated, list them last on the profile page, and ask users who still use one to switch.
 - Agents Manager: Extract into its own package from jetpack-mu-wpcom
 - AI Launchpad: bundle the jetpack-wp-build-polyfills dependency used by the new launchpad admin page.
 - Allow the renamed gutenberg-guidelines experiment alongside the existing gutenberg-content-guidelines experiment on Atomic sites.
