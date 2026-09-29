@@ -6,7 +6,7 @@ return array(
   'packages' => array(
     'jetpack-admin-ui' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-admin-ui',
-      'ver' => '0.14.2-alpha1790678782',
+      'ver' => '0.14.2',
     ),
     'jetpack-agents-manager' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-agents-manager',
@@ -18,7 +18,7 @@ return array(
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
-      'ver' => '0.29.6',
+      'ver' => '0.29.7',
     ),
     'jetpack-block-delimiter' => array(
       'path' => 'jetpack_vendor/automattic/block-delimiter',
@@ -30,7 +30,7 @@ return array(
     ),
     'jetpack-comments' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-comments',
-      'ver' => '0.3.0-alpha1790696154',
+      'ver' => '0.3.0',
     ),
     'jetpack-compat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-compat',
@@ -42,7 +42,7 @@ return array(
     ),
     'jetpack-connection' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-connection',
-      'ver' => '9.8.1-alpha1790694786',
+      'ver' => '9.8.1',
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
@@ -74,7 +74,7 @@ return array(
     ),
     'jetpack-masterbar' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-masterbar',
-      'ver' => '0.29.1-alpha1790694786',
+      'ver' => '0.29.1',
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
