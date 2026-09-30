@@ -46,6 +46,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Link the Earnings History widget to its full report.
 - Premium Analytics: Note in the Earnings History widget when the site has adjustments, linking to the Adjustments history tab of the Earnings report.
 - Premium Analytics: Note in the Traffic summary help that the Visitors total is a per-period sum.
+- Premium Analytics: offer adding and removing widgets on the dashboard.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
 - Premium Analytics: Show sponsored content and adjustment earnings on the Earnings history report, each on its own tab.
