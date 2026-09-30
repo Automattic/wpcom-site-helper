@@ -9,6 +9,7 @@ This is an alpha version! The changes listed here are not final.
 - Add a `wpcomsh php83-plugin-patch mega_main_menu` CLI command that removes the duplicate `static $theme_option_file` declaration triggering a "Duplicate declaration of static variable" fatal error under PHP 8.3+.
 - Add REST endpoint that reports the active Gutenberg plugin version, gated by a WP option.
 - Add stats wp abbilities
+- Add the form-conditional-logic feature to Business plans and higher.
 - Add Titan Mail Premium and Ultra product constants to WPCOM_TITAN_MAIL_PRODUCTS for feature detection
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
 - Backup: Add a Backup page to wp-admin, offering an upgrade or activation for sites whose backups are not available yet.
