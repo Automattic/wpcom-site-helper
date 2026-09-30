@@ -194,6 +194,7 @@ return array(
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_Seller_Celebration_Modal_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-seller-celebration-modal-controller.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\NUX\\WP_REST_WPCOM_Block_Editor_Video_Celebration_Modal_Controller' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor-nux/class-wp-rest-wpcom-block-editor-video-celebration-modal-controller.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Backup' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-backup/wpcom-backup.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Dashboard' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-dashboard/class-wpcom-dashboard.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Feature_Flags' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-feature-flags/class-wpcom-feature-flags.php',
