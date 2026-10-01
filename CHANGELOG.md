@@ -288,6 +288,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show each number on a chart's value axis once when the counts are small, instead of repeating 0 and 1.
 - Premium Analytics: Show published dates in the site's language and date format.
 - Premium Analytics: Show readable link names in an email's Top links list, and list the links clicked inside the post instead of dropping them.
+- Premium Analytics: Show the "No data found" state on every report with no rows, and stop the table search and settings from showing while an empty report loads.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Show the date menus opened from a widget's controls above the controls popover.
 - Premium Analytics: Start bar chart value axes at zero so a small change no longer looks like a large one.
