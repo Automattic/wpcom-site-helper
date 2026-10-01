@@ -126,6 +126,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Call the preview the new Stats in its welcome, feedback and switch-off copy.
 - Premium Analytics: disable the dashboard's date controls while customizing its layout.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
+- Premium Analytics: Download the full report from the Top pages widget instead of the rows on screen, using the report's Title, Views, and URL columns, and add the download to its Archives view.
 - Premium Analytics: Draw attention to the date control, and read the new period out, when a card or a table cell sets the period rather than the reader.
 - Premium Analytics: draw the Post views and Video performance charts on the detail pages as bars by default.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
