@@ -254,6 +254,7 @@ This is an alpha version! The changes listed here are not final.
 - PayPal Payment Buttons: name the platform credential constants that are missing when an environment is only partly configured.
 - PayPal Payment Buttons: refuse to generate an onboarding link when the platform partner merchant ID is not configured, instead of failing later with an unrelated error.
 - Phan: Address PhanPluginDuplicateConditionalNullCoalescing violations.
+- Playground import: Detect and import backups that store the SQLite database in a randomized `.ht.<hash>` folder.
 - Plugin Conflicts Guardian: fix the staged rollout so the pre-flight plugin check reaches its intended share of sites.
 - Podcast: Fix the dashboard overlapping the admin menu in right-to-left languages.
 - Podcast: Scope the generated episodes list to the posts the current user can edit, matching the Posts screen.
