@@ -62,6 +62,7 @@ return array(
     'Automattic\\Jetpack\\Code_Block_HTML_Replacer' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-blocks/code/class-code-block-html-replacer.php',
     'Automattic\\Jetpack\\Code_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/code-editor/class-code-editor.php',
     'Automattic\\Jetpack\\Comments\\Avatars' => $baseDir . '/jetpack_vendor/automattic/jetpack-comments/src/class-avatars.php',
+    'Automattic\\Jetpack\\Comments\\Block_Editor' => $baseDir . '/jetpack_vendor/automattic/jetpack-comments/src/editor/class-block-editor.php',
     'Automattic\\Jetpack\\Comments\\Checkpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-checkpoint.php',
     'Automattic\\Jetpack\\Comments\\Checkpoint_Endpoint' => $baseDir . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-checkpoint-endpoint.php',
     'Automattic\\Jetpack\\Comments\\Comment_Form' => $baseDir . '/jetpack_vendor/automattic/jetpack-comments/src/form/class-comment-form.php',

@@ -139,6 +139,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Code_Block_HTML_Replacer' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-blocks/code/class-code-block-html-replacer.php',
         'Automattic\\Jetpack\\Code_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/code-editor/class-code-editor.php',
         'Automattic\\Jetpack\\Comments\\Avatars' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/class-avatars.php',
+        'Automattic\\Jetpack\\Comments\\Block_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/editor/class-block-editor.php',
         'Automattic\\Jetpack\\Comments\\Checkpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-checkpoint.php',
         'Automattic\\Jetpack\\Comments\\Checkpoint_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-checkpoint-endpoint.php',
         'Automattic\\Jetpack\\Comments\\Comment_Form' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/form/class-comment-form.php',
