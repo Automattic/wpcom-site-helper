@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Add the form-conditional-logic feature to Business plans and higher.
 - Add Titan Mail Premium and Ultra product constants to WPCOM_TITAN_MAIL_PRODUCTS for feature detection
 - Agents Manager: Add Sidebar Preservation On Load Mechanism
+- AI Launchpad: sync the Site Setup state to WordPress.com, so the sites list reflects a setup that was skipped or completed on the site.
 - Backup: Add a Backup page to wp-admin, offering an upgrade or activation for sites whose backups are not available yet.
 - Bilmur: add opt-in data-site-v attribute to the RUM meta tag via a new wpcomsh_bilmur_site_v filter
 - CLI: generalize `wpcomsh php83-plugin-patch` into a table-driven patcher for PHP 8.3+ duplicate-static-variable fatals and add a `php83-theme-patch` counterpart. Covers the dash-slug mega-main-menu folder, ninja-forms, wiziapp, thegem-blocks, deepcore, malina-elements, sfwd-lms, cp-addons-for-vc and ingeniofy plugins, plus the SecondLine (tusant/gumbo/dixie/satchmo/bolden) and Select-Themes (hazel/hazel1/alma/maple/rhythm/architek) theme families.
