@@ -58,7 +58,7 @@ return array(
     ),
     'jetpack-help-center' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-help-center',
-      'ver' => '0.4.0-alpha1790182449',
+      'ver' => '0.4.0-alpha1790971430',
     ),
     'jetpack-image-cdn' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-image-cdn',
@@ -78,7 +78,7 @@ return array(
     ),
     'jetpack-mu-wpcom' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-mu-wpcom',
-      'ver' => '6.11.0-alpha1790957304',
+      'ver' => '6.11.0-alpha1790971430',
     ),
     'jetpack-password-checker' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-password-checker',

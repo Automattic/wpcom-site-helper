@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Help Center: make the admin bar entry point keyboard reachable and let its icon follow the item's hover colour.
+- Prevent PHP warnings when handling malformed data.
 
 ## [0.3.2] - 2026-08-03
 ### Fixed
