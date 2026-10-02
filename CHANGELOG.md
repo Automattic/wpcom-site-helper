@@ -313,6 +313,7 @@ This is an alpha version! The changes listed here are not final.
 - Stats: Only show the admin bar link when the Stats module is active.
 - Update the Gutenberg Experiments slug
 - Update wc-calypso-bridge to 2.11.7.
+- Widgets: Catch various PHP warnings when params are incomplete.
 - Write: Allow adding text above a quote, such as a writing prompt, and fix quotes that split in two or could not be turned off.
 - Write: Keep selected text highlighted when turning a quote on or off, and let Undo reverse turning a quote off.
 - Write: Stop showing wp-admin notices, such as the plan expiry banner, behind the editor header.
