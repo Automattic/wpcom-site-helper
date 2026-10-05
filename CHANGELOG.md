@@ -31,6 +31,7 @@ This is an alpha version! The changes listed here are not final.
 - PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
 - Premium Analytics: Add a Download CSV action to the Popular authors, Top links clicked, Top downloaded, Top referrers, Top searched terms, and Top videos widgets that saves the full report for the selected dates.
+- Premium Analytics: Add a Download CSV action to the Year in review, All-time most commented authors, All-time most commented posts, Top tags & categories, and Latest emails sent widgets that saves the full report.
 - Premium Analytics: Add a map of views by location to the Locations report, with an option to hide it.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
