@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - On the WordPress beta track, ignore the Gutenberg plugin when it is older than the Gutenberg version bundled in the running WordPress core, so the site uses the newer core-bundled Gutenberg.
 - PayPal Payment Buttons: add the WordPress.com endpoint that generates PayPal onboarding links.
 - Plugin Conflicts Guardian: control the rollout percentage from wpcomsh.
+- Premium Analytics: Add a Download CSV action to the Locations widget and the author page's Top viewed posts widget. Each saves every row for the selected dates, scoped to the place or author shown.
 - Premium Analytics: Add a Download CSV action to the Popular authors, Top links clicked, Top downloaded, Top referrers, Top searched terms, and Top videos widgets that saves the full report for the selected dates.
 - Premium Analytics: Add a Download CSV action to the Top UTM widget that saves the full report for the selected dates.
 - Premium Analytics: Add a Download CSV action to the Year in review, All-time most commented authors, All-time most commented posts, Top tags & categories, and Latest emails sent widgets that saves the full report.
