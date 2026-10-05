@@ -301,6 +301,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show the "No data found" state on every report with no rows, and stop the table search and settings from showing while an empty report loads.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Show the date menus opened from a widget's controls above the controls popover.
+- Premium Analytics: Show views per visitor and the number of posts published in the Traffic chart tooltip.
 - Premium Analytics: Start bar chart value axes at zero so a small change no longer looks like a large one.
 - Premium Analytics: Start line chart value axes at zero, and pad the Subscribers chart's axis a little below its data, so a small change no longer looks like a large one.
 - Premium Analytics: Stop applying hidden date comparisons in dashboard sections that do not offer the control.
