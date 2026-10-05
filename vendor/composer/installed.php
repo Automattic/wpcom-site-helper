@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.29.8',
             'version' => '0.29.8.0',
-            'reference' => '3ac80fea2cf47349221b3cf1d2b36eb67f05e187',
+            'reference' => 'fdaba88927f970fa79afe80587da5ceb5722b05c',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -247,7 +247,7 @@
         'automattic/jetpack-masterbar' => array(
             'pretty_version' => '0.29.3-alpha.1791218378',
             'version' => '0.29.3.0-alpha1791218378',
-            'reference' => '472c5bddad22d63f11f83743abfd52d82d22d9ea',
+            'reference' => '17dacfe79cb3f1815071f00d765107d57f89bf57',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-masterbar',
             'aliases' => array(),
@@ -272,9 +272,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-plans' => array(
-            'pretty_version' => '0.14.0',
-            'version' => '0.14.0.0',
-            'reference' => '8f552e9985d701b93a24d2d0263e5e3572fe2c9e',
+            'pretty_version' => '0.14.1-alpha.1791239229',
+            'version' => '0.14.1.0-alpha1791239229',
+            'reference' => '618ee6f0023dfb9f1e0117aff29cc713cc208f74',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/jetpack-plans',
             'aliases' => array(),
@@ -337,7 +337,7 @@
         'automattic/jetpack-stats-admin' => array(
             'pretty_version' => '0.38.2',
             'version' => '0.38.2.0',
-            'reference' => '03498329da5329e14a9c11d603ddf68c08c3d0ae',
+            'reference' => '2d2e0ff82fddc32c77457629ad0a43cd1893d9da',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-stats-admin',
             'aliases' => array(),
@@ -382,7 +382,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.15.0-alpha.1787942239',
             'version' => '0.15.0.0-alpha1787942239',
-            'reference' => 'f3ea30a9c41857acb0a5502e3d11cf6a817f5984',
+            'reference' => '34868676e9525a09dda16fbefdabf3e33ebfa379',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
