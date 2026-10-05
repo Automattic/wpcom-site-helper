@@ -280,6 +280,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Leave the months before a site launched or turned on subscriptions empty in the Subscriber summary chart, with a "No data" tooltip, instead of showing zero.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
 - Premium Analytics: Open the Ads tab's WordAds chart on the last 7 days rather than a single day on a site launched today.
+- Premium Analytics: Open the date menus on the applied option instead of the first one.
 - Premium Analytics: Post detail: stop the Post traffic layout from flashing when an email tab is opened directly, and show placeholder lines in the header while the title loads.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
