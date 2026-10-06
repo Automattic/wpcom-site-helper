@@ -56,6 +56,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: offer adding and removing widgets on the dashboard.
 - Premium Analytics: Send dashboard feedback on to Jetpack support, so it is not lost when analytics are blocked.
 - Premium Analytics: Show all-time views, visitors, and posts in the default Insights layout.
+- Premium Analytics: Show hours watched and retention rate on the Videos report, and name the Videos, Clicks, Authors and Locations columns as in Stats.
 - Premium Analytics: Show sponsored content and adjustment earnings on the Earnings history report, each on its own tab.
 - Premium Analytics: Show the Ads tab in the customer preview on sites that use WordAds.
 - Premium Analytics: Show the change since 30 days ago on the all-time, paid and free subscriber counts for sites with paid subscribers.
