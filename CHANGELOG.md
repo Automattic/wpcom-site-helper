@@ -280,6 +280,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: keep the year and the day on the traffic chart's time axis, which could previously skip the tick that named them, and stop the same label falling on two ticks in a row.
 - Premium Analytics: Keep the year column and month labels of the Views over years and a post's All-time traffic heatmaps fully opaque while the grid scrolls, so scrolled-under cells no longer show through around them.
 - Premium Analytics: keep the Year in review report link reachable.
+- Premium Analytics: Label a partial first or last week on the Traffic and Subscribers charts with the selected range's own start or end date.
 - Premium Analytics: Leave Average CPM empty instead of showing $0.00 in the Ads chart for periods with no ads served.
 - Premium Analytics: Leave the months before a site launched or turned on subscriptions empty in the Subscriber summary chart, with a "No data" tooltip, instead of showing zero.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
