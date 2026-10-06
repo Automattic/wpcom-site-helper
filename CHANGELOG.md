@@ -129,6 +129,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: ask whether the new Traffic tab is ready to replace the old one, instead of how it compares with the old one.
 - Premium Analytics: Build the custom date range calendar on the WordPress design system calendar.
 - Premium Analytics: Call the preview the new Stats in its welcome, feedback and switch-off copy.
+- Premium Analytics: Cap the cards on report pages at a centered 1440px column on wide screens, so each row's label and numbers stay close enough to read together.
 - Premium Analytics: disable the dashboard's date controls while customizing its layout.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: Download the full report from the Top pages widget instead of the rows on screen, using the report's Title, Views, and URL columns, and add the download to its Archives view.
