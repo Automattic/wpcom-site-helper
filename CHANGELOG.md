@@ -147,6 +147,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Lead each chart tooltip row with the value, then the metric, then the date.
 - Premium Analytics: Let hosts show or hide the Analytics sidebar entry.
 - Premium Analytics: limit dashboard customization to moving and resizing widgets.
+- Premium Analytics: Mark the Comments Subscribers and File downloads report links as opening in a new tab.
 - Premium Analytics: Match the date range control in widget headers to the height of the other header controls, and draw the date triggers with the design system button states.
 - Premium Analytics: Match the post and video page headers to the layout used across the rest of Analytics.
 - Premium Analytics: Match the Year in review tile icons to the design and add space between the tiles and the footer link.
