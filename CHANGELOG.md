@@ -270,6 +270,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Draw the bars on a bar chart whose value stays the same across the whole period, instead of leaving the chart empty.
 - Premium Analytics: Drop the Last 24 hours range from the WordAds card, which has no hourly data to chart.
 - Premium Analytics: fix a stray label stacked at the left edge of a chart's time axis after hiding a series from the legend, or when the chart mixes labelled bars with dated ones or compares two periods, and stop a labelled bar's tooltip reading "Invalid Date".
+- Premium Analytics: Fix chart tooltips wrapping into a narrow column on WordPress.com, and metric tab text showing through a tooltip.
 - Premium Analytics: Fix the Subscribers summary help text to describe the cumulative subscriber total the chart plots, not new subscribers.
 - Premium Analytics: Include the last day of the selected range in the WordAds card.
 - Premium Analytics: Keep the date picker on the range a chart drill-down applies.
