@@ -306,6 +306,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show a dash instead of zero in the Earnings history report when a period has no Ads Served count.
 - Premium Analytics: Show a notice when a refresh fails, instead of silently leaving the previous numbers on screen.
 - Premium Analytics: Show a sent but unopened email's open and click rates as 0% instead of a dash, show the email tabs for emails whose sends went unrecorded, and leave unknown rates blank in the Emails export.
+- Premium Analytics: Show a video watched for a few minutes as "< 0.1" hours, not 0.0, on the Videos report and video detail page.
 - Premium Analytics: Show chart dates in the site's timezone and locale, and name the hour on hourly charts.
 - Premium Analytics: Show each number on a chart's value axis once when the counts are small, instead of repeating 0 and 1.
 - Premium Analytics: Show published dates in the site's language and date format.
