@@ -184,6 +184,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: show Posting activity's last 12 months as one mini calendar per month.
 - Premium Analytics: show Subscriber highlights by default on the Subscribers tab and rearrange the widgets for the three-column grid.
 - Premium Analytics: Show the Ads tab only when WordAds is on, as classic Stats does, not to every plan that includes it.
+- Premium Analytics: Show the date once in chart tooltips, read each row as value then metric, and list the comparison period in a second column.
 - Premium Analytics: Show the Earnings History widget's adjustments link as text with a count badge.
 - Premium Analytics: Show the Earnings History widget as a compact list without in-widget pagination.
 - Premium Analytics: Show the heatmap tooltips in the dark style, the daily ones titled with the date; draw the Views over years and post All-time traffic cells as flush bands under a continuous scale, lifting a hovered month with a light ring and a shadow.
