@@ -333,6 +333,7 @@ This is an alpha version! The changes listed here are not final.
 - Restore custom-fonts typekit provider json files that shouldn't have been deleted.
 - Site purchases: Fix a fatal error when a cached purchase row arrives in an unexpected shape.
 - Site setup: Continue the wp-admin menu color behind the page frame on WordPress.com admin color schemes.
+- Site Setup: Show the loading spinner on the task button that was clicked (such as Skip) rather than always on the primary action.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
 - Update the Gutenberg Experiments slug
