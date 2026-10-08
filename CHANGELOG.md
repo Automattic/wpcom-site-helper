@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add a Download CSV action to the Top UTM widget that saves the full report for the selected dates.
 - Premium Analytics: Add a Download CSV action to the Year in review, All-time most commented authors, All-time most commented posts, Top tags & categories, and Latest emails sent widgets that saves the full report.
 - Premium Analytics: Add a map of views by location to the Locations report, with an option to hide it.
+- Premium Analytics: Add a Mark as spam action, with Undo, to the Referrers report.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
 - Premium Analytics: Add an Ads dashboard section showing WordAds earnings and performance.
 - Premium Analytics: Add an earnings history report, showing every period with its earnings, ads served, and payment status.
