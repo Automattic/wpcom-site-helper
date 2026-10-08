@@ -144,6 +144,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Comments\\Checkpoint_Endpoint' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-checkpoint-endpoint.php',
         'Automattic\\Jetpack\\Comments\\Comment_Form' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/form/class-comment-form.php',
         'Automattic\\Jetpack\\Comments\\Comments' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/class-comments.php',
+        'Automattic\\Jetpack\\Comments\\Embeds' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/editor/class-embeds.php',
         'Automattic\\Jetpack\\Comments\\Identity' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/class-identity.php',
         'Automattic\\Jetpack\\Comments\\Passport' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-comments/src/identity/checkpoint/class-passport.php',
         'Automattic\\Jetpack\\Composer\\Manager' => __DIR__ . '/..' . '/automattic/jetpack-composer-plugin/src/class-manager.php',
