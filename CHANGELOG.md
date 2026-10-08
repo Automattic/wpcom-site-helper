@@ -45,6 +45,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add a Total views / Daily average switch to the post detail All-time traffic card.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add comparison options that line up the same weekdays of the previous period and the previous year.
+- Premium Analytics: Add likes, comments and an all-time traffic table to the author detail page, and count an author's views even when they rank below the top 20 authors.
 - Premium Analytics: Add post thumbnails to the Posts & Pages report.
 - Premium Analytics: Add referrer groups that open folded and expand on demand in the Referrers report.
 - Premium Analytics: Add the Totals column to the post detail All-time traffic card; picking a total reads the page over that year.
