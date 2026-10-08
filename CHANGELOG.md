@@ -192,6 +192,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show the date once in chart tooltips, read each row as value then metric, and list the comparison period in a second column.
 - Premium Analytics: Show the Earnings History widget's adjustments link as text with a count badge.
 - Premium Analytics: Show the Earnings History widget as a compact list without in-widget pagination.
+- Premium Analytics: Show the empty-cell color at the start of heatmap legends such as Posting activity.
 - Premium Analytics: Show the heatmap tooltips in the dark style, the daily ones titled with the date; draw the Views over years and post All-time traffic cells as flush bands under a continuous scale, lifting a hovered month with a light ring and a shadow.
 - Premium Analytics: show the Insights tab beside Traffic while the site is running the Stats preview, and name both tabs in the preview's welcome, feedback and switch-off copy.
 - Premium Analytics: show the latest emails sent as a plain list of subjects and rates.
