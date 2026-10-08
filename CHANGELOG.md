@@ -299,6 +299,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Label a partial first or last week on the Traffic and Subscribers charts with the selected range's own start or end date.
 - Premium Analytics: Leave Average CPM empty instead of showing $0.00 in the Ads chart for periods with no ads served.
 - Premium Analytics: Leave the months before a site launched or turned on subscriptions empty in the Subscriber summary chart, with a "No data" tooltip, instead of showing zero.
+- Premium Analytics: Let one-row summary charts, such as the default Store performance tile, show their tooltip by drawing them as sparklines without axes.
 - Premium Analytics: Link a subscriber's name to their subscriber details page.
 - Premium Analytics: Make low values in heatmaps such as Posting activity easier to tell apart from empty cells, and show zero counts as empty.
 - Premium Analytics: Open the Ads tab's WordAds chart on the last 7 days rather than a single day on a site launched today.
