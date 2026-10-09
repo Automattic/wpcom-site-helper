@@ -294,6 +294,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Fix chart tooltips wrapping into a narrow column on WordPress.com, and metric tab text showing through a tooltip.
 - Premium Analytics: Fix the Subscribers summary help text to describe the cumulative subscriber total the chart plots, not new subscribers.
 - Premium Analytics: Fix value axis labels piling up at the left edge of a summary bar chart resized to one row.
+- Premium Analytics: Follow the WooCommerce Analytics date type setting in store reports instead of always using the order creation date.
 - Premium Analytics: Include the last day of the selected range in the WordAds card.
 - Premium Analytics: Keep the date picker on the range a chart drill-down applies.
 - Premium Analytics: keep the full set of ticks on the traffic chart's time axis, which could thin out to two labels on longer date ranges.
