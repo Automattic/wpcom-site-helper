@@ -43,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add an earnings history report, showing every period with its earnings, ads served, and payment status.
 - Premium Analytics: Add a page options menu with a Customize action on the post, email, and video detail pages.
 - Premium Analytics: add a page option that switches the new Traffic tab off, asks why on the way out, and returns to classic Stats.
+- Premium Analytics: Add a Settings tab to the dashboard, where site owners can see their plan usage and change the Stats settings, and open it from the "Manage Stats settings" link in Settings › Traffic when Stats v2 is on.
 - Premium Analytics: Add a Total views / Daily average switch to the post detail All-time traffic card.
 - Premium Analytics: Add a year dropdown to the Year in review (Highlights) widget header, defaulting to the current year, and drop its metric selector so the card always shows posts, words, likes, and comments.
 - Premium Analytics: Add comparison options that line up the same weekdays of the previous period and the previous year.
