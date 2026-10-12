@@ -171,6 +171,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Open on the last 7 days, or on the range you last picked in Stats, and remember a range you apply.
 - Premium Analytics: Open the Authors, Clicks and UTM reports folded to their top-level groups, and move the drill-down control to the right of the row title.
 - Premium Analytics: Open the dashboard from the admin bar Stats links and the action bar post stats link when it is enabled.
+- Premium Analytics: Open the dashboard on the WooCommerce tab when WooCommerce is active.
 - Premium Analytics: Post detail: bring the page back to the top when a month in All-time traffic sets the period.
 - Premium Analytics: read ads served, average CPM and revenue out together in the Ads chart tooltip, whichever tab is selected.
 - Premium Analytics: rearrange the default Ads widgets for the three-column grid, with the chart first, then the balance, then the three history tables side by side.
