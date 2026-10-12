@@ -165,6 +165,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: move the dashboard's Customize button into the page options menu, with Reset to default beside Cancel and Done while customizing.
 - Premium Analytics: move the dashboard feedback action into a page options menu.
 - Premium Analytics: Move the Subscribers date range control off the tab header and onto the Subscriber summary chart, which is the only widget there that reads a range. The tab no longer offers a previous-period comparison.
+- Premium Analytics: Move the Top tags & categories widget to the Traffic tab, where it and its report follow the date picker.
 - Premium Analytics: Move the Traffic summary's grouping control (by days, weeks or months) into the chart itself, which remembers your choice.
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: offer feedback, the preview opt-out and Reset to default from the post and video detail pages too.
