@@ -321,6 +321,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: print Tags & categories view counts in full, and list far more rows in its report.
 - Premium Analytics: print the Annual insights words-per-post average whole, as the old Stats report does.
 - Premium Analytics: Remove the quarterly chart interval option, which never changed the chart.
+- Premium Analytics: Reports: show the Referrers, Clicks, Authors and UTM tables at one weight on every row, so the chevron alone marks a row that expands.
 - Premium Analytics: Return the Stats breadcrumb to the dashboard tab a report or detail page was opened from, instead of always to Traffic.
 - Premium Analytics: Show "1 Subscriber" rather than "1 Subscribers" in chart tooltips, using each language's plural rules.
 - Premium Analytics: Show abbreviated month names on chart x-axes in line and area views.
