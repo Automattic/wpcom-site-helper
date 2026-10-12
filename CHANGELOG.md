@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Describe the 30, 60 and 90 days ago and Social followers counts on Subscriber highlights on hover and for screen readers.
 - Premium Analytics: enable the bundled dashboard on Atomic sites carrying the jetpack-premium-analytics sticker.
 - Premium Analytics: Expose the dashboard opt-in as a site setting, so administrators can turn the dashboard on and off through the site settings API.
+- Premium Analytics: Link author names in Popular authors and the Authors report to the author's page.
 - Premium Analytics: Link the Earnings History widget to its full report.
 - Premium Analytics: Note in the Earnings History widget when the site has adjustments, linking to the Adjustments history tab of the Earnings report.
 - Premium Analytics: Note in the Traffic summary help that the Visitors total is a per-period sum.
