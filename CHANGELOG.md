@@ -236,6 +236,7 @@ This is an alpha version! The changes listed here are not final.
 - Update wc-calypso-bridge to 2.11.8.
 - Update wc-calypso-bridge to 2.11.10.
 - Update wp-php-toolkit dependencies.
+- Use apply_shortcodes() terminology instead of do_shortcode().
 - WP.com Error Reporting: delegate all decisions to host-specific filters
 - WP.com Error Reporting: use direct fetch with no CORS preflight
 - wpcom-fatal-error: rename the fatal-error screen's "Likely cause" heading to "Suspected plugin" / "Suspected theme", identify theme-origin fatals so the card shows the theme's name / version / description, and surface Error details + Environment (WordPress / PHP / theme / server) as always-visible sections below the card.
