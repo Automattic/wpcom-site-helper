@@ -360,6 +360,8 @@ This is an alpha version! The changes listed here are not final.
 - Site Setup: Show the loading spinner on the task button that was clicked (such as Skip) rather than always on the primary action.
 - Site visibility: Stop the site launch celebration modal from reappearing after saving Reading settings.
 - Stats: Only show the admin bar link when the Stats module is active.
+- Themes: retry after a failed read of the WordPress.com theme list, rather than leaving the Add Themes tabs without WordPress.com themes for a day.
+- Themes: when a plan does not include WordPress.org themes, remove those themes from the Add Themes results rather than emptying the results.
 - Update the Gutenberg Experiments slug
 - Update wc-calypso-bridge to 2.11.7.
 - Widgets: Catch various PHP warnings when params are incomplete.
