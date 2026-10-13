@@ -168,6 +168,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Move the Subscribers date range control off the tab header and onto the Subscriber summary chart, which is the only widget there that reads a range. The tab no longer offers a previous-period comparison.
 - Premium Analytics: Move the Top tags & categories widget to the Traffic tab, where it and its report follow the date picker.
 - Premium Analytics: Move the Traffic summary's grouping control (by days, weeks or months) into the chart itself, which remembers your choice.
+- Premium Analytics: Name each metric's comparison period in line and bar chart legends, such as "Views (Prev. 30 days)".
 - Premium Analytics: Name the dates a comparison covers in the dashboard header, instead of "Previous period", drop the weekdays from ranges longer than a week, and leave the year off ranges that sit inside the current one.
 - Premium Analytics: offer feedback, the preview opt-out and Reset to default from the post and video detail pages too.
 - Premium Analytics: On the Subscriber highlights card, show the subscriber count 30, 60, and 90 days ago for sites without paid subscribers, show social followers on any site that has them, rename the first tile to All-time subscribers, and remove the Metrics control.
