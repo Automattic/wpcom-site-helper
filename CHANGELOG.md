@@ -258,7 +258,7 @@ This is an alpha version! The changes listed here are not final.
 - Subscriptions: Remove the transitional Subscribers announcement page from the Jetpack menu.
 
 ### Fixed
-- Activity Log: Keep the Activity Log on for all sites, including newly transferred and reset ones.
+- Activity Log: Turn the Activity Log on for newly transferred and reset sites.
 - Admin bar: don't treat the default favicon fallback as a site icon
 - Admin bar: Fix site name and wpcom account menu item height.
 - Admin color schemes: render the checked checkbox and radio marks in white, matching core.
