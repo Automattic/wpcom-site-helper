@@ -269,6 +269,7 @@ This is an alpha version! The changes listed here are not final.
 - Coming Soon: Revert the platform Coming Soon fallback for sites without a wpcom_public_coming_soon option row. It put launched sites whose platform value was stale into Coming Soon.
 - Connection: Fix a stale connection error notice that could persist on healthy sites.
 - Connection: Point the WordPress.com account link in the plan owner email warning to my.wordpress.com.
+- Connection: Translate the Connectors card's text on sites that don't use English.
 - Connection: Update wording for some connection error notices.
 - Crowdsignal: suppress the onboarding and "link your account" notices that cluttered the Plugins page on WoA sites after activation.
 - Custom Colors: Fix translucent color rules being output as fully transparent.
