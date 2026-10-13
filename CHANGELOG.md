@@ -143,6 +143,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Divide a widget's metrics with lines instead of boxing each one.
 - Premium Analytics: Download the full report from the Top pages widget instead of the rows on screen, using the report's Title, Views, and URL columns, and add the download to its Archives view.
 - Premium Analytics: Draw attention to the date control, and read the new period out, when a card or a table cell sets the period rather than the reader.
+- Premium Analytics: Draw tabbed metric charts in the admin color, with the metric paired in the Traffic summary in a darker shade, instead of a different color per metric.
 - Premium Analytics: draw the Post views and Video performance charts on the detail pages as bars by default.
 - Premium Analytics: Even out the header spacing on the post detail page to match the video page.
 - Premium Analytics: Filter the Earnings history report by payment status, explain Ads Served there, and show unpaid and negative amounts in red on the Earnings History widget.
