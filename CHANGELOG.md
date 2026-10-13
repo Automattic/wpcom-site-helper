@@ -339,6 +339,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show report load errors in a notice across the report, without Retry when access is denied. Show access denied on author, post, and video details as an error.
 - Premium Analytics: Show store revenue and other money values in the store's currency instead of always US dollars.
 - Premium Analytics: Show the "No data found" state on every report with no rows, and stop the table search and settings from showing while an empty report loads.
+- Premium Analytics: Show the author's name in the author page breadcrumb.
 - Premium Analytics: Show the dashboard right away instead of a sync screen, and flag the Store section's numbers as incomplete while store data is still syncing.
 - Premium Analytics: Show the date menus opened from a widget's controls above the controls popover.
 - Premium Analytics: Show views per visitor and the number of posts published in the Traffic chart tooltip.
