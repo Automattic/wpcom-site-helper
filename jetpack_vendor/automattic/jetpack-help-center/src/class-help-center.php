@@ -18,7 +18,7 @@ class Help_Center {
 	 *
 	 * @var string
 	 */
-	const PACKAGE_VERSION = '0.4.0-alpha';
+	const PACKAGE_VERSION = '0.4.0';
 
 	/**
 	 * ExPlat experiment behind the "Get Help" label and the chat-forward opening.
