@@ -277,6 +277,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_0_0_alpha
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Admin_Bar' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-admin-bar/class-wpcom-admin-bar.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Backup' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-backup/wpcom-backup.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_WP_Build_Page' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/class-wpcom-wp-build-page.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Dashboard' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-dashboard/class-wpcom-dashboard.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Feature_Flags' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-feature-flags/class-wpcom-feature-flags.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template.php',
