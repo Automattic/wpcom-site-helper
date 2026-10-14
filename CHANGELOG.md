@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Add a Download CSV action to the Popular authors, Top links clicked, Top downloaded, Top referrers, Top searched terms, and Top videos widgets that saves the full report for the selected dates.
 - Premium Analytics: Add a Download CSV action to the Top UTM widget that saves the full report for the selected dates.
 - Premium Analytics: Add a Download CSV action to the Year in review, All-time most commented authors, All-time most commented posts, Top tags & categories, and Latest emails sent widgets that saves the full report.
+- Premium Analytics: Add All time to the report date menu, covering everything since the site's stats began.
 - Premium Analytics: Add a map of views by location to the Locations report, with an option to hide it.
 - Premium Analytics: Add a Mark as spam action, with Undo, to the Referrers report.
 - Premium Analytics: Add an "Any feedback?" action to the dashboard header.
