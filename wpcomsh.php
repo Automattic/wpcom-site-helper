@@ -2,14 +2,14 @@
 /**
  * Plugin Name: WordPress.com Site Helper
  * Description: A helper for connecting WordPress.com sites to external host infrastructure.
- * Version: 10.0.0
+ * Version: 10.0.1-alpha
  * Author: Automattic
  * Author URI: http://automattic.com/
  *
  * @package wpcomsh
  */
 
-define( 'WPCOMSH_VERSION', '10.0.0' );
+define( 'WPCOMSH_VERSION', '10.0.1-alpha' );
 
 // Loaded first: fatal-error screen filter + one-shot plugin-deactivation endpoint.
 // The deactivator also needs to load before any regular plugin, so in production

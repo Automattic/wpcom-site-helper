@@ -1,5 +1,12 @@
 # Changelog
 
+## 10.0.1-alpha - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Premium Analytics: Lighten heatmap colors in cards such as Posting activity and Views over years, while keeping low values distinct from empty cells.
+
 ## 10.0.0 - 2026-10-14
 ### Added
 - Add a check for sites with legacy feature gating. [#51744]
