@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Lighten heatmap colors in cards such as Posting activity and Views over years, while keeping low values distinct from empty cells.
 
 ## 10.0.0 - 2026-10-14
