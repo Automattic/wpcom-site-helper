@@ -1,8 +1,11 @@
 # Changelog
 
-## 10.0.1-alpha - unreleased
+## 10.1.0-alpha - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 
 ### Changed
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
