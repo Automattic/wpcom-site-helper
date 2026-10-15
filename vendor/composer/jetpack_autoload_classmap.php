@@ -3059,35 +3059,35 @@ return array(
 		'path'    => $vendorDir . '/scssphp/source-span/src/Util.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\ExceptionInterface' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/ExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\FileNotFoundException' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/FileNotFoundException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOException' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\IOExceptionInterface' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/IOExceptionInterface.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\InvalidArgumentException' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/InvalidArgumentException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Exception\\RuntimeException' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Exception/RuntimeException.php'
 	),
 	'Symfony\\Component\\Filesystem\\Filesystem' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Filesystem.php'
 	),
 	'Symfony\\Component\\Filesystem\\Path' => array(
-		'version' => '6.4.45.0',
+		'version' => '6.4.48.0',
 		'path'    => $vendorDir . '/symfony/filesystem/Path.php'
 	),
 	'Symfony\\Polyfill\\Ctype\\Ctype' => array(
@@ -3095,7 +3095,7 @@ return array(
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/Ctype.php'
 	),
 	'Symfony\\Polyfill\\Mbstring\\Mbstring' => array(
-		'version' => '1.38.2.0',
+		'version' => '1.43.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php'
 	),
 	'Tlkio_Widget' => array(

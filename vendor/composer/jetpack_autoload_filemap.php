@@ -19,7 +19,7 @@ return array(
 		'path'    => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php'
 	),
 	'0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => array(
-		'version' => '1.38.2.0',
+		'version' => '1.43.0.0',
 		'path'    => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php'
 	),
 	'700e9f220ab8246703a73d0e5d5d9192' => array(
