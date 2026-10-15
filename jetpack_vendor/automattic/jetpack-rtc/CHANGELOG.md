@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## [0.2.0] - 2026-10-14
 ### Added
 - RTC: add a jetpack_rtc_blocked Tracks event recorded when a client is turned away because the per-room contributor limit was reached. [#49579]
@@ -64,4 +71,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PingHub: support root/comment entity type so collaborative notes sync in real time over WebSockets [#47833]
 - Skip attachment entities in PingHub provider to avoid excessive WebSocket connections on media-heavy sites [#47917]
 
+[0.2.1-alpha]: https://github.com/Automattic/jetpack-rtc/compare/v0.2.0...v0.2.1-alpha
 [0.2.0]: https://github.com/Automattic/jetpack-rtc/compare/v0.1.0...v0.2.0
