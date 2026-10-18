@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
+- Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
 
 ## 10.0.0 - 2026-10-14
 ### Added
