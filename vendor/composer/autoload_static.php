@@ -878,6 +878,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_1_0_alpha
         'WPCom_Themes_Mapper' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-mapper.php',
         'WPCom_Themes_Merger' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-merger.php',
         'WPCom_Themes_Service' => __DIR__ . '/../..' . '/wpcom-themes/includes/class-wpcom-themes-service.php',
+        'WPCom_Themes_Store' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-store.php',
         'WPCom_Themes_Tiers' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-tiers.php',
         'WP_Customize_Footercredit_Select' => __DIR__ . '/../..' . '/footer-credit/footer-credit/customizer.php',
         'WP_Privacy_Participating_Plugins' => __DIR__ . '/../..' . '/privacy/class-wp-privacy-participating-plugins.php',

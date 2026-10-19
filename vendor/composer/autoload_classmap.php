@@ -801,6 +801,7 @@ return array(
     'WPCom_Themes_Mapper' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-mapper.php',
     'WPCom_Themes_Merger' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-merger.php',
     'WPCom_Themes_Service' => $baseDir . '/wpcom-themes/includes/class-wpcom-themes-service.php',
+    'WPCom_Themes_Store' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-store.php',
     'WPCom_Themes_Tiers' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-themes/class-wpcom-themes-tiers.php',
     'WP_Customize_Footercredit_Select' => $baseDir . '/footer-credit/footer-credit/customizer.php',
     'WP_Privacy_Participating_Plugins' => $baseDir . '/privacy/class-wp-privacy-participating-plugins.php',
