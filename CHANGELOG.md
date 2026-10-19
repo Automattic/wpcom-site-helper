@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
 - Premium Analytics: Lighten heatmap colors in cards such as Posting activity and Views over years, while keeping low values distinct from empty cells.
+- Premium Analytics: Show plan usage on the Settings tab in a taller, brand-colored meter.
 - Update package dependencies.
 
 ### Fixed
