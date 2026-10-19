@@ -10,11 +10,11 @@ return array(
     ),
     'jetpack-agents-manager' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-agents-manager',
-      'ver' => '0.12.7-alpha1792047423',
+      'ver' => '0.12.7-alpha1792433388',
     ),
     'jetpack-assets' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-assets',
-      'ver' => '5.0.12',
+      'ver' => '5.0.13-alpha1792433388',
     ),
     'jetpack-blaze' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-blaze',
@@ -46,7 +46,7 @@ return array(
     ),
     'jetpack-explat' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-explat',
-      'ver' => '0.6.4-alpha1792047423',
+      'ver' => '0.6.4-alpha1792433388',
     ),
     'jetpack-feature-flags' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-feature-flags',
@@ -94,7 +94,7 @@ return array(
     ),
     'jetpack-rtc' => array(
       'path' => 'jetpack_vendor/automattic/jetpack-rtc',
-      'ver' => '0.2.1-alpha1792047423',
+      'ver' => '0.2.1-alpha1792433388',
     ),
     'jetpack-scheduled-updates' => array(
       'path' => 'jetpack_vendor/automattic/scheduled-updates',

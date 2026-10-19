@@ -115,27 +115,27 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-admin-ui/src/class-admin-menu.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\Agents_Manager' => array(
-		'version' => '0.12.7.0-alpha1792047423',
+		'version' => '0.12.7.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-agents-manager.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\Open_State_Store' => array(
-		'version' => '0.12.7.0-alpha1792047423',
+		'version' => '0.12.7.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-open-state-store.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\Sidebar_Open_Preservation' => array(
-		'version' => '0.12.7.0-alpha1792047423',
+		'version' => '0.12.7.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-sidebar-open-preservation.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\WP_REST_Agents_Manager_Persisted_Open_State' => array(
-		'version' => '0.12.7.0-alpha1792047423',
+		'version' => '0.12.7.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-wp-rest-agents-manager-persisted-open-state.php'
 	),
 	'Automattic\\Jetpack\\Agents_Manager\\WP_REST_Jetpack_AI_JWT' => array(
-		'version' => '0.12.7.0-alpha1792047423',
+		'version' => '0.12.7.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-agents-manager/src/class-wp-rest-jetpack-ai-jwt.php'
 	),
 	'Automattic\\Jetpack\\Assets' => array(
-		'version' => '5.0.12.0',
+		'version' => '5.0.13.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-assets.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Logo' => array(
@@ -143,15 +143,15 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-logo/src/class-logo.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Script_Data' => array(
-		'version' => '5.0.12.0',
+		'version' => '5.0.13.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-script-data.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Semver' => array(
-		'version' => '5.0.12.0',
+		'version' => '5.0.13.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-semver.php'
 	),
 	'Automattic\\Jetpack\\Assets\\Shared_Stores_Assets' => array(
-		'version' => '5.0.12.0',
+		'version' => '5.0.13.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-assets/src/class-shared-stores-assets.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
@@ -495,11 +495,11 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-status/src/class-errors.php'
 	),
 	'Automattic\\Jetpack\\ExPlat' => array(
-		'version' => '0.6.4.0-alpha1792047423',
+		'version' => '0.6.4.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-explat.php'
 	),
 	'Automattic\\Jetpack\\ExPlat\\REST_Controller' => array(
-		'version' => '0.6.4.0-alpha1792047423',
+		'version' => '0.6.4.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-explat/src/class-rest-controller.php'
 	),
 	'Automattic\\Jetpack\\Feature_Flags\\Feature_Flags' => array(
@@ -931,19 +931,19 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-twitter-cards.php'
 	),
 	'Automattic\\Jetpack\\RTC' => array(
-		'version' => '0.2.1.0-alpha1792047423',
+		'version' => '0.2.1.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/class-rtc.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_Connection_Log' => array(
-		'version' => '0.2.1.0-alpha1792047423',
+		'version' => '0.2.1.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-connection-log.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_Pinghub_Token' => array(
-		'version' => '0.2.1.0-alpha1792047423',
+		'version' => '0.2.1.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-pinghub-token.php'
 	),
 	'Automattic\\Jetpack\\RTC\\REST_RTC_Notices' => array(
-		'version' => '0.2.1.0-alpha1792047423',
+		'version' => '0.2.1.0-alpha1792433388',
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-rtc/src/rest-api/class-rest-rtc-notices.php'
 	),
 	'Automattic\\Jetpack\\Redirect' => array(
