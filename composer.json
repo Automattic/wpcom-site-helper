@@ -10,17 +10,17 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "^2.11.10",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-autoloader": "^6.0.1",
-		"automattic/jetpack-composer-plugin": "^5.0.0",
-		"automattic/jetpack-config": "^4.0.0",
-		"automattic/jetpack-post-list": "^0.10.7",
+		"automattic/jetpack-autoloader": "^6.0.2-alpha",
+		"automattic/jetpack-composer-plugin": "^5.0.1-alpha",
+		"automattic/jetpack-config": "^4.0.1-alpha",
+		"automattic/jetpack-post-list": "^0.10.8-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.12.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.6.4"
+		"automattic/jetpack-explat": "^0.6.5-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
-		"automattic/phpunit-select-config": "^1.0.11"
+		"automattic/phpunit-select-config": "^1.0.12-alpha"
 	},
 	"autoload": {
 		"classmap": [
@@ -117,7 +117,6 @@
 			"rolling-release": true,
 			"titlefmt": "wpcomsh %s"
 		},
-		"autotagger": true,
 		"beta-plugin-slug": "wpcomsh",
 		"changelogger": {
 			"versioning": "semver"
