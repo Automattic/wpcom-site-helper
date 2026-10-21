@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
+- Protect: Add a Protect page to wp-admin, offering an upgrade for sites whose plan does not include it.
 
 ### Changed
 - Admin Interface Style: Use the Classic style (WP Admin) on sites that never chose a style.
