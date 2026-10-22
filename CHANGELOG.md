@@ -17,6 +17,7 @@ This is an alpha version! The changes listed here are not final.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
+- Premium Analytics: Draw visitors inside the views bar in the Traffic summary's bar chart, as Jetpack Stats v1 does.
 - Premium Analytics: Lighten heatmap colors in cards such as Posting activity and Views over years, while keeping low values distinct from empty cells.
 - Premium Analytics: Reports: fold the Archives tab like the other drilldown reports, with a chevron on each archive type and every row at one weight.
 - Premium Analytics: Show plan usage on the Settings tab in a taller, brand-colored meter.
