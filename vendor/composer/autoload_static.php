@@ -258,6 +258,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_1_0_alpha
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Expiry_Notices\\Expiry_Notice_Dismiss' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/expiry-notices/class-expiry-notice-dismiss.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Expiry_Notices\\Expiry_Owner' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/expiry-notices/class-expiry-owner.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Expiry_Notices\\Expiry_Wpcom' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/expiry-notices/class-expiry-wpcom.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Free_Domain_Upsell_Experiment' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/class-free-domain-upsell-experiment.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/interface-data-point.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Literal' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-literal.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Global_Styles\\Data_Point_Option' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/jetpack-global-styles/includes/class-data-point-option.php',
