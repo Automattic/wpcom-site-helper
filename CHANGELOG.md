@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin Interface Style: Use the Classic style (WP Admin) on sites that never chose a style.
 - Backup: Open the Backup page in wp-admin from the Jetpack menu, instead of on WordPress.com.
 - Backup: Send the Backup upgrade in My Jetpack to the WordPress.com plans that include backups.
+- Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
