@@ -6,6 +6,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
+- Editor: Show each of the core editor welcome guides once per user, behind the editor-welcome-guides-per-user sticker.
 - Protect: Add a Protect page to wp-admin, offering an upgrade for sites whose plan does not include it.
 - Themes: Announce when a WordPress.com theme is installed, so it can be tracked.
 
