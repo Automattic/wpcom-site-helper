@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
 - Themes: Install partner themes the site has bought from the Marketplace tab, and show an error instead of reporting success when a theme can’t be installed.
+- VideoPress: Enable VideoPress for provisioned channel sites on current Premium plans.
 
 ## 10.0.0 - 2026-10-14
 ### Added
