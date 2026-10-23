@@ -27,6 +27,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
+- Themes: Install partner themes the site has bought from the Marketplace tab, and show an error instead of reporting success when a theme can’t be installed.
 
 ## 10.0.0 - 2026-10-14
 ### Added
