@@ -6,8 +6,7 @@
 		'wp-element',
 		'wp-hooks',
 		'wp-i18n',
-		'wp-plugins',
-		'wp-polyfill'
+		'wp-plugins'
 	),
 	'version' => '1f5e471ddea9e22522ef'
 );
