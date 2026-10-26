@@ -23,6 +23,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Lighten heatmap colors in cards such as Posting activity and Views over years, while keeping low values distinct from empty cells.
 - Premium Analytics: Reports: fold the Archives tab like the other drilldown reports, with a chevron on each archive type and every row at one weight.
 - Premium Analytics: Show plan usage on the Settings tab in a taller, brand-colored meter.
+- Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
 - Update package dependencies.
 
 ### Fixed
