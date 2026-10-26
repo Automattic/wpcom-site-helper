@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Backup: Open the Backup page in wp-admin from the Jetpack menu, instead of on WordPress.com.
 - Backup: Send the Backup upgrade in My Jetpack to the WordPress.com plans that include backups.
 - Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
+- Connection: Use one wording on the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
