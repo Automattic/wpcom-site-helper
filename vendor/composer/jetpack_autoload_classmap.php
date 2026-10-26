@@ -1523,251 +1523,343 @@ return array(
 		'path'    => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php'
 	),
 	'League\\Uri\\BaseUri' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/BaseUri.php'
 	),
 	'League\\Uri\\Builder' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/Builder.php'
 	),
 	'League\\Uri\\Contracts\\AuthorityInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/AuthorityInterface.php'
 	),
 	'League\\Uri\\Contracts\\Conditionable' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/Conditionable.php'
 	),
 	'League\\Uri\\Contracts\\DataPathInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/DataPathInterface.php'
 	),
 	'League\\Uri\\Contracts\\DomainHostInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/DomainHostInterface.php'
 	),
 	'League\\Uri\\Contracts\\FragmentDirective' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/FragmentDirective.php'
 	),
 	'League\\Uri\\Contracts\\FragmentInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/FragmentInterface.php'
 	),
 	'League\\Uri\\Contracts\\HostInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/HostInterface.php'
 	),
 	'League\\Uri\\Contracts\\IpHostInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/IpHostInterface.php'
 	),
 	'League\\Uri\\Contracts\\PathInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/PathInterface.php'
 	),
 	'League\\Uri\\Contracts\\PortInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/PortInterface.php'
 	),
 	'League\\Uri\\Contracts\\QueryInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/QueryInterface.php'
 	),
 	'League\\Uri\\Contracts\\SegmentedPathInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/SegmentedPathInterface.php'
 	),
 	'League\\Uri\\Contracts\\Transformable' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/Transformable.php'
 	),
 	'League\\Uri\\Contracts\\UriAccess' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriAccess.php'
 	),
 	'League\\Uri\\Contracts\\UriComponentInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriComponentInterface.php'
 	),
 	'League\\Uri\\Contracts\\UriException' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriException.php'
 	),
 	'League\\Uri\\Contracts\\UriInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UriInterface.php'
 	),
 	'League\\Uri\\Contracts\\UserInfoInterface' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Contracts/UserInfoInterface.php'
 	),
 	'League\\Uri\\Encoder' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Encoder.php'
 	),
 	'League\\Uri\\Exceptions\\ConversionFailed' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/ConversionFailed.php'
 	),
 	'League\\Uri\\Exceptions\\MissingFeature' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/MissingFeature.php'
 	),
 	'League\\Uri\\Exceptions\\OffsetOutOfBounds' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/OffsetOutOfBounds.php'
 	),
 	'League\\Uri\\Exceptions\\SyntaxError' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Exceptions/SyntaxError.php'
 	),
 	'League\\Uri\\FeatureDetection' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/FeatureDetection.php'
 	),
 	'League\\Uri\\HostFormat' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/HostFormat.php'
 	),
 	'League\\Uri\\HostRecord' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/HostRecord.php'
 	),
 	'League\\Uri\\HostType' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/HostType.php'
 	),
 	'League\\Uri\\Http' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/Http.php'
 	),
 	'League\\Uri\\HttpFactory' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/HttpFactory.php'
 	),
 	'League\\Uri\\IPv4\\BCMathCalculator' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/BCMathCalculator.php'
 	),
 	'League\\Uri\\IPv4\\Calculator' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/Calculator.php'
 	),
 	'League\\Uri\\IPv4\\Converter' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/Converter.php'
 	),
 	'League\\Uri\\IPv4\\GMPCalculator' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/GMPCalculator.php'
 	),
 	'League\\Uri\\IPv4\\NativeCalculator' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv4/NativeCalculator.php'
 	),
 	'League\\Uri\\IPv6\\Converter' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/IPv6/Converter.php'
 	),
 	'League\\Uri\\Idna\\Converter' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Converter.php'
 	),
 	'League\\Uri\\Idna\\Error' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Error.php'
 	),
 	'League\\Uri\\Idna\\Option' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Option.php'
 	),
 	'League\\Uri\\Idna\\Result' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/Idna/Result.php'
 	),
 	'League\\Uri\\KeyValuePair\\Converter' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/KeyValuePair/Converter.php'
 	),
+	'League\\Uri\\Occurrence' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri-interfaces/Occurrence.php'
+	),
 	'League\\Uri\\QueryComposeMode' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/QueryComposeMode.php'
 	),
 	'League\\Uri\\QueryExtractMode' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/QueryExtractMode.php'
 	),
 	'League\\Uri\\QueryString' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/QueryString.php'
 	),
 	'League\\Uri\\SchemeType' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/SchemeType.php'
 	),
 	'League\\Uri\\StringCoercionMode' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/StringCoercionMode.php'
 	),
+	'League\\Uri\\TypeConverter' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/TypeConverter.php'
+	),
 	'League\\Uri\\Uri' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/Uri.php'
 	),
 	'League\\Uri\\UriComparisonMode' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UriComparisonMode.php'
 	),
 	'League\\Uri\\UriInfo' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriInfo.php'
 	),
 	'League\\Uri\\UriResolver' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriResolver.php'
 	),
 	'League\\Uri\\UriScheme' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriScheme.php'
 	),
 	'League\\Uri\\UriString' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UriString.php'
 	),
 	'League\\Uri\\UriTemplate' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate.php'
 	),
 	'League\\Uri\\UriTemplate\\Expression' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Expression.php'
 	),
+	'League\\Uri\\UriTemplate\\ExtractedValue' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UriTemplate/ExtractedValue.php'
+	),
+	'League\\Uri\\UriTemplate\\ExtractionErrorReason' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UriTemplate/ExtractionErrorReason.php'
+	),
+	'League\\Uri\\UriTemplate\\ExtractionResult' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UriTemplate/ExtractionResult.php'
+	),
+	'League\\Uri\\UriTemplate\\Literal' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UriTemplate/Literal.php'
+	),
 	'League\\Uri\\UriTemplate\\Operator' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Operator.php'
 	),
 	'League\\Uri\\UriTemplate\\Template' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/Template.php'
 	),
 	'League\\Uri\\UriTemplate\\TemplateCanNotBeExpanded' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/TemplateCanNotBeExpanded.php'
 	),
 	'League\\Uri\\UriTemplate\\VarSpecifier' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/VarSpecifier.php'
 	),
 	'League\\Uri\\UriTemplate\\VariableBag' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/UriTemplate/VariableBag.php'
 	),
+	'League\\Uri\\UriTemplate\\VariableCanNotBeExtracted' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UriTemplate/VariableCanNotBeExtracted.php'
+	),
+	'League\\Uri\\UrlPattern' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern.php'
+	),
+	'League\\Uri\\UrlPatternBuilder' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPatternBuilder.php'
+	),
+	'League\\Uri\\UrlPattern\\Component' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Component.php'
+	),
+	'League\\Uri\\UrlPattern\\ComponentName' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/ComponentName.php'
+	),
+	'League\\Uri\\UrlPattern\\ComponentResult' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/ComponentResult.php'
+	),
+	'League\\Uri\\UrlPattern\\MatchMode' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/MatchMode.php'
+	),
+	'League\\Uri\\UrlPattern\\Modifier' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Modifier.php'
+	),
+	'League\\Uri\\UrlPattern\\Parser' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Parser.php'
+	),
+	'League\\Uri\\UrlPattern\\Part' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Part.php'
+	),
+	'League\\Uri\\UrlPattern\\PartType' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/PartType.php'
+	),
+	'League\\Uri\\UrlPattern\\PathToRegexp' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/PathToRegexp.php'
+	),
+	'League\\Uri\\UrlPattern\\PatternType' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/PatternType.php'
+	),
+	'League\\Uri\\UrlPattern\\Result' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Result.php'
+	),
+	'League\\Uri\\UrlPattern\\State' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/State.php'
+	),
+	'League\\Uri\\UrlPattern\\Token' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/Token.php'
+	),
+	'League\\Uri\\UrlPattern\\TokenType' => array(
+		'version' => '7.9.0.0',
+		'path'    => $vendorDir . '/league/uri/UrlPattern/TokenType.php'
+	),
 	'League\\Uri\\Urn' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri/Urn.php'
 	),
 	'League\\Uri\\UrnComparisonMode' => array(
-		'version' => '7.8.1.0',
+		'version' => '7.9.0.0',
 		'path'    => $vendorDir . '/league/uri-interfaces/UrnComparisonMode.php'
 	),
 	'Manifest_Reader' => array(
