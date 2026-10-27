@@ -29,6 +29,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
