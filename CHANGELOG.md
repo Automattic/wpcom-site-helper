@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a REST endpoint that reports the WordPress versions WP Cloud's latest and beta tracks serve.
 - Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 - Editor: Show each of the core editor welcome guides once per user, behind the editor-welcome-guides-per-user sticker.
