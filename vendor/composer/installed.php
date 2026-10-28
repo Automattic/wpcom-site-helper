@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.29.13-alpha.1793036582',
             'version' => '0.29.13.0-alpha1793036582',
-            'reference' => '0e24fc3eaef6980ac473515ed3b99ff290d46921',
+            'reference' => '35bdf1cbbcf40c28aef626e1a2891e26ad329ad6',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -247,7 +247,7 @@
         'automattic/jetpack-masterbar' => array(
             'pretty_version' => '0.30.1-alpha.1793036582',
             'version' => '0.30.1.0-alpha1793036582',
-            'reference' => '1ea3a67aa5bd0d146e193329b212bc4e632fad62',
+            'reference' => '720452ec25f7d78a2435ae71dbff4729a4f48015',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-masterbar',
             'aliases' => array(),
@@ -272,9 +272,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-plans' => array(
-            'pretty_version' => '0.15.0',
-            'version' => '0.15.0.0',
-            'reference' => 'c04b6ad872f3a2e2815ca585c0ca9e8a34206d9d',
+            'pretty_version' => '0.16.0-alpha.1793156671',
+            'version' => '0.16.0.0-alpha1793156671',
+            'reference' => '1031851652ced8ed9857d5f4fe0ba5b58a14eb1f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../automattic/jetpack-plans',
             'aliases' => array(),
@@ -337,7 +337,7 @@
         'automattic/jetpack-stats-admin' => array(
             'pretty_version' => '0.39.2-alpha.1793087099',
             'version' => '0.39.2.0-alpha1793087099',
-            'reference' => '1995eb66547365438325e84bf187568d468a832f',
+            'reference' => 'f4b5e62315155c4984cc159174594b55d06d19c8',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-stats-admin',
             'aliases' => array(),
@@ -382,7 +382,7 @@
         'automattic/scheduled-updates' => array(
             'pretty_version' => '0.15.1-alpha.1792502969',
             'version' => '0.15.1.0-alpha1792502969',
-            'reference' => 'a89bfea54e6657742bd21c1b915a65a4014df4ec',
+            'reference' => 'c96c646110093050f71276366a4cdd8b8bf4e4b5',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/scheduled-updates',
             'aliases' => array(),
