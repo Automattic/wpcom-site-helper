@@ -58,7 +58,7 @@ This is an alpha version! The changes listed here are not final.
 
 ## [0.13.4] - 2024-09-23
 ### Changed
-- Update dependencies. [#39318]
+- Update dependencies.
 
 ## [0.13.3] - 2024-09-10
 ### Changed
