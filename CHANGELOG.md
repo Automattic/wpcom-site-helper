@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Update package dependencies.
 
 ### Fixed
+- Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
