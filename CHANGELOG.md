@@ -37,6 +37,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
+- SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
 - Themes: Install partner themes the site has bought from the Marketplace tab, and show an error instead of reporting success when a theme can’t be installed.
 - VideoPress: Enable VideoPress for provisioned channel sites on current Premium plans.
