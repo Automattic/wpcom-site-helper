@@ -13,10 +13,10 @@
 		"automattic/jetpack-autoloader": "^6.0.2",
 		"automattic/jetpack-composer-plugin": "^5.0.1",
 		"automattic/jetpack-config": "^4.0.1",
-		"automattic/jetpack-post-list": "^0.10.9",
+		"automattic/jetpack-post-list": "^0.10.10-alpha",
 		"automattic/jetpack-mu-wpcom": "^6.12.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.6.6"
+		"automattic/jetpack-explat": "^0.6.7-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
