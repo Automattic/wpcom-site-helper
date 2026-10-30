@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Admin Interface Style: Use the Classic style (WP Admin) on sites that never chose a style.
+- Admin menu: Sort the Jetpack menu alphabetically, with My Jetpack at the top and Settings at the bottom.
 - Backup: Open the Backup page in wp-admin from the Jetpack menu, instead of on WordPress.com.
 - Backup: Send the Backup upgrade in My Jetpack to the WordPress.com plans that include backups.
 - Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
