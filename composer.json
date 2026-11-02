@@ -10,13 +10,13 @@
 		"automattic/text-media-widget-styles": "^2.0",
 		"automattic/wc-calypso-bridge": "^2.11.10",
 		"wordpress/classic-editor-plugin": "1.6.7",
-		"automattic/jetpack-autoloader": "^6.0.3-alpha",
+		"automattic/jetpack-autoloader": "^6.0.3",
 		"automattic/jetpack-composer-plugin": "^5.0.1",
 		"automattic/jetpack-config": "^4.0.1",
-		"automattic/jetpack-post-list": "^0.10.10-alpha",
+		"automattic/jetpack-post-list": "^0.10.10",
 		"automattic/jetpack-mu-wpcom": "^6.12.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.6.7-alpha"
+		"automattic/jetpack-explat": "^0.6.7"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
