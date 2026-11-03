@@ -35,7 +35,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Admin menu: Keep the open mobile menu above page headers such as WooCommerce's.
-- Block editor: Load polyfills for missing JavaScript features on older browsers to prevent editor crashes.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
