@@ -101,9 +101,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-classic-theme-helper' => array(
-            'pretty_version' => '0.15.11',
-            'version' => '0.15.11.0',
-            'reference' => 'aa6652221b421b8e8803f4b8c8e1431d5d6ea5ed',
+            'pretty_version' => '0.15.12-alpha.1793741647',
+            'version' => '0.15.12.0-alpha1793741647',
+            'reference' => '2a56f84589ef452a4bef898ed7f932e968b79478',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-classic-theme-helper',
             'aliases' => array(),
@@ -256,7 +256,7 @@
         'automattic/jetpack-mu-wpcom' => array(
             'pretty_version' => '6.12.0-alpha.1793733780',
             'version' => '6.12.0.0-alpha1793733780',
-            'reference' => '8ae2be8166f9a5122004195239f257208371de4a',
+            'reference' => '5ede4c5ee24614b322c6a6d17abd62ca8009eed4',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-mu-wpcom',
             'aliases' => array(),
