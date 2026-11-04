@@ -30,6 +30,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Show plan usage on the Settings tab in a taller, brand-colored meter.
 - Protect, Backup: Send Scan upgrades from My Jetpack and the Protect page to WordPress.com's plan upgrade flow, showing only plans that include Scan, and My Jetpack's Scan manage link to WordPress.com. The Protect and Backup pages' own upgrade prompts use the same flow, and My Jetpack's Backup manage link opens the Backup page in wp-admin.
 - Protect: Offer to turn the Protect page back on when a site with Scan has turned it off, instead of showing an access error.
+- Protect: Show Protect in the Jetpack menu beside Scan, land on it after upgrading, and show that it is being set up while a newly moved site finishes connecting.
 - Scan: Stop emptying the Jetpack scan state now that Jetpack hides threat alerts itself.
 - Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
 - Titan: Update the 1-year trial to only be available to annual+ hosting plans
