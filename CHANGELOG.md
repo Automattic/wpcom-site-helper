@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Protect: Offer to turn the Protect page back on when a site with Scan has turned it off, instead of showing an access error.
 - Scan: Stop emptying the Jetpack scan state now that Jetpack hides threat alerts itself.
 - Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
+- Titan: Update the 1-year trial to only be available to annual+ hosting plans
 - Update package dependencies.
 
 ### Fixed
