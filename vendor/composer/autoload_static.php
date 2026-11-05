@@ -281,6 +281,7 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_1_0_alpha
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Block_Editor\\Jetpack_WPCOM_Block_Editor' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-block-editor/class-jetpack-wpcom-block-editor.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Feature_Upgrades' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-feature-upgrades/class-wpcom-feature-upgrades.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Hosting_Feature_Page' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-hosting-feature-page/class-wpcom-hosting-feature-page.php',
+        'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_My_Jetpack' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-my-jetpack/wpcom-my-jetpack.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Scan' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-scan/wpcom-scan.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_WP_Build_Page' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/class-wpcom-wp-build-page.php',
         'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Dashboard' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-dashboard/class-wpcom-dashboard.php',
