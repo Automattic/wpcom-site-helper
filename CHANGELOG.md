@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
+- Premium Analytics: Stop long row names in cards such as Top UTM from running under the views count on hover.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 - Share Post: Fix errors when a shared post link leaves out optional details or includes an embed.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
