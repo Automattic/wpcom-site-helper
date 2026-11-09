@@ -42,6 +42,7 @@ This is an alpha version! The changes listed here are not final.
 ### Fixed
 - Admin menu: Keep the open mobile menu above page headers such as WooCommerce's.
 - Block editor: Prevent the editor from crashing on browsers without Array.prototype.toSorted(), such as Chrome before 110, Safari before 16 and Firefox before 115.
+- CoBlocks: Fix blocks with a theme or Font Library font showing the browser's default font.
 - Custom Content Types: Show the Testimonials and Portfolio toggles on the Jetpack Settings page.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
