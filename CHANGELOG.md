@@ -32,6 +32,7 @@ This is an alpha version! The changes listed here are not final.
 - Protect: Offer to turn the Protect page back on when a site with Scan has turned it off, instead of showing an access error.
 - Protect: Show Protect in the Jetpack menu beside Scan, land on it after upgrading, and show that it is being set up while a newly moved site finishes connecting.
 - Scan: Stop emptying the Jetpack scan state now that Jetpack hides threat alerts itself.
+- Stats: Retire the classic Stats page on Atomic sites, so Stats opens Stats v2 and old Stats links lead there.
 - Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
 - Titan: Update the 1-year trial to only be available to annual+ hosting plans
 - Update package dependencies.
