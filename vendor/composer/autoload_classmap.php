@@ -252,6 +252,7 @@ return array(
     'Automattic\\Jetpack\\Scheduled_Updates_Health_Paths' => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-health-paths.php',
     'Automattic\\Jetpack\\Scheduled_Updates_Logs' => $baseDir . '/jetpack_vendor/automattic/scheduled-updates/src/class-scheduled-updates-logs.php',
     'Automattic\\Jetpack\\Shortcodes' => $baseDir . '/jetpack_vendor/automattic/jetpack-post-media/src/class-shortcodes.php',
+    'Automattic\\Jetpack\\Stats\\AMP_Consent_Sanitizer' => $baseDir . '/jetpack_vendor/automattic/jetpack-stats/src/class-amp-consent-sanitizer.php',
     'Automattic\\Jetpack\\Stats\\Abilities\\Stats_Abilities' => $baseDir . '/jetpack_vendor/automattic/jetpack-stats/src/abilities/class-stats-abilities.php',
     'Automattic\\Jetpack\\Stats\\Main' => $baseDir . '/jetpack_vendor/automattic/jetpack-stats/src/class-main.php',
     'Automattic\\Jetpack\\Stats\\Options' => $baseDir . '/jetpack_vendor/automattic/jetpack-stats/src/class-options.php',
