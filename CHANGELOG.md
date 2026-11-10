@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
 - Titan: Update the 1-year trial to only be available to annual+ hosting plans
 - Update package dependencies.
+- WPCOM Features: Make SFTP, SSH, and GitHub Deployments available on Personal, Premium, and Pro plans.
 
 ### Removed
 - Remove unused legacy tooling.
