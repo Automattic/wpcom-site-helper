@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Premium Analytics: Stop long row names in cards such as Top UTM from running under the views count on hover.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 - Share Post: Fix errors when a shared post link leaves out optional details or includes an embed.
+- Sidebar notice: Fix the Dismiss button on admin pages other than the Dashboard.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
 - Themes: Install partner themes the site has bought from the Marketplace tab, and show an error instead of reporting success when a theme can’t be installed.
 - VideoPress: Enable VideoPress for provisioned channel sites on current Premium plans.
