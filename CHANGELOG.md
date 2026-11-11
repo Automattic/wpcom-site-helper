@@ -47,6 +47,7 @@ This is an alpha version! The changes listed here are not final.
 - Admin menu: Keep the open mobile menu above page headers such as WooCommerce's.
 - Block editor: Prevent the editor from crashing on browsers without Array.prototype.toSorted(), such as Chrome before 110, Safari before 16 and Firefox before 115.
 - CoBlocks: Fix blocks with a theme or Font Library font showing the browser's default font.
+- Comments: Fix the comment editor's leftover placeholder on empty lines, doubled focus ring, missing caret after Reply, and gaps from empty paragraphs, and stop the page jumping as the form loads and the editor opens.
 - Custom Content Types: Show the Testimonials and Portfolio toggles on the Jetpack Settings page.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
