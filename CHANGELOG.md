@@ -55,6 +55,7 @@ This is an alpha version! The changes listed here are not final.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - Imports: Keep the Jetpack Sync HTTPS history of the site URLs when restoring a Playground backup, so WordPress.com keeps the site's https:// address.
+- My Jetpack: Show the Blaze Ads and WordPress.com Reader switches as locked on where WordPress.com keeps those features on, instead of reporting that they were turned off.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
