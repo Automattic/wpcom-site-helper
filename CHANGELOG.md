@@ -22,6 +22,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Ask for confirmation before disconnecting your user account, and offer to transfer ownership first when you own the connection.
 - Connection: Show a clear message when connecting the site to WordPress.com from the Connectors card fails, instead of WordPress.com's raw error text.
 - Connection: Use one wording on the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
+- Improve performance of site sticker checks.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
