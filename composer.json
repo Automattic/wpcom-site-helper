@@ -16,7 +16,7 @@
 		"automattic/jetpack-post-list": "^0.10.11",
 		"automattic/jetpack-mu-wpcom": "^6.12.0-alpha",
 		"tubalmartin/cssmin": "^4.1",
-		"automattic/jetpack-explat": "^0.6.8"
+		"automattic/jetpack-explat": "^0.6.9-alpha"
 	},
 	"require-dev": {
 		"yoast/phpunit-polyfills": "^4.0.0",
