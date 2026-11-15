@@ -53,6 +53,7 @@ This is an alpha version! The changes listed here are not final.
 - Comments: Fix the comment editor's leftover placeholder on empty lines, doubled focus ring, missing caret after Reply, and gaps from empty paragraphs, and stop the page jumping as the form loads and the editor opens.
 - Custom Content Types: Show the Testimonials and Portfolio toggles on the Jetpack Settings page.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
+- Fix Playground backup restores for sites with large database tables.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - Imports: Keep the Jetpack Sync HTTPS history of the site URLs when restoring a Playground backup, so WordPress.com keeps the site's https:// address.
