@@ -122,9 +122,7 @@
 			"versioning": "semver"
 		},
 		"installer-disable": true,
-		"release-branch-prefix": [
-			"wpcomsh"
-		],
+		"release-branch-prefix": "wpcomsh",
 		"version-constants": {
 			"WPCOMSH_VERSION": "wpcomsh.php"
 		}
