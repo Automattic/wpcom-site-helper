@@ -43,6 +43,7 @@ This is an alpha version! The changes listed here are not final.
 - WPCOM Features: Make SFTP, SSH, and GitHub Deployments available on Personal, Premium, and Pro plans.
 
 ### Removed
+- Migration: Stop redirecting wp-admin to the classic migration page during a migration.
 - Remove unused legacy tooling.
 
 ### Fixed
