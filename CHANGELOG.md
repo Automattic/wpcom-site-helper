@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom Content Types: Show the Testimonials and Portfolio toggles on the Jetpack Settings page.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Fix Playground backup restores for sites with large database tables.
+- Fix Playground backup restores for sites with plugin tables keyed by a text column, like Novamira's chat sessions.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - Imports: Keep the Jetpack Sync HTTPS history of the site URLs when restoring a Playground backup, so WordPress.com keeps the site's https:// address.
