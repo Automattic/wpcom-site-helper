@@ -28,6 +28,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Use one wording on the Connectors screen for the consent notice shown before connecting, for Offline Mode, and for the ownership lock.
 - Improve performance of site sticker checks.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
+- Load the Real User Monitoring script only after visitors allow statistics, when the WP Consent API is active.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
 - Premium Analytics: Draw visitors inside the views bar in the Traffic summary's bar chart, as Jetpack Stats v1 does.
