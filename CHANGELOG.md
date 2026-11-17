@@ -10,6 +10,7 @@ This is an alpha version! The changes listed here are not final.
 - Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
 - Connection: Transfer connection ownership to another connected administrator from the Connectors page.
 - Editor: Show each of the core editor welcome guides once per user.
+- Features: Add the woo-bundle-extensions feature, gated on the woo-bundle-experiment sticker and a paid Business or Commerce plan.
 - Launchpad: Define the blog ID from which new Atomic sites get no setup guidance unless they turn on the AI Launchpad.
 - Managed themes: Keep the list of symlinked (managed) themes in the `wpcomsh_at_managed_themes` option and sync it, like `wpcomsh_at_managed_plugins`.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
