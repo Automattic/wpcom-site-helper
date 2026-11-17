@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-admin-ui' => array(
-            'pretty_version' => '0.14.16',
-            'version' => '0.14.16.0',
-            'reference' => '41e8b231a994ccf822d06bcb48de799462208354',
+            'pretty_version' => '0.14.17-alpha.1794937569',
+            'version' => '0.14.17.0-alpha1794937569',
+            'reference' => '5b6ecac3bd10bb9643115f48c363ff69f1e523bd',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-admin-ui',
             'aliases' => array(),
@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.30.0-alpha.1794924065',
             'version' => '0.30.0.0-alpha1794924065',
-            'reference' => 'ffba83fe34e78b0e4b5adafc57dca266eeaa1392',
+            'reference' => '01c46c161d579f4c6867739ad76fab6dc39347d7',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -148,7 +148,7 @@
         'automattic/jetpack-connection' => array(
             'pretty_version' => '9.18.3-alpha.1794922457',
             'version' => '9.18.3.0-alpha1794922457',
-            'reference' => '117a23d192b60a939e5f91fe29ff7188be17fe57',
+            'reference' => '8475b2c22b318ca69195013f6db9460fb0a0db74',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-connection',
             'aliases' => array(),
@@ -337,7 +337,7 @@
         'automattic/jetpack-stats-admin' => array(
             'pretty_version' => '0.40.1',
             'version' => '0.40.1.0',
-            'reference' => '5d906ce0fd2b65ebb80a1b1f35b7fd0ee78e6cf2',
+            'reference' => '6d336a29ffbe6109b9e593714502f7242f342413',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-stats-admin',
             'aliases' => array(),
