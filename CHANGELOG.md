@@ -76,6 +76,7 @@ This is an alpha version! The changes listed here are not final.
 - Sidebar notice: Fix the Dismiss button on admin pages other than the Dashboard.
 - Staging sites: Prevent search engines from indexing WordPress.com staging sites.
 - Themes: Install partner themes the site has bought from the Marketplace tab, and show an error instead of reporting success when a theme can’t be installed.
+- Themes: keep the Feature Filter on the Marketplace tab, narrowing its themes instead of switching to WordPress.org themes.
 - VideoPress: Enable VideoPress for provisioned channel sites on current Premium plans.
 
 ## 10.0.0 - 2026-10-14
