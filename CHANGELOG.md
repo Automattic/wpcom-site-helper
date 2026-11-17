@@ -5,6 +5,7 @@
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add a CLI command to rename a user's login so it can be kept in step with their WordPress.com username.
 - Add a REST endpoint that reports the WordPress versions WP Cloud's latest and beta tracks serve.
 - Block editor: Add a per-site option to hide the markers on non-breaking spaces in the editor.
 - Connection: Show connection errors on the Connectors card, and keep showing the connection owner when their account connection breaks.
