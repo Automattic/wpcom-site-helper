@@ -63,6 +63,7 @@ This is an alpha version! The changes listed here are not final.
 - Fix Playground backup restores for sites with large database tables.
 - Fix Playground backup restores for sites with plugin tables keyed by a text column, like Novamira's chat sessions.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
+- Google Analytics: Refuse new Measurement IDs with extra text around them.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - Imports: Keep the Jetpack Sync HTTPS history of the site URLs when restoring a Playground backup, so WordPress.com keeps the site's https:// address.
 - Improve performance by reusing Atomic_Persistent_Data across all calls within a request.
