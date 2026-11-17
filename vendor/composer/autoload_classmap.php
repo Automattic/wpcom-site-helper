@@ -210,6 +210,7 @@ return array(
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_My_Jetpack' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-my-jetpack/wpcom-my-jetpack.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_Scan' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-scan/wpcom-scan.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\WPCOM_WP_Build_Page' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/common/class-wpcom-wp-build-page.php',
+    'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Admin_Shell_Rollout' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-feature-flags/class-wpcom-admin-shell-rollout.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Dashboard' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-dashboard/class-wpcom-dashboard.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Feature_Flags' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-feature-flags/class-wpcom-feature-flags.php',
     'Automattic\\Jetpack\\Jetpack_Mu_Wpcom\\Wpcom_Legacy_FSE\\WP_Template' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/wpcom-legacy-fse/templates/class-wp-template.php',
