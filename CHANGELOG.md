@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Features: Add the woo-bundle-extensions feature, gated on the woo-bundle-experiment sticker and a paid Business or Commerce plan.
 - Launchpad: Define the blog ID from which new Atomic sites get no setup guidance unless they turn on the AI Launchpad.
 - Managed themes: Keep the list of symlinked (managed) themes in the `wpcomsh_at_managed_themes` option and sync it, like `wpcomsh_at_managed_plugins`.
+- Media: Keep the AI marker in images after they are edited.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - Protect: Add a Protect page to wp-admin, offering an upgrade for sites whose plan does not include it.
 - Themes: Announce when a WordPress.com theme is installed, so it can be tracked.

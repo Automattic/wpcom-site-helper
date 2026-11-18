@@ -385,6 +385,8 @@ return array(
     'Jetpack_Signature' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-signature.php',
     'Jetpack_Tracks_Client' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
     'Jetpack_Tracks_Event' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
+    'Jetpack_WPCOM_AI_Marker' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/media/class-jetpack-wpcom-ai-marker.php',
+    'Jetpack_WPCOM_Image_Editor_GD' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/media/class-jetpack-wpcom-image-editor-gd.php',
     'Jetpack_Widget_Twitter' => $baseDir . '/widgets/class-jetpack-widget-twitter.php',
     'Jetpack_XMLRPC_Server' => $baseDir . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
     'Launchpad_Task_Lists' => $baseDir . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php',

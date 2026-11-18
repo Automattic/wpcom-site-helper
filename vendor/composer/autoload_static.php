@@ -462,6 +462,8 @@ class ComposerStaticInit26841ac2064774301cbe06d174833bfc_wpcomshⓥ10_1_0_alpha
         'Jetpack_Signature' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-signature.php',
         'Jetpack_Tracks_Client' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-client.php',
         'Jetpack_Tracks_Event' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-tracks-event.php',
+        'Jetpack_WPCOM_AI_Marker' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/media/class-jetpack-wpcom-ai-marker.php',
+        'Jetpack_WPCOM_Image_Editor_GD' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/media/class-jetpack-wpcom-image-editor-gd.php',
         'Jetpack_Widget_Twitter' => __DIR__ . '/../..' . '/widgets/class-jetpack-widget-twitter.php',
         'Jetpack_XMLRPC_Server' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-connection/legacy/class-jetpack-xmlrpc-server.php',
         'Launchpad_Task_Lists' => __DIR__ . '/../..' . '/jetpack_vendor/automattic/jetpack-mu-wpcom/src/features/launchpad/class-launchpad-task-lists.php',
