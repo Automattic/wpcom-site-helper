@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Fixed
+- Atomic: Read the WordPress.com blog ID through Jetpack_Options, so that a migrated site gets its own ID.
+
 ## [0.4.0] - 2026-10-14
 ### Added
 - Add the `/help-center/article-rating` endpoint so the Help Center can save a user's "Was this helpful?" answer for a support article. [#51978]
