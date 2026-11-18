@@ -70,6 +70,7 @@ This is an alpha version! The changes listed here are not final.
 - Improve performance by reusing Atomic_Persistent_Data across all calls within a request.
 - My Jetpack: Show the Blaze Ads and WordPress.com Reader switches as locked on where WordPress.com keeps those features on, instead of reporting that they were turned off.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
+- Playground backup restores: build indexes from the MySQL definitions in the SQLite database, keeping their names and prefix lengths, so plugin tables like TranslatePress and Solid Security import.
 - Playground backup restores: read back only the end of mysql's output, so a large echoed dump cannot exhaust PHP memory and the reported error is mysql's ERROR line.
 - Plugins: Keep plugin details links from themes in wp-admin so their popup loads.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
