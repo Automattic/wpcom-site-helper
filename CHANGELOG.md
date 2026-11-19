@@ -34,6 +34,7 @@ This is an alpha version! The changes listed here are not final.
 - Improve performance of site sticker checks.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Load the Real User Monitoring script only after visitors allow statistics, when the WP Consent API is active.
+- My Jetpack: Send the plan purchase link to WordPress.com's plan upgrade flow, hiding it where there is no plan to upgrade to, and the plan manage link to the site's WordPress.com purchases, hiding both on staging and agency-managed sites.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
 - Premium Analytics: Always offer adding and removing widgets on the dashboard.
 - Premium Analytics: Draw visitors inside the views bar in the Traffic summary's bar chart, as Jetpack Stats v1 does.
