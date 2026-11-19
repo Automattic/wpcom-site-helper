@@ -78,6 +78,7 @@ This is an alpha version! The changes listed here are not final.
 - Playground backup restores: build indexes from the MySQL definitions in the SQLite database, keeping their names and prefix lengths, so plugin tables like TranslatePress and Solid Security import.
 - Playground backup restores: read back only the end of mysql's output, so a large echoed dump cannot exhaust PHP memory and the reported error is mysql's ERROR line.
 - Playground backup restores: restore databases whose tables use a prefix other than `wp_`, like Studio sites pulled from such a site, instead of failing with "Missing site URL."
+- Plugins: Fix the Add Plugins screen timing out when an installed Marketplace plugin is older than its listing.
 - Plugins: Keep plugin details links from themes in wp-admin so their popup loads.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
 - Premium Analytics: Name each widget chart after its widget, so screen readers can tell the charts on a dashboard apart.
