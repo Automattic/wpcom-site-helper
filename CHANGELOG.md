@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused legacy tooling.
 
 ### Fixed
+- Address various PHP deprecation warnings.
 - Admin bar: Show the Coming Soon badge on sites in the private Coming Soon mode.
 - Admin menu: Fix plugin menu items missing from the WordPress.com sidebar after the WordPress 7.1.5 security release.
 - Admin menu: Keep the open mobile menu above page headers such as WooCommerce's.
