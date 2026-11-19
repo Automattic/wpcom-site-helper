@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Media: Keep the AI marker in images after they are edited.
 - My Jetpack (Simple): Add an intro banner that explains Jetpack and links admins to the plans page.
 - Protect: Add a Protect page to wp-admin, offering an upgrade for sites whose plan does not include it.
+- Redirect author links that use an author's previous slug, such as after a WordPress.com username change, to their current author page.
 - Themes: Announce when a WordPress.com theme is installed, so it can be tracked.
 
 ### Changed
