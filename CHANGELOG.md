@@ -49,6 +49,7 @@ This is an alpha version! The changes listed here are not final.
 - Stats: Retire the classic Stats page on Atomic sites, so Stats opens Stats v2 and old Stats links lead there.
 - Themes: with the Marketplace tab on, show WordPress.org's copy of a theme that both WordPress.com and WordPress.org list in search results.
 - Titan: Update the 1-year trial to only be available to annual+ hosting plans
+- Updated composer.lock.
 - Update package dependencies.
 - Update wc-calypso-bridge to 2.11.11.
 - WPCOM Features: Make SFTP, SSH, and GitHub Deployments available on Personal, Premium, and Pro plans.
