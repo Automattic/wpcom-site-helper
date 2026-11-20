@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - Playground backup restores: read back only the end of mysql's output, so a large echoed dump cannot exhaust PHP memory and the reported error is mysql's ERROR line.
 - Playground backup restores: restore databases whose tables use a prefix other than `wp_`, like Studio sites pulled from such a site, instead of failing with "Missing site URL."
 - Playground importer: keep NULL values as NULL so nullable UNIQUE columns with several NULL rows import.
+- Playground importer: write spatial values as MySQL geometry, and turn the widest VARCHAR columns into TEXT when a row is too large for MySQL.
 - Plugins: Fix the Add Plugins screen timing out when an installed Marketplace plugin is older than its listing.
 - Plugins: Keep plugin details links from themes in wp-admin so their popup loads.
 - Premium Analytics: Move between conversion funnel steps with the arrow keys, show each step's tooltip as soon as it takes keyboard focus, have screen readers read that tooltip, and label the tooltip's rate "Conversion rate".
