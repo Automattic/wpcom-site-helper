@@ -92,6 +92,7 @@ This is an alpha version! The changes listed here are not final.
 - Prevent plugin ZIP uploads from crashing when the WordPress.org lookup fails.
 - Private Site: Make Jetpack features treat a private site as private, even when its stored visibility option says it is public.
 - Read the WordPress.com blog ID and the connection owner through Jetpack_Options, so that a migrated site gets its own ID and keeps its owner protected.
+- Reconnect endpoint: Reject the request when signature verification errors out.
 - SEO: Place the SEO dashboard above Settings in the Jetpack menu.
 - Share Post: Fix errors when a shared post link leaves out optional details or includes an embed.
 - Sidebar notice: Fix the Dismiss button on admin pages other than the Dashboard.
