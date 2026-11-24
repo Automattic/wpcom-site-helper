@@ -57,6 +57,7 @@ This is an alpha version! The changes listed here are not final.
 ### Removed
 - Migration: Stop redirecting wp-admin to the classic migration page during a migration.
 - Remove unused legacy tooling.
+- Stats: Remove the blog sticker that turned on Stats v2 during the rollout, now that every Atomic site runs it.
 
 ### Fixed
 - Address various PHP deprecation warnings.
