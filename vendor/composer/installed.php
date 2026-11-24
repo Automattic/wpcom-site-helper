@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'automattic/jetpack-admin-ui' => array(
-            'pretty_version' => '0.15.1-alpha.1795467404',
-            'version' => '0.15.1.0-alpha1795467404',
-            'reference' => '94ce7d72a25329bb6bb9d4719c4221315daa39ba',
+            'pretty_version' => '0.16.0-alpha.1795483333',
+            'version' => '0.16.0.0-alpha1795483333',
+            'reference' => '38dec0f38822047125b2215d0648fec1422ee575',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-admin-ui',
             'aliases' => array(),
@@ -85,7 +85,7 @@
         'automattic/jetpack-blaze' => array(
             'pretty_version' => '0.30.0',
             'version' => '0.30.0.0',
-            'reference' => 'a6c1e20c297bdb0651e5c5e1f93e31e15391007d',
+            'reference' => '64045dee8c5b28dfe4337c760c5279951ec8aab2',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-blaze',
             'aliases' => array(),
@@ -148,7 +148,7 @@
         'automattic/jetpack-connection' => array(
             'pretty_version' => '9.18.3',
             'version' => '9.18.3.0',
-            'reference' => '39e9438160200bfee54243ad3fc00c85a36abc45',
+            'reference' => 'e6307cc143a531beceec572e81fb8044b639abff',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-connection',
             'aliases' => array(),
@@ -337,7 +337,7 @@
         'automattic/jetpack-stats-admin' => array(
             'pretty_version' => '0.41.0',
             'version' => '0.41.0.0',
-            'reference' => '2eae1f757d17575e7ce18e31ccdb3846ad8655a0',
+            'reference' => '62ac58f41c6d81b02a588ee43e500a7a10b1c3a3',
             'type' => 'jetpack-library',
             'install_path' => __DIR__ . '/../../jetpack_vendor/automattic/jetpack-stats-admin',
             'aliases' => array(),
