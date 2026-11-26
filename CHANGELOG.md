@@ -75,6 +75,7 @@ This is an alpha version! The changes listed here are not final.
 - Custom CSS: Fix repeated stylesheet downloads caused by plugin cookies and no-cache headers.
 - Fix Playground backup restores for sites with large database tables.
 - Fix Playground backup restores for sites with plugin tables keyed by a text column, like Novamira's chat sessions.
+- Footer credit: Stop removing pipe separators and other content from footer widgets when replacing the theme credit.
 - Gifting banner: Keep the "?" and Gift buttons readable under theme button styles, stop long Gift labels being clipped on mobile, and give the "?" button an accessible name.
 - Google Analytics: Refuse new Measurement IDs with extra text around them.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
