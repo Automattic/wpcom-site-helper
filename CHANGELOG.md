@@ -81,6 +81,7 @@ This is an alpha version! The changes listed here are not final.
 - Hide the WordPress Agent on WordPress.com sites that no longer have a plan granting Big Sky.
 - Imports: Keep the Jetpack Sync HTTPS history of the site URLs when restoring a Playground backup, so WordPress.com keeps the site's https:// address.
 - Improve performance by reusing Atomic_Persistent_Data across all calls within a request.
+- Jetpack Settings: Send the Google Analytics upgrade to the WordPress.com plans that include it.
 - My Jetpack: Show the Blaze Ads and WordPress.com Reader switches as locked on where WordPress.com keeps those features on, instead of reporting that they were turned off.
 - My Jetpack: Show the My Jetpack page regardless of the admin interface style.
 - Playground backup restores: build indexes from the MySQL definitions in the SQLite database, keeping their names and prefix lengths, so plugin tables like TranslatePress and Solid Security import.
