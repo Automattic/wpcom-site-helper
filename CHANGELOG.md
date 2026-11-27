@@ -36,6 +36,7 @@ This is an alpha version! The changes listed here are not final.
 - Launch site: Open the updated launch flow from wp-admin, and return to the screen it started from.
 - Load the Real User Monitoring script only after visitors allow statistics, when the WP Consent API is active.
 - Media: Keep the AI marker when converting HEIC uploads to JPEG.
+- My Jetpack: Hide the WordPress.com Reader row from Features, since WordPress.com keeps the Reader on.
 - My Jetpack: Send the plan purchase link to WordPress.com's plan upgrade flow, hiding it where there is no plan to upgrade to, and the plan manage link to the site's WordPress.com purchases, hiding both on staging and agency-managed sites.
 - My Jetpack: Send the Social and Podcast upgrades to the WordPress.com plans that include them, not to Jetpack's pricing.
 - On WordPress 7.2 beta builds, also ignore a Gutenberg plugin older than 24.3, the Gutenberg version bundled in WordPress 7.2.
